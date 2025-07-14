@@ -1,0 +1,118 @@
+{
+    "maps": [
+        {
+            "fileName": "map191.json",
+            "height": 2368,
+            "width": 1088,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "map192.json",
+            "height": 3040,
+            "width": 2816,
+            "x": -3232,
+            "y": -3488
+        },
+        {
+            "fileName": "map194.json",
+            "height": 1664,
+            "width": 1760,
+            "x": -320,
+            "y": -1856
+        },
+        {
+            "fileName": "map195.json",
+            "height": 1408,
+            "width": 768,
+            "x": -320,
+            "y": -3360
+        },
+        {
+            "fileName": "map196.json",
+            "height": 864,
+            "width": 2400,
+            "x": 544,
+            "y": -3904
+        },
+        {
+            "fileName": "map197.json",
+            "height": 1792,
+            "width": 1792,
+            "x": -5088,
+            "y": -3488
+        },
+        {
+            "fileName": "map199.json",
+            "height": 640,
+            "width": 640,
+            "x": -5216,
+            "y": 2432
+        },
+        {
+            "fileName": "map200.json",
+            "height": 1024,
+            "width": 1024,
+            "x": -4544,
+            "y": 2464
+        },
+        {
+            "fileName": "map202.json",
+            "height": 1024,
+            "width": 1024,
+            "x": 512,
+            "y": -2976
+        },
+        {
+            "fileName": "map203.json",
+            "height": 800,
+            "width": 5600,
+            "x": -6368,
+            "y": 1632
+        },
+        {
+            "fileName": "map204.json",
+            "height": 1216,
+            "width": 1600,
+            "x": -2432,
+            "y": 416
+        },
+        {
+            "fileName": "map205.json",
+            "height": 1760,
+            "width": 1760,
+            "x": -4448,
+            "y": -160
+        },
+        {
+            "fileName": "map206.json",
+            "height": 1184,
+            "width": 1632,
+            "x": -6304,
+            "y": 384
+        },
+        {
+            "fileName": "map207.json",
+            "height": 800,
+            "width": 800,
+            "x": -4192,
+            "y": -1536
+        },
+        {
+            "fileName": "map211.json",
+            "height": 1600,
+            "width": 768,
+            "x": -768,
+            "y": 768
+        },
+        {
+            "fileName": "map215.json",
+            "height": 1856,
+            "width": 640,
+            "x": -7008,
+            "y": 352
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}

@@ -2,78 +2,12 @@
   "id": "reverie",
   "name": "REVERIE",
   "description": "REVERIE: CHAPTER 4",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "manifestVersion": 1,
   "_flags": [
     "do_olid"
   ],
-  "image_deltas": [
-    {
-      "patch": "img/atlases/Omori_TitleScreen.png",
-      "with": "olid/8d5f9c65b08cc65cf80d2e47578f955afc494f633075faecadc9eef9db7b8b28.olid",
-      "dir": false
-    },
-    {
-      "patch": "img/characters/$obj_light.png",
-      "with": "olid/de4b4ebc826e5d772973e9874164e23538578599a4e634a1af7ccb085ff858c4.olid",
-      "dir": false
-    },
-    {
-      "patch": "img/characters/DW_SBF_PIRATES.png",
-      "with": "olid/f8e57db14044cb3f52c2699f8cff7ce82b9ffbae0cc027cfd9133f8dff458372.olid",
-      "dir": false
-    },
-    {
-      "patch": "img/enemies/!battle_spider_cat.png",
-      "with": "olid/df8087f9d6f14c30ed65822e3e4b5d8134e68154ce1efb2b7948dd2f8e6fd8f5.olid",
-      "dir": false
-    },
-    {
-      "patch": "img/sv_actors/!battle_spider_cat.png",
-      "with": "olid/76ba12fbb2512d8797fcac6e86f65072741185823d364c67b0c9e086cfe23018.olid",
-      "dir": false
-    },
-    {
-      "patch": "img/system/Balloon.png",
-      "with": "olid/18d1ab14a11bf2ba63d297d653409f66862da141b82e781e9529dab94174b792.olid",
-      "dir": false
-    },
-    {
-      "patch": "img/system/IconSet.png",
-      "with": "olid/a7e2d4387e744bff32f73b3334ba2bea1eb4e7e6c2ad9eb943ea6319aad9a033.olid",
-      "dir": false
-    },
-    {
-      "patch": "img/system/enemy_box.png",
-      "with": "olid/5ea57e9147c8502c98bc54eefba7758d145ce253930f9ee27d54a7303ebb196e.olid",
-      "dir": false
-    },
-    {
-      "patch": "img/system/splashGalv.png",
-      "with": "olid/823e3018910c9b5345079edaccd8411f702e4a82b138b331c11a09b625a3eb06.olid",
-      "dir": false
-    },
-    {
-      "patch": "img/system/splashGalv2.png",
-      "with": "olid/0690121e1280b5c65f9c4710775e3b478a0c810220c111cc6ee2dd636c78c2fc.olid",
-      "dir": false
-    },
-    {
-      "patch": "img/tilesets/FA_InteriorTileset.png",
-      "with": "olid/4e0f0906deccd411ada42add1b049f0846c3ce6d16027f4557c39d0c844a9354.olid",
-      "dir": false
-    },
-    {
-      "patch": "img/tilesets/FA_TreehouseCombined.png",
-      "with": "olid/4f10cc381f8521060e7b9bc7aba26c460a664ac4f23063e4dc57ac20e45e303a.olid",
-      "dir": false
-    },
-    {
-      "patch": "img/tilesets/FA_objects_night.png",
-      "with": "olid/d7798a89957d8ccf5f2a11e246960297d71157528934f1f2090dbb332a4be542.olid",
-      "dir": false
-    }
-  ],
+  "image_deltas": [],
   "files": {
     "plugins": [
       "plugins/YEP_X_CriticalControl.js",
@@ -137,7 +71,8 @@
       "plugins/Reverie_VersionUpdate.js",
       "plugins/DGT_ItemShopWeaponStat.js",
       "plugins/KOFFIN_ExpandedStatChanges.js",
-      "plugins/DGT_reveriefixes.js"
+      "plugins/DGT_reveriefixes.js",
+      "plugins/Reverie_Options.js"
     ],
     "assets": [
       "audio/bgm/amb_phone_ring.ogg",
@@ -231,6 +166,16 @@
       "audio/se/rv_sadjingle.ogg",
       "audio/se/rv_shoe_tap.ogg",
       "movies/reveriecredits.webm",
+      "img/atlases/Omori_TitleScreen.png",
+      "img/characters/$obj_light.png",
+      "img/characters/DW_SBF_PIRATES.png",
+      "img/enemies/!battle_spider_cat.png",
+      "img/sv_actors/!battle_spider_cat.png",
+      "img/system/Balloon.png",
+      "img/system/IconSet.png",
+      "img/system/enemy_box.png",
+      "img/system/splashGalv.png",
+      "img/system/splashGalv2.png",
       "img/animations/RV_LIGHTING.png",
       "img/animations/RV_SMITE.png",
       "img/animations/RV_Slow.png",
@@ -349,6 +294,7 @@
       "img/battlebacks1/battleback_rv_pyrefire_1.png",
       "img/battlebacks1/battleback_rv_pyrefire_2.png",
       "img/battlebacks1/battleback_rv_sumireko.png",
+      "img/battlebacks1/battleback_rv_train.png",
       "img/battlebacks1/battleback_rv_tvgirl.png",
       "img/battlebacks1/battleback_rv_widow.png",
       "img/characters/!RV_objects_rw_doors.png",
@@ -730,9 +676,7 @@
     ],
     "files": [],
     "maps": [
-      "maps/FA_OUTSIDE_OBJECTS.jsond",
-      "maps/TerrainTiles.jsond",
-      "maps/map156.jsond",
+      "maps/TerrainTiles.json",
       "maps/BS_LightPrologue.json",
       "maps/CrumblingCastle.world",
       "maps/DW_AbyssRed.json",
@@ -914,6 +858,7 @@
       "maps/map650.json",
       "maps/map998.json",
       "maps/moon_bs.json",
+      "maps/original_underwater.world",
       "maps/rv_City.world",
       "maps/rv_atrium.json",
       "maps/rv_intro.world",
@@ -921,7 +866,7 @@
       "maps/rv_treehousecombined_night.json"
     ],
     "text": [
-      "languages/System.yamld",
+      "languages/System.yaml",
       "languages/00_reverie_battle.yaml",
       "languages/00_reverie_cutscene.yaml",
       "languages/00_reverie_dialogue.yaml",

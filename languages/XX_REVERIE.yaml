@@ -80,3 +80,18 @@ PopUp:
     actionMiss: "%1's attack whiffed!"
     actionNothing: "%1's attack did nothing."
     attackReflect: "%2 reflected the attack!"
+
+Options:
+    # Options starting with "/save/" Indicates the option is only for the save. The word would be removed on display.
+    header:
+        header: "-------------------- REVERIE --------------------"
+        options: []
+        helpText: "REVERIE Options Below"
+    difficulty:
+        header: "/save/[IN SAVE] DIFFICULTY"
+        options: ["EASY", "NORMAL", "HARD"]
+        helpText: "Changes Difficulty of REVERIE's game. This is per SAVE."
+    turnorder:
+        header: "ACTUAL TURN ORDER"
+        options: ["ON", "OFF"]
+        helpText:  "Makes the menu turn order be based on character's speed."
