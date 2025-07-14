@@ -1,0 +1,153 @@
+# =========================================================================================
+# ** METRO FLAVOR TEXT
+# =========================================================================================
+
+# F1 METRO. Coordinates are listed ABOVE message
+
+# map 146 - 9, 23 | map 528 - 35, 15 + 35, 14 | map 531 - 13, 5
+message_0:
+  text: A mop for floor cleaning.\!<br>Someone isn't doing a very good job...
+
+# map 146 - 33, 5 + 34, 5 | map 529 - 9, 31 + 10, 31 + 10, 28 + 9, 28 + 14, 25 | map 533 - 38, 10 | map 534 - 29, 27 + 30, 27
+message_1:
+  text: Trash bags.
+
+# map 146 - 32, 24 + 33, 24 + 44, 24 + 45, 24 + 85, 18 | map 527 - 80, 28 | map 528 - 9, 31 + 10, 31 | map 530 - 7, 22 + 8, 22 | map 531 - 14, 4
+message_2:
+  text: A black sign with the word "METRO" on it along with some strange symbols.
+
+# map 146 - 54, 23 | map 527 - 88, 28 + 57, 18 | map 528 - 11, 31 + 12, 31 + 13, 9 | map 529 - 30, 7 + 24, 6 | map 530 - 6, 22 | map 531 - 29, 29 + 42, 7 | map 532 - 40, 4 + 37, 4 + 53, 27
+message_3:
+  text: Random advertisements for random things.
+
+# map 146 - 55, 24 + 56, 24 + 79, 26 + 80, 26 + 81, 26 | map 527 - 52, 17 + 53, 17 + 54, 17 | map 529 - 25, 7 + 26, 7 + 27, 7 | map 531 - 67, 36 + 68, 36 + 69, 36
+message_4:
+  text: A magazine rack.\!<br>...None of them are interesting to you.
+
+# map 146 - 56, 7 + 77, 22 | map 529 - 28, 35 + 24, 16
+message_5:
+  text: An empty garbage bin.\! It's quite dusty.
+
+# map 527 - 57, 26 | map 528 - 37, 12 | map 529 - 35, 14 | map 530 - 9, 27 | map 531 - 23, 8 | map 532 - 54, 28 | map 534 - 8, 22
+message_6:
+  text: A full garbage bin.\! Upon closer inspection, most of the space is taken up by anti-littering flyers.
+
+# map 146 - 87, 19 + 87, 20 + 87, 21 | map 527 - 22, 29 + 23, 29 + 24, 29
+message_7:
+  text: Plastic orange cones block the way.
+
+# map 360 - 9, 23
+message_8:
+  text: The pool is empty.
+
+# map 527 - 90, 29
+message_9:
+  text: Graffiti in the shape of a lightbulb.\! Something about it fills you with a sense of duty.
+
+# map 527 - 44, 17
+message_10:
+  text: Graffiti, but the original text has been painted over.
+
+# map 527 - 44, 31 | map 528 - 35, 12 + 17, 10 + 20, 11 + 20, 12 + 21, 15 + 18, 18 | map 529 - 33, 11 | map 531 - 23, 5 | map 532 - 4, 17 + 4, 31 + 21, 36 | map 534 - 32, 15
+message_11:
+  text: A tall stack of boxes.\! Who knows what's inside?
+
+# map 527 - 43, 30 + 56, 31 | map 528 - 14, 19 + 18, 11 + 20, 14 + 20, 16 + 19, 17 + 17, 19 + 37, 13 | map 529 - 35, 27 + 34, 28 + 34, 29 + 34, 30 | map 531 - 4, 5 + 21, 15 + 22, 15 + 23, 14 | map 532 - 20, 16 + 19, 17 + 18, 17 + 17, 17 + 5, 17 + 29, 33 | map 534 - 33, 15 + 34, 15
+message_12:
+  text: A singular cardboard box.\! Smells musty.
+
+# map 528 - 9, 9 | map 532 - 20, 5
+message_13:
+  text: The elusive Murder Mole, feared by all.\!<br>...Thankfully, this is just a drawing.
+
+# map 528 - 15, 9 + 16, 9
+message_14:
+  text: It looks like it hasn't been watered in ages...
+
+# map 527 - 43, 23 | map 528 - 8, 32 | map 529 - 28, 7 | map 531 - 16, 35 | map 532 - 4, 6 | map 533 - 14, 10
+message_15:
+  text: A recycling bin.\! It's empty, aside from a flyer at the bottom that says 'REDUCE, REUSE, RECYCLE!'
+
+# map 146 - 36, 4 | map 527 - 20, 28 | map 531 - 53, 37 | map 532 - 17, 5
+message_16:
+  text: The symbol for recycling.
+
+# map 528 - 12, 28 + 9, 34 | map 529 - 11, 18 + 18, 32 + 23, 26 + 22, 13 + 35, 18 + 35, 22 | map 531 - 6, 38
+message_17:
+  text: A plastic traffic cone.
+
+# map 529 - 7, 22 | map 530 - 4, 23 | map 531 - 52, 38
+message_18:
+  text: The plant has been tipped over.\! Its leaves are dry and crunchy.
+
+# map 529 - 25, 9
+message_19:
+  text: An empty journal.\! Maybe it could be useful later on.
+
+# map 529 - 31, 9 | map 532 - 5, 31 + 6 + 31
+message_20:
+  text: More paint than someone would ever need.
+
+# map 146 - 82, 18 | map 531 - 7, 29 | map 532 - 45, 27
+message_21:
+  text: A poster for a movie about aliens attacking Earth.
+
+# map 531 - 12, 30
+message_22:
+  text: A sign that says 'Follow the yellow lines to reach the train platforms!'
+
+# map 531 - 15, 29
+message_23:
+  text: A poster for a movie about a magical yellow bus.
+
+# map 532 - 10, 10 + 10, 11
+message_24:
+  text: A testing table covered in a red liquid.\!<br> Probably just jam...\| \quake[1]Probably.
+
+# map 532 - 12, 12 + 13, 12
+message_25:
+  text: A chemistry set.\! Strange, brightly colored liquids fill the vials.
+
+# map 532 - 14, 14
+message_26:
+  text: Books about harnessing the power of life.
+
+# map 532 - 12, 14 + 14, 13
+message_27:
+  text: Early versions of LIFE JUICE.\! The notes are marked 'inadequate'.
+
+# map 532 - 47, 27
+message_28:
+  text: A poster for a movie about a zombie outbreak.
+
+# map 532 - 46, 27
+message_29:
+  text: A poster for a movie about fighting against pure evil.
+
+# map 527 - 15, 29 | map 532 - 27, 33
+message_30:
+  text: Water from a leaking pipe.
+
+# map 529 - 15, 18 | map 532 - 7, 29
+message_31:
+  text: A toolbox.
+
+# map 532 - 4, 29 + 5, 29 + 6, 29
+message_32:
+  text: A storage shelf packed with boxes.\! Nothing interesting, sadly.
+
+# map 533- 38, 8 | map 534 - 34, 11
+message_33:
+  text: An abandoned wheelchair.
+
+# map 146 - 14, 27 | map 527 - 48, 17 | map 529 - 19, 35 + 23, 35 + 8, 12 + 18, 12 | map 531 - 9, 5 + 18, 5 | map 534 - 18, 21
+message_35:
+  text: A common house plant.\!<br>Makes this place feels more homely... in a way.
+
+# map 534
+message_36:
+  text: A fire exit.\! It seems to be locked for some reason.\!<br>Doesn't seem to be the greatest idea?
+
+# map 529
+message_37:
+  text: Upon further inspection, this delicious looking food is actually an inedible plastic toy.\! How disappointing.

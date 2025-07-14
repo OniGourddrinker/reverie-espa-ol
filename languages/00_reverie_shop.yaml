@@ -1,0 +1,624 @@
+# =========================================================================================
+# SMUGGLER JASH (PART BASE GAME)
+# =========================================================================================
+
+smugglerJash-preIntro_1:
+      text: \n<SMUGGLER JASH>I just broke out of the dungeon after being caught smuggling...\! Old habits die hard.
+
+smugglerJash-preIntro_2:
+      text: \n<SMUGGLER JASH>That said, I've got some choice goods for sale, patron.\! Interested in buying?
+
+smugglerJash-intro:
+      text: \n<SMUGGLER JASH>Got some choice goods for sale, patron.
+
+# =========================================================================================
+# TRAIN MASTER JASH
+# =========================================================================================
+
+ticketJash-intro:
+      text: \n<TRAIN MASTER JASH>I am JASH of many talents and master of many trades.<br>\!How can I help you today?
+
+ticketJash-decline:
+      text: \n<TRAIN MASTER JASH>Shame...
+
+ticketJash-itemBuyingConfirmation:
+      text: \n<TRAIN MASTER JASH>Thank you for your patronage.
+
+ticketJash-notEnoughMoney:
+      text: It seems that you don't have enough CLAMS...
+
+ticketJash-itemBuyingPrompt:
+      text: Superb. The total will be <SHOPTOTAL>\G.
+
+ticketJash-maxItem:
+      text: You don't have the space for that!
+
+ticketJash-onItemListBuyOk:
+      text: How many would you like?\^
+
+ticketJash-onItemListSellOk:
+      text: How many will you sell?\^
+
+ticketJash-sellPrompt:
+      text: \n<TRAIN MASTER JASH>Superb.\! Your order will come out to this much!
+
+ticketJash-itemBuyingCancel:
+      text: \n<TRAIN MASTER JASH>I respect your decision.
+
+# =========================================================================================
+# HUB SHOP. RAN BY LOTTE
+# =========================================================================================
+
+lotte-intro:
+      faceset: RV_TOFFEE
+      faceindex: 0
+      text: \n<LOTTE>Hello!\! Welcome to the HUB SHOP!
+
+lotte-itemBuyingConfirmation:
+      faceset: RV_TOFFEE
+      faceindex: 0
+      text: \n<LOTTE>Thanks a lot!
+
+lotte-decline:
+      faceset: RV_TOFFEE
+      faceindex: 1
+      text: \n<LOTTE>Understandable, feel free to come back anytime though!
+
+lotte-notEnoughMoney:
+      faceset: RV_TOFFEE
+      faceindex: 1
+      text: You don't have enough CLAMS...
+
+lotte-itemBuyingPrompt:
+      faceset: RV_TOFFEE
+      faceindex: 1
+      text: That'll be <SHOPTOTAL>\G!
+
+lotte-maxItem:
+      faceset: RV_TOFFEE
+      faceindex: 1
+      text: You don't have the space for that!
+
+lotte-onItemListBuyOk:
+      faceset: RV_TOFFEE
+      faceindex: 0
+      text: How many would you like?\^
+
+lotte-onItemListSellOk:
+      faceset: RV_TOFFEE
+      faceindex: 0
+      text: How many will you sell?\^
+
+lotte-sellPrompt:
+      faceset: RV_TOFFEE
+      faceindex: 0
+      text: \n<LOTTE>Great!\! Your order will come out to this much!
+
+lotte-itemBuyingCancel:
+      faceset: RV_TOFFEE
+      faceindex: 1
+      text: \n<LOTTE>Aww...
+
+lotte-choice-talk:
+      text: TALK
+
+lotte-choice-talk-1:
+      faceset: RV_TOFFEE
+      faceindex: 0
+      text: Talk about...
+
+lotte-talkc-1:
+      text: YOU
+
+lotte-talkc-2:
+      text: PRODUCTS
+
+lotte-talkc-3:
+      text: TV GIRL
+
+## Self
+lotte-talk-self1:
+      faceset: RV_TOFFEE
+      faceindex: 0
+      text: \n<LOTTE>I used to run a \c[3]COFFEE\c[0] shop around here, but the beans have become far too difficult to come by these days...
+
+lotte-talk-self2:
+      faceset: RV_TOFFEE
+      faceindex: 1
+      text: \n<LOTTE>I've started selling \c[3]TEA\c[0] products instead...\. Just as much warmth, and half as much caffeine! 
+
+lotte-talk-self3:
+      faceset: RV_TOFFEE
+      faceindex: 0
+      text: \n<LOTTE>I sold the last cup of \c[3]COFFEE\c[0] to the girl who has a TV for a head...\! She paid quite the pretty penny for it, too.
+
+lotte-talk-self4:
+      faceset: RV_TOFFEE
+      faceindex: 1
+      text: \n<LOTTE>I've seen people who need their morning \c[3]COFFEE\c[0], but I think she takes it to another level!\! I wonder what sort of side hustle she has to be able to even afford that much...
+#Products
+lotte-talk-prod1:
+      faceset: RV_TOFFEE
+      faceindex: 0
+      text: \n<LOTTE>I mostly sell different types of \c[3]TEA\c[0]. Every blend is unique!
+
+lotte-talk-prod2:
+      faceset: RV_TOFFEE
+      faceindex: 1
+      text: \n<LOTTE>I'm always experimenting with new blends and ingredients,\. so come back here from time to time to ensure you're the first one to try my latest products!
+
+##about TV Girl before LJG
+lotte-talk-tvg1-1:
+      faceset: RV_TOFFEE
+      faceindex: 0
+      text: \n<LOTTE>Oh, her? She just really wants \c[3]COFFEE\c[0] for some reason.
+
+lotte-talk-tvg1-2:
+      faceset: RV_TOFFEE
+      faceindex: 1
+      text: \n<LOTTE>Thinking about it, how do you drink with a TV head anyways?
+
+##about TV Girl
+lotte-talk-tvg2-1:
+      faceset: RV_TOFFEE
+      faceindex: 0
+      text: \n<LOTTE>The TV-headed girl just stormed off to the \c[11]bottom entrance\c[0].\! The way she was acting, you'd think she was suffering from withdrawals or something...
+
+lotte-talk-tvg2-2:
+      faceset: RV_TOFFEE
+      faceindex: 1
+      text: \n<LOTTE>The way she was like sobbing over the counter for a while, slamming it, and shaking like a massage chair...\. Strange girl.
+
+##about TV Girl 2 - After TV Girl
+lotte-talk-tvga1:
+      faceset: RV_TOFFEE
+      faceindex: 1
+      text: \n<LOTTE>Oh, you dealt with her?\. And she didn't bite your head off?
+
+lotte-talk-tvga2:
+      faceset: RV_TOFFEE
+      faceindex: 0
+      text: \n<LOTTE>Well,\. at least she'll be too tuckered out to give me any more grief!
+
+lotte-talk-tvga3:
+      faceset: RV_TOFFEE
+      faceindex: 1
+      text: \n<LOTTE>Here, take this -\. it's the least I can do!
+
+# =========================================================================================
+# CAMPSITE JASH
+# =========================================================================================
+
+vagabondJash-intro:
+      text: \n<VAGABOND JASH>I am a wandering JASH of many talents and many trades.<br>\!How can I help you today, fellow free spirit?
+
+vagabondJash-decline:
+      text: \n<VAGABOND JASH>Shame...
+
+vagabondJash-itemBuyingConfirmation:
+      text: \n<VAGABOND JASH>Thank you for your patronage.
+
+vagabondJash-notEnoughMoney:
+      text: It seems that you don't have enough CLAMS...
+
+vagabondJash-itemBuyingPrompt:
+      text: Superb. The total will be <SHOPTOTAL>\G.
+
+vagabondJash-maxItem:
+      text: You don't have the space for that!
+
+vagabondJash-onItemListBuyOk:
+      text: How many would you like?\^
+
+vagabondJash-onItemListSellOk:
+      text: How many will you sell?\^
+
+vagabondJash-sellPrompt:
+      text: \n<VAGABOND JASH>Superb.\! Your order will come out to this much!
+
+vagabondJash-itemBuyingCancel:
+      text: \n<VAGABOND JASH>I respect your decision.
+
+# =========================================================================================
+# FASHION JASH
+# =========================================================================================
+
+fashionJash-preIntro_1:
+      text: \n<FASHION JASH>I got into fashion...\! I heard stylish magician dresses sells well here.
+
+fashionJash-preIntro_2:
+      text: \n<FASHION JASH>That said, I've got some choice goods for sale, patron.\! Interested in buying?
+
+fashionJash-intro:
+      text: \n<FASHION JASH>I am JASH of many fashions and master of many crafts.<br>\!How can I help you today?
+
+fashionJash-decline:
+      text: \n<FASHION JASH>Shame...
+
+fashionJash-itemBuyingConfirmation:
+      text: \n<FASHION JASH>Thank you for your patronage.
+
+fashionJash-notEnoughMoney:
+      text: It seems that you don't have enough CLAMS...
+
+fashionJash-itemBuyingPrompt:
+      text: Superb. The total will be <SHOPTOTAL>\G.
+
+fashionJash-maxItem:
+      text: You don't have the space for that!
+
+fashionJash-onItemListBuyOk:
+      text: How many would you like?\^
+
+fashionJash-onItemListSellOk:
+      text: How many will you sell?\^
+
+fashionJash-sellPrompt:
+      text: \n<FASHION JASH>Superb.\! Your order will come out to this much!
+
+fashionJash-itemBuyingCancel:
+      text: \n<FASHION JASH>I respect your decision.
+
+
+# =========================================================================================
+# WEAPONSMITH JASH
+# =========================================================================================
+
+weaponJash-preIntro_1:
+      text: \n<WEAPONSMITH JASH>I got into smithing...\! The chaos here is prime time to sell weapons...
+
+weaponJash-preIntro_2:
+      text: \n<WEAPONSMITH JASH>That said, I've got some choice goods for sale, patron.\! Interested in buying?
+
+weaponJash-intro:
+      text: \n<WEAPONSMITH JASH>I am JASH of many talents and master of many blades.<br>\!How can I help you today?
+
+weaponJash-decline:
+      text: \n<WEAPONSMITH JASH>Shame...
+
+weaponJash-itemBuyingConfirmation:
+      text: \n<WEAPONSMITH JASH>Thank you for your patronage.
+
+weaponJash-notEnoughMoney:
+      text: It seems that you don't have enough CLAMS...
+
+weaponJash-itemBuyingPrompt:
+      text: Superb. The total will be <SHOPTOTAL>\G.
+
+weaponJash-maxItem:
+      text: You don't have the space for that!
+
+weaponJash-onItemListBuyOk:
+      text: How many would you like?\^
+
+weaponJash-onItemListSellOk:
+      text: How many will you sell?\^
+
+weaponJash-sellPrompt:
+      text: \n<WEAPONSMITH JASH>Superb.\! Your order will come out to this much!
+
+weaponJash-itemBuyingCancel:
+      text: \n<WEAPONSMITH JASH>I respect your decision.
+
+# =========================================================================================
+# INFORMANT JASH
+# =========================================================================================
+
+infoJash-preIntro_1:
+      text: \n<INFORMANT JASH>Knowledge is power...\! The one thing people fear the most is the unknown...
+
+infoJash-preIntro_2:
+      text: \n<INFORMANT JASH>That said, I got some info for sale that would fit right in that \c[4]FOE FACTS!\c[0] of yours there, patron.\! Interested in buying?
+
+infoJash-afterBuy:
+      text: You note some additional information in the \c[4]FOE FACTS!\c[0] book.
+
+infoJash-intro:
+      text: \n<INFORMANT JASH>I am JASH of many wisdoms.<br>\!What information do you need?
+
+infoJash-decline:
+      text: \n<INFORMANT JASH>Shame...
+
+infoJash-itemBuyingConfirmation:
+      text: \n<INFORMANT JASH>Thank you for your patronage.
+
+infoJash-notEnoughMoney:
+      text: It seems that you don't have enough CLAMS...
+
+infoJash-itemBuyingPrompt:
+      text: Superb. The total will be <SHOPTOTAL>\G.
+
+infoJash-maxItem:
+      text: You don't have the space for that!
+
+infoJash-onItemListBuyOk:
+      text: How many would you like?\^
+
+infoJash-onItemListSellOk:
+      text: How many will you sell?\^
+
+infoJash-sellPrompt:
+      text: \n<INFORMANT JASH>Superb.\! Your order will come out to this much!
+
+infoJash-itemBuyingCancel:
+      text: \n<INFORMANT JASH>I respect your decision.
+
+# =========================================================================================
+# TOFU JASH
+# =========================================================================================
+# This jash is not regular shop - just a prompt based shop.
+
+tofuJash-intro:
+      text: \n<TOFU JASH>Hello Sir or Madam. Would you be interested in purchasing some fine \c[3]TOFU\c[0]?\! It will cost you exactly 1 CLAM.\$
+
+tofuJash-purchase:
+      text: \n<TOFU JASH>Thank you for your patronage.
+
+tofuJash-notEnoughMoney:
+      text: \n<TOFU JASH>You don't even have 1 measly CLAM?\! I feel sorry for you.\! Here's a \c[3]TOFU\c[0] anyway.
+
+tofuJash-maxItem:
+      text: \n<TOFU JASH>You don't have the space for that!
+
+tofuJash-decline:
+      text: \n<TOFU JASH>I respect your decision.
+
+# =========================================================================================
+# REAL WORLD
+# =========================================================================================
+
+
+# =========================================================================================
+# GROCERY STORE BUTCHER
+# =========================================================================================
+
+butcher-intro:
+      text: \n<EMPLOYEE>Welcome!\. How can I help you?
+
+butcher-decline:
+      text: \n<EMPLOYEE>Please come again!
+
+butcher-itemBuyingConfirmation:
+      text: \n<EMPLOYEE>Thank you very much!
+
+butcher-notEnoughMoney:
+      text: \n<EMPLOYEE>You're wanting \c[4]STEAK\c[0],\. huh?\. Sorry champ,\. you don't have enough money. 
+
+butcher-itemBuyingPrompt:
+      text: \n<EMPLOYEE>That'll be $<SHOPTOTAL>.00!\.
+
+butcher-maxItem:
+      text: \n<EMPLOYEE>You don't have enough space for that!
+
+butcher-onItemListBuyOk:
+      text: \n<EMPLOYEE>How many would you like?\^
+
+butcher-onItemListSellOk:
+      text: \n<EMPLOYEE>Uhh...\. As long as you have the receipt?\^
+
+butcher-sellPrompt:
+      text: \n<EMPLOYEE>Your refund will come out to... this much!
+
+butcher-itemBuyingCancel:
+      text: \n<EMPLOYEE>Oh...\. I see!
+
+butcher-boughtfirststeak:
+      text: \n<EMPLOYEE>Let me just wrap that up for you!
+
+butcher-alreadyhavebag:
+      text: \n<EMPLOYEE>Let me just add that to your bag!
+
+butcher-gotmoremeat:
+      text: Your \c[4]BAG OF STEAK\c[0] got a little bit heavier.
+
+# Tangentially related.
+twins_reminder:
+    text: You got your \c[4]STEAK\c[0], maybe DAPHNE and BOWEN might be free for lunch now.
+
+twins_reminder_2:
+    text: They should be somewhere in this mall.
+
+
+# =========================================================================================
+# TOFFEE
+# =========================================================================================
+
+toffee-intro:
+      faceset: RV_TOFFEE
+      faceindex: 2
+      text: Hello there!\. Welcome to our cafe.\. Is there anything you would like to order?
+
+toffee-decline:
+      faceset: RV_TOFFEE
+      faceindex: 3
+      text: Bye!\. Please Come again.
+
+toffee-itemBuyingConfirmation:
+      faceset: RV_TOFFEE
+      faceindex: 3
+      text: \n<BARISTA>Bon appetit!
+
+toffee-notEnoughMoney:
+      faceset: RV_TOFFEE
+      faceindex: 3
+      text: \n<BARISTA>I'm sorry,\. but that's not enough money!
+
+toffee-itemBuyingPrompt:
+      faceset: RV_TOFFEE
+      faceindex: 2
+      text: \n<BARISTA>That'll be <SHOPTOTAL>.00$!\.
+
+toffee-maxItem:
+      faceset: RV_TOFFEE
+      faceindex: 3
+      text: \n<BARISTA>Your hands are full!\. Are you sure you can carry that many things?
+
+toffee-onItemListBuyOk:
+      faceset: RV_TOFFEE
+      faceindex: 2
+      text: \n<BARISTA>How many would you like?\^
+
+toffee-itemBuyingCancel:
+      faceset: RV_TOFFEE
+      faceindex: 2
+      text: \n<BARISTA>Would you like to order something else?
+
+# =========================================================================================
+# MIYA
+# =========================================================================================
+
+miya-intro:
+   faceset: RV_MIYA
+   faceindex: 0
+   text: \n<MIYA>Hmm?\. What is it?\! Need some bandages or something?
+
+miya-decline:
+   faceset: RV_MIYA
+   faceindex: 16
+   text: \n<MIYA>Oh\.. Do you not have enough money?\. Heh.
+
+miya-itemBuyingConfirmation:
+   faceset: RV_MIYA
+   faceindex: 9
+   text: \n<MIYA>All right.\. Take care,\. then.
+
+miya-notEnoughMoney:
+   faceset: RV_MIYA
+   faceindex: 6
+   text: \n<MIYA>I'd love to give you some of them for free,\. but the higher ups are very strict...
+
+miya-itemBuyingPrompt:
+   faceset: RV_MIYA
+   faceindex: 19
+   text: \n<MIYA>That will amount to <SHOPTOTAL>.00$.
+
+miya-maxItem:
+   faceset: RV_MIYA
+   faceindex: 13
+   text: \n<MIYA>Are sure you need that many bandages,\. \n[17]?
+
+miya-onItemListBuyOk:
+   faceset: RV_MIYA
+   faceindex: 9
+   text: \n<MIYA>How many do you need?\^
+
+miya-itemBuyingCancel:
+   faceset: RV_MIYA
+   faceindex: 18
+   text: \n<MIYA>All right.\. Well,\. this isn't really a place to hang around.
+
+# =========================================================================================
+# MIYA PRE
+# =========================================================================================
+
+miya-intro-pre:
+   text: \n<CLINICIAN>Hmm?\. What is it?\! Need some bandages or something?
+
+miya-decline-pre:
+   text: \n<CLINICIAN>Oh\.. Do you not have enough money?\. Heh.
+
+miya-itemBuyingConfirmation-pre:
+   text: \n<CLINICIAN>All right.\. Take care,\. then.
+
+miya-notEnoughMoney-pre:
+   text: \n<CLINICIAN>I'd love to give you some of them for free,\. but the higher ups are very strict...
+
+miya-itemBuyingPrompt-pre:
+   text: \n<CLINICIAN>That will amount to <SHOPTOTAL>.00$.
+
+miya-maxItem-pre:
+   text: \n<CLINICIAN>Are sure you need that many bandages,\. \n[17]?
+
+miya-onItemListBuyOk-pre:
+   text: \n<CLINICIAN>How many do you need?\^
+
+miya-itemBuyingCancel-pre:
+   text: \n<CLINICIAN>All right.\. Well,\. this isn't really a place to hang around.
+
+# =========================================================================================
+# ALICE
+# =========================================================================================
+
+alice-intro:
+      faceset: SideCharacters_ReverieFW
+      faceindex: 14
+      text: \n<ALICE>Ah, you'd like some of my cooking.\. What do you want?
+
+alice-decline:
+      faceset: SideCharacters_ReverieFW
+      faceindex: 12
+      text: \n<ALICE>Sad!
+
+alice-itemBuyingConfirmation:
+      faceset: SideCharacters_ReverieFW
+      faceindex: 14
+      text: \n<ALICE>Enjoy.
+
+alice-notEnoughMoney:
+      text: You don't have enough CLAMS... I still need funds to get the resources you know.
+
+alice-itemBuyingPrompt:
+      text: Great. The total will be <SHOPTOTAL>\G.
+
+alice-maxItem:
+      text: I get it's great stuff, but you don't have enough space.
+
+alice-onItemListBuyOk:
+      text: How many would you like?\^
+
+alice-onItemListSellOk:
+      text: How many will you sell?\^
+
+alice-sellPrompt:
+      faceset: SideCharacters_ReverieFW
+      faceindex: 12
+      text: \n<ALICE>Great.\! It'll cost this much.
+
+alice-itemBuyingCancel:
+      faceset: SideCharacters_ReverieFW
+      faceindex: 12
+      text: \n<ALICE>Financially responsible, I see.
+
+# =========================================================================================
+# HALTIA
+# =========================================================================================
+
+haltia-intro:
+      faceset: SideCharacters_ReverieFW
+      faceindex: 10
+      text: \n<HALTIA>Hello!\. What stuff you want?
+
+haltia-decline:
+      faceset: SideCharacters_ReverieFW
+      faceindex: 11
+      text: \n<HALTIA>Shame...
+
+haltia-itemBuyingConfirmation:
+      faceset: SideCharacters_ReverieFW
+      faceindex: 11
+      text: \n<HALTIA>Have fun!
+
+haltia-notEnoughMoney:
+      text: You don't have enough CLAMS...
+
+haltia-itemBuyingPrompt:
+      text: Right. The total will be <SHOPTOTAL>\G.
+
+haltia-maxItem:
+      text: Uh, you don't have enough space there.
+
+haltia-onItemListBuyOk:
+      text: How many would you like?\^
+
+haltia-onItemListSellOk:
+      text: How many will you sell?\^
+
+haltia-sellPrompt:
+      faceset: SideCharacters_ReverieFW
+      faceindex: 11
+      text: \n<HALTIA>Great.\! It'll cost this much.
+
+haltia-itemBuyingCancel:
+      faceset: SideCharacters_ReverieFW
+      faceindex: 11
+      text: \n<HALTIA>I see.

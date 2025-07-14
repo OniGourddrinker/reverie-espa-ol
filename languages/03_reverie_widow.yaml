@@ -1,0 +1,435 @@
+# ================================================================
+# WIDOWBOY
+#
+# Widowboy is only in Pyrefly. He is not reoccuring but he has hefty dialogue.
+# Some part might parallel real world feelings as well.
+# ================================================================
+
+# =============================== INTRO / PRE-BATTLE ================================
+
+intro_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<???>Huh? Oh...more people.
+
+intro_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<???>You better back away from me...\. I'm very dangerous, as you can plainly see...
+
+intro_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<???>It would be better for all of us if you just left.
+
+#player chooses to approach again
+intro_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<???>Um...didn't you hear me?\. I said go away.
+
+intro_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 20
+    text: \n<???>Wait...you're here to sling names at me, aren't you?
+
+intro_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<???>But, most people tend to stay away when they yell at me...
+
+#player chooses to approach once more, and Widowboy jumps with an exclamation emote
+
+intro_7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 21
+    text: \n<???>Wait...\. If you're not here to call me names...\. and you're approaching me...
+
+intro_8:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 18
+    text: \n<???>Then you're...\. You're...!
+
+#Widowboy begins to shake after doing another jump
+
+intro_9:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 18
+    text: \n<???>\Com[2]H-hey!\. You better back off!\. I'm dangerous, you hear me?!
+
+intro_10:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 23
+    text: \n<???>I-in fact!\. I'm gonna prove it to you!\. So you better run!\. O-or else!
+
+#Widowboy runs into the player, starting the battle
+
+# IN-BATTLE TEXT
+# TURN 0
+inbattle_1:
+    text: >
+        \>???: You'd better run off...\. Or you'll see just how scary I can be!
+
+# 50% HP, change to Sad (Self) vs Happy (Party)
+inbattle_2:
+    text: >
+        \>???: Oh...\. What's even the point? No matter what I do, nothing will change...
+
+# 0% HP Defeat
+inbattle_3:
+    text: >
+        \>???: I should've known...\. it would end like this...
+
+# =============================== POST-BATTLE ================================
+
+#note: rewrite pretty much all of up to reinteract part
+intro_p1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<???>Ah...\! You...\. didn't run away...
+
+intro_p2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<???>I wasn't...\! Expecting that...
+
+# Sweat bubble
+intro_p3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<???>I guess...\. I should apologize?
+
+intro_p4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<???>So...\. Sorry.
+
+# Ellipsis
+intro_p5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<???>What...\. are you doing down here anyways?\! You shouldn't be around here...\. There's nothing interesting...
+
+intro_p6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<???>I enjoy the quiet...\. Not to mention it's easier to stay away from people like this...\. I won't be a bother to them... 
+
+intro_p7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<???>I guess I should at least introduce myself...\! Well, honestly...\. I don't have a real name...
+
+intro_p8:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>You can call me WIDOWBOY.\! That's just what everyone call me...\! 
+
+intro_p9:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>If you want to hang around here...\. then feel free...\. I guess...\! Don't let me be a bother...
+
+# =============================== INTERACTION CHOICE ================================
+
+question_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>Oh...\. Hello...\. You want something from me..?
+
+question_c1:
+    text: YOU
+
+question_c2:
+    text: RUINS
+    
+question_c3:
+    text: NEVERMIND
+    
+# Question Continue Prompts
+
+question_listenmore:
+    text: LISTEN MORE
+    
+question_listenless:
+    text: NEVERMIND
+
+# Cancel
+question_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>I thought so...
+
+# > YOU
+# First set info. Set up his tone. Self-centric pronoun repetition.
+# Later dialogues will delve more parallel aspect.
+you_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>Me...? I-\.I don't know...\. I don't think anyone ever cared to ask...
+
+you_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>I don't even know what I am...\. I just exist...\. In this place...
+
+you_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>I don't have an identity...\. any preference...\. any likes or dislikes...\. love or hate...
+
+you_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 21
+    text: \n<WIDOWBOY>I don't think I should have any of that, truthfully...\. deserve any of that...\. Why would I...?
+
+you_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 22
+    text: \n<WIDOWBOY>I'm simply a freak...\. Everyone thinks I'm weird...\. dangerous...\. cannot be trusted...
+
+you_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 21
+    text: \n<WIDOWBOY>I know they think that...\. Because that's what I am...
+
+you_7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>I know my place...\. I pay them no mind...\. and they pay me none...
+
+you_8:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>Ah...\. sorry...\. I'm rambling again...\. I shouldn't burden you...
+
+you_9:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>You have no reason to listen to my sulking...\. You have better things to do...
+
+# CHOICE: LISTEN MORE / NOT
+
+
+# ================================ Self Part 2 ================================
+# General idea: Constantly lamenting about the shunning, but no specific incident that can pin down the cause.
+# Sometimes you might say change, but subconsciously sometimes people just resist change - it feels more natural to stay within safe space.
+# Widow's the type to already put himself down, but sincerely believe others deserve better.
+# Build parallel to SUNNY about anxiety of connecting people in general. This could also loosely comment on anxiety on reconnecting with people, building on top of the phone call night cutscene.
+youcont_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>...Really?\! And you're not just saying that...? 
+
+youcont_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>Well...\. If you insist...\. I suppose...
+
+youcont_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>There have been some things on my mind lately... 
+
+youcont_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>For instance, I feel like...\. I'm not made to get along with people...
+
+youcont_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 22
+    text: \n<WIDOWBOY>...
+
+youcont_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>Ah...\. Sorry, it's just...
+
+youcont_7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>I was going to talk about something else...\. but that thought entirely took me over just now...
+
+youcont_8:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>I never really had...\. Anyone that wanted to listen...
+
+youcont_9:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>I've never really talked about myself...
+# ellipses
+
+youcont_10:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>Maybe you're expecting some story...\. but the truth is...\. I don't even know why...
+
+youcont_11:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>I'm sorry if that doesn't make sense, but...\. It's the truth...
+
+youcont_12:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>Maybe there was something wrong that I did...\. Something that I didn't realize...
+
+youcont_13:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>I wonder if they remember why it started...\! I guess, at some point...\. the why doesn't matter anymore...
+
+youcont_14:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>It's just... routine, at this point... 
+
+youcont_15:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>I suppose...\. Anything could become routine, really...
+
+youcont_16:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>Sadness...\! Loneliness...\! Boredom...\! Pain... 
+
+youcont_17:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>You could continue to experience those things, and not even remember why...
+
+youcont_18:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>I'm afraid I'm also in this routine...\. I gave up trying to connect with people a long while ago...
+
+youcont_19:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>I have found my solace with animals instead...\. These spiders are more friendly than anyone else will ever be...
+
+youcont_20:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>And...\. I don't know if I want to change that...\! I think I did, once...
+
+youcont_21:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>But by now, it's just... 
+
+youcont_22:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>Routine.
+
+youcont_23:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>I have found my place.\! I am happier like this.\! That's what I think.
+
+youcont_24:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>...
+
+youcont_25:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>But...\. talking with you now...\. It feels different from what I'm used to.
+
+youcont_26:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 19
+    text: \n<WIDOWBOY>It feels...\! Nice.
+
+youcont_27:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>And...\! scary...
+
+youcont_28:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>But mostly nice, I guess...
+
+youcont_29:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>If...\. more people were as nice as you...\. maybe I would be a bit different...
+
+youcont_30:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>Well...\. maybe not. I am still scary, and weird...
+
+youcont_31:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>And I really don't understand why you aren't bothered by it...
+
+youcont_32:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 19
+    text: \n<WIDOWBOY>But I guess...\! Some people just like weird and scary people.
+
+# ================================ AREA ================================
+# The area he resides in is a Dreamworld version of the school corridor room of Blackspace 2, same as the Aubrey Fanmail event. 
+# The PYREFLY forest above is also the same structure as LOOPING FOREST.
+# The general idea is BS2 areas are the areas mid-process of corruption in original. 
+# Blackspace spread stopped, the area was never corrupted like that, hence the Dreamworld look. 
+# It is still a part of dreamworld, but a deeper and older kind, similar to how Lost Library is implied to persist in other iterations of dreamworld.
+
+area_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>This place?
+
+area_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>Well... look around you.\. This place is way older than anything else nearby...
+
+area_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>Or at the very least, more decrepit...
+
+area_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>It's not just this place, you know...\. The area up above is also older...
+
+area_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>I think...\. it used to be deeper too...?\! It definitely feels brighter around here than normal...
+
+area_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>Well, I mean...\. when the lightbulbs were working, it was always bright.
+
+area_7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>But this right now is more...\. natural light...
+
+area_8:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 16
+    text: \n<WIDOWBOY>I don't really know what it means, that this place is brighter and less deep now...
+
+area_9:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>But... honestly, I think I'll just stay here regardless...
+
+area_10:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 17
+    text: \n<WIDOWBOY>I'm not...\. used to the sunlight.

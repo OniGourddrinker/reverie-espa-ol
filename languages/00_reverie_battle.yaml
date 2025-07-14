@@ -1,0 +1,588 @@
+# =========================================================================================
+# ** THIS DIALOGUE IS USED FOR ALL DREAM WORLD BATTLES IN REVERIE - FOR REAL WORLD SEE 02
+# =========================================================================================
+
+# 
+
+message_0:
+    text: 
+
+message_1:
+    text: 
+
+# ======== GENERAL ========
+
+# Player endure hit - Plot Armor
+message_playerEndure:
+  text: |
+    \n[17] endured the hit.
+
+# EMOTION LOCK ON PARTY
+
+message_SB-LOCK-1:
+    text: SPACEBOY is FURIOUS!
+
+message_SB-LOCK-2:
+    text: SPACEBOY can no longer become HAPPY or SAD!
+
+message_SWH-LOCK-1:
+    text: SWEETHEART is MANIC!
+
+message_SWH-LOCK-2:
+    text: SWEETHEART can no longer become SAD or ANGRY!
+
+# ======== SPACE FANGIRL ========
+
+message_2:
+   text: >
+    \>SPACE FANGIRL: \<I \Com[2]WILL win you over, my beloved SPACEBOY!
+
+message_3:
+   text: >
+    \>SPACE FANGIRL: \<Ugh...\. Just how are you still going?!
+
+message_4:
+   text: >
+    \>SPACE FANGIRL: \<I should have won by now, just let me win!!
+
+message_4-1:
+   text: >
+    \>SPACE FANGIRL: \<This is unfair!\! How is this possible?
+
+message_4-2:    
+   text: >
+    \>SPACE FANGIRL: \<Y-you're all cheating!
+
+message_4-3:
+   text: >
+    \>SPACE FANGIRL: \<Ha, I win!\! You're no match for me!
+
+message_4-4:
+    text: SPACE FANGIRL feels ANGRY!
+
+message_4-5:
+    text: SPACE FANGIRL can no longer become HAPPY or SAD!
+
+#attempt flirt
+message_4-6:
+   text: >
+    \>SPACE FANGIRL: \<Ugh... attempting to flirt on me?
+
+message_4-7:
+   text: >
+    \>SPACE FANGIRL: \<My heart is loyal to the one and only CAPTAIN SPACEBOY!\! Take THIS!
+
+message_4-8:
+   text: SPACEBOY is weirded out.
+
+# ======== TV GIRL ========
+
+# win battle
+message_TVG-1:
+   text: >
+    \>TV GIRL: \<Hey!\. \com[2]HEY!\. Fine, you win!\! You can stop hittin' me now!
+
+# intro (new)
+message_TVG-2:
+   text: >
+    \>TV GIRL: \<GAH!-\.<br>My pure \quake[1]RAGE\quake[0] caused a power surge!\|\^
+
+message_TVG-3:
+   text: >
+    \>TV GIRL: \<Huh...\| This lighting is a lot more dramatic, actually!\|\^
+
+message_TVG-4:
+   text: >
+    \>TV GIRL: \<Anyway...\. I need some punchin' bags, and all I have in front of me are you four!\|\^
+
+message_TVG-5:
+   text: >
+    \>TV GIRL: \<Just a little advice:<br>\|\quake[1]DON'T BARGE INTO PEOPLE'S ROOMS WITHOUT ASKIN', MORONS!\|\^
+
+message_TVG-6:
+   text: >
+    \>TV GIRL: \<\}\sinv[1]Oh, there's the lights...\|\^
+
+# ======== PLANET X ========
+
+# intro
+message_PX-1:
+   text: >
+    \>PLANET X: \<Feel the wrath of the cosmic shinobi!
+
+message_PX-2:
+   text: >
+    \>PLANET X: \<\Com[2]\sinv[1]KYAAAAAAAAA!!\sinv[0]
+
+#lose wig
+message_PX-3:
+   text: >
+    \>PLANET X: \<N-no!\. My wig!!
+
+message_PX-4:
+   text: >
+    \>PLANET X: \<Look away...\. I'm \Com[2]\quake[1]HIDEOUS!
+
+# no juice
+message_PX-5:
+    text: PLANET X does not have enough JUICE!
+
+# Battle win
+message_PX-6:
+   text: >
+    \>PLANET X: \<N-no!\. Impossible!\. How could this be?!
+
+# Battle lose
+message_PX-7:
+   text: >
+    \>PLANET X: \<Heh heh... Fools,\. to dare challenge the \sinv[1]greatest ninja\sinv[0] of all time.
+
+message_PX-8:
+   text: >
+    \>PLANET X: \<If you wish to defeat me, train for another \sinv[1]100\sinv[0] light-years!
+
+# Wig prompt
+message_PX-9:
+   text: >
+    \>PLANET X: \<Hey!\. Don't touch my wig!
+
+message_PX-10:
+   text: >
+    \>PLANET X: \<I mean... hair.\. My handsome hair!
+
+# ======== Kite Kid ========
+
+message_KK-1:
+   text: >
+    \>KITE KID: \<Don't hold back!
+
+message_KK-2:
+   text: >
+    \>KITE KID: \<Impossible!\. Not my kite!
+
+message_KK-3:
+   text: >
+    \>KITE KID: \<But...\. our bond...\! Was it still not strong enough...?
+
+# ---- Kite Kid Wind ----
+message_wind1:
+   text: The wind is WEAK...
+
+message_wind2:
+   text: The wind is STEADY.
+
+message_wind3:
+   text: The wind is RAGING!!
+
+message_windclean:
+   text: ...Everyone's BUFFS and DEBUFFS are cleared!
+
+# ======== WIDOWBOY ========
+
+widow_1:
+   text: >
+    \>WIDOWBOY: \<Oh...\. What am I even doing...
+
+widow_2:
+   text: >
+    \>WIDOWBOY: \<I shouldn't be lashing out like this...\. What's the point of fighting...?
+
+widow_3:
+   text: >
+    \>WIDOWBOY: \<You deserve better than this...\. Don't let me be a bother...
+
+# Defeat
+widow_4:
+   text: >
+    \>WIDOWBOY: \<Ah...\. that's it I guess...
+
+
+# ======== ALICE QUEST BURN ========
+
+alicequest_1:
+   text: >
+    \>FIERY: \<Girl,\. are you out of your mind?
+    
+alicequest_2:
+   text: >
+    \>FIERY: \<You are never convincing me,\. ever,\! you fiend.
+    
+alicequest_3:
+   text: >
+    \>ALICE: \<Yeah, yeah, let's just get this over with.\! Just remember what I said.
+
+alicequest_4:
+   text: \c[4]...All BURN skills are disabled in this fight!
+
+# ======== ADWARE AMBUSH ========
+
+message_adprep:
+    text: ADWARE is prepared!
+
+# ======== STAR TUTORIAL ========
+message_burn1:
+    text: >
+     \>SPACEBOY: \<Oh!\. That's a SHOOTING STAR!
+
+message_burn2:
+    text: >
+     \>SPACEBOY: \<Its flaming body can inflict \c[4]BURN\c[0] on us when it attacks,\. dealing damage over time.
+
+message_burn3:
+    text: >
+     \>SPACEBOY: \<It is an EMOTIONAL AILMENT,\. with this one being dependent on ANGRY.
+
+message_burn4:
+    text: >
+     \>SPACEBOY: \<But beware,\. that also means the ailment will \c[4]lock you to that emotion as well.
+
+message_burn5:
+    text: >
+     \>SPACEBOY: \<To burn with rage...\. I would know that well myself, of course.
+
+message_burn6:
+    text: \c[11]...You can now hold SHIFT or CTRL key to see more info on enemies.
+
+# ======== LIFE JAM GUY BATTLE (OLD) ========
+
+#1st consume power
+
+message_33:
+    text: >
+     \>DOUGHIE: \<Is... Is he consuming BISCUIT's energy?!
+
+message_34:
+    text: >
+     \>DOUGHIE: \<But if he keeps doing that, BISCUIT will...
+
+message_35:
+    text: >
+     \>DOUGHIE: \<No! We cannot let him finish!
+
+#death jam
+
+message_36:
+    text: >
+     \>LIFE JAM GUY: \<Aha!\. Yes!\! This will do nicely to give LIFE JUICE a test run!
+
+#6 consume power usage, game over
+
+message_37: 
+    text: >
+     \>BISCUIT: \<\sinv[1]Ohooo...
+
+message_38:
+    text: >
+     \>DOUGHIE: \<BISCUIT!! NOOOOO!
+
+#Party Wipe
+
+message_381:
+    text: >
+     \>SPACEBOY: \<I-I'm sorry everyone, I disappointed you all...
+
+message_382:
+    text: >
+     \>SWEETHEART: \<T-This can't be where my story ends!
+
+#Victory
+
+message_383:
+    text: >
+     \>LIFE JAM GUY: \<Hm...\! How interesting!
+
+message_384:
+    text: >
+     \>LIFE JAM GUY: \<Well, looks like I'll have to leave for now.
+
+message_385:
+    text: >
+     \>LIFE JAM GUY: \<Don't worry, we'll meet again!\! Haha!
+
+# ======== Makoto Yuki ========
+
+message_39:
+    text: >
+     \>DOUGHIE: \<Huff...\! Puff...\!<br>It's no use...\! It won't even give an inch...
+
+message_391:
+    text: >
+     \>DOUGHIE: \<Darn this GREAT GATE!\! We might need another strategy...
+
+# ====================================================================
+#                       CHAPTER 4
+# ====================================================================
+
+# ================ Castle Troop Roll ================
+enc_castle_prompt:
+   text: >
+    \v[1003]'s party rolls initiative...
+
+enc_castle_upper:
+   text: >
+    It's a natural 20! \v[1003]'s party has the upper hand!
+
+enc_castle_lower:
+   text: >
+    It's a natural 1! SUNNY's party has the upper hand!
+
+enc_castle_same:
+   text: >
+    It's a \v[1002]! It's anybody's game!
+
+enc_dungeon_prompt:
+   text: >
+    \v[1003] cannot see and tries to light up...
+
+# ================ PAINTING ================
+painting_ambush:
+    text: ...It's an ambush!\. THE LADY IN PINK came prepared!
+
+# ================ Casstle Mini Bosses ================
+enc_virtuoso_1:
+   text: >
+    VIRTUOSO MOLE is very strict...
+
+enc_virtuoso_2:
+   text: >
+    \c[4]FIRST HIT of each TURN deals increased damage for both sides!
+
+enc_chef_1:
+   text: >
+    The heat from the fire is scorching...
+
+enc_chef_2:
+   text: >
+    \c[4]Chance to inflict BURN increased greatly for everyone!
+
+enc_maximus_1:
+   text: >
+    The room is filled with tension...
+
+enc_maximus_2:
+   text: >
+    \c[4]SKILL COSTS are halved for everyone!
+
+# ================ HALTERGEIST ================
+halt_absorb_1:
+    text: >
+     \>SPACEBOY: \<Hm.\. They seem to \c[4]ABSORB all incoming ANGRY attacks\c[0]...
+
+halt_absorb_2:
+    text: >
+     \>SPACEBOY: \<Might want to try to avoid being ANGRY here...
+
+halt_special:
+    text: HALTIA is preparing something...
+
+halt_cannot:
+    text: HALTIA was unable to cast their special skill...
+
+halt_defeat:
+    text: >
+     \>HALTIA: \<Ah,\. it seems you know what you are doing...\. I'll let you go now.
+
+# ================ ALICE ================
+alice_start:
+    text: >
+     \>ALICE: \<Lighten up a bit, will you?\. Come out and play with your \sinv[1]friends\sinv[0].
+
+alice_special:
+    text: ALICE gives a conspiratorial look...
+
+alice_fail:
+    text: ALICE cannot find any \c[4]WEEPING\c[0] members to take advantage of.
+
+alice_fail_bear:
+    text: ALICE cannot was unable to call for more bears.
+
+alice_defeat:
+    text: >
+     \>ALICE: \<Augh, you're strong...\. Let's end our playtime here.
+    
+# ==== MAXIMUS IV - Closely mimic base game one ====
+
+# Before Strong Attack
+
+maximus_ult_1:
+   text: >
+    \>SIR MAXIMUS IV: \<Behold the power of my ancestors!
+
+# Had to split text because 3 fathers are too long :skull:
+maximus_ult_2:
+   text: >
+    \>SIR MAXIMUS IV: \<My father and his father and his father's father stand beside me!
+
+maximus_ult_3:
+   text: >
+    \>SIR MAXIMUS IV: \<This is our ultimate attack!
+
+maximus_ult_4:
+   text: >
+    \sinv[1]Rahhh\{hHHHH\{HHHHH!!
+
+# Getting Weaker
+
+maximus_weak_1:
+   text: >
+    \>SIR MAXIMUS IV: \<No... I cannot let my father's and his father's...
+
+maximus_weak_2:
+   text: >
+    \>SIR MAXIMUS IV: \<...and his father's father's deaths be in vain!
+
+# After Defeat
+
+maximus_defeat_1:
+   text: >
+    \>SIR MAXIMUS IV: \<Father... Grandfather... Great-grandfather...
+
+maximus_defeat_2:
+   text: >
+    \>SIR MAXIMUS IV: \<I'm sorry...\!<br>I have failed you.
+
+# After Victory
+
+maximus_victory_1:
+   text: >
+    \>SIR MAXIMUS IV: \<Alas, my family has been avenged!
+
+maximus_victory_2:
+   text: >
+    \>SIR MAXIMUS IV: \<This is a glorious day for my people!
+
+# ================ ROCOCO ================
+rococo_1_1:
+   text: >
+    \>ROCOCO: \<Hah!\. Such a trifle of effort,\. to try and fight against my art like this!
+
+rococo_2_1:
+   text: >
+    \>ROCOCO: \<Your lack of taste is greatly showing!\. Soon, you shall fall to my masterpieces!
+
+rococo_3_1:
+   text: >
+    \>ROCOCO: \<Gah!\. Very well, then....
+
+rococo_3_2:
+   text: >
+    \>ROCOCO: \<If that did not work,\. then how about this?!
+
+rococo_defeat_1:
+   text: >
+    \>ROCOCO: \<No...\. my art...\. my soul...\. drifting away from me...
+
+rococo_fire:
+   text: ROCOCO fires the existing moles...\.
+
+# AILMENT INTROS - Appear in battle first inflicted on the party side. Global Troop
+# ======== CHARM INTRO - This is added retroactively, can encounter in CH2 ========
+# Also remember check SWH as CH4 she disappear for a moment, though it should never happen anyways
+intro_charm_1:
+    text: >
+     \>SWEETHEART: \<\sinv[1]Ohoho!\sinv[0] These enemies seem rather CHARMing!
+
+intro_charm_2:
+    text: >
+     \>SWEETHEART: \<When under the influence of their CHARM, you will find yourself doing their bidding!
+
+intro_charm_3:
+    text: >
+     \>SPACEBOY: \<That is, allies will attack enemies and vice versa when under CHARM.
+
+intro_charm_4:
+    text: >
+     \>SWEETHEART: \<You know that feeling all too well, don't you? Ohohohoho!
+
+# ======== SICK INTRO ========
+intro_sick_1:
+    text: >
+     \>DOUGHIE: \<Oho... someone is feeling rather SICK...
+
+intro_sick_2:
+    text: >
+     \>DOUGHIE: \<When you're SICK, all of your stats are vastly decreased.
+
+intro_sick_3:
+    text: >
+     \>DOUGHIE: \<It also causes both HEART and JUICE loss, even stronger than BURN or WEEP.
+
+intro_sick_4:
+    text: >
+     \>DOUGHIE: \<It can happen at any time, too. Be careful what you eat... Oho..
+
+# ======== FROZEN INTRO ========
+intro_frozen_1:
+    text: >
+     \>SPACEBOY: \<Brrr... FROZEN... An ailment you can only get when NEUTRAL.
+
+intro_frozen_2:
+    text: >
+     \>SPACEBOY: \<It causes the affected to be unable to move and cannot be buffed or healed.
+
+intro_frozen_3:
+    text: >
+     \>SPACEBOY: \<This cold... it's a feeling that's familiar to me.
+    
+# ======== GLOW INTRO ========
+intro_glow_1:
+    text: >
+     \>SPACEBOY: \<That's some bright GLOW there! It's an emotional ailment for HAPPY.
+
+intro_glow_2:
+    text: >
+     \>SPACEBOY: \<The affected have their HIT RATE, EVASION and LUCK reduced heavily.
+
+intro_glow_3:
+    text: >
+     \>SPACEBOY: \<In other words, they're almost guaranteed to be hit, a critical one at that.
+
+intro_glow_4:
+    text: >
+     \>SPACEBOY: \<Low LUCK also means higher chance to be hit with other ailments, such as CHARM or SICK.
+
+intro_glow_5:
+    text: >
+     \>SPACEBOY: \<It may not seem impressive at first, but it can snowball fast if you ignore it.
+
+# ======== WEEP INTRO (Possible in CH4 with Alice) ========
+intro_weep_1:
+    text: >
+     \>DOUGHIE: \<\sinv[1]Ohoooo...\sinv[0] WEEPING... The emotional ailment for SAD...
+
+intro_weep_2:
+    text: >
+     \>DOUGHIE: \<WEEP causes the affected to lose JUICE over time, and make skills cost more JUICE.
+
+intro_weep_3:
+    text: >
+     \>DOUGHIE: \<They also can't see well enough to use anything other than basic attacks.
+
+intro_weep_4:
+    text: >
+     \>DOUGHIE: \<Their DEFENSE is reduced greatly as well, so they can't defend themselves either...
+
+intro_weep_5:
+    text: >
+     \>DOUGHIE: \<It's a terrible time for everyone involved... especially the one WEEPing... oho...
+
+# ======== SLEEP INTRO (Later than CH4) ========
+intro_sleep_1:
+    text: >
+     \>SPACEBOY: \<Ah, someone's feeling SLEEPY.
+
+intro_sleep_2:
+    text: >
+     \>SPACEBOY: \<SLEEPING battlers cannot act and always takes critical hit as well.
+
+intro_sleep_3:
+    text: >
+     \>SPACEBOY: \<Though, a small upside from SLEEPING is the slight heal that comes from resting.
+
+intro_sleep_4:
+    text: >
+     \>SPACEBOY: \<The SLEEP tends to last for a while, though they wake up when they take a hit.
+     
+intro_sleep_5:
+    text: >
+     \>SPACEBOY: \<Unlike FROZEN though, the battler can still have emotions while SLEEPING.

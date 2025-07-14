@@ -1,0 +1,1801 @@
+
+# =========================================================================================
+# Bestiary
+# =========================================================================================
+EmptyEnemyName: 'FOE FACTS!'
+CategoryName:
+  title: >-
+    \c[1]\fbGROUP: \fb
+  BUNNY: BUNNY
+  MOLE: MOLE
+  RAT: RAT
+  HUMANOID: HUMANOID
+  BEAST: BEAST
+  BUG: BUG
+  PLANT: PLANT
+  TECH: TECH
+  FOOD: FOOD
+  OBJECT: OBJECT
+  ALIEN: ALIEN
+  # FIEND is solely for alice SMT joke
+  FIEND: FIEND
+Information:
+  # =========================================================================================
+  # CH1
+  # =========================================================================================
+  1516:
+    name: FOREST BUNNY
+    background: {name: 'battleback_rv_platform', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'ENEMY_BUNNIES', index: 0}
+    listIndex: 0
+    pages:
+      1:
+        text: |
+          A bunny from the vast forest. 
+          Lacks any capacity to 
+          comprehend the situation it 
+          has found itself in.
+
+          - YOU
+  1518:
+    name: LOST SPROUT MOLE
+    background: {name: 'battleback_rv_platform', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'DW_SPRM_1', index: 0}
+    listIndex: 1
+
+    pages:
+      1:
+        text: |
+            A sprout mole that is somehow 
+            even more lost than ever before.
+
+            - YOU
+  1508:
+    name: CONDUCTOR BUNNY
+    background: {name: 'battleback_rv_platform', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_1', index: 0}
+    listIndex: 2
+
+    pages:
+      1:
+        text: |
+          A bunny that has found 
+          itself a new job in the metro. 
+          It lacks any intelligence to 
+          comprehend basic concepts, let 
+          alone operate a train. 
+
+          Despite that, it is able to somehow 
+          \c[4]call a train when it whistles\c[0].
+
+          - YOU
+
+          The small hat on it is cute, though...
+
+          - DOUGHIE
+      2:
+        switchCondition: 2747
+        text: |
+          Interestingly enough, the act of calling
+          in a train is technically not violent. 
+          The train itself, however, is violent.
+
+          Thus, BURN and WEEP may both work 
+          depending on the sitaution.
+
+          This may be useful knowledge against 
+          other enemies, too.
+            
+          - YOU
+  1509:
+    name: CONEHEAD MOLE
+    background: {name: 'battleback_rv_platform', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_SPRM_1', index: 0}
+    listIndex: 3
+
+    pages:
+      1:
+        text: |
+          A sprout mole that has found 
+          usage for the cones laid 
+          about in the metro.
+
+          An ironic name for such a 
+          creature that claims it is 
+          smart.
+
+          - YOU
+  1510:
+    name: METRO RAT
+    background: {name: 'battleback_rv_platform', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_2', index: 0}
+    listIndex: 5
+
+    pages:
+      1:
+        text: |
+          A rat that has been fired 
+          from its job at the laboratory. 
+
+          It dwells in the metro scavenging 
+          the scraps and fawning about its 
+          long lost dream.
+
+          - YOU
+  1511:
+    name: SCARRED RAT
+    background: {name: 'battleback_rv_platform', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_2', index: 1}
+    listIndex: 6
+
+    pages:
+      1:
+        text: |
+          A vicious rat that has gone 
+          through unspoken tribulations.
+
+          Its battle scars are attained 
+          from living in such harsh 
+          environments.
+
+          - YOU
+  1502:
+    name: GREAT GATE
+    background: {name: 'battleback_rv_platform', x: 0, y: 0}
+    position: {x: 160, y: 475}
+    character: {name: '$rev_bigdoor', index: 0}
+    listIndex: 7
+
+    pages:
+      1:
+        text: |
+          The greatest obstacle, 
+          the symbol of impediment 
+          upon progress.
+
+          - YOU
+
+          Ohoo...
+
+          - DOUGHIE
+      2:
+        switchCondition: 2747
+        text: |
+          Even such a great gate could
+          have a weakness.
+
+          If any enemies happen to have
+          absurdly high defense, BURNING
+          it may be the way to go.
+
+          Thankfully, there have been
+          no other gates so far.
+            
+          - YOU
+  1513:
+    name: FARE BEAR
+    background: {name: 'battleback_rv_platform', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'DW_EN_5', index: 0}
+    listIndex: 8
+
+    pages:
+      1:
+        text: |
+          A bear that is now perpetually angry
+          from being in the unbearable condition 
+          of the metro.
+
+          - YOU
+
+          Unbearable.
+
+          - SPACEBOY
+      2:
+        switchCondition: 2747
+        text: |
+          It's really just a RARE BEAR that 
+          happens to be in the metro.
+
+          Refer to the entry for the
+          RARE BEAR instead.
+
+          - YOU
+  1514:
+    name: LIFE JAM GUY
+    background: {name: 'battleback_rv_platform', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: '$DW_LJG_REVERIE', index: 0}
+    listIndex: 9
+
+    pages:
+      1:
+        text: |
+          The invincible salesman made from
+          the essence of life itself. 
+          Recently has been investing in a 
+          new product called "LIFE JUICE".
+
+          - YOU
+
+          I'm allergic to that stuff...
+
+          - DOUGHIE
+      2:
+        switchCondition: 2747
+        text: |
+          One of the early foes we encountered.
+
+          Totally invincible. It would be wise
+          not to fight him again.
+
+          Does seem to prioritize buffing 
+          his stats.
+
+          - YOU
+  1515:
+    name: TV GIRL
+    background: {name: 'battleback_rv_tvgirl', x: 0, y: 0}
+    position: {x: 160, y: 475}
+    character: {name: 'DW_NPC_3', index: 6}
+    listIndex: 10
+
+    pages:
+      1:
+        text: |
+          A tired office worker that 
+          survives on COFFEE. 
+          Has an unhealthy obsession 
+          with violence.
+
+          - YOU
+      2:
+        switchCondition: 2747
+        text: |
+          Wielding two whole knives,
+          she obviously has a very
+          offense-oriented fighting style.
+
+          In exchange, has a very frail frame...
+          but that's what having a
+          giant TV head does to you.
+
+          - YOU
+  1512:
+    name: GOLDEN MOLE
+    background: {name: 'battleback_rv_fw', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'DW_SPRM_1', index: 0}
+    listIndex: 11
+
+    pages:
+      1:
+        text: |
+          A SPROUT MOLE that is golden. 
+          Because it is golden, it becomes
+          arbitrarily stronger. 
+
+          - YOU
+
+          Sprinkling gold on food
+          makes it fancier!
+
+          - DOUGHIE
+      2:
+        switchCondition: 2747
+        text: |
+          After a thorough re-examination,
+          we have concluded that it is indeed
+          arbitrarily stronger.
+
+          And it's not even made out of real 
+          gold.
+
+          - YOU
+  1517:
+    name: FOREST BUNNY?
+    background: {name: 'battleback_rv_platform', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'ENEMY_BUNNIES', index: 0}
+    listIndex: 12
+
+    pages:
+      1:
+        text: |
+          A bunny from the vast forest. 
+          Its lack of ability to comprehend 
+          the situation it has found itself 
+          in has caused so much distress 
+          that it has forgotten how to hop 
+          up-right.
+
+          - YOU
+  # =========================================================================================
+  # CH2
+  # =========================================================================================
+  1521:
+    name: CATTAIL BUNNY
+    background: {name: 'battleback_rv_fw', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_1', index: 1}
+    listIndex: 13
+
+    pages:
+      1:
+        text: |
+          A bunny that has adapted the 
+          ability to camouflage with 
+          its local environment. 
+
+          - YOU
+      2:
+        switchCondition: 2748
+        text: |
+          Other than camouflage, when
+          distressed, it also possesses a
+          defense mechanism of kicking 
+          sand into the predator's
+          eyes to reduce visibility.
+
+          - YOU
+  1522:
+    name: CROCODILE CLIP
+    background: {name: 'battleback_rv_fw', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_2', index: 7}
+    listIndex: 14
+
+    pages:
+      1:
+        text: |
+          A piece of angry electrical equipment. 
+          Not to be mistaken for an 
+          alligator clip.
+
+          - YOU
+      2:
+        switchCondition: 2748
+        text: |
+          Its body is made out of
+          singular wire, so naturally
+          it is very fragile.
+
+          Possesses a surprisingly strong
+          bite. That's just how crocodiles
+          go.
+
+          - YOU
+  1523:
+    name: MOUSE
+    background: {name: 'battleback_rv_fw', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_2', index: 3}
+    listIndex: 15
+
+    pages:
+      1:
+        text: |
+          A computer mouse. 
+          It's quick, nimble, and 
+          able to navigate in any area. 
+
+          Not to be confused with its 
+          biological counterpart.
+          
+          Possibly a distant relative of 
+          the METRO RAT.
+
+          - YOU
+      2:
+        switchCondition: 2748
+        text: |
+          Beware, the mouse loves
+          doing things fast.
+
+          Its attack consists of running
+          into you at incredible velocity,
+          dealing damage based on speed.
+
+          It needs time to speed up though,
+          so deal with it before it attacks.
+
+          - YOU
+  1524:
+    name: BROKEN TAPE
+    background: {name: 'battleback_rv_fw', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_4', index: 0}
+    listIndex: 16
+
+    pages:
+      1:
+        text: |
+          A beaten up MIXTAPE.
+          It seems to have realized its 
+          imminent fall into obscurity. 
+          Its favorite genre is breakcore.
+
+          - YOU
+
+          I still love its aesthetic, though...
+
+          - SPACEBOY
+      2:
+        switchCondition: 2748
+        text: |
+          Its insides are infested with
+          parasitic tapeworms.
+
+          Not exactly dangerous, but can
+          be annoying. It would be good idea
+          to prepare both single and multi target
+          attacks.
+
+          - YOU
+  1525:
+    name: TAPEWORM
+    background: {name: 'battleback_rv_fw', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_2', index: 2}
+    listIndex: 17
+
+    pages:
+      1:
+        text: |
+          A parasitic creature that 
+          lives inside a mixtape. 
+
+          It takes form similar to a 
+          tape, replacing the actual tape inside.
+
+          - YOU
+  1526:
+    name: FALLEN STAR
+    background: {name: 'battleback_rv_fw', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_3', index: 0}
+    listIndex: 18
+
+    pages:
+      1:
+        text: |
+          A star that used to be 
+          a big celebrity. 
+
+          It has fallen from grace
+          since then.
+
+          - YOU
+  1527:
+    name: SHOOTING STAR 
+    background: {name: 'battleback_rv_fw', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_3', index: 0}
+    listIndex: 19
+
+    pages:
+      1:
+        text: |
+          A star that stumbled upon 
+          a laser gun one day. 
+
+          Its personality was never 
+          the same after that.
+
+          - YOU
+      2:
+        switchCondition: 2748
+        text: |
+          Catching a falling star before
+          it hits the ground has a higher
+          chance to yield valuable
+          STAR FRAGMENTS.
+
+          It is still flaming hot, though:
+          boasting higher speed, attack,
+          and often inflicts BURNS.
+
+          - YOU
+  1528:
+    name: SPAM MAIL
+    background: {name: 'battleback_rv_fw', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_2', index: 4}
+    listIndex: 20
+
+    pages:
+      1:
+        text: |
+          A letter desperate for attention, 
+          as it knows that it is unoriginal 
+          and annoying. 
+
+          Resorted to duplicating itself just 
+          to make more people notice it.
+
+          - YOU
+      2:
+        switchCondition: 2748
+        text: |
+          A SPAM MAIL's goal is to spread its
+          content around so everyone see it.
+
+          Make it SAD, and it will not duplicate
+          itself. While making it HAPPY will make 
+          it duplicate a lot.
+
+          - YOU
+  1529:
+    name: ADWARE
+    background: {name: 'battleback_rv_fw', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_2', index: 5}
+    listIndex: 21
+
+    pages:
+      1:
+        text: |
+          A scam taking advantage of 
+          SWEETHEART's looks and charm.
+          Best not to focus on it.	
+
+          - YOU
+
+
+          That smug aura is a disgrace 
+          towards my elegance!
+
+          - SWEETHEART
+      2:
+        switchCondition: 2748
+        text: |
+          Taking advantage of looks, it
+          cares about its appearance quite
+          a lot.
+
+          Making it SAD should temper its desire
+          to CHARM others.
+          It's hard to convince people when 
+          you're down.
+
+          - YOU
+  1530:
+    name: ZIP BOMB
+    background: {name: 'battleback_rv_fw', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_2', index: 6}
+    listIndex: 22
+
+    pages:
+      1:
+        text: |
+          A malicious file designed to 
+          crash or render a software useless. 
+          This one is designed like a time 
+          bomb, for aesthetic reasons. 
+
+          It seems emotions have an effect on
+          its ticking speed.
+
+          - YOU
+      2:
+        switchCondition: 2748
+        text: |
+          Beware, its timer will \c[4]speed up when 
+          \c[4]it's ANGRY\c[0], due to its short fuse.
+          Luckily, it \c[4]can be disarmed temporarily
+          \c[4]when it is too SAD to count.
+
+          \c[4]BURNING it will cause it to explode
+          \c[4]immediately\c[0], though. Don't play with fire.
+
+          - YOU
+  1531:
+    name: TROJAN HORSE
+    background: {name: 'battleback_rv_fw', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: '$RV_ENEMIES_TROJAN', index: 0}
+    listIndex: 23
+
+    pages:
+      1:
+        text: |
+          A construct that is designed to 
+          deceive, \c[4]containing many malicious 
+          \c[4]foes.
+
+          Only a fool would fall for
+          its obvious disguise.
+
+          - YOU
+  1537:
+    name: DOOMBOX
+    background: {name: 'battleback_rv_fw', x: 0, y: 0}
+    position: {x: 160, y: 300}
+    character: {name: 'DW_EN_7', index: 1}
+    listIndex: 24
+
+    pages:
+      1:
+        text: |
+          The revived spirit of a BOOM
+          BOX, made angry by the
+          desecration of its burial site.
+
+          - YOU
+
+          Curses, so that's what ate my
+          mixtape!
+
+          - SPACEBOY
+  1538:
+    name: DIAL-UP
+    background: {name: 'battleback_rv_fw', x: 0, y: 0}
+    position: {x: 160, y: 350}
+    character: {name: 'DW_EN_1', index: 0}
+    listIndex: 25
+
+    pages:
+      1:
+        text: |
+          A relic of the past, once 
+          used to access forgotten 
+          communication networks.
+          
+          - YOU
+          
+          I wonder if that's why my 
+          communicator line is always 
+          busy!
+          
+          - SPACEBOY
+  1539:
+    name: SHARK PLANE
+    background: {name: 'battleback_rv_fw', x: 0, y: 0}
+    position: {x: 200, y: 300}
+    character: {name: 'DW_EN_9', index: 0}
+    listIndex: 26
+
+    pages:
+      1:
+        text: |
+          A terrifying aerial predator
+          which picks off defenseless 
+          victims. Best to hide in a crater 
+          if it swoops at you.
+
+          - YOU
+  1532:
+    name: SPACE FANGIRL
+    background: {name: 'battleback_ow_xsbf', x: 0, y: 0}
+    position: {x: 160, y: 475}
+    character: {name: 'RV_SIG_ENEMIES', index: 0}
+    listIndex: 27
+
+    pages:
+      1:
+        text: |
+          SPACEBOY's biggest fan...
+          or so she proclaims.
+
+          - YOU
+
+          Who would've thought someone like
+          you would have fans as well, hm?
+
+          - SWEETHEART
+
+          Don't look at me like that!
+
+          - SPACEBOY
+      2:
+        switchCondition: 2748
+        text: |
+          Having never used a firearm before,
+          her first instinct is to point her 
+          guns and start blasting everywhere.
+
+          Absolutely no regard for safety
+          whatsoever.
+
+          In other words: \c[4]she hits a lot,
+          \c[4]but she's not exactly accurate.
+
+          - YOU
+  1533:
+    name: PLANET X
+    background: {name: 'battleback_rv_px', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_PX', index: 0}
+    listIndex: 28
+
+    pages:
+      1:
+        text: |
+          A shunned, outcast planet.
+          Obnoxious, immature, and ignorant.
+
+          - YOU
+
+          I still don't know what a ninja is...
+
+          - DOUGHIE
+      2:
+        switchCondition: 2748
+        text: |
+          Because of his cripplingly
+          low self-esteem, simply removing
+          his wig will cause him to lose
+          all his JUICE: that is, his self-image.
+
+          When he does have his wig, though,
+          he hits surprisingly hard.
+
+          - YOU
+  1535:
+    name: KITE KID
+    background: {name: 'battleback_vf_kitekid', x: 0, y: 0}
+    position: {x: 160, y: 475}
+    character: {name: '$sprite_vf_kite_kid', index: 0}
+    listIndex: 29
+
+    pages:
+      1:
+        text: |
+          A mysterious boy obsessed 
+          with wind conditions. 
+
+          He is usually seen in the 
+          FLOATING FOREST, flying his 
+          kite and mumbling something 
+          about the weather.
+
+          - YOU
+      2:
+        switchCondition: 2748
+        text: |
+          Having a preference for heights, he
+          is able to instill \c[4]VERTIGO\c[0].
+
+          He also seems to really care for
+          his kite. The power of friendship,
+          of sorts.
+          
+          Feels cliche, but there is something
+          heartwarming about it.
+
+          - YOU
+  1536:
+    name: KID'S KITE
+    background: {name: 'battleback_vf_kitekid', x: 0, y: 0}
+    position: {x: 160, y: 476}
+    character: {name: '$npc_kite', index: 0}
+    listIndex: 30
+
+    pages:
+      1:
+        text: |
+          A strange kite. 
+          It seems to possess a life of its own.
+
+          - YOU
+  # =========================================================================================
+  # CH4
+  # =========================================================================================
+  # METRO B2
+  1560:
+    name: DUST BUNNY
+    background: {name: 'battleback_rv_metro_b2_1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'ENEMY_BUNNIES', index: 1}
+    listIndex: 31
+
+    pages:
+      1:
+        text: |
+          A sentient wad of dirt and lint. 
+          Pieces of it fall apart as it moves.
+
+          - YOU
+
+          Simply DISGUSTING! Remove this 
+          wretched thing from my sight at once!
+
+          - SWEETHEART
+      2:
+        switchCondition: 2749
+        text: |
+          Being barely held together, when it is 
+          really weak, it explodes into a puff of 
+          dust that may \c[4]reduce everyone's
+          \c[4]hit rate.
+
+          Keep some eye droppers with you.
+
+          - YOU
+  1561:
+    name: GHOST BUNNY
+    background: {name: 'battleback_rv_metro_b2_1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'ENEMY_BUNNIES_2', index: 0}
+    listIndex: 32
+
+    pages:
+      1:
+        text: |
+          BUNNY spirits that attack anything 
+          that moves.
+
+          - YOU
+
+          They give me the creeps... I feel like 
+          they're trying to avenge something.
+
+          - SPACEBOY
+  1562:
+    name: GHOST CONDUCTOR
+    background: {name: 'battleback_rv_metro_b2_1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_9', index: 6}
+    listIndex: 33
+
+    pages:
+      1:
+        text: |
+          The ghostly BUNNIES have begun to 
+          collaborate under a leader.
+
+          - YOU 
+
+          Impressive!
+
+          - SPACEBOY
+      2:
+        switchCondition: 2749
+        text: |
+          Like CONDUCTOR BUNNIES, their
+          train calling abilities seem to share
+          similar rules.
+
+          Interestingly, these ghost trains seem
+          not to hit as hard, instead phasing
+          through you, inflicting FROZEN to
+          NEUTRAL foes.
+
+          Guarding is recommended, as well as
+          changing to other emotions.
+
+          - YOU
+  1563:
+    name: SPROUT MOLD
+    background: {name: 'battleback_rv_metro_b2_1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_9', index: 3}
+    listIndex: 34
+
+    pages:
+      1:
+        text: |
+          This unfortunate SPROUT MOLE
+          touched some mold. 
+          Now it's a SPROUT MOLD.
+
+          - YOU
+
+          The poor thing... 
+          It's just like when a freshly-baked 
+          loaf goes stale.
+
+          - DOUGHIE 
+
+          Hmhm... SPROUT MOLD.
+
+          - SWEETHEART
+  1564:
+    name: TAILISRAT
+    background: {name: 'battleback_rv_metro_b2_1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_9', index: 7}
+    listIndex: 35
+
+    pages:
+      1:
+        text: |
+          A rat reanimated from the dead with
+          a talisman on its face.
+
+          Not to be confused with a zombie;
+          its arms-up gesture is just due to
+          rigor mortis.
+
+          - YOU
+      2:
+        switchCondition: 2749
+        text: |
+          These rats have been left abandoned
+          for a long while, which seems
+          to have led to them having a strong 
+          \c[4]TENACITY when left alone\c[0].
+  1565:
+    name: JACKSON
+    background: {name: 'battleback_rv_metro_b2_1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_6', index: 0}
+    listIndex: 36
+
+    pages:
+      1:
+        text: |
+          The masked menace from some horror
+          series. Two chainsaws is a bit of an
+          overkill, though.
+
+          - YOU
+
+          The piercing gaze... even the stars 
+          tremble from such a terrible foe...
+
+          - SPACEBOY
+      2:
+        switchCondition: 2749
+        text: |
+          Because they wield two chainsaws like
+          a madman, their attack accuracy is 
+          very low.
+
+          To compensate, they prefer to make
+          many attacks at once, flailing their
+          chainsaws everywhere.
+
+          Additionally, they hate seeing NEUTRAL 
+          foes: it's no fun for a killer to see 
+          no reaction. To illicit one, they may
+          try to repel all NEUTRAL attacks. 
+          Fun.
+
+          - YOU
+  # Boss version, thats the first encounter
+  1569:
+    name: HALTIA
+    background: {name: 'battleback_rv_metro_b2_1', x: 0, y: 0}
+    position: {x: 160, y: 480}
+    character: {name: 'RV_MEDIA_1', index: 1}
+    listIndex: 37
+
+    pages:
+      1:
+        text: |
+          A poltergeist that seems to have 
+          taken a liking to all things locomotive.
+
+          Despite their appearance, they insist 
+          that their cause of death is not 
+          road related.
+
+          Also, \c[4]absorbs all ANGRY incoming 
+          \c[4]attacks\c[0]. Don't ask how. Ghost logic.
+
+          - YOU
+      2:
+        switchCondition: 2749
+        text: |
+          Despite the ANGRY absorption, \c[4]they 
+          \c[4]are susceptible to BURNING\c[0]. 
+          Don't ask how. Ghost logic. Again.
+
+          \c[4]Intercepting their attacks with WEEP\c[0] 
+          is also possible. Though, as a ghost, 
+          they also have really high speed.
+
+          Interestingly, while she can drag down
+          others, \c[4]she does not seem to really 
+          \c[4]take care of herself.
+
+          - YOU
+  # CASTLE
+  1575:
+    name: BUCKETHEAD MOLE
+    background: {name: 'battleback_rv_cc', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_8', index: 1}
+    listIndex: 38
+
+    pages:
+      1:
+        text: |
+          This SPROUT MOLE wants to partake 
+          in the fulfilling activity that is 
+          making art. 
+          
+          Unfortunately, it has no hands, 
+          so such fulfillment can only 
+          come after struggle.
+
+          - YOU
+
+          Ohoo... I believe in you, little 
+          SPROUT MOLE.
+
+          - DOUGHIE
+  1576:
+    name: ROLLERPAINT MOLE
+    background: {name: 'battleback_rv_cc', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_8', index: 2}
+    listIndex: 39
+
+    pages:
+      1:
+        text: |
+          Unlike the BUCKETHEAD MOLE, this one  
+          had more luck in its art endeavors. 
+          It carries a paint roller by the teeth.
+
+          - YOU
+
+          This is absurd! Has it no manners!?
+
+          - SWEETHEART
+  1577:
+    name: HAROLD
+    background: {name: 'battleback_rv_cc', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'DW_EN_5', index: 2}
+    listIndex: 40
+
+    pages:
+      1:
+        text: |
+          A master in swordplay, the prestigious 
+          HAROLD remains vigilant and precise
+          despite the chaos unfolding.
+
+          - YOU
+  1578:
+    name: GREATER HAROLD
+    background: {name: 'battleback_rv_cc', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_7', index: 1}
+    listIndex: 41
+
+    pages:
+      1:
+        text: |
+          As if regular armor was not enough, 
+          this HAROLD decided to go for even 
+          heavier armor.
+
+          Sporting absurd amounts of defense, 
+          attacks that ignore defense may be
+          needed. Though, making them ANGRY 
+          should suffice as well.
+
+          - YOU
+      2:
+        switchCondition: 2750
+        text: |
+          When dealing with high defense,
+          \c[4]inflicting BURN may be effective
+          in melting through that armor.
+
+          Some effort may be needed to inflict
+          BURN on a piece of metal, though. 
+
+          - YOU
+  1579:
+    name: MAGISTER LUCIUS
+    background: {name: 'battleback_rv_cc', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_7', index: 3}
+    listIndex: 42
+
+    pages:
+      1:
+        text: |
+          A LUCIUS that has decided to master
+          the magic of light amidst the chaos.
+
+          Such light magic also contains a \c[4]high
+          \c[4]chance to inflict GLOW.
+
+          - YOU
+      2:
+        switchCondition: 2750
+        text: |
+          Being a wizard, it also possesses a 
+          healing spell, though it is relatively
+          weak.
+
+          It can also cast light magic to blind its
+          opponents. For some reason, this light
+          is different from the light that inflicts
+          GLOW.
+
+          - YOU
+  1580:
+    name: CHOIR MOLE
+    background: {name: 'battleback_rv_cc', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_8', index: 3}
+    listIndex: 43
+
+    pages:
+      1:
+        text: |
+          A mole that has taken a liking to 
+          singing.
+          Never ask it to sing at your wedding.
+
+          - YOU
+          - Co-signed SWEETHEART
+  1581:
+    name: SOUS CHEF MOLE
+    background: {name: 'battleback_rv_cc', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_7', index: 0}
+    listIndex: 44
+
+    pages:
+      1:
+        text: |
+          Second-in-command of the kitchen. 
+          Never ask it to cook food.
+
+          - YOU
+          - Co-signed SWEETHEART
+  1582:
+    name: GIRL IN PAINTING
+    background: {name: 'battleback_rv_cc', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_7', index: 4}
+    listIndex: 45
+
+    pages:
+      1:
+        text: |
+          A lifelike rendition of SWEETHEART. 
+          This portrait is so real, it can hurt you.
+
+          Other than CHARM, it also makes use 
+          of \c[4]taunts and sharp insults\c[0], just like 
+          the real SWEETHEART. Scary.
+
+          - YOU
+
+          No painting can capture the full 
+          essence of my beauty! 
+          ...But this comes quite close.
+
+          - SWEETHEART
+      2:
+        switchCondition: 2750
+        text: |
+          Interestingly, the painting seems to 
+          have a certain preference for 
+          inflicting CHARM.
+          Does that imply anything?
+
+          What it actually implies is that she 
+          targets attackers, and potentially 
+          healers, when she notices low health 
+          targets.
+
+          Her preference is inflicting pain... 
+          is the conclusion.
+
+          - YOU
+  1583:
+    name: VIRTUOSO MOLE
+    background: {name: 'battleback_rv_cc', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'DW_SPRM_3', index: 4}
+    listIndex: 46
+
+    pages:
+      1:
+        text: |
+          A mole with "proficiency" in music.
+
+          Does not actually know music. 
+          Just likes pressuring other moles,
+          for some subjective vague metric of 
+          unobtainable perfection.
+
+          - YOU
+      2:
+        switchCondition: 2750
+        text: |
+          Being a conductor, the only thing
+          it seems to value is how fast music
+          can be played. \c[4]Competing for the
+          \c[4]first hit advantage may be important.
+
+          - YOU
+  1584:
+    name: HEAD CHEF MOLE
+    background: {name: 'battleback_rv_cc', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_7', index: 6}
+    listIndex: 47
+
+    pages:
+      1:
+        text: |
+          The head of the kitchen.
+
+          - YOU
+
+          An imbecile, whose creations could 
+          only benefit sea witch experiments.
+
+          - SWEETHEART
+      2:
+        switchCondition: 2750
+        text: |
+          Despite being a cook, it does not cook
+          well, at all.
+
+          In fact, every single food it ever 
+          made came out BURNED. 
+          Other (marginally smarter) moles
+          sometimes had to buy pre-made food
+          last minute, to avoid trouble with
+          SWEETHEART.
+
+          - YOU
+  1585:
+    name: SIR MAXIMUS IV
+    background: {name: 'battleback_rv_cc', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_7', index: 2}
+    listIndex: 48
+
+    pages:
+      1:
+        text: |
+          A true master of the blade.
+          The great-grandson of a SPROUT
+          MOLE who studied the art of combat 
+          for hundreds of years, in order 
+          to surpass the title of HAROLD and be
+          granted the ultimate title of
+          MAXIMUS.
+          
+          Also wears the fancier heavy armor
+          as well. That might be a problem.
+
+          - YOU
+      2:
+        switchCondition: 2750
+        text: |
+          Just like with GREATER HAROLD,
+          inflicting BURN should deal with
+          its armor nicely.
+
+          It may be harder to do so, though:
+          its armor is made out of higher 
+          quality material. 
+          Having high LUCK may be important.
+
+          - YOU
+  1586:
+    name: ROCOCO
+    background: {name: 'battleback_rv_cc2', x: 0, y: 0}
+    position: {x: 200, y: 480}
+    character: {name: 'rococo', index: 0}
+    listIndex: 49
+
+    pages:
+      1:
+        text: |
+          A now not-so-starving artist, allegedly
+          from space, that has found new 
+          opportunities in the ruins of the castle.
+
+          - YOU
+
+          Loves blabbering on and on about 
+          every topic imaginable. 
+          At least he seems to have moved on 
+          from the "repopulation" thing. Ugh!
+
+          - SWEETHEART
+
+          Pardon me, what things?
+
+          - SPACEBOY
+      2:
+        switchCondition: 2750
+        text: |
+          Seems to have found a new dramatic
+          outlook for his artistic expression.
+
+          Also seems to have found an interest 
+          for GLOWING paint. 
+          Saturated paintings just look cool.
+
+          - YOU
+  1587:
+    name: ALICE
+    background: {name: 'battleback_rv_dungeon', x: 0, y: 0}
+    position: {x: 160, y: 480}
+    character: {name: 'RV_MEDIA_1', index: 0}
+    listIndex: 50
+
+    pages:
+      1:
+        text: |
+          A girl with an affinity for animals.
+
+          Despite her dark outward appearance, 
+          she takes good care of her bears.
+
+          Hates being compared to a fairy tale
+          princess. Possibly why she's a bit of 
+          contrarian.
+
+          - YOU
+      2:
+        switchCondition: 2750
+        text: |
+          Her dark aesthetic makes her a good
+          tragic storyteller, \c[4]inflicting WEEP\c[0]
+          \c[4]on everyone.\c[0]
+
+          She also likes to double down on
+          unsavory topics. Keeps elaborating on
+          gruesome details to the point of
+          \c[4]instantly knocking out already\c[0]
+          \c[4]WEEPING members.\c[0] Scary.
+          
+          - YOU
+  # PYREFLY
+  1591:
+    name: BUG BUNNY
+    background: {name: 'battleback_rv_pyrefire_1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'ENEMY_BUNNIES_2', index: 2}
+    listIndex: 51
+
+    pages:
+      1:
+        text: |
+          Actually an arthropod. The recent 
+          fires makes it too hot for its liking.
+
+          The yearly hill-rolling competition
+          is also now cancelled. Tragic.
+          
+          - YOU
+  1592:
+    name: RARE BEAR
+    background: {name: 'battleback_rv_dungeon', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'DW_EN_5', index: 0}
+    listIndex: 52
+
+    pages:
+      1:
+        text: |
+          Warning: Do not provoke.
+          Do not show weakness.
+
+          - YOU
+      2:
+        switchCondition: 2751
+        text: |
+          Warning: Do not anger it, specifically.
+
+          Gains a heavy damage increase
+          when ANGRY. It may be a good idea
+          to change its emotion to keep it
+          busy.
+
+          - YOU
+  1604:
+    name: COMMON BEAR
+    background: {name: 'battleback_rv_dungeon', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: '$RV_ENEMIES_REALBEAR', index: 0}
+    listIndex: 52
+
+    pages:
+      1:
+        text: |
+          Despite the name, it is quite rare.
+
+          ALICE herself wasn't even able to 
+          recall where it came from. 
+          Mysterious.
+
+          - YOU
+
+          An abomination is what it is!
+
+          - SWEETHEART
+      2:
+        switchCondition: 2751
+        text: |
+          This strange creature seems to
+          share similar traits to a 
+          RARE BEAR, just far stronger.
+
+          Do not even let it hit you.
+
+          - YOU
+  1593:
+    name: POTTED PLANT
+    background: {name: 'battleback_rv_pyrefire_1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'DW_EN_5', index: 1}
+    listIndex: 53
+
+    pages:
+      1:
+        text: |
+          Warning: Do not provoke.
+          Still explodes when cornered.
+
+          - YOU
+
+          But why do they explode?
+
+          - DOUGHIE
+
+          Low quality materials, probably.
+
+          - SPACEBOY
+  1594:
+    name: SPIDER CAT
+    background: {name: 'battleback_rv_pyrefire_1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: '$dw_en_pf_spider_cat', index: 0}
+    listIndex: 54
+
+    pages:
+      1:
+        text: |
+          A cat with spider legs. Or is it
+          a spider with cat face?
+
+          Regardless, it's weak to BURN like 
+          any other spider.
+
+          - YOU
+
+          Whatever it is, do not let it bite me!
+
+          - SWEETHEART
+      2:
+        switchCondition: 2751
+        text: |
+          Thinking about it more, it is more
+          spider than it is a cat.
+
+          Able to spin huge snaring webs,
+          it is basically just a giant spider.
+
+          Thankfully, it lacks venomous bites.
+
+          - YOU
+  1595:
+    name: CANDLE BUNNY
+    background: {name: 'battleback_rv_pyrefire_1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_9', index: 0}
+    listIndex: 55
+
+    pages:
+      1:
+        text: |
+          A bunny made of wax. The small fire 
+          above its head burns as long as 
+          it is alive.
+
+          Despite having fire, it inflicts GLOW 
+          with its positive outlook.
+
+          - YOU
+
+          Ohoooo... I hope it doesn't set my
+          clothes on fire...
+
+          - DOUGHIE
+      2:
+        switchCondition: 2751
+        text: |
+          Being made out of wax, it is mostly
+          physically harmless.
+
+          It seems to prioritize inflicting GLOW
+          the moment it sees anyone happy.
+          It's their way of showing affection.
+          
+          - YOU 
+  1596:
+    name: PYROFLY
+    background: {name: 'battleback_rv_pyrefire_1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_3', index: 4}
+    listIndex: 56
+
+    pages:
+      1:
+        text: |
+          A firefly that has fire on its back.
+
+          The entire reason it's named pyrofly is
+          to avoid being too literal. That's it.
+
+          - YOU
+
+          Just like scientific names!
+
+          - SPACEBOY
+  1597:
+    name: INVY
+    background: {name: 'battleback_rv_pyrefire_1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_7', index: 5}
+    listIndex: 57
+
+    pages:
+      1:
+        text: |
+          A potted plant that discovered
+          bipedalism. 
+          
+          ...does that make it a man?
+
+          - YOU
+
+          I do see no feathers...
+
+          - SPACEBOY
+  1598:
+    name: FIERY
+    background: {name: 'battleback_rv_pyrefire_1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_ENEMIES_9', index: 1}
+    listIndex: 58
+
+    pages:
+      1:
+        text: |
+          A fairy that loves burning things.
+          Uses a matchbox as a form of 
+          rebellion, apparently.
+
+          Absolutely despise New's Year Eve,
+          for some reason.
+
+          - YOU
+      2:
+        switchCondition: 2751
+        text: |
+          Loves being annoying. Likes to buzz
+          around and mock you when you fail to 
+          hit them, as they \c[4]prioritize evasion\c[0] 
+          first and foremost.
+
+          Despite being small, they are also
+          capable of landing a barrage of
+          slashes. While its damage is small
+          individually, \c[4]defense removal from
+          \c[4]BURN will make all attacks hit much 
+          \c[4]harder.
+          
+          As with most fiery enemies, they are 
+          weak to glow. Additionally, \c[4]they 
+          \c[4]already have low accuracy\c[0], so having 
+          evasion on your side isn't the worst 
+          idea.
+
+          - YOU
+  1603:
+    name: FLARICA
+    background: {name: 'battleback_rv_pyrefire_1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'RV_MEDIA_1', index: 3}
+    listIndex: 58
+
+    pages:
+      1:
+        text: |
+          A FIERY that is a bit more
+          sophisticated than the others.
+
+          ...Or tries to be one, at least.
+          Talks proper ancient, and then
+          acts like a little brat the 
+          moment after.
+
+          - YOU
+
+          Hey, I'm also a guide writer.
+          I'm seeing this too, ya know.
+
+          - FLARICA
+      2:
+        switchCondition: 2751
+        text: |
+          Look, here's a tip, kid. You see an
+          enemy with 4 turns - what do 
+          you do?
+
+          \c[4]Of course you just skip it entirely!
+          \c[4]Nobody's got time for all that!
+
+          That's just how the game goes. If your
+          enemies are ill-prepared for such
+          maneuvers, 'tis their lack of skill that
+          holds them back.
+
+          If you can manage that with me,
+          I'm humble enough to accept my
+          defeat.
+
+          - FLARICA
+  1599:
+    name: VAMPYRE
+    background: {name: 'battleback_rv_pyrefire_1', x: 0, y: 0}
+    position: {x: 160, y: 480}
+    character: {name: 'RV_ENEMIES_10', index: 0}
+    listIndex: 59
+
+    pages:
+      1:
+        text: |
+          A reclusive vampire working as a 
+          mortician. 
+          
+          Would ask to drink blood from the
+          corpses... but unable to do so, due 
+          to crippling social anxiety.
+          Instead, drinks grapefruit juice as a
+          substitute. 
+
+          - YOU
+
+          ...Does that make her a vegan?
+
+          - DOUGHIE
+      2:
+        switchCondition: 2751
+        text: |
+          While she looks like a pure support, she
+          can cast a \c[4]strong electric attack
+          \c[4]that inflicts GLOW on everyone.
+
+          She has imposter syndrome about this
+          power, though. \c[4]Try keeping her busy 
+          \c[4]with debuffs, or cheering her up.
+
+          \c[4]If someone is already inflicted
+          \c[4]with GLOW, it might make them 
+          \c[4]an appealing target\c[0] for her new 
+          spells.
+
+          - YOU
+  1600:
+    name: IRIS
+    background: {name: 'battleback_rv_pyrefire_1', x: 0, y: 0}
+    position: {x: 160, y: 480}
+    character: {name: 'RV_ENEMIES_9', index: 2}
+    listIndex: 60
+
+    pages:
+      1:
+        text: |
+          A perpetually annoyed element of
+          nature, with an identity crisis.
+
+          Sometimes seen hammering an 
+          effigy and cursing those who
+          tried to call him a dryad.
+
+          \c[4]He is perpetually ANGRY.\c[0] Don't even 
+          bother attempting to change his 
+          emotion. It will go nowhere.
+
+          - YOU
+
+          Green-eyed jealousy? That's just
+          straight up cliche.
+
+          - SPACEBOY
+      2:
+        switchCondition: 2751
+        text: |
+          Sporting extremely high attack 
+          power, it is a wise idea to stop him
+          from charging up his attack.
+
+          He can easily be annoyed seeing 
+          others in better standing than him. 
+          \c[4]Having higher buffs causes
+          \c[4]him to clear your buffs first\c[0], as
+          an attempt to drag you down.
+
+          \c[4]BURNING him should do the job of 
+          \c[4]preventing him from charging.\c[0] Just be 
+          wary of the constant assault that 
+          follows.
+
+          - YOU
+  1601:
+    name: WIDOW SPIDER
+    background: {name: 'battleback_rv_pyrefire_1', x: 0, y: 0}
+    position: {x: 160, y: 390}
+    character: {name: 'RV_SIG_ENEMIES', index: 2}
+    listIndex: 61
+
+    pages:
+      1:
+        text: |
+          A spider with a distinct mark
+          on its back. 
+          
+          Beware of its venomous bite 
+          \c[4]inflicting SICKNESS\c[0].
+
+          - YOU
+
+          Eugh, I don't want to see any
+          more spiders after this.
+
+          - SWEETHEART
+      2:
+        switchCondition: 2751
+        text: |
+          Like most insects, they are dangerous
+          in swarms. Any sweeping attack, 
+          especially BURNING ones, would be 
+          useful in dealing with them.
+
+          While they have a stinging bite, they
+          \c[4]tend to prioritize reducing speed
+          so they can catch their prey first.
+
+          - YOU
+  1602:
+    name: WIDOW BOY
+    background: {name: 'battleback_rv_pyrefire_1', x: 0, y: 0}
+    position: {x: 160, y: 480}
+    character: {name: 'RV_SIG_ENEMIES', index: 1}
+    listIndex: 62
+
+    pages:
+      1:
+        text: |
+          A reserved boy who lives alone, 
+          deep in PYREFLY FOREST.
+
+          Having been shunned for his
+          arachnid features, he is convinced
+          that he is a danger to others, avoiding 
+          any contact or attempt to help...
+
+          - YOU
+      2:
+        switchCondition: 2751
+        text: |
+          With only spiders as his friends,
+          he has the ability to \c[4]CRIPPLE\c[0]
+          his foes, though he only uses it in
+          self defense.
+
+          Despite putting up an aggressive
+          appearance, he is more despondent
+          than anything once you get him 
+          to open up.
+
+          Just needs a push to get out there.
+
+          - YOU

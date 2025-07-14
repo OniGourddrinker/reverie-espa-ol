@@ -1,0 +1,14 @@
+{ "columns":32,
+ "image":"..\/img\/tilesets\/RV_mall.png",
+ "imageheight":1024,
+ "imagewidth":1024,
+ "margin":0,
+ "name":"RV_mall",
+ "spacing":0,
+ "tilecount":1024,
+ "tiledversion":"1.8.4",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.8"
+}

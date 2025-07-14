@@ -1,0 +1,197 @@
+# badge format is pretty straight forward
+# if you need a second line in your badge description use \n
+#
+# (badge_id):
+#   name: name of badge
+#   description: the text to be displayed below the name
+#   img: the image to be shown when the badge is unlocked (must be in img/system)
+#   locked_img: the image to be shown when the badge is locked (must be in img/system) (optional)
+#   locked_desc: the description to be shown when the badge is locked ('???' by default) (optional)
+#
+# you may also include metadata like so, although all metadata fields are optional
+# 
+# meta: (optional)
+#   name: the name to be shown (will be an uppercased mod id by default) (optional)
+#   color: the color of the mod name displayed ("#FFFFFF" by default) (optional)
+#   badge_toast_border: the image in img/system to be used for badge notifications, should be 180 by 94 (must be in img/system) (optional)
+#   badge_toast_corner: the corner where the notification will appear. either top-left, top-right, bottom-left, or bottom-right (top-right by default) (optional)
+
+meta:
+  name: "REVERIE"
+  color: "#FF6333"
+  badge_toast_border: 'badge_toast_border_reverie'
+  badge_toast_corner: top-right
+  badge_toast_image_offset_x: 113
+  badge_toast_image_offset_y: 14
+
+gold:
+  name: Edible Gold
+  description: Defeat the GOLDEN MOLE.
+  img: 'badge_gold'
+  locked_desc: Find and defeat a rare SPROUT MOLE.
+ljg:
+  name: Wrong Ingredient
+  description: Defeat LIFE JAM GUY.
+  img: 'badge_ljg'
+  locked_desc: Get into a jam and settle a hostage\nsituation.
+tvg:
+  name: Caffeine Dependence
+  description: Defeat TV GIRL.
+  img: 'badge_tvg'
+  locked_desc: Was that giant hole in the wall always\nthere?
+  locked_img: badge_lockSilver
+moony:
+  name: Unhealthy Obsession
+  description: Defeat SPACE FANGIRL.
+  img: 'badge_moony'
+  locked_desc: Meet SPACEBOY's biggest fan.
+flirtfan:
+  name: Wrong Fan
+  description: Attempt to use flirt on SPACE FANGIRL.
+  img: 'badge_flirtfan'
+  locked_desc: The girl is a fan of another person. \nMaybe wrong person for the job.
+px:
+  name: The Tenth Planet
+  description: Defeat PLANET X.
+  img: 'badge_px'
+  locked_desc: Teach an intergalactic megalomaniac a lesson\nin the honor of a samurai.
+rarescraps:
+  name: Scrap That
+  description: Collect all the RARE SCRAPS in \nthe LANDFILL ALPINES.
+  img: 'badge_rarescraps'
+  locked_desc: In the shattered landfill of the north, \nrare metals are found amongst the trash.
+super1:
+  name: Heights, Overcame
+  description: Defeat KITE KID.
+  img: 'badge_super1'
+  locked_desc: The wind is howling...
+  locked_img: badge_lockSilver
+cannibal:
+  name: Just Wrong
+  description: Give SWEETHEART a DONUT.\nYou monster.
+  img: 'badge_cannibal'
+  locked_desc: Indulge in the act of cannibalism.\nPastry cannibalism.
+bin:
+  name: Burger-less
+  description: Interact with a certain blue bin.
+  img: 'badge_bin'
+  locked_desc: "???"
+shopping:
+  name: A Broadened Mind
+  description: Buy everything you can in Chapter 3. 
+  img: 'badge_cash'
+  locked_desc: You must be able to use that money for \nsomething...
+luna:
+  name: Luna No More-chi
+  description: Prevent Luna from getting a powerful \nartifact alongside SPACEBOY.
+  img: 'badge_Luna'
+  locked_desc: CAPT. SPACEBOY surely has enemies all \nacross the galaxy.
+  locked_img: badge_lockSilver
+donut:
+  name: Delicious Disaster
+  description: Defeat the nefarious MINT-DONO and \nChoco-chan alongside SWEETHEART.
+  img: 'badge_mint'
+  locked_desc: SWEETHEART isn't the only donut girl around.
+  locked_img: badge_lockSilver
+wendy:
+  name: Order Down!!!
+  description: Defeat the rip-off Wendyheart alongside Doughie.
+  img: 'badge_wendy'
+  locked_desc: Sometimes, people make mascots that are \nobvious rip-offs of characters...
+  locked_img: badge_lockSilver
+necro:
+  name: Necromantic
+  description: Inflict CHARM on a TAILISRAT.
+  img: 'badge_necro'
+  locked_desc: The undead also need affection too, you know.
+rose:
+  name: Rose-Tinted Glasses
+  description: Inflict GLOW on a FIERY, then chain inflict CHARM.
+  img: 'badge_rose'
+  locked_desc: As the blaze beams with light, \nthe fairy grows into infautuation.
+  locked_img: badge_lockSilver
+speeddate:
+  name: Speed Dating
+  description: On first turn, inflict CHARM while having \n80 luck or more.
+  img: 'badge_speeddate'
+  locked_desc: Don't rush a relationship, even flirting requires \nsome luck.
+  locked_img: badge_lockSilver
+haltia:
+  name: A Soul as Red as Ground Cherry
+  description: Defeat HALTIA.
+  img: 'badge_haltia'
+  locked_desc: In the depths of the metro, \nan apparition guards the perilous.
+  locked_img: badge_lockSilver
+metroextra:
+  name: Apparitions Stalks the Night
+  description: Defeat all special encounters in the \ndeeper METRO B2 castle station.
+  img: 'badge_metroextra'
+  locked_desc: In the haze of the metro, \nthe familiars from all over takes form.
+painting:
+  name: Fabricated World
+  description: Defeat the PAINTING ambush.
+  img: 'badge_painting'
+  locked_desc: Buried by time, the sealed off art gallery \ngains sentience.
+rococo:
+  name: Starving Artist
+  description: Defeat ROCOCO.
+  img: 'badge_rococo'
+  locked_desc: As the castle descended to chaos, \na forgetten artist discovers freedom.
+alice:
+  name: Die for Me
+  description: Defeat ALICE.
+  img: 'badge_alice'
+  locked_desc: In the dungeon, there rests a girl in a dress \nentralled by death.
+  locked_img: badge_lockSilver
+uber:
+  name: Formidable Foe
+  description: Defeat FLARICA.
+  img: 'badge_uber'
+  locked_desc: Amongst the cheerful fairies, \none serves as a guide.
+pyre:
+  name: Night Parade
+  description: Defeat special troop containing all \nMEDIA enemies of PYREFLY.
+  img: 'badge_pyre'
+  locked_desc: In the fiery forest, a group of fantastical \ncreatures forms an unlikely bond.
+widow:
+  name: Spiders, Overcame
+  description: Defeat WIDOWBOY.
+  img: 'badge_widow'
+  locked_desc: Deep in the forest, a boy stands solemnly \nin the tranquil shadows...
+  locked_img: badge_lockSilver
+cry:
+  name: Devil May Cry
+  description: Cancel HALTIA's furious strike with WEEP.
+  img: 'badge_cry'
+  locked_desc: Such an aggressive self-destructive strike. \nPerhaps some sadness may tone it down...
+  locked_img: badge_lockSilver
+joke:
+  name: Killing Joke
+  description: Cancel ALICE's instant kill with BURN.
+  img: 'badge_joke'
+  locked_desc: Like some form of sick joke, the girl's instant \nkills are not considered as an attack...
+  locked_img: badge_lockSilver
+phaseskip:
+  name: Phase Skip
+  description: Skip FLARICA's 4 turn phase entirely.
+  img: 'badge_phaseskip'
+  locked_desc: That's a lot of turns... \nCan't it just be... skipped?
+  locked_img: badge_lockGold
+melancholy:
+  name: Medicine Melancholy
+  description: Avoid getting WEEP and SICK during the entire \nfight against ALICE and WIDOWBOY.
+  img: 'badge_melancholy'
+  locked_desc: A girl and a boy both exploits ailments... \nIs it possible to avoid it entirely?
+  locked_img: badge_lockGold
+alicesuper:
+  name: Morbid Curiosity
+  description: Purchase media in the real world and defeat \nALICE early while SWEETHEART is missing. Wow.
+  img: 'badge_alicesuper'
+  locked_desc: While the girl in pink is in the state of distress, \nthe dungeon's beasts grows restless.
+  locked_img: badge_lockGold
+lordfly:
+  name: Lord of the Caught Flies
+  description: Defeat 20 of Widowboy's summons in single \nbattle. Why do you keep trying?
+  img: 'badge_lordfly'
+  locked_desc: Spiders are many and nimble, so trying to \nexterminate them all won't get you far.
+  locked_img: badge_lockGold

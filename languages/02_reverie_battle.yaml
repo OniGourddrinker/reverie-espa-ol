@@ -1,0 +1,207 @@
+# =========================================================================================
+# ** CH3 BATTLES
+# =========================================================================================
+
+TEMPLATE:
+   text: >
+    \>NAME: \<Text stuff.
+
+# ================ LUCY STORY FIGHT ================
+
+# Turn 0
+Lucy_T0-1:
+   text: >
+    \>LUCY: \<So, \c[10]LIEUTENANT POSITRON\c[0]!\. It's just you and me!
+
+Lucy_T0-2:
+   text: >
+    \>LUCY: \<I cannot allow you to go any further with your machinations!
+
+Lucy_T0-3:
+   text: >
+    \>LUCY: \<Have at you!
+
+# Turn 2
+Lucy_T2-1:
+   text: >
+    \>LUCY: \<I am just warming up!\. I will not let you go any further!
+
+# Turn 4
+Lucy_T4-1:
+   text: >
+    \>LUCY: \<You're still standing?\. Now I will have to bring out the big guns! 
+
+Lucy_T4-2:
+   text: >
+    \>LUCY: \<I'm warning you!\. Prepare for my \c[1]special attack\c[0]! 
+
+# Turn 5
+Lucy_T5-1:
+   text: >
+    \>LUCY: \<Huff, you're strong!\. But I'm even stronger!\. I've been saving up my energy for this!
+
+Lucy_T5-2:
+   text: >
+    \>LUCY: \<See if you can block this one!
+
+# Note: Skill name is based on SPACE EX-HUSBAND skill, Spinning Kick
+Lucy_T5-3:
+   text: >
+    \>LUCY: \<\Com[2]\c[1]ORBITAL SPINNING KICK\c[1]!
+
+# Do Big Attack
+
+Lucy_T5-4:
+   text: >
+    \>LUCY: \<Oh!\. Oh no!
+
+# End Battle
+
+# ================ SPECIAL BOSS: DONUT DUO ================
+
+Donut_1:
+   text: >
+    \>MINT-DONO: \<\c[4]SWEETHEART\c[0]......\! You \quake[1]dare\quake[0] stand in my way?
+
+Donut_2:
+   text: >
+    \>CHOCO-CHAN: \<It's too late, \c[4]SWEETHEART\c[0].\! \c[4]MINT-DONO\c[0]'s plans are nearly complete.
+
+Donut_3:
+   text: >
+    \>SWEETHEART: \<\c[4]CHOCO-CHAN\c[0]...\! How could you?!\! You were my friend!
+
+Donut_4:
+   text: >
+    \>MINT-DONO: \<Your efforts are futile, foolish girl.\! Now stand aside...\. and let me pass.
+
+Donut_5:
+   text: >
+    \>SWEETHEART: \<.........
+
+Donut_6:
+   text: >
+    \>SWEETHEART: \<\Com[2]\{\quake[1]NEVER!!!\quake[0]\}
+
+Donut_7:
+   text: >
+    \>SWEETHEART: \<No matter what happens...\! I have to protect everyone!
+
+Donut_8:
+   text: >
+    \>MINT-DONO: \<...Then we shall settle things the hard way.\! You asked for it.
+
+Donut_9:
+   text: >
+    \>CHOCO-CHAN: \<Sorry, \c[4]SWEETHEART\c[0].\. It's nothing personal.
+
+Donut_10:
+   text: >
+    \>SWEETHEART: \<I don't care about whatever you throw at me...\. I'm going to stop you, \c[4]MINT-DONO\c[0]!!
+
+Donut_11:
+   text: >
+    \>MINT-DONO: \<The time for words have passed...\! Have at you!
+
+#before using ultimate
+
+Donut_12:
+   text: >
+    \>MINT-DONO: \<Accept your defeat, naive \c[4]SWEETHEART\c[0]...
+
+Donut_12-1:
+   text: >
+    \>MINT-DONO: \Com[2]\{\quake[1]TAKE THIS!\quake[0]
+
+#lost
+
+Donut_13:
+   text: >
+    \>MINT-DONO: \<...And stay down!
+
+#mint dies
+
+Donut_14:
+   text: >
+    \>MINT-DONO: \<N-no!\. Impossible!
+
+#choco dies
+
+Donut_15:
+   text: >
+    \>CHOCO: \<Waah...\. I wanna go home...
+
+# ================ SPECIAL BOSS: WENDY'S ================
+
+wendy_1:
+   text: >
+    \>WENDYHEART: \<
+
+# ================ SPECIAL BOSS: LUNA ================
+
+luna_1:
+   text: >
+    \>CAPT. LUNA: \<Ha ha ha...\. You lose, \c[4]CAPT. SPACEBOY\c[0]!\! The \c[3]AMULET OF ORION\c[0] is mine!
+
+luna_2:
+   text: >
+    \>CAPT. LUNA: \<With the amulet's power, the \c[9]LEPORINE EMPIRE\c[0]'s victory is all but guaranteed!
+
+luna_3:
+   text: >
+    \>CAPT. SPACEBOY: \<You don't know what that artifact is capable of, \c[4]LUNA\c[0]!
+
+luna_3-1:
+   text: >
+    \>CAPT. SPACEBOY: \<It has the power to destroy entire galaxies...\. No one deserves that much power!
+
+luna_4:
+   text: >
+    \>CAPT. LUNA: \<I know exactly what it's capable of!\! And I told you not to call me that!
+
+luna_5:
+   text: >
+    \>CAPT. SPACEBOY: \<Let's just return the amulet to its home planet, \c[4]LUNA\c[0].\. It's the right thing to do!
+
+luna_6:
+   text: >
+    \>CAPT. LUNA: \<\Com[2]Shut up!!\! I'm sick and tired of your lecturing! 
+
+luna_6-1:
+   text: >
+    \>CAPT. LUNA: \<And \Com[2]STOP CALLING ME \c[4]LUNA\c[0]!
+
+luna_7:
+   text: >
+    \>CAPT. LUNA: \<I'll tolerate your disrespect no longer...
+
+luna_7-1:
+   text: >
+    \>CAPT. LUNA: \<\Com[2]\quake[1]\{PREPARE TO BE UTTERLY DEMOLISHED!\quake[0]
+
+luna_8:
+   text: >
+    \>CAPT. SPACEBOY: \<\}This is bad!\. With the \c[3]AMULET OF ORION\c[0], her combat ability is enhanced!
+
+luna_9:
+   text: >
+    \>CAPT. SPACEBOY: \<\}My one hope is that she's too \c[4]ANGRY\c[0] right now to act intelligently...
+
+luna_9-1:
+   text: >
+    \>CAPT. SPACEBOY: \<\}I'll try to stop her from calming down!
+
+#if emotion changed
+
+luna_10:
+   text: >
+    \>CAPT. LUNA: \<Now that I've calmed down a bit...
+
+luna_11:
+   text: >
+    \>CAPT. LUNA: \<\Com[2]\{\quake[1]IT'S TIME FOR THIS TO END!\quake[0]
+
+#won
+luna_12:
+   text: >
+    \>CAPT. LUNA: \<Ack!\. I was too careless...

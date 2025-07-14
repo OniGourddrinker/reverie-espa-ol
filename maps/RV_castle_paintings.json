@@ -1,0 +1,14 @@
+{ "columns":54,
+ "image":"..\/img\/tilesets\/RV_castle_paintings.png",
+ "imageheight":1024,
+ "imagewidth":1758,
+ "margin":0,
+ "name":"RV_castle_paintings",
+ "spacing":0,
+ "tilecount":1728,
+ "tiledversion":"1.8.4",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.8"
+}

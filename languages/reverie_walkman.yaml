@@ -1,0 +1,11 @@
+message_0:
+        text: What song do you want to play?
+        
+message_1:
+        text: Do you want to turn off your \c[4]FONY WALKDUDE\c[0]?
+        
+message_test:
+        text: test
+        
+message_nowlistening:
+        text: \sinv[1]You're now listening to:\sinv[0]\.<br>\"\v[1702]\" by \v[1703].

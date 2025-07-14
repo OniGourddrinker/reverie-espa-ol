@@ -1,0 +1,208 @@
+# =========================================================================================
+# ** TEMPLATE DIALOGUE
+# =========================================================================================
+
+# Tag Rejects
+tagreject_doughie:
+    text: This looks like a job for DOUGHIE!
+
+tagreject_spaceboy:
+    text: This looks like a job for SPACEBOY!
+
+tagreject_sweetheart:
+    text: This looks like a job for SWEETHEART!
+
+tagreject_rvplayer:
+    text: This looks like a job for \n[17]!
+
+# GENERAL CHOICES
+choice_nevermind:
+    text: NEVERMIND
+
+# PICNIC
+picnic_save0:
+    text: >
+        MARI's picnic basket. \!Would you like to SAVE?
+
+picnic_save1:
+    text: >
+        An empty picnic basket.\! Would you like to SAVE?
+
+picnic_opt:
+    text: OPTIONS
+
+picnic_opt_msg:
+    text: >
+        What do you want to change?
+
+picnic_opt_1:
+    text: DIFFICULTY
+
+picnic_opt_return:
+    text: RETURN
+
+# DIFFICULTY SELECTION
+diff_select-msg:
+    text: Please select a DIFFICULTY.
+
+diff_select-n1:
+    text: EASY
+
+diff_select-0:
+    text: NORMAL
+
+diff_select-1:
+    text: HARD
+
+diff_select-2: #REVERIE SECRET MODE?????????? REAL????
+    text: MERCILESS
+
+diff_select-0-n1:
+    text: DIFFICULTY is now set to \c[4]EASY\c[0].
+
+diff_select-0-0:
+    text: DIFFICULTY is now set to \c[4]NORMAL\c[0].
+
+diff_select-1-0:
+    text: DIFFICULTY is now set to \c[4]HARD\c[0].
+
+# ELEVATOR
+
+elevator_prompt:
+    text: Where do you want to go?
+
+elevator_F4:
+    text: F4
+
+elevator_F3:
+    text: F3
+
+elevator_F2:
+    text: F2
+
+elevator_F1:
+    text: F1
+
+elevator_B1:
+    text: B1
+
+elevator_B2:
+    text: B2
+
+elevator_B3:
+    text: B3
+
+elevator_broken:
+    text: The button is broken.
+
+elevator_same:
+    text: You're already on the same floor.
+
+# Misc
+msg_strongfoe:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 0
+    text: \n<DOUGHIE>This foe seems strong...\. Are you sure you're ready?
+    
+# Cutscene PX for Sheet
+
+message_5:
+    text: \n<SWEETHEART>...
+
+message_6:
+    text: \n<DOUGHIE>...
+
+message_7:
+    text: \n<SPACEBOY>...
+
+message_8:
+    text: This looks like a job for \n[17]!
+
+message_9:
+    text:
+
+message_10:
+    text:
+
+message_DG_TAG:
+      faceset: MainCharacters_ReverieDreamWorld
+      faceindex: 1
+      text: \n<DOUGHIE>Okay, here goes!
+
+# Skill Learns
+
+message_s1:
+    text: DOUGHIE learned \c[1]BIS-QUICK\c[0]!
+
+message_s2:
+    text: SPACEBOY learned \c[1]TENACITY\c[0]!
+
+message_s3:
+    text: DOUGHIE learned \c[1]WHITE BREAD\c[0]!
+
+message_s3-1:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 4
+    text: \n<DOUGHIE>That was an encounter...\. We'll have to be a bit more prepared for such attacks.
+
+message_s4:
+    text: SWEETHEART learned \c[1]SLOW DANCE\c[0] and \c[1]TAP DANCE\c[0]!
+
+message_s5:
+    text: DOUGHIE learned \c[1]ROTTEN MILK\c[0]!
+
+message_s6:
+    text: DOUGHIE learned \c[1]LETHAL INJECTION\c[0]!
+
+message_s7:
+    text: SPACEBOY learned \c[1]LIVER PUNCH\c[0]!
+
+# MARI encounter Skills
+
+message_ms1-1:
+    text: The sight of a loving smile hidden in the rain made you remember something familiar,\. like an old dream.
+
+message_ms1-2:
+    text: \n[17] remembered how to \c[1]CALM DOWN\c[0].
+
+# OVEN
+message_oven:
+    text: Will you use the \c[4]OVEN\c[0]?
+
+#===== MAIL SHOP =====
+#IF SPACEBOY IS leader
+message_mail_sb:
+    text: \maiAh, if it isn't SPACEBOY, my favorite and \sinv[1]second\sinv[0] most handsome customer! Discounts for you, always! So... please buy something! \}\sinv[1]Kekeke...
+    
+message_foefacts:
+      text: BISCUIT gave you the \c[4]FOE FACTS!\c[0] and \c[4]INFO BOOK\c[0] journal.
+
+# ===== ALBUM AND MEDIA ITEMS NOTE =====
+note_album-1:
+    text: .\..\..\.You feel something changed in the \c[4]PHOTO ALBUM\c[0].
+
+note_album-2:
+    text: ...Along with some \c[4]IMPORTANT\c[0] items in your pocket...
+
+# ===== ART AND INFO ITEMS =====
+note_media_art:
+    text: You feel a little bit more \c[11]inspired\c[0].
+
+note_media_info:
+    text: You added some new entries in the \c[4]FOE FACTS!\c[0]
+
+note_media_guide:
+    text: You added some new entries in the \c[4]INFO BOOK!\c[0]
+
+# ===== UPDATING SAVES =====
+note_update_2to3-1:
+    text: |
+        \c[4]NOTE: CHAPTER 2.5 save detected.\!<br>Real world item changes has been applied.\c[0]
+
+note_update_3to4-1:
+    text: |
+        \c[4]NOTE: CHAPTER 3 save or older is detected.\!<br>FOE FACTS, SKILLS, and LEVEL changes has been applied.\c[0]
+
+note_update_3to4-2:
+    text: |
+        You got an \c[4]INFO BOOK\c[0]!\! Check \c[4]IMPORTANT\c[0] items for more info.

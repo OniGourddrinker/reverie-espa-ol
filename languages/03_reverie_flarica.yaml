@@ -1,0 +1,355 @@
+# ================================================================
+# FLARICA / UBER FIERY
+#
+# Flarica themself are not major presence, but will plan to appear here and there in extra area.
+# They literally backseat you with game mechanic. Average SMT fan.
+# ================================================================
+
+# They speak in pseudo-Old English, but more of a pretend kind.\
+# They're not that old. Don't overdo the ridiculousness of it though, it's just more for juxtaposition reasons.
+# It's more the type of wanting to appear old more than a weird speaking quirk, 
+# They can still occasionally break character just to be sassy.
+
+# INTRO
+
+intro_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 29
+    text: \n<FIERY>Whoa,\. someone's here?\! In the depths of this forest?
+    
+intro_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 24
+    text: \n<FIERY>Uh...\! \Com[2]\quake[1]AHEM!\quake[0].\! Thou shalt call me FLARICA.
+
+intro_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 28
+    text: \n<FLARICA>Whatever dost thou seeketh in the heart of the forest?\! A challenge,\. perhaps?
+
+intro_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 30
+    text: \n<FLARICA>'Course,\. the area 'round here be wild and deadly,\. but 'tis nothing extraordinary.\! I've seen better,\. personally.
+
+intro_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 28
+    text: \n<FLARICA>Fighting's not all about power,\. it's about wisdom too.\! I may be small,\. but I have \sinv[1]experience\sinv[0].
+
+intro_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 24
+    text: \n<FLARICA>Anyways, if you have anything you wanna know, ask away.\. I'm bored anyways.
+
+# ======== QUESTION CHOICES ========
+question_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 24
+    text: \n<FLARICA>Anything you wanna know?\. Ask away,\. I'm bored anyways.
+
+question_c1:
+    text: YOU
+
+question_c2:
+    text: ADVICE
+
+question_c3:
+    text: BATTLE
+
+question_c0:
+    text: NEVERMIND
+
+question_no:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 30
+    text: \n<FLARICA>Darn.
+
+# > YOU
+
+you_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 28
+    text: \n<FLARICA>I'm not like the other fairies.\! I speak,\. for one.\! My friends think that language holds back their freedom to make random noises at people.
+
+you_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 26
+    text: \n<FLARICA>I don't really do much.\! I hear all the \sinv[1]cool\sinv[0] fairies get to be guides for deadly trials of strength...\! but I never really got the chance.
+
+you_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 30
+    text: \n<FLARICA>They don't make trials like they used to anymore.\! It's kinda sad,\. really.
+
+# > ADVICE
+
+advice_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 29
+    text: \n<FLARICA>Advice?\! Here's one thing I'll tell you.
+
+advice_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 24
+    text: \n<FLARICA>Every opponent has certain habits.\. It's inevitable, really.\! Observe their behavior,\. exploit it carefully,\. and victory is yours to obtain.
+
+advice_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 28
+    text: \n<FLARICA>For example,\. us fairies love our evasiveness.\! Get away from a bad situation, whenever we feel like it.\! Do a little fandango; the more annoying,\. the funnier.
+
+advice_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 26
+    text: \n<FLARICA>Of course,\. some things are left to luck,\. but you need to learn how to hedge your bets.
+
+advice_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 29
+    text: \n<FLARICA>Some CHARM, and feeling HAPPY, makes you luckier.\! That's genuine information; I have nothing to sell,\. nothing to grift.
+
+advice_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 25
+    text: \n<FLARICA>Some things just hit right in the heart,\. but it's really preventable for most of the time.\! Your problem,\. your issue.\! Simple as that.
+
+advice_7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 28
+    text: \n<FLARICA>I know full well what I said can be used against me.\! Knowing that,\. I do not care; if someone fights me,\. I'd prefer they think a little.
+
+# > BATTLE
+
+battle_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 29
+    text: \n<FLARICA>Oho.\! Really?\! Like really really?\! 
+
+battle_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 24
+    text: \n<FLARICA>Not doubting you or anything,\. just surprised.\! Excited actually,\. didn't lift a blade for who knows how long.\! Rustier than steel left to bathe in ocean winds.
+
+battle_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 28
+    text: \n<FLARICA>Consider this like a trial of sorts.\! I will be your formidable foe,\. and you are proving your worth.
+
+battle_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 29
+    text: \n<FLARICA>Well go on then!\! Prove your worth!\! Always wanted to say that.
+
+# IN-BATTLE TEXT
+
+# TURN 1
+
+inbattle_1:
+    text: >
+        \>FLARICA: \<Word of advice,\. \c[4]TURN ORDER\c[0] is important too.\! 
+
+inbattle_2:
+    text: >
+        \>FLARICA: \<You might think:\. AILMENTS and DEBUFFS just get cleaned,\. what's the point?
+
+inbattle_3:
+    text: >
+        \>FLARICA: \<Well,\. my friend,\. you got them to waste a turn.\! That's pretty crucial.
+
+inbattle_4:
+    text: >
+        \>FLARICA: \<That is,\. if you can match my speed.
+
+# 30% HP
+
+inbattle_5:
+    text: >
+        \>FLARICA: \<Impressive!\. It seems you know what you're doing.\! Looks like it's time for me to ramp up.
+
+inbattle_6:
+    text: >
+        \>FLARICA: \<You have 4 party members.\! It's only fair for me to have 4 turns too, right?
+
+# 0% HP
+
+inbattle_7:
+    text: >
+        \>FLARICA: \<Argh,\. you got me.\! I yield.
+
+# 0% HP at 30% HP condition
+
+inbattle_8:
+    text: >
+        \>FLARICA: \<Skipping phases, eh?\! Clever one, you are.\! You got me.
+
+# >POST-BATTLE 
+
+battle_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 29
+    text: \n<FLARICA>Indeed,\. you know your stuff.
+
+battle_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 28
+    text: \n<FLARICA>It's only fair I give you a little something as a token of your victory.
+
+# You got blaze igniter
+
+battle_7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 28
+    text: \n<FLARICA>This should allow you to inflict BURN in a widespread area.\! It's a bit expensive to use,\. bit I'm sure you can figure it out.
+
+battle_8:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 24
+    text: \n<FLARICA>Anyways,\. in unrelated news,\. I'll probably be appearing here and there in some other places.
+
+battle_9:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 24
+    text: \n<FLARICA>If you happen to see me, feel free to say hi.\! Just don't start asking me about every little thing you encounter.\! Do your own thinking too.
+
+
+# ================================================================
+# ADVICE in other areas. Kind of like more technical BISCUIT.
+# ================================================================
+adv_ask_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 24
+    text: \n<FLARICA>So we meet again.\. You want some advice for this area?
+
+# YES / NO
+
+# ======== METRO B2 HALTIA ========
+adv_haltia_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 28
+    text: \n<FLARICA>So like,\. you want to go in that mysterious dark corridor?\! I mean, some good stuff could be there, who knows. Can't blame ya.
+
+adv_haltia_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 24
+    text: \n<FLARICA>And the ghost is being annoying about it?\! They just seem to be worried about you, I wouldn't put much thought into it.
+
+adv_haltia_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 24
+    text: \n<FLARICA>Well, anyways.\. They probably already told you about their absorption gimmick, right?\! Well, here's another thing about them.
+
+adv_haltia_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 29
+    text: \n<FLARICA>Despite worrying for your safety,\. they lack the skill for self-care.\! In other words,\. \c[4]they don't clean debuffs\c[0].
+
+adv_haltia_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 24
+    text: \n<FLARICA>All ghosts seem to have high speed for some reason, so slowing them down might be a good idea.
+
+adv_haltia_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 28
+    text: \n<FLARICA>As for their big attack?\! Well, it's an offensive skill.\! Recall that \c[4]certain AILMENTS prevents using certain skills\c[0].\! Connect the dots yourself.
+
+adv_haltia_7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 25
+    text: \n<FLARICA>I just gave you multiple options,\. now you go figure it out yourself.
+
+# After
+adv_haltia_a1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 29
+    text: \n<FLARICA>Oh, did you get them?\! That was faster than I expected.
+
+adv_haltia_a2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 30
+    text: \n<FLARICA>Hopefully you weren't just fighting them until their JUICE ran out...\. I mean, it \sinv[1]is\sinv[0] an option...\. It's just no fun.
+
+# ======== DUNGEON ALICE ========
+adv_alice_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 24
+    text: \n<FLARICA>Don't you just love bears?\! They're just like big cute dogs that eat berries and salmon.
+
+adv_alice_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 29
+    text: \n<FLARICA>An ANGRY one, though?\! Not as fun.\! Very icky,\. no good.\! So you gotta avoid that.
+
+adv_alice_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 28
+    text: \n<FLARICA>And that's where the girl comes in.\! She commands the bears...\. If she gets to make the bears ANGRY first, they'll go ham on you.
+
+adv_alice_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 28
+    text: \n<FLARICA>In other words,\. order matters.\! \c[4]Sometimes changing the speed of a single enemy may be preferable\c[0].\! EMOTIONS can also work,\. \c[4]recall that both SAD and HAPPY alters speed\c[0].
+
+adv_alice_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 28
+    text: \n<FLARICA>Additionally,\. that girl can instantly knock out any WEEPING member.\! And since it never directly does any damage...\. it counts as a non-offensive skill.\! Very funny, honestly.
+
+adv_alice_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 28
+    text: \n<FLARICA>Jokes aside,\. remember that \c[4]certain AILMENTS prevents using certain skills\c[0].\! She may be a bit resistant to one though,\. so you may need some LUCK.
+
+# After
+adv_alice_a1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 25
+    text: \n<FLARICA>So, how did playtime with the bears go?\! Was it...\. bearable?
+
+adv_alice_a2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 25
+    text: \n<FLARICA>Okay, that's a low hanging fruit.\! You'll have to bear with me here.
+
+# ======== NEAR ENTRANCE WIDOWBOY ========
+adv_widow_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 29
+    text: \n<FLARICA>You know about the \sinv[1]spidery\sinv[0] looking person down there?\! Scary.
+
+adv_widow_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 31
+    text: \n<FLARICA>I'll be real with you,\. I don't really know what to say.\! He looks pretty gloomy.\! Beating depressed kids isn't exactly a hobby of mine.
+
+adv_widow_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 30
+    text: \n<FLARICA>But...\. if you really want to talk to him...
+
+adv_widow_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 24
+    text: \n<FLARICA>Well,\. for one,\. the spiders are endless here.\! Even if you get rid of one,\. they'll always come back.
+
+adv_widow_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 28
+    text: \n<FLARICA>But hey,\. that's also a good thing.\! A turn used up to call them in,\. that's pretty crucial.
+
+adv_widow_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 24
+    text: \n<FLARICA>Additionally,\. \c[4]bugs and plants tend to BURN really easily.\c[0]\! My flamethrowers aren't for sale,\. so you'll have to make your own fire.
+
+# AFTER
+adv_widow_a1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 28
+    text: \n<FLARICA>Oh, so you talked some sense into him?\! Wasn't expecting that.
+
+adv_widow_a2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 24
+    text: \n<FLARICA>I honestly thought you just went after some random shut-in.\. I guess I should have expected better of you.

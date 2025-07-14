@@ -1,0 +1,12 @@
+{ "columns":11,
+ "image":"..\/img\/tilesets\/moon_bs.png",
+ "imageheight":366,
+ "imagewidth":366,
+ "margin":0,
+ "name":"moon ripple",
+ "spacing":0,
+ "tilecount":242,
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset"
+}

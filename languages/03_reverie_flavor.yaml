@@ -1,0 +1,593 @@
+# =========================================================================================
+# Reverie flavor
+# =========================================================================================
+
+# METRO B2 IS NOW AVAILABLE --------------
+
+gator_cutscene_1:
+    text: \n<CONSTRUCTION GATOR>All done here!\. Let's go get some coffee!
+
+gator_missed_1:
+    text: \n<CONSTRUCTION GATOR>I should check out if others finished the elevator fix...
+
+gator_1:
+    text: \n<CONSTRUCTION GATOR>It took awhile...\. But we finally got around to make that elevator work!\!<br>...\.Well,\. not completely,\. but it's working!
+
+gator_2:
+    text: \n<CONSTRUCTION GATOR>Oh, hello!\. You've caught us on a small lunch break.\! We've just got done fixing that elevator there!
+
+gator_3:
+    text: \n<CONSTRUCTION GATOR>Nothing like some good old coffee to help me get back to speed after hours of elevator-related maintenance!
+
+# METRO B2 --------------
+
+message_1:
+    text: A garbage bin.\. It's full to the brim with various litter.
+
+message_1_2:
+    text: A garbage bin.\. A shattered bottle of juice is soaking all the flyers inside.
+
+message_2:
+    text: An old cabinet. The inside is 
+
+message_3:
+    text: A broken arcade machine of some kind.\. Looks like it hasn't been used in ages.
+
+message_4:
+    text: A mop for floor cleaning.\. Somebody is doing an awful job.
+
+message_5:
+    text: A dead houseplant.\. Its leaves look very crispy.
+
+message_6:
+    text: A knocked over plant.\. You almost stepped on one of the shards.
+
+message_7:
+    text: Piles upon piles of trash.
+
+message_8:
+    text: A tall stack of boxes.\. The contents are emanating a foul smell.
+
+message_9:
+    text: A poster about workplace safety.
+
+message_10:
+    text: A wanted poster depicting a dangerous criminal.\. The listed reward is 1 clam.
+
+message_11:
+    text: A poster for a scary movie about a ghost.
+
+message_12:
+    text: Some poster about modern art.\. Looking at it makes you hungry.
+
+message_13:
+    text: A faded sign that says 'Stay behind the yellow line when a train is passing!'.
+
+message_14:
+    text: A box full of nails.
+
+message_15:
+    text: A large box.\. You can hear some noises coming from inside.
+
+message_16:
+    text: A large box.\. Smells musty.
+
+message_17:
+    text: A open cardboard box.\. There are some tools inside.
+
+message_18:
+    text: A open cardboard box.\. There's some nibbled cheese lying at the bottom.
+
+message_19:
+    text: A cardboard box.\. It's squishy.
+
+message_20:
+    text: A cardboard box.\. Mold is growing on this one.
+
+message_21:
+    text: A gross smell is coming from these paint buckets.
+
+message_22_shelf:
+    text: An old shelf.\. It's kind of sturdy.
+
+message_23_shelf:
+    text: A poster for a action movie.\. It's partly ripped on one side.
+
+message_24:
+    text: An open cardboard box.\. It's empty.
+
+message_25:
+    text: A storage cupboard.\. It's full of junk.
+
+message_26:
+    text: Anything could fit into this pile of trash and live off it.\. Spiders, rats snakes... best to leave it be.
+
+message_27:
+    text: An lifeless arcade machine.\. The letters “P__Y_IU” can be made you, but nothing else.
+
+message_28:
+    text: A lone sprout thrives, despite the lack of light.\. Good job, plant.
+
+message_29:
+    text: There's capsules of all shapes and sizes through the glass.\. They look like candy... but they're certainly not.
+
+message_30:
+    text: A collection of free magazines, pamphlets and flyers for bored visitors to read.
+
+# ================================================================
+#                    LOST LIBRARY BOOKS
+# ================================================================
+
+#Prompt
+
+bookprompt:
+      text: You find a book of interest.\! Read an excerpt?
+      
+bookyes:
+      text: YES
+      
+bookno:
+      text: NO
+
+#========================================================================================
+# THE RIDE HOME
+#========================================================================================
+
+book1_1:
+      text: \"One by one, they fell asleep on the car ride home.\! <br>It was a long day at the beach, after all, and everyone<br>was exhausted.\"
+
+book1_2:
+      text: \"KEL was the first to nod off, then the rest.\"
+
+book1_3:
+      text: \"As the sun set over the freeway, \n[17]'s head <br>accidently drops onto AUBREY's shoulder.<br><br>The sudden jolt wakes him,<br>but he doesn't dare open his eyes.\"
+
+book1_4:
+      text: \"He pretends to be asleep and steadies his breathing.\! <br>He listens to the sound of the road.\"
+
+book1_5:
+      text: \"He feels the soft sun resting on his skin, and the slight tinge of pain on his nose from tomorrow's sunburn.\"
+
+book1_6:
+      text: \"He is happy...\! very, very happy...\! <br>And he makes a vow to himself, that no matter what,<br>he will remember this moment forever.\"
+      
+#========================================================================================
+# Tracks:
+#========================================================================================
+
+book2_1:
+      text: \"A puddle of juice sinks into the carpet.\"
+
+book2_2:
+      text: \"Hovering above it is none other than KEL, holding <br>an open juice box.\"
+
+book2_3:
+      text: \"He looks around at his friends, who are all wearing the same face of disappointment.\! He lets out a guilty chuckle.\"
+
+book2_4:
+      text: \"In what seems like less than a second, <br>KEL disappears out the front door.\"
+
+book2_5:
+      text: \"A tiny black kitten makes her way through the stain, leaving sloppy, wet tracks all across the carpet.\"
+
+book2_6:
+      text: \"HERO's face turns red and yells for KEL, <br>but KEL is already long gone.\"
+
+book2_7:
+      text: \"MARI hands HERO some wet paper towels.\"
+
+book2_8:
+      text: \"It looks like they're the only adults here...\! and if they don't clean this up soon, the carpet is going to stain.\! They'll have to deal with KEL later...\"
+      
+#========================================================================================
+# Hottest Day of Summer:
+#========================================================================================
+
+book3_1:
+      text: \"It was a hot, summer day, and all \n[17] could think about was why they couldn't do this tomorrow.\"
+
+book3_2:
+      text: \"The backyard was a mess.\"
+
+book3_3:
+      text: \"Planks of wood were strewn about the area.\! <br>Paint stains blotched the grass thanks to BASIL and AUBREY's work.\"
+
+book3_4:
+      text: \"All day, \n[17] watched HERO lug planks of wood back and forth from his dad's pickup truck.\"
+
+book3_5:
+      text: \"He watched KEL hammer his fingers over and over, and made note that over an hour has passed since MARI has climbed down her ladder.\"
+
+book3_6:
+      text: \"'I will just be their moral support.', \n[17] thought, as he sat sleepily in the shade of his favorite tree.\"
+
+book3_7:
+      text: \"Of course, he knew this wouldn't be the case.\"
+
+book3_8:
+      text: \"Soon his friends will be asking for his help, and he won't be able to refuse.\"
+
+book3_9:
+      text: \"The treehouse is for everyone, so it's only fair that everyone puts some work into it.\"
+
+book3_10:
+      text: \"\n[17] knows this and agrees...\! but reluctantly.\!<br>He slides up and wobbles his way to the mess.\"
+
+book3_11:
+      text: \"He knows he should put in his fair share.\!<br>It just had to be on the hottest day of summer.\"
+      
+#========================================================================================
+# School Day:
+#========================================================================================
+
+book4_1:
+      text: \"This year, \n[17] was lucky enough to get assigned to a desk next to the small window.\"
+
+book4_2:
+      text: \"Every day during class, \n[17] would gaze listlessly through the opening...\! at the shadows of the trees, the clouds creeping overhead.\"
+
+book4_3:
+      text: \"His mind drifted elsewhere...\! into his own worlds, his own stories, his own adventures.\"
+
+book4_4:
+       text: \"He had a habit of doing this.\!<br>It was easy for him to get lost.\"
+
+book4_5:
+      text: \"Today was the same as any other.\! \n[17] stared vacantly out the small window as the clouds passed one by one.\"
+
+book4_6:
+      text: \"Suddenly, a hand playfully slaps his back, snapping him out of his reverie.\! \n[17] looks away from the opening.\"
+
+book4_7:
+      text: \"KEL smiles.\! He motions that class is over and that it's finally time for lunch.\! It's pizza day today, and they <br>need to bolt to the cafeteria before it's all gone.\"
+
+book4_8:
+      text: \"\n[17]'s stomach growls.\! He looks at the small window one last time.\"
+
+book4_9:
+      text: \"He would have to continue his adventure another day.\"
+      
+#========================================================================================
+# Statue at the Lake:
+#========================================================================================
+
+book5_1:
+      text: \"It's sunset.\! A strange statue watches over the hidden lake.\! It might have meant something significant in the past, but time has made it's engravings illegible.\"
+
+book5_2:
+      text: \"Either way, it doesn't matter to the company visiting <br>it today.\! They're only here to use it as a diving board.\"
+
+book5_3:
+      text: \"The brothers take turns jumping off the statue.\"
+
+book5_4:
+      text: \"HERO jumps first.\! Then, KEL.\! <br>Then HERO again.\! Then KEL again.\"
+
+book5_5:
+      text: \"The brothers gleefully urge \n[17] to join them, and after some careful thought, \n[17] warily agrees.\"
+
+book5_6:
+      text: \"\n[17] shuffles up the statue, and looks down at the moving water.\! He can hear his heartbeat.\! His ears begin to ring.\"
+
+book5_7:
+      text: \"His legs feel as if they would give out at any time.\! He tries to focus on his breathing...\"
+
+book5_8:
+      text: \"He feels something crawling on his shoulder and his eyes fly open to meet with those of a black spider.\"
+
+book5_9:
+      text: \"In an instant, \n[17] loses all sense and hurls himself into the lake.\! Water fills his nose.\! He exerts his limbs, but the water is stronger.\"
+
+book5_10:
+      text: \"He's too weak, too helpless...\! or that is what he believes.\"
+
+book5_11:
+      text: \"\n[17] shuts his eyes...\! <br>and waits for the brothers to save him.\"
+      
+#========================================================================================
+# Saturday Morning Cartoons:
+#========================================================================================
+
+book6_1:
+      text: \"Everyone is over again today.\!<br>The special occasion is Saturday morning.\"
+
+book6_2:
+      text: \"From 7:00AM to 11:00AM, a group of six friends eat a delicious homemade breakfast and watch T.V. together.\"
+
+book6_3:
+      text: \"It's the most enjoyable part of every week.\"
+
+book6_4:
+      text: \"\n[17] looks at the clock.\! 8:00AM.\! Two hours left.\"
+
+book6_5:
+      text: \"He would be able to watch with everyone else until 10:00AM, when his tutor arrives.\"
+
+book6_6:
+      text: \"\n[17] grimaces.\! What he thought would be a rewarding hobby has been nothing more than a nuisance.\"
+
+book6_7:
+      text: \"Instead of watching the shows with the rest of his friends, he'll be the only one to miss out.\"
+
+book6_8:
+      text: \"If only he could watch the last hour with everyone else.\"
+
+book6_9:
+      text: \"If only he didn't have to play the violin...\"
+
+# MISC --------------
+
+#Castle rubble
+
+message_misc_1:
+    text: This wall has collapsed,\. but the rubble is too clustered to be cleared from this side.
+
+message_misc_2:
+    text: There's some rubble blocking the tunnel.\! Remove it?
+
+message_misc_3:
+    text: You clear the rubble.
+
+#Castle Elevator
+
+elevator_chambers:
+    text: THE CHAMBERS
+    
+elevator_foyer:
+    text: THE FOYER
+    
+elevator_nevermind:
+    text: NEVERMIND
+    
+elevator_choice:
+    text: Where do you want to go?
+    
+#Boss/Mini-boss Warning
+
+message_misc_boss:
+    text: Something might happen if you proceed.\!<br>Are you sure you'd like to continue?
+
+message_metro_enemies:
+    text: There's a lot of enemies in there...\!<br>Are you sure you'd like to continue?
+
+# ================================================================
+#                  SCENE RELATED FLAVOR
+# ================================================================
+
+# ================ Sweetheart Stage Hole + Trapdoor Cue ================
+stage_hole_1:
+      text: The hole seems to have opened again...\. But you have no reason to go down it yet.
+
+stage_hole_1a:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 38
+    text: \n<SPACEBOY>Is something the matter?\! The trapdoor is bottom left side of the stage.\. I don't think we want to fall down there.
+
+# Examine Hole, This follows black_space_rev.yaml base game for holes
+stage_hole_2:
+      text: It's a long way down...\| Do you want to jump?
+
+# Flavor text on rococo after cutscenes
+rococo_busy:
+      text: ROCOCO seems to be too immersed in the art to notice you...
+
+# ================================================================
+#                   MEDIA LOCK FLAVOR
+# ================================================================
+
+# First sentence - depend on item
+medialock_haltia:
+      text: It's a stop sign.\! Something feels odd about it...
+
+medialock_alice:
+      text: It's a bear trap.\! Something feels odd about it...
+
+medialock_vines:
+      text: It's bunch of dense vines.\! Something feels odd about it...
+
+medialock_match:
+      text: It's a matchbox.\! Something feels odd about it...
+
+# Second sentence
+medialock_gen:
+      text: Looking at it fills you with a need for \c[11]inspiration\c[0].
+
+# ================================================================
+#                    GENERIC FLAVOR
+# ================================================================
+
+# ================ CC flavor ================
+
+#
+cc_0:
+  text: Flamingo.
+
+cc_0_1:
+  text: A defiant flamingo.
+  
+#
+cc_1:
+  text: A fallen painting.
+  
+#
+cc_2:
+  text: This bed has been torn into pieces.
+  
+#
+cc_3:
+  text: Once, this couch was likely beautiful.
+  
+#
+cc_4:
+  text: Remarkably, this lamp is still intact.\! The glass is shaped into an intricate rose.
+  
+# normal vase
+cc_5:
+  text: A cared-for plant.
+  
+# broken vase
+cc_6:
+  text: A less cared-for plant.
+  
+#
+cc_7:
+  text: The sink has become a geyser.\! Someone should probably do something about this.
+  
+# rose bush
+cc_8:
+  text: There's a disproportionate amount of thorns to roses.
+  
+# next to elevator
+cc_9:
+  text: The wallpaper has been torn apart.\! ...\|But SPROUT MOLES don't have hands?
+
+# theater  
+cc_10:
+  text: This seat obviously belongs to SWEETHEART.
+
+cc_10_1:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 17
+    text: \n<SWEETHEART>What are you looking at?\! This seat belongs to me, obviously.
+
+#
+cc_11:
+  text: A bust of SWEETHEART.
+  
+# headless
+cc_12:
+  text: A bust without SWEETHEART.
+  
+# gallery paintings
+cc_13:
+  text: ROCOCO's.\..\..\. art.
+  
+# gal + old room
+cc_14:
+  text: ROCOCO's bed.\! Frame not included.
+
+cc_15:
+  text: A painting has fallen on this bed.
+
+cc_16:
+  text: Tea cup and kettle.
+
+cc_17:
+  text: Some broken eggs on a pedestal.\. Their artistic meaning is unclear.
+
+cc_18:
+  text: This art piece looks discomforted.
+
+cc_19:
+  text: A broken tea table.
+
+cc_20:
+  text: The table is intact, albeit the teaset is broken.
+
+cc_21:
+  text: A broken wilted plant.
+
+cc_22:
+  text: Vines have claimed this birdhouse.
+
+cc_23:
+  text: This teaset was violently thrown on the floor.
+
+cc_24:
+  text: Holey moley.
+# Rococo old room
+cc_25:
+  text: \n<CANDLE BUNNY>\sinv[1]Pyon?
+
+cc_26:
+  text: With nothing else in the room,\. the CANDLE BUNNY finds solitude in its new domain.
+
+# Elevator
+cc_27:
+  text: Music of a broken dream.
+
+# Elevator
+cc_28:
+  text: An oven.\. It smells of burnt food.
+
+# painting tag spaceboy
+cc_painting_1:
+  text: A painting of spaceboy.
+
+cc_painting_2:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 38
+    text: \n<SPACEBOY>...
+
+cc_29:
+  text: h.
+
+cc_30:
+  text: Miraculously, this fountain hasn't aged a bit.\. The water inside looks tasty...
+
+cc_31:
+  text: Time has taken its toll on this pot, but maybe it can still house a plant.
+
+cc_32:
+  text: These pans are surprisingly not rusted.\. They're probably still useable for cooking.
+
+cc_33:
+  text: A soft glow is emitted by the fireplace.\. It's warm...
+
+cc_34:
+  text: It is not alive.
+
+cc_35:
+  text: Yellow roses.\. They symbolize friendship and joy.
+
+cc_36:
+  text: Paint buckets, of prime quality made from the finest pigments.
+# ================ SPROUT MOLE TOWN flavor ================
+
+# destroyed ticket booth
+sm_0:
+  text: The box office is closed.
+
+sm_1:
+  text: This mole is having fun.
+
+sm_1_1:
+  text: This sprout mole is stupid.
+
+sm_2:
+  text: A science experiment.\. You probably shouldn't touch it...
+
+sm_3:
+  text: This is a lifelike cutout.
+
+sm_4:
+  text: \n<WARDEN MOLE>We're training our moles to run fast now, too, and what's a better motivator than seemingly real danger?\. That was the idea behind the cutouts.
+
+sm_5:
+  text: \n<SPROUT MOLE>Huff...\. Puff...
+  
+sm_6:
+  text: A very large, happy outlet.
+# ================ PAINTING HELL ROOM ================
+
+painting_1:
+      text: A very normal painting.
+
+block_other_side:
+      text: The hole is blocked from the other side.
+
+block_push:
+      text: You pushed something in the wall.
+
+# ================ PYREFLY ================
+pyr_1:
+      text: A picnic basket.
+
+# ================ SCHOOL ================
+# Doorway
+sch_1:
+      text: A bright glow emenates from the door way...\. You can't see anything in it.
+
+# Lethal Injection Skill Gain
+sch_2:
+      text: A variety of disused medical supplies...

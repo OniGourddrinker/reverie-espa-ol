@@ -1,0 +1,53 @@
+# =========================================================================================
+# Bird Signs for Reverie
+# See signs.yaml for original version.
+# =========================================================================================
+
+#DIRECTIONS:
+#UP: \i[1]
+#DOWN: \i[2]
+#RIGHT: \i[3]
+#LEFT: \i[4]
+#UP LEFT: \i[5]
+#UP RIGHT: \i[6]
+#DOWN LEFT: \i[7]
+#DOWN RIGHT: \i[8]
+
+# VAST FOREST - METRO B1
+vf_1:
+      text: \n<MR. PARROT>Squak!\! (\i[1]\c[11]TRAIN PLATFORM\c[0])\!<br>Squak, squak!\! (\i[2]\c[11]FRONT GATE\c[0])
+
+# FALLEN WORLD
+fw_1:
+      text: \n<MRS. PARROT>Cheep!\! (\i[1]\c[11]MAKESHIFT TOWN\c[0])\!<br>Cheep, cheep!\! (\i[2]\c[11]TRAIN STATION\c[0])\!<br>Cheep, cheep, cheep!\! (\i[4]\c[11]SHATTERED FIELDS\c[0])
+
+fw_2:
+      text: \n<MRS. PARROT>Cheep!\! (\i[1]\c[11]HEADQUARTERS\c[0])\!<br>Cheep, cheep!\! (\i[2]\c[11]JUNKYARD\c[0])\!<br>Cheep, cheep, cheep!\! (\i[3]\c[11]SHATTERED FIELDS\c[0])
+
+fw_3:
+      text: \n<MRS. PARROT>Cheep!\! (\i[1]\c[11]CRATER FIELDS\c[0])\!<br>Cheep, cheep!\! (\i[3]\c[11]JUNKYARD\c[0])\!<br>Cheep, cheep, cheep!\! (\i[4]\c[11]UNDERGROUND STORAGE\c[0])
+
+fw_4:
+      text: \n<MRS. PARROT>Cheep!\! (\i[1]\c[11]CARGO YARD\c[0])\!<br>Cheep, cheep!\! (\i[3]\c[11]MAKESHIFT TOWN\c[0])\!<br>Cheep, cheep, cheep!\! (\i[7]\c[11]CAMPSITE\c[0])
+
+fw_5:
+      text: \n<MRS. PARROT>Cheep!\! (\i[1]\c[11]LANDFILL ALPINES\c[0])\!<br>Cheep, cheep!\! (\i[3]\c[11]JUNKYARD\c[0])\!<br>Cheep, cheep, cheep!\! (\i[7]\c[11]MAKESHIFT TOWN\c[0])
+
+# CRUMBLING CASTLE
+cc_1:
+      text: \n<MRS. FLAMINGO>Graa!\! (\i[1]\c[11]SWEETHEART'S CASTLE\c[0])\!<br>Graa, graa!\! (\i[2]\c[11]FOREST OF THE LOST\c[0])\!<br>Graa, graa, graa!\! (It's scary behind the weeds there!)
+
+cc_2:
+      text: \n<MRS. FLAMINGO>Graa!\! (Rubbles blocking the path made my directions outdated)\!<br>Graa, graa!\! (That's the way the castle crumbles)\!
+
+cc_3:
+      text: \n<MRS. FLAMINGO>Graa!\! (\i[1]\c[11]THE DUNGEON\c[0])\!<br>Graa, graa!\! (\i[3]\c[11]THE ROYAL KITCHEN\c[0])\!<br>Graa, graa, graa!\! (\i[4]\c[11]THE ROYAL CHAMBERS\c[0])
+
+cc_4:
+      text: \n<MRS. FLAMINGO>Graa!\! (\i[1]\c[11]LIFT TO THE ROYAL CHAMBERS\c[0])\!<br>Graa, graa!\! (It's a bit broken though...)
+
+cc_5:
+      text: \n<MRS. FLAMINGO>Graa!\! (\i[2]\c[11]FOREST OF THE LOST\c[0])\!<br>Graa, graa!\! (This looping forest made me lost!)
+
+cc_6:
+      text: \n<MRS. FLAMINGO>Graa!\! (Bear with me!)\!<br>Graa, graa!\! (I said, bear with me!)

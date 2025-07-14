@@ -1,0 +1,113 @@
+# ================================================================
+# ROCOCO COMMISSION DIALOGUE 
+#
+# Own file as the comission will add up over time as other chapters progressses
+# ================================================================
+
+# >>> First part that is the same across all items
+intro:
+    faceset: RV_ROCOCO
+    faceindex: 10
+    text: \n<ROCOCO>Ah, did that happen to catch your eye?
+
+# >>> ITEM DESCRIPTIONS HERE
+
+# >>> Text Prompt Before Choice
+confirm:
+    faceset: RV_ROCOCO
+    faceindex: 0
+    text: \n<ROCOCO>Is this the object you wish?
+      
+price:
+    faceset: RV_ROCOCO
+    faceindex: 4
+    text: \n<ROCOCO>That'll be \v[1002] CLAMS!
+
+# >>> Already have
+
+alreadyhave:
+    text: ...You already have something related to that.
+
+# >>> Yes/No
+
+# ================
+# > Yes
+yes_1:
+    faceset: RV_ROCOCO
+    faceindex: 10
+    text: \n<ROCOCO>Ooooh, I feel myself getting inspired! 
+
+yes_2:
+    faceset: RV_ROCOCO
+    faceindex: 5
+    text: \n<ROCOCO>Now!\. Time to create!
+
+# Painting animation/fade to black
+yes_3:
+    faceset: RV_ROCOCO
+    faceindex: 2
+    text: \n<ROCOCO>Hah!\. Here it is!\. Such art... surely it is so beautiful and powerful it must inspire you in turn, no?
+
+yes_4:
+    text: You got \c[4]\itemget\c[0]!
+
+# > No
+no_1:
+    faceset: RV_ROCOCO
+    faceindex: 6
+    text: \n<ROCOCO>Ah...
+
+no_2:
+    faceset: RV_ROCOCO
+    faceindex: 8
+    text: \n<ROCOCO>Very well...
+      
+# > No money
+
+nomoney:
+    faceset: RV_ROCOCO
+    faceindex: 11
+    text: \n<ROCOCO>Hmm... you don't seem to have enough CLAMS for this...
+
+# ======== ITEM DESCRIPTIONS ======== 
+# Metro B2 Extra
+metro_1:
+    faceset: RV_ROCOCO
+    faceindex: 12
+    text: \n<ROCOCO>Yes, that item... it reminds me of a deep, dark chasm... wait, no, not a chasm, more of... a stone prison...
+metro_2:
+    faceset: RV_ROCOCO
+    faceindex: 8
+    text: \n<ROCOCO>Yes! A place of transport, and commerce!\. Far below, where darkness is their only friend!
+
+# Alice
+alice_1:
+    faceset: RV_ROCOCO
+    faceindex: 7
+    text: \n<ROCOCO>Yes, that item... it reminds me of... bears... lots and lots of bears... deep in a castle...
+
+alice_2:
+    faceset: RV_ROCOCO
+    faceindex: 10
+    text: \n<ROCOCO>Ah, and a commander!\. Or, perhaps, simply a friend?\. A lovely young girl, who loves her bears...
+
+alice_3:
+    faceset: RV_ROCOCO
+    faceindex: 10
+    text: \n<ROCOCO>What a ferocious, or perhaps kind creature she must be herself!
+
+# Pyrefly
+pyrefly_1:
+    faceset: RV_ROCOCO
+    faceindex: 10
+    text: \n<ROCOCO>Yes, that item... it reminds me of a forest...
+
+pyrefly_2:
+    faceset: RV_ROCOCO
+    faceindex: 10
+    text: \n<ROCOCO>A place of deep darkness, the thrummings of civilization revealing new, never before seen creatures!
+
+pyrefly_3:
+    faceset: RV_ROCOCO
+    faceindex: 5
+    text: \n<ROCOCO>Ah, such exotic sights!\. Are they wishing to defend the forest? Or have they come to simply greet the new intruders into their abode?

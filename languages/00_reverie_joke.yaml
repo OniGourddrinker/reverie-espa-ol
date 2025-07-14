@@ -1,0 +1,121 @@
+# =========================================================================================
+# ** REVERIE JOKE STUFF, NOT FOR ACTUAL GAME
+# =========================================================================================
+
+# =========================================================================================
+# ** Madotsuki
+# =========================================================================================
+
+mado_0:
+    faceset: RV_OTHER
+    faceindex: 0
+    text: \n<MADOTSUKI>\sinv[1]Haiiiiiiiii\sinv[0] \. Are you the new kid around here?
+
+mado_1:
+    faceset: RV_OTHER
+    faceindex: 0
+    text: \n<MADOTSUKI>I live in the apartment next door to your house,\. nice to meet you.
+
+mado_2:
+    faceset: RV_OTHER
+    faceindex: 1
+    text: \n<MADOTSUKI>Nice eye patch you got there,\. makes you look cool.
+
+mado_3:
+    faceset: RV_OTHER
+    faceindex: 1
+    text: \n<MADOTSUKI>Anyways, lets go to the \c[11]DENNY's\c[0] together...\. I'll order my favourite, \c[4]RICE CASSEROLE WITH 3 TYPES OF CHEESE & SHRIMP\c[0].
+
+mado_join:
+    text: MADOTSUKI joined the party!
+
+
+# =========================================================================================
+# ** Sumireko Usami
+# =========================================================================================
+
+sumi_0:
+    text: \n<SUMIREKO>Oh, hello there!
+
+sumi_1:
+    text: \n<SUMIREKO>You seem like the type to also dream a lot.\. Have you ever heard of \c[11]GENSOKYO\c[0]?
+
+sumi_2:
+    text: \n<SUMIREKO>...
+
+sumi_3:
+    text: \n<SUMIREKO>Why the look?\. This is very normal question to start of a converstion!\. I'm not acting sus here I can prove it!
+
+sumi_4:
+    text: \n<SUMIREKO>I didn't get detained by that shrine maiden for no reason you know.
+
+sumi_5:
+    text: \n<SUMIREKO>I'll show you how right now here!\. frfr\. not cappin'
+
+sumi_b0:
+    text: >
+     \>SUMIREKO: \<Oh.\. Oh no.\. Oops.
+
+# =========================================================================================
+# ** Yukari Yakumo
+# =========================================================================================
+
+yukari_1:
+    faceset: RV_OTHER
+    faceindex: 4
+    text: \n<YUKARI>Oh, hello there.\! Don't mind me, I'm just here for my train collection.
+
+yukari_2:
+    faceset: RV_OTHER
+    faceindex: 5
+    text: \n<YUKARI>It's not that deep;\. I like trains.\! Why?\! Because it's funny to run over people with it.\! As simple as that.
+
+yukari_3:
+    faceset: RV_OTHER
+    faceindex: 6
+    text: \n<YUKARI>Say...\. have you ever wondered where those CONDUCTOR BUNNIES get their train from?\. Do you really believe that they can actually conjure up a train?
+
+yukari_4:
+    faceset: RV_OTHER
+    faceindex: 7
+    text: \n<YUKARI>Maybe they do, who knows.\! It's up to interpretation, really.
+
+yukari_5:
+    faceset: RV_OTHER
+    faceindex: 4
+    text: \n<YUKARI>It's funny,\. there's a strange lot of BUNNIES around here.\! Regular ones,\. not the moon ones,\. to be clear.
+
+yukari_6:
+    faceset: RV_OTHER
+    faceindex: 5
+    text: \n<YUKARI>Last time I saw some,\. MARISA proceeded to blast her stupid laser everywhere and scared them all off.\! What'd she call it?\! Love tinted spark or something?
+
+yukari_7:
+    faceset: RV_OTHER
+    faceindex: 2
+    text: \n<MARISA>Ermm...\! actually it's \c[4]LOVE-COLORED MASTER SPARK\c[0], it's my signature.
+
+yukari_8:
+    faceset: RV_OTHER
+    faceindex: 5
+    text: \n<YUKARI>That's a stupid name.\! Also,\. what the hell are you doing in my gap.\! Get out.
+
+yukari_9:
+    faceset: RV_OTHER
+    faceindex: 6
+    text: \n<YUKARI>Anyways,\. with that sorted...\! What are you staying here for anyways?
+
+yukari_10:
+    faceset: RV_OTHER
+    faceindex: 7
+    text: \n<YUKARI>Were you expecting something like an epic boss fight or something?\! Can't be bothered.\. Too lazy.
+
+yukari_11:
+    faceset: RV_OTHER
+    faceindex: 4
+    text: \n<YUKARI>...
+
+yukari_12:
+    faceset: RV_OTHER
+    faceindex: 5
+    text: \n<YUKARI>Actually, you know what.\! Check out my new cool shikigami.

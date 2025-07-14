@@ -1,0 +1,14 @@
+{ "columns":32,
+ "image":"..\/img\/tilesets\/RV_Sprout_town.png",
+ "imageheight":1008,
+ "imagewidth":1024,
+ "margin":0,
+ "name":"RV_sprout_mole_village",
+ "spacing":0,
+ "tilecount":992,
+ "tiledversion":"1.8.4",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.8"
+}

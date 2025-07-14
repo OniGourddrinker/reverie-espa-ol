@@ -1,0 +1,828 @@
+# =========================================================================================
+# Dreamworld NPC dialogue
+# =========================================================================================
+
+#GUMBO (SAD SONG) - Blocks Cattail now (Ch4 change)
+
+gumbo_1:
+      text: \n<GUMBO>GUMBO...\. WORRIED.<br>\!GUMBO HASN'T BEEN HAPPY FOR A WHILE. 
+
+#SAD (Correct)
+
+gumbo_s1:
+      text: \n<GUMBO>GUMBO...\. FEEL BETTER.<br>\!GUMBO THANK YOU. 
+
+#ANGRY
+gumbo_a1:
+      text: \n<GUMBO>GUMBO...\. ANGRY!<br>\!GUMBO THINK... SOUND BAD!
+
+#HAPPY
+gumbo_h1:
+      text: \n<GUMBO>GUMBO...\. NOT FEELING IT.<br>\!GUMBO NEED UNDERSTANDING. 
+
+
+#ZARF
+
+message_1:
+      text: \n<ZARF>Humans?\! I don't know if you can tell, but it's been a long while since we've had any tourists.
+
+message_2:
+      text: \n<ZARF>These days, you've got more than your regular enemies to watch out for. I heard of a new dangerous baddie around here. 
+
+#SNUG
+
+message_3:
+      text: \n<SNUG>It's at tough times like this that I regret thinking the universe is beautiful. 
+      
+message_4:
+      text: \n<SNUG>Maybe...\. maybe I'll value the people around me instead.
+#PO
+
+message_5:
+      text: \n<PO>Ah, it's you.\! Tell me,\. has your friend grown any taller? 
+
+message_6:
+      text: \n<PO>Hm?\! I've got the wrong person?\! My bad.
+
+message_7:
+      text: \n<PO>...even with my height, it's hard to see the stars where I am.\!<br> I guess that just means we're all smaller than I thought. 
+
+#ALIANA
+
+message_8:
+      text: \n<ALIANA>You know, despite everything, the sky is still so beautiful.\!<br>Unfortunately, I think many of my fellow \c[11]OTHERWORLD\c[0] people don't have the same mindset.
+
+#CHELLE
+
+message_9:
+      text: \n<CHELLE>Shoot...\! I lost my \c[3]DONUT\c[0] again.
+
+#QUASPY
+
+message_10:
+      text: \n<QUASPY>Have you ever gone on a hiking trip...\! Only for the mountain to suddenly drop out of the sky and ruin all your plans? 
+
+
+#CONSTRUCTION MOLES
+
+message_11:
+      text: \n<CONSTRUCTION MOLE>\Com[2]HEY!\. What's the big idea?
+
+message_12:
+      text: \n<CONSTRUCTION MOLE>Can't you see I'm walking here?\! Don't bother me!
+
+#TALK WITH SWEETHEART TAGGED
+
+message_13:
+      text: \n<CONSTRUCTION MOLE>Oh-\. Oh my!\. SWEETHEART in the dough!
+
+message_13-1:
+      text: \n<CONSTRUCTION MOLE>\Com[2]PLEASE FORGIVE MY RUDENESS, SWEETHEART!
+
+message_13-2:
+      text: \n<CONSTRUCTION MOLE>This is all I've got...\. But ANYTHING for SWEETHEART!\! Please take this!
+
+message_13-3:
+      text: \n<CONSTRUCTION MOLE>ANYTHING for SWEETHEART!
+
+#COLONY MOLE
+
+message_14:
+      text: \n<COLONY MOLE>\Com[2]HEY!\. What's the big idea?
+
+message_14-1:
+      text: \n<COLONY MOLE>Can't you see I'm trying to get back to the SPROUT MOLE COLONY?\! If you disturb me, I'll get LOST!
+
+#TALK WITH SWEETHEART TAGGED
+
+message_15:
+      text: \n<COLONY MOLE>S-\. SWEETHEART?!\. You're even more \sinv[1]pulchritudinous\sinv[0] than the stories say!
+
+message_15-1:
+      text: \n<COLONY MOLE>I don't have anything to offer you right now...\. Oh, but I have information!\. Really useful information!
+
+message_15-2:
+      text: \n<COLONY MOLE>See that bridge to the right? That leads to the JUNKYARD!\! There's a bunch of good stuff there!\. Like \c[3]TOFU\c[0]!
+
+message_15-3:
+      text: \n<COLONY MOLE>T-\. That was useful, right?
+
+#BRO MOLE
+
+message_16:
+      text: \n<BROTHER MOLE>\Com[2]HEY!\. What's the big idea?
+
+message_17:
+      text: \n<BROTHER MOLE>I've seen what you \sinv[1]cretins\sinv[0] were eating in that picnic over there!
+
+message_17-1:
+      text: \n<BROTHER MOLE>Not a single \c[3]TOFU\c[0] in sight...\! You people simply don't know taste!\! I refuse to associate with you!
+
+#TALK WITH SWEETHEART TAGGED
+
+message_18:
+      text: \n<BROTHER MOLE>\{\Com[2]WHAT?!\.\} Could it really be... SWEETHEART?!
+
+message_19:
+      text: \n<BROTHER MOLE>\Com[2]PLEASE FORGIVE MY INSOLENCE, SWEETHEART!
+
+message_19-1:
+      text: \n<BROTHER MOLE>I see now, you simply couldn't find any \c[3]TOFU\c[0] for your picnic!\! Yes, that must be it!
+
+message_19-2:
+      text: \n<BROTHER MOLE>Please, take this!\! This is all the \c[3]TOFU\c[0] I own...
+
+message_19-3:
+      text: \n<BROTHER MOLE>ANYTHING for SWEETHEART!
+
+#LONE MOLE
+
+message_20:
+      text: \n<LONE MOLE>\Com[2]HEY!\. What's the big idea?
+
+message_20-1:
+      text: \n<LONE MOLE>Can't you see I'm trying to be alone?\! People these days...\. They have no sense of privacy!
+
+#if swh tagged
+
+message_21-1:
+      text: \n<LONE MOLE>I told you I wanted to be alo-\. \{\Com[2]\quake[1]SWEETHEART?!
+
+message_21-2:
+      text: \n<LONE MOLE>That \sinv[1]pulchritudinous\sinv[0] face...\. That \sinv[1]mellifluous\sinv[0] voice...\. It must be you!
+
+message_21-3:
+      text: \n<LONE MOLE>\Com[2]PLEASE FORGIVE MY IMPERTINENCE, SWEETHEART!
+
+message_21-4:
+      text: \n<LONE MOLE>I beg you, please take this as an apology!
+
+message_21-5:
+      text: \n<LONE MOLE>Oh, and...\. SWEETHEART, are you going eastwards?
+
+message_21-6:
+      text: \n<LONE MOLE>Then, I must warn you!!\! There is a strange person that is attacking anyone he sees, just nearby!
+
+message_21-7:
+      text: \n<LONE MOLE>I think he lives on a big island east of here...\! Please be careful, my goddess!
+
+message_21-8:
+      text: \n<LONE MOLE>ANYTHING for SWEETHEART!
+
+#BATZY(PLAYER TAG)
+
+message_22:
+      text: \n<BATZY>\quake[1]Sigh...\quake[0]\! I can't find my friends anywhere.
+
+message_23:
+      text: \n<BATZY>I really hope they're doing okay...
+
+#SAD
+
+message_23-1:
+      text: \n<BATZY>Ahh...\. That song really encapsulates my feelings.
+
+message_23-2:
+      text: \n<BATZY>I should stop moping around.\! I've got to look for my friends!
+
+message_23-3:
+      text: \n<BATZY>Thanks, kind stranger!
+
+#ANGRY
+
+message_23-4:
+      text: \n<BATZY>Grr...\. My friends ran off without me, didn't they?
+
+message_23-5:
+      text: \n<BATZY>I'm not going anywhere...\! If they get lost, that's their own fault!
+
+#HAPPY
+
+message_23-6:
+      text: \n<BATZY>Well, I guess I should be happy I'm safe and sound.
+
+message_23-7:
+      text: \n<BATZY>I should relax here...\! It's not like this is the end of the world!\. \}Wait, is it?
+
+
+
+#BIG MOLIO
+
+message_24:
+      text: \n<BIG MOLIO>Hello travellers.\! I wish you great fortune and safety down the path you choose to walk. 
+
+#SCARECROW
+
+message_25:
+      text: \n<MR. SCARECROW>Some big...\! Rock with swords chased away my crows!
+
+message_26:
+      text: \n<MR. SCARECROW>No matter, I've decided I can be on my own!\! I don't need friends who abandon me just because they're a little scared!
+
+message_27:
+      text: \n<MR. SCARECROW>I'm thinking of getting a new job.\! Say, do you think I'm fit enough to be a battle dummy?
+
+#CROW
+
+message_28:
+      text: \n<CROW>Caw.\. (My friends left.\! I left too, but I came back.) 
+
+message_29:
+      text: \n<CROW>Caw.\. (Don't tell him I'm here.\! I will continue to watch over him.) 
+      
+#GHIAN
+
+message_30:
+      text: \n<GHIAN>I've been here since the place went down.\! I don't know these people, so I'm just hoping they continue to ignore me.
+
+##TAGGABLE MOLES##
+
+#UNTAGGED
+message_31:
+      text: \n<SPROUT MOLE>Tofu?! SWEETHEART?!\! Where, where?!\! I need! 
+
+message_32:
+      text: \n<SPROUT MOLE>Watching, watching!\! Dreams, lies lies!\! TOFU! 
+
+message_33:
+      text: \n<SPROUT MOLE>Pink rainbows!\! Sunshine!\! Bowtie!! 
+
+message_34:
+      text: \n<SPROUT MOLE>Lost lost lost lost lost...
+
+#TAGGED
+
+message_35:
+      text: \n<SPROUT MOLE>SWEETHEART!\! It's,\!it's an honour?\! Move?\! Gladly! 
+
+message_36:
+      text: \n<SPROUT MOLE>My idol, I will move, just for you! 
+
+message_37:
+      text: \n<SPROUT MOLE>W-why, SWEETHEART!\! I...\! I don't want to obstruct you, please allow me! 
+
+#POST TAGGED
+
+message_38:
+      text: \n<SPROUT MOLE>Hail SWEETHEART! 
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#SMOL
+
+message_39:
+      text: \n<SMOL>If only I wasn't so small...\. I wish I could be more helpful to everyone.
+
+#JOCK JAMS
+message_40:
+      text: \n<JOCK JAMS>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    
+message_41:
+      text: \n<JOCK JAMS>!...AHEM.<br>\! Why hello there chap.\. How's it all coming along?
+        
+message_42:
+      text: \n<JOCK JAMS>Care in joining me for a dance in these troublesome times?\! No...? I understand.<br>\! Stay safe, aye?
+        
+#MORGAN
+message_43:
+      text: \n<MORGAN>Ever since the recyling machine disappeared, I've been trying different methods of making trash valuable.
+        
+message_44:
+      text: \n<MORGAN>Do you think people will buy a toy boat made from a soda can?
+
+#GASCON
+message_45:
+      text: \n<GASCON>\sinv[1]Sigh...\sinv[0]
+      
+message_45-1:
+      text: \n<GASCON>This camping trip's been a \quake[1]disaster\quake[0].
+
+message_45-2:
+      text: \n<GASCON>I just feel so terrible about everything...
+
+message_45-3:
+      text: This person seems deeply distressed...
+
+message_45-5:
+      text: Will you play them a song to soothe their spirits?
+
+message_45-6:
+      text: ...You didn't have any songs to play for them.
+
+message_45-7:
+      text: PLAY SAD SONG
+
+message_45-8:
+      text: PLAY ANGRY SONG
+
+message_45-9:
+      text: PLAY HAPPY SONG
+
+message_45-10:
+      text: \n<GASCON>Oh, I really feel that tune...\. Thanks, I think I feel a little better.
+
+message_45-11:
+      text: \n<GASCON>Crap, was I blocking the way?\! Sorry, I'll move over.
+
+message_45-12:
+      text: \n<GASCON>Ugh...\. Turn that racket off!\! It's making my mood worse...
+
+message_45-13:
+      text: \n<GASCON>Thanks, I think I feel a little better.
+
+message_45-14:
+      text: That didn't seem to work...
+        
+#FERRIS
+
+message_46:
+      text: \n<FERRIS>Our entire world has crashed,\. everyone is worried,\. this town is a dump,\. some menace with swords is terrorising us...\! and there's STILL trash everywhere! 
+
+message_47:
+      text: \n<FERRIS>Pick up your trash, people!\! It's not that hard!
+      
+#LARAMIE
+
+message_48:
+      text: \n<LARAMIE>I heard that the SPACE PIRATES are in a total panic!\! Even more so than last time!
+        
+message_49:
+      text: \n<LARAMIE>I mean, we all are, but it looks like their CAPTAIN's really disappeared for good this time!
+
+message_50:
+      text: \n<LARAMIE>Not to mention their HEADQUARTERS...\! Apparently it got invaded by some \sinv[1]mysterious\sinv[0] warrior!
+
+message_51:
+      text: \n<LARAMIE>Now I'm just waiting to see if anyone from the PIRATES is going to fight back...
+        
+message_52:
+      text: \n<LARAMIE>Ooh, the drama! I can't get enough of it!
+        
+message_53:
+      text: \n<LARAMIE>Oh, my!\! CAPTAIN SPACEBOY, is that really you?\! I- I'm your biggest fan!
+
+message_53-1:
+      faceset: MainCharacters_ReverieDreamWorld
+      faceindex: 39
+      text: \n<SPACEBOY>Oh...\! Hello!\! It's nice to meet a fan amidst all this chaos.
+
+message_53-2:
+      text: \n<LARAMIE>Oh, are you going to fight the big bad warrior just up ahead?\! Ooh...\. I bet you are!
+
+message_53-3:
+      faceset: MainCharacters_ReverieDreamWorld
+      faceindex: 38
+      text: \n<SPACEBOY>Big bad...\. I beg your pardon?
+
+message_53-4:
+      text: \n<LARAMIE>The \sinv[1]mysterious swordsman\sinv[0] that invaded your HEADQUARTERS, silly!
+
+message_53-5:
+      text: \n<LARAMIE>You're going to challenge it to a duel, right?\! I'll be rooting for you, promise!
+
+message_53-6:
+      faceset: MainCharacters_ReverieDreamWorld
+      faceindex: 38
+      text: \n<SPACEBOY>\}I'm getting a bad feeling...\! Just who is this warrior?
+
+message_53-7:
+      text: \n<LARAMIE>Go, CAPTAIN SPACEBOY!\. I'll be cheering you on!
+
+message_53-8:
+      text: \n<LARAMIE>See?\. I knew you'd do it, CAPTAIN!
+
+message_53-9:
+      text: \n<LARAMIE>Hmm...\. Just who was that guy anyway?
+        
+#TALKING TO LARAMIE AFTER THIS INTERACTION
+message_54:
+      text: \n<LARAMIE>Can't wait for the next big story!
+        
+#TREBLE
+message_55:
+      text: \n<TREBLE>Ah...\! The view here is spectacular.
+#MR. DUCKIE
+message_56:
+      text:  \n<MR. DUCKIE>Until we can get our home fixed up to top shape,\. I'm just glad to have my family with me.
+       
+#MRS. DUCKIE
+message_57:
+      text: \n<MRS. DUCKIE>I know that Junior wants to go and play,\. but right now,\. I really need him to stay put...<br>\!I don't want anything else bad to happen...
+       
+#DUCKIE JR
+message_58:
+      text: \n<DUCKIE JR>Wow...<br>\.Even down here the stars are beautiful...
+        
+#EGGPLANT
+message_59:
+      text: \n<VEGGIE KID>We're still on an adventure!
+
+#TOMATOGIRL
+message_60:
+      text: \n<VEGGIE KID>We're still explorers!
+        
+#ONION
+message_61:
+      text: \n<VEGGIE KID>We're still adventurers!
+        
+#POTATOGIRL
+message_62:
+      text: \n<VEGGIE KID>We're still gonna explore!
+        
+#LOAM
+message_63:
+      text: \n<LOAM>LOAMY...\! LOAM LOAM...\! LOAMY LOAM...\! is still loamy. 
+
+#MR.SCARETHROW
+message_64:
+      text: ...it's pretending to be still so no one throws anything at it.
+
+#OVEN SCENE
+
+message_65:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 2
+    text: \n<DOUGHIE>Oho~\. That's an OVEN! What is that doing here, I wonder?
+
+message_66:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 0
+    text: \n<DOUGHIE>I seem to recognize it...\! Could this be from ORANGE OASIS?
+
+message_67:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 1
+    text: \n<DOUGHIE>Why don't we check it out?\! I'll show you what I can do...
+
+message_68:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 8
+    text: \n<DOUGHIE>Looks good, right?\! It's whole grain, too!
+
+message_69:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 1
+    text: \n<DOUGHIE>Hmm...\! It looks like I used all the ingredients here.
+
+message_70:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 8
+    text: \n<DOUGHIE>Still, if we find more OVENS around here, just give me the word!\! An army marches on its stomach, after all.
+
+message_71:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 21
+    text: \n<SWEETHEART>\}I hope there’s something other than bread when I get back to the castle...
+
+message_71-1:
+      text: All of the ingredients are used up.
+#MOONY 
+
+message_72:
+      text: \n<ECRU>There's a strange person who's been roaming around here lately.
+
+message_73:
+      text: \n<ECRU>She dresses up all weird...\! Actually, she looks quite a bit like your pointy haired pirate friend!
+
+message_74:
+      text: \n<ECRU>She dresses up all weird...\! Actually, she looks quite a bit like you!
+
+message_75:
+      text: \n<ECRU>I think she's looking for someone?\! I wonder who that could be.
+
+message_76:
+      text: You sense a formidable presence...\! Will you continue inside?
+
+message_77:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 5
+    text: \n<???>Hm\. hm\. hm...
+
+#SFG jumps down to the right and music notes.
+
+message_78:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 0
+    text: \n<???>Ooh, a broken radio!\! This is gonna make a great prop TRANSCEIVER.\! Now, if I could only find something to make a holster...
+
+message_79:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 5
+    text: \n<???>Just a little bit more, and I'll finally have SPACEBOY's full outfit!\! Hm\. hm\. hm...
+
+message_80:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 38
+    text: \n<SPACEBOY>Ummm...
+
+message_81:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 38
+    text: \n<SPACEBOY>What exactly is going on here?\! Who are you?
+
+#SFG turns around and exclamation points.
+
+message_82:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 3
+    text: \n<???>\{\Com[2]OH.\. \Com[2]MY.\. \Com[2]GOD.
+
+message_83:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 3
+    text: \n<???>\{CAPT. SPACEBOY!\! IN THE FLESH?!?!
+
+message_84:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 3
+    text: \n<???>My wishes came true!\! SPACEBOY, I'm...\. your...\. \{\Com[2]\sinv[1]BIGGEST\sinv[0] fan!!
+
+message_85:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 38
+    text: \n<SPACEBOY>Ah, yes, I can see that...\! I'm... flattered?
+
+message_86:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 5
+    text: \n<???>Hee hee, do you like my outfit?\! I've spent \sinv[1]forever\sinv[0] getting it just perfect.\! Pretty good, right?
+
+#87 and 88 can be skipped if it's too long
+
+message_87:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 38
+    text: \n<SPACEBOY>Um......\! \}A little help, anyone?
+
+message_88:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 22
+    text: \n<SWEETHEART>\}Don't ask me...\! I'm enjoying this.
+
+message_89:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 0
+    text: \n<???>Oh, but this isn't the time for chitchat.\! SPACEBOY, I know we just met, but...
+
+message_90:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 3
+    text: \n<???>\{\Com[2]\sinv[1]WILL YOU GO OUT WITH ME?!\sinv[0]
+
+message_91:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 39
+    text: \n<SPACEBOY>Wh-\. WHAT?\! What are you talking about?
+
+message_92:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 3
+    text: \n<???>Think about it, SPACEBOY!\! We're \sinv[1]perfect\sinv[0] for each other!\! Just look at our outfits!
+
+message_93:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 39
+    text: \n<SPACEBOY>I-\. I must refuse! I mean, I don't even know who you are!
+
+message_94:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 5
+    text: \n<???>Oh, I'm sure we'll figure everything out as we go along.\! Now, won't you take my hand?
+
+#pause
+
+message_95:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 4
+    text: \n<???>Hmm...\. I guess you're still a little reserved.
+
+message_96:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 0
+    text: \n<???>Well, then...\! I'll just have to beat you up and take you myself!
+
+message_97:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 5
+    text: \n<???>Try not to tense up too much, SPACEBOY!\! I wouldn't want to hurt you!
+
+#begin battle battle text moved to 00_reverie_battle
+
+#message_98:
+#      text: I \Com[2]WILL win you over, my beloved SPACEBOY!
+#
+#message_99:
+#      text: Just how are you still going?\! I should be winning by now...\. Just let me win!
+
+message_100:
+      text: This is unfair...\. You're all cheating!\! Waaaah...
+
+message_101:
+      text: Hee hee, I win!\! Now come here, SPACEBOY!
+
+message_102:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 1
+    text: \n<???>Sniffle...
+
+message_103:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 2
+    text: \n<???>\Com[2]\sinv[1]YOU'VE BROKEN MY HEART, SPACEBOY!\sinv[0]
+
+message_104:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 4
+    text: \n<???>But I haven't given up just yet...
+
+message_105:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 4
+    text: \n<???>I'll be back!\! And when I do, SPACEBOY,\. you will be \Com[2]\{MINE!
+
+message_106:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 0    
+    text: \n<DOUGHIE>Oho...\. What was that all about?
+
+message_107:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 38
+    text: \n<SPACEBOY>I don't know...\! But somehow, I don't think this is the last we'll see of her.
+
+#Star quest
+
+message_108:
+      text: \n<ALIANA>The stars are so beautiful right now...
+
+message_109:
+      text: \n<ALIANA>You know, they say when you wish upon a shooting star it comes true!
+
+message_110:
+      text: \n<ALIANA>I wish I had a shooting star to make a wish on.
+
+message_111:
+      text: \n<ALIANA>Hmm...\. Come to think of it, I heard that stars fall over at the long bridge over at the right.
+
+message_112:
+      text: \n<ALIANA>If you ever come across a SHOOTING STAR in one of those places, would you please get some \c[4]STAR FRAGMENTS\c[0] for me?
+
+#yes
+
+message_113:
+      text: \n<ALIANA>You're the best!\! Oh, but I should tell you that only stars that are \c[13]in the middle of falling\c[0] are shooting stars.
+
+message_114:
+      text: \n<ALIANA>I think I'll make a small first wish for now. Let's say, 1 \c[4]STAR FRAGMENT\c[0].\! I'll make sure it's worth your while!
+
+#no
+
+message_115:
+      text: \n<ALIANA>Oh...\. I see.\! Well, if you ever change your mind, I'll be here.
+
+#no then talk again
+
+message_116:
+      text: \n<ALIANA>What's up?\! Are you guys still busy?
+
+message_117:
+      text: \n<ALIANA>If you have some time...\. Do you mind go getting me some STAR FRAGMENTS?
+
+#yes then talk again w/ less than 10 frags
+
+message_118:
+      text: \n<ALIANA>What's up?\! Did you guys find any SHOOTING STARS?
+
+message_119:
+      text: \n<ALIANA>Ooh, looks like you have \v[102] \c[4]STAR FRAGMENTS\c[0]!\! Just \v[101] more, and that'll be enough to make a wish!
+
+message_119-1:
+      text: \n<ALIANA>I heard there's a long horizontal bridge up ahead where SHOOTING STARS tend to coalesce.\. You might find one there!
+
+message_120:
+      text: \n<ALIANA>Keep it up, friends!\! I'm counting on you!
+
+#yes then talk again w/ more than enough. First message reuse 118
+
+message_121:
+      text: \n<ALIANA>Woah, that's all 10 \c[4]STAR FRAGMENTS\c[0]!\! Are they really for me?
+
+message_122:
+      text: Will you give 10 \c[4]STAR FRAGMENTS\c[0] to ALIANA?
+
+#ALIANA QUEST FIRST TIME
+
+message_121-1:
+      text: \n<ALIANA>Woah, that's a \c[4]STAR FRAGMENT\c[0]!\! Are they really for me?
+
+message_122-1:
+      text: Will you give 1 \c[4]STAR FRAGMENT\c[0] to ALIANA?
+
+#no
+
+message_123:
+      text: \n<ALIANA>I see...\! You guys want to make a wish too, I understand.
+
+message_124:
+      text: \n<ALIANA>Well, if you ever have some \c[4]STAR FRAGMENTS\c[0] left over...\. I'm always here!
+
+#yes
+
+message_125:
+      text: \n<ALIANA>Really?!\! Thanks so much!
+
+message_126:
+      text: ALIANA took 10 \c[4]STAR FRAGMENTS\c[0] from you.
+#first time single took
+message_126-0:
+      text: ALIANA took 1 \c[4]STAR FRAGMENT\c[0] from you.
+
+message_126-1:
+      text: \n<ALIANA>Here, this is your reward.\! I picked it up from the \c[11]JUNKYARD\c[0] earlier.
+
+message_126-2:
+      text: ...SPACEBOY learned \c[1]FLARE\c[0]!
+
+message_127:
+      text: \n<ALIANA>Now...\. What should I wish for?\! There's so many things, I couldn't possibly choose...
+
+message_128:
+      text: \n<ALIANA>Oh, but you guys have been so nice to me...\! I should make my wish for you, as thanks!
+
+message_129:
+      text: \n<ALIANA>Okay, my wish is...\. For my friends here to get something \sinv[1]really\sinv[0] special!
+
+message_130:
+      text: "................"
+
+message_131:
+      text: Wow...\. \c[3]\itemget\c[0] appeared in your POCKET!
+
+message_132:
+      text: \n<ALIANA>Woah, the wish came true!\! I guess that's yours.
+
+message_133:
+      text: \n<ALIANA>Oh, but now I can't make my wish...
+
+message_134:
+      text: \n<ALIANA>Tell you what, could you guys get me more \c[4]STAR FRAGMENTS\c[0] if you have the time?
+
+message_135:
+      text: \n<ALIANA>Another 10 of them should be enough.\! I'm counting on you!
+
+message_135-1:
+      text: \n<ALIANA>There's a bunch of stars across the bridge behind me here, I think you could get some there!
+
+message_135-2:
+      text: \n<ALIANA>Oh am I in the way?\. Sorry, I'll move over now.
+
+message_136:
+      text: SWEETHEART had a burst of inspiration...
+
+message_137:
+      text: SWEETHEART learned \c[1]FLIRT\c[0]!
+
+#pluto (scrapyard)
+message_138:
+      text: \n<PLUTO>With all this wreckage, nobody has time to use my spaceline anymore...\! But that just means I need to diversify my business!
+message_139:
+      text: \n<PLUTO>With the SPACE PIRATES gone, I've witnessed all sorts of copycats try to become the powerhouses of FALLEN WORLD...<br><br>Rumor has it that one of them is a powerful new planet.\!<br>How I yearn to meet them!\! Our duel would be glorious!
+# sbf
+message_140:
+    text: \n<PLUTO>Ah, if it isn't CAPT. SPACEBOY!
+message_141:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 41
+    text: \n<SPACEBOY>PLUTO!\! It's nice to see a familiar face in all this chaos.\!<br>I'd like to catch up on how things have been...\. but I'm afraid I'm quite busy at this moment.
+message_142:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 36
+    text: \n<SPACEBOY>Tell me, have you seen my crew anywhere?
+message_143:
+    text: \n<PLUTO>Hmm...\| I'm sorry, CAPTAIN, but I've not seen hide nor hair of them.\! I've only recently arrived, however.
+message_144:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 40
+    text: \n<SPACEBOY>I see...
+message_145:
+    text: \n<PLUTO>Chin up, SPACEBOY, a SPACE PIRATE does not despair!\!<br>If you are well and truly their CAPTAIN, then I'm certain you'll find your crew no matter the cost!
+message_146:
+    text: \n<PLUTO>\Com[2]Now go forth and continue your search!
+message_147:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 39
+    text: \n<SPACEBOY>Yes, you're right...\! but how will I push past the hordes of adversaries?
+message_148:
+    text: \n<PLUTO>Great question!\! If it's combat advice you need, you've come to the right man!
+message_149:
+    text: \n<PLUTO>Coil your legs like a spring, and leap forwards with a \Com[2]\quake[1]\{DEVASTATING PUNCH!!
+message_150:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 38
+    text: \n<SPACEBOY>A devastating punch, huh...
+message_151:
+    text: SPACEBOY had a vision of a speeding comet soaring through the cosmos...\| and through inspiration he learned \c[1]COMET PUNCH\c[0]!
+message_152:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 42
+    text: \n<SPACEBOY>Sounds painful...\| but I'll need every tool I can get to find my crew.\! Thank you, PLUTO!
+message_153:
+    text: \n<PLUTO>No gain without pain, SPACEBOY!\! Now, go forth and continue your search!

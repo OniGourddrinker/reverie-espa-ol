@@ -1,0 +1,1360 @@
+# =========================================================================================
+# This sheet contains NPC dialogue of CH3 City. The number are organized in Writing Sheet
+# 
+# Type_NPC-DialogueNum:
+#   text: \n<NAME>I am stuff!
+# =========================================================================================
+
+# ======== MAJOR (Mobile) Based NPCs ========
+Maj_1_1-1:
+    text: \n<NAME>I am stuff!
+
+Maj_1_1-2:
+    text: \n<NAME>I am stuff too!
+
+Maj_1_2-1: #street roamer
+    text: \n<GREEN DRESS MOM>So let's see...\. next we need to go to \c[11]DIGITAL SPOT\c[0]...\. and then the \c[11]CLINIC\c[0]...\. and then...
+
+Maj_1_2-2:
+    text: \n<GREEN DRESS MOM>All right, sweetie...\! What did you want here again?
+
+Maj_1_2-3:
+    text: \n<GREEN DRESS MOM>Mommy will take just a moment, sweetie...\! Can you wait here for just one second?
+
+Maj_1_2-4:
+    text: This woman seems lost in thought while she browses the electronics.
+
+Maj_1_3-1: #street roamer
+    text: \n<SCARLET PIN GIRL>\sinv[1]\{SWEETHEART FIGURINE!\. SWEETHEART FIGURINE!
+
+Maj_1_3-2:
+    text: \n<SCARLET PIN GIRL>Ughhhhh...\. I'm so \sinv[1]borrrred\sinv[0]...
+
+Maj_1_3-3: #unused
+    text: \n<SCARLET PIN GIRL>Aww,\. come on!\. The second floor is closed for repairs.\! Where will I buy the voicebox SWEETHEART doll now?!
+
+Maj_1_4-1:
+    text: \n<OATMEAL GUY>I love seeing what new kinds of oatmeal the store has.\. I can't get enough of the stuff,\. but it's good to mix it up a bit.
+
+Maj_1_4-2:
+    text: \n<OATMEAL GUY>Better than eating an omelette every day.\. That's too fattening.
+
+Maj_1_5-1:
+    text: \n<SPIKED HAIR MAN>Quite the amount of electronics, isn't it?\. I'm comparing parts to find the best stereo.\. Gotta get one to sing to my date tomorrow!
+
+Maj_1_7-1: #street roamer
+    text: \n<SHORT HAIR JACKET>The day is still young,\. AVA!\. Let's make the most of it!\.
+
+Maj_1_7-2:
+    text: \n<SHORT HAIR JACKET>I heard \c[11]MOVIE WORLD\c[0] is having a promotion!\! Why don't we rent a movie we've never heard of and surprise ourselves?
+
+Maj_1_7-3: #street roamer
+    text: \n<LONG HAIR JACKET>That's not a bad idea...\. Just remember we have a schedule for tomorrow, alright?
+
+Maj_1_7-4:
+    text: \n<SHORT HAIR JACKET>The night is still young, AVA! I still want to do something fun tonight! #dont use
+
+Maj_1_7-5:
+    text: \n<LONG HAIR JACKET>EVE...\. I can't believe you're not tired.\. If we don't go to sleep,\. we'll be like zombies in the morning. #dont use
+
+Maj_1_7-6:
+    text: \n<LONG HAIR JACKET>Besides,\. I don't know how long the SUBWAY will open.\. What if it closes,\. and we get stranded? #dont use
+
+Maj_1_7-7:
+    text: \n<LOB JACKET GIRL>Hey,\. have you seen my friend anywhere?\. She's got like,\. long black hair and stuff.\. She was supposed to meet me over here...
+
+Maj_1_7-8:
+    text: \n<LONG HAIR JACKET>Hey, you.\. Have you seen my friend?\. Short hair,\. wears a yellow jacket?\. She's supposed to be here by now...
+
+Maj_2_1-1: #street roamer
+    text: \n<OLD WOMAN>Hello there, young man.\. Out alone for a walk through town?
+
+Maj_2_1-2:
+    text: \n<OLD WOMAN>I love watching youngsters like you go about their days.\. <br>Enjoy your youth while you have it, heh heh!
+
+Maj_2_2-1: #street roamer
+    text: \n<BUSINESS MAN>Buzz off,\. kid.\! I'm busy waiting for someone.
+
+Maj_2_2-2: #make this a different npc
+    text: You can tell from the look on this guy's face that he's not listening.
+
+#Maj_2_4-1: #make this a different npc
+#    text: \n<PIGTAILS GIRL>Who keeps bringing puzzles to the playground?\. All the pieces keep getting lost and sandy...
+
+Maj_2_4-1:
+    text: \n<PIGTAILS GIRL>Oof...\. I'm starting to feel dizzy...
+
+Maj_2_4-2:
+    text: \n<PIGTAILS GIRL>But I can't stop!\. I'm on my world record attempt!
+
+Maj_2_5-1:
+    text: \n<BRIDE>Ooohhh...\. When is the bus gonna get here?\. I've been standing on my feet all day!
+
+Maj_2_5-2:
+    text: \n<BRIDE>Why are the buses always late here?\. My husband has been trying to spot the bus for an hour now.
+
+Maj_2_6-1:
+    text: \n<GROOM>I don't see the bus coming...\. Maybe we should've rented a limousine after all...
+
+Maj_2_7-1:
+    text: \n<PINK SHIRT GIRL>Normally I'd get a ice cream...\. but mom gave me no pocket money today!\. Lame...  
+
+Maj_2_7-2:
+    text: \n<PINK SHIRT GIRL>Today is so hot too...\. \{\quake[1]I need to cool off!\quake[0]\}\
+
+Maj_2_7-3:
+    text: \n<PINK SHIRT GIRL>During the day it gets so hot around lunch time,\. it feels like I'm in an oven!
+
+Maj_2_7-4:
+    text: \n<PINK SHIRT GIRL>If it's hot again tommorow,\. maybe my mom will let me get some ice cream...
+
+Maj_2_8-1:
+    text: \n<BALD MAN>I'm being scammed I tell ya!\! I've tried \sinv[1]twelve\sinv[0] hair growth products this month and not a single one of them has worked!
+
+Maj_2_8-2:
+    text: \n<BALD MAN>The next time I go to the mall,\. I'm marching into that store and taking this up with the manager,\. ya hear?!
+
+Maj_3_1-1: #street roamer
+    text: \n<FANCY MAN>Bruhumph!\. Young man,\. I daresay I haven't seen you around before.\. Are you new to the city?\! Be sure to be on the lookout for nefarious ruffians!
+
+Maj_3_1-2:
+    text: \n<FANCY MAN>One time I was minding my business on the subway,\. when some mischevious child stuck gum onto my pants!\. Let me tell you,\. it was quite the hum-do!
+
+Maj_3_2-1: #street roamer
+    text: \n<GLASSES GIRL>It's such a nice day out!\. Usually I'd be home reading,\. but weather like this should be enjoyed, don't you think?
+
+Maj_3_2-2:
+    text: \n<GLASSES GIRL>She suddenly smiles and looks much more relaxed.
+
+# ======== MINOR (Standing) Based NPCs ========
+Min_1_1-1:
+    text: \n<NAME>I am stuff!
+
+Min_1_2-1:
+    text: \n<CHECKERED SHIRT BOY>Heh heh...\. all the kids at school are gonna think I'm so cool when I find that limited-edition CAPT. SPACEBOY figure!
+
+Min_1_2-2:
+    text: \n<CHECKERED SHIRT BOY>They... they have it here, right?\. Am I looking in the wrong store?
+
+Min_1_3-1:
+    text: This woman is wearing a lot of fancy jewelery.\. She must be really rich.
+
+Min_1_4-1:
+    text: This girl's pockets look completely stuffed.
+
+Min_1_4-2:
+    text: ...You can see PET ROCKS hanging out of them.
+
+Min_1_5-1:
+    text: This man keeps fiddling with his tie.\. He looks nervous.
+
+Min_1_5-2:
+    text: You can barely understand what this man is saying.\! He's talking about stocks,\. bonds,\. statistics...\. none of which you learned in school.
+
+Min_1_6-1:
+    text: This girl keeps staring at the road expectedly.\! She must be waiting for her ride.
+
+Min_1_7-1:
+    text: \n<BOUFFANT SISTER>Aww...\. The second floor is closed?\! Really?
+
+Min_1_7-2:
+    text: \n<BOUFFANT SISTER>Gosh,\. don't yell so loud...
+
+Min_1_8-1:
+    text: \n<NEAT HAIR BROTHER>'Closed for structural repairs...'\! Man, today isn't our lucky day, sis.
+
+Min_1_8-2:
+    text: \n<NEAT HAIR BROTHER>Come on,\. sis!\. We need to go before it's too late!
+
+Min_1_9-1:
+    text: This boy is browsing the video games section.\! He looks pretty excited.
+
+Min_1_10-1:
+    text: \n<COMIC GIRL>I ordered a big book on the history of the CAPT. SPACEBOY series...\. but it still hasn't arrived yet.
+
+Min_1_10-2:
+    text: \n<COMIC GIRL>I wish I had someone else to talk to about comic history, but it's hard to find other people as interested in it as I am.
+
+Min_1_10-3:
+    text: \n<COMIC GIRL>Sigh....
+
+Min_1_11-1:
+    text: This girl is munching on some potato chips as she browses the movies. 
+
+Min_1_12-1:
+    text: \n<SUNBURNT GUY>Gah! Why is it always so sunny in this city?\. Half of the money I spent here has gone to sunscreen!
+
+Min_1_12-2:
+    text: This guy is probably waiting for his train.\. He looks pretty exhausted.
+
+Min_1_13-1:
+    text: \n<SPORTY BOY>Man...\. it's so nice and sunny today, isn't it?\. What a beautiful day for a sprint across the entire city!
+
+Min_1_13-2:
+    text: \n<SPORTY BOY>Though...\. maybe I'll go to SLICE OF HEAVEN for a pizza first, heh.
+
+Min_1_13-3:
+    text: You can almost see the sun shining off this boy just from his mood.
+
+Min_1_14-1:
+    text: This guy seems to be comparing computer parts...
+
+Min_1_15-1:
+    text: \n<BOWLCUT BOY>So, from here... the mall's straight up, right?\. <br>Or was it right, then up?    
+
+Min_1_15-2:
+    text: \n<BOWLCUT BOY>Shoot, did I miss it...
+
+Min_1_15-3:
+    text: \n<BOWLCUT BOY>All right,\. so...\. I just need to take a right...\. And then another right...\. And then another right...\. right?
+
+Min_1_15-4:
+    text: \n<BOWLCUT BOY>Guh,\. why is the police station so confusing?!
+
+Min_1_16-1:
+    text: \n<ORANGE STRIPE GUY>Is it faster to go home by scooter, or wait for the next train?
+
+Min_1_16-2:
+    text: \n<ORANGE STRIPE GUY>At this rate, I might make myself even later by waiting...
+
+Min_1_17-1:
+    text: This boy is looking at some kind of advertisement for a new game.\. He seems pretty excited.
+
+Min_1_18-1:
+    text: This woman is zoning out.\. She doesn't seem to notice you.
+
+Min_1_19-1:
+    text: This girl seems to be waiting for her friends.\! She probably knows all the cool places in town...
+
+Min_1_20-1:
+    text: This girl is blowing hard on her steaming cup of coffee.\! She must not like hot stuff.
+
+Min_1_21-1:
+    text: \n<MAGENTA LADY>God, it's so warm out...\. and the drink shop is so far away...
+
+Min_1_21-2:
+    text: \n<MAGENTA LADY>\Com[2]No!\. You can do this!\! Once you get inside the shop you'll be nice and cool!
+
+Min_1_21-3:
+    text: This lady has a look of pure bliss on her face.
+
+Min_1_22-1:
+    text: This lady is looking at the man with an exasperated face.
+
+Min_1_23-1:
+    text: This man is glaring up at the sky with intense rage.
+
+Min_1_23-2:
+    text: This man seems very chilled out, staring up at the sunset sky.
+
+Min_1_24-1:
+    text: \n<TOMBOY>\sinv[1]On we'll go,\. with hands connected,\. but what happens when our plans are rejected,\. by a giant spider, and a gross cockroach?\sinv[0]
+
+Min_1_24-2:
+    text: \n<TOMBOY>\sinv[1]I'LL STOMP THEM DOWN,\. BECAUSE YOU'RE MY LOVE!!\sinv[0]
+
+Min_1_24-3:
+    text: This girl is singing to herself. 
+
+Min_1_24-4:
+    text: \n<TOMBOY>\sinv[1]So don't feel scared,\. or insecure my dear,\. because I'm here with you,\. I'm your bug spray,\. except I hope I don't smell quite as bad!\sinv[0]
+
+Min_1_24-5:
+    text: \n<TOMBOY>\sinv[1]IN THIS BIG WORLD FULL OF CRAWLY TERRIBLE THINGS,\. I'LL STAND BY YOUR SIDE!!\sinv[0]
+
+Min_1_24-6:
+    text: ...She's very passionate,\. it seems.
+
+Min_2_1-1:
+    text: This woman is on the phone.
+
+Min_2_1-2:
+    text: \n<ANGRY WOMAN>Now you listen here!\. I told you that this was going to happen tomorrow, and you agreed all the way up until today!
+
+Min_2_1-3:
+    text: ...This woman sounds pretty worked up.\! You probably shouldn't bother her.
+
+Min_2_2-1:
+    text: \n<SCARLET HIME>
+
+Min_2_3-1:
+    text: \n<SLEEVELESS GUY>I've been waiting for them to get stock of the latest console for months...\. but no dice.
+
+Min_2_3-2:
+    text: \n<SLEEVELESS GUY>Maaan...\. why'd my friend have to want a GAME FRIEND for his birthday?\. They're never in stock, and they're always super expensive when they are!
+
+Min_2_4-1:
+    text: This girl is staring excitedly at the promotions for the SWEETHEART movie that just came out...
+
+Min_2_4-2:
+    text: You haven't watched SWEETHEART in years...\! You don't know if she's really relevant these days.
+
+Min_2_5-1:
+    text: This girl keeps readjusting her ribbon.\. She keeps laughing, making it loose.
+
+Min_2_5-2:
+    text: The neverending cycle ensues....
+
+Min_2_6-1:
+    text: \n<BEADED HAIR GIRL>...And then I said, there's no way!\. And then she said, yes way!\. And so we both started laughing,\. and I laughed so hard that juice came out of my nose,\. and then-!
+
+Min_2_7-1:
+    text: \n<GREEN TRIPLET>Today's gonna be the best day ever!\! NAOMI and ANDRES are gonna play tag with me, and I'll be unstoppable!
+
+Min_2_7-2:
+    text: \n<GREEN TRIPLET>I'm the fastest of us three triplets.\. My mommy said so!\. I have to practice to be an olympic runner one day!
+
+Min_2_7-3:
+    text: \n<GREEN TRIPLET>You think I can do it, right?\. Just watch me!
+
+Min_2_8-1:
+    text: \n<YELLOW TRIPLET>Today's gonna be the coolest day ever!\! EVERETT and ANDRES are gonna climb a tree with me, and I'm gonna climb the highest!
+
+Min_2_8-2:
+    text: \n<YELLOW TRIPLET>I have the most en...\.endour\....endurance of us three triplets!\. My mommy said so!\. I have to practice to be an olympic climber one day!
+
+Min_2_8-3:
+    text: \n<YELLOW TRIPLET>Can you watch me climb?\. It makes me want to go even higher when people watch me!
+
+Min_2_9-1:
+    text: \n<RED TRIPLET>Today's gonna be the most amazing day ever!\! NAOMI and EVERETT are gonna play hide and seek with me, and I'm gonna stay hidden forever!
+
+Min_2_9-2:
+    text: \n<RED TRIPLET>I can be \sinv[1]really\sinv[0] quiet...\. if I want to be! My mommy said so!\! But she didn't tell me if there was an olympic sport for that...
+
+Min_2_9-3:
+    text: \n<RED TRIPLET>You look pretty quiet, too!\! You look like a natural.\! Can you give me some tips?
+
+Min_2_11-1:
+    text: \n<REAL ESTATE GIRL>'Family-friendly location'...\. yes, I think that's a good selling point for this complex.
+
+Min_2_11-2:
+    text: \n<REAL ESTATE GIRL>That mother and son just moved in.\! I'd like to think they're close to everything they would need.
+
+Min_2_12-1:
+    text: These girls don't seem to notice you. \!<br>...They're in the middle of a conversation about a variety of superficial topics.
+
+Min_2_13-1:
+    text: \n<BLUE LOB GIRL>Dad, hurry up!\! You can just get something different the next time you come here!
+
+Min_2_17-1:
+    text: \n<PINK GLASSES SISTER>\....So, yeah, sometimes I get to sleep at like 2 AM.\! But on the plus side, I've figured out my favorite coffee flavor is caramel mocha!
+
+Min_2_17-2:
+    text: \n<HAIRPIN SISTER>Gosh, I can't imagine. Staying up so late just for homework!\! At least the coffee is cheap, right?
+
+Min_2_17-3:
+    text: These two sisters are complaining about the boys at school.
+
+Min_2_17-4:
+    text: The younger sister is talking about a boy who showed his booger to the class...\. Gross.
+
+Min_2_19-1:
+    text: ...This man looks completely miserable.
+
+Min_2_20-1:
+    text: \n<RED JACKET KID>\{\Com[2]DADDY!\. DADDY!\.\} Can we go to \c[11]MOVIE WORLD\c[0] next?\. I wanna see the cool posters again!
+
+Min_2_20-2:
+    text: \n<RED JACKET KID>\sinv[1]Pretty please?\. Pretty please?\. Pretty please?\sinv[0]
+
+Min_2_21-1:
+    text: \n<GINGER BOB KID>\{\Com[2]DADDY!\. DADDY!\.\} Can we go to the \c[11]BUS STOP\c[0] next?\. I wanna say hi to all the bus drivers again!\.
+
+Min_2_21-2:
+    text: \n<GINGER BOB KID>\sinv[1]Pretty please?\. Pretty please?\. Pretty please?\sinv[0]
+
+Min_2_22-1:
+    text: \n<TALL WOMAN>Don't talk to me right now...\. I'm on an early lunch break.
+
+Min_2_23-1:
+    text: This man's been staring at the menu for a while.\. He seems unable to make up his mind...
+
+Min_2_24-1:
+    text: This child is waiting for his friend to finish his puzzle.
+
+Min_3_1-1:
+    text: This man is keenly watching people pass by.\! His eyes land on you for a second as well.
+
+Min_3_2-1:
+    text: \n<FIREY SHIRT>Man...\. It's amazing how no matter whether you can see the stars or not,\. they're always gonna be there...
+
+Min_3_2-2:
+    text: \n<FIREY SHIRT>I really wanna go stargazing soon...
+
+Min_3_2-3:
+    text: \n<FIREY SHIRT>The stars really look beautiful at night,\. don't they?\. Thousands of bright lights all over the sky...
+
+Min_3_2-4:
+    text: \n<FIREY SHIRT>Want to know the craziest part?\. All of the light we are seeing from them is in the past,\. because light can take years to travel to us!
+
+Min_3_3-1:
+    text: This kid is trying to hide a wad of sticky chewing gum in his hand.\. He's looking at your hair with a wicked grin...
+
+Min_3_4-1:
+    text: \n<CHEERY ELDER>I have to exercise often to keep these old bones healthy!\! You youngsters should learn the benefits of physical activities too.\! They're really rewarding!
+
+Min_3_5-1:
+    text: You can smell the flowers this person is holding from here.\. They're strong, but not unpleasant.
+
+Min_3_5-2:
+    text: ... You never realized roses could smell that much.
+
+Min_3_6-1:
+    text: The woman standing here is looking at all the ads and discounts in front of her,\. carefully reading each one...
+
+Min_3_6-2:
+    text: Mom does the same thing when she goes shopping.
+
+Min_3_6-3:
+    text: She's kicking the vending machine every few seconds.\. She seems desperate.
+
+Min_3_6-4:
+    text: Looks like someone's snacks got stuck.
+
+Min_3_7-1:
+    text: \n<FITNESS FREAK>I've been working my biceps a lot lately.\! I feel like I can lift as much as a crane!
+
+Min_3_7-2:
+    text: \n<FITNESS FREAK>Tell me kid, do I look like I could lift a couple logs with each arm?
+
+Min_3_7-3:
+    text: This woman is sitting on the bench,\. staring at nothing in particular.
+
+Min_3_8-1:
+    text: \n<BLUE DRESS LADY>Don't mind me.\! I'm just enjoying the fresh air while I'm on my break.\! Aren't the lilies pretty?
+
+Min_3_9-1:
+    text: \n<PINK TWINTAILS>\{\Com[2]\sinv[1]ACHOOO!!!\sinv[0]\}\. Ugh...\. it feels like the whole world is conspiring to aggravate my allergies.
+
+Min_3_9-2:
+    text: \n<PINK TWINTAILS>Stupid pollen,\. it just has to be falling down everywhere!\. And stupid CLINIC, being out of medicine when I need it!
+
+Min_3_9-3:
+    text: \n<PINK TWINTAILS>\{\Com[2]\sinv[1]ACHOOO!!!\sinv[0]\}\! Ugh...\. why me...
+
+Min_3_10-1: #don't use this yet
+    text: \n<BOLD WOMAN>This city is like a maze...\! I walk my aching feet all the way to the clothing store,\. and it's closed today!\! Crappy mall...
+
+Min_3_10-2:
+    text: \n<BOLD WOMAN>Hmph!\. Now I have to find my way back to the subway station...
+
+Min_3_11-1:
+    text: These moms are chatting,\. but still keeping a watchful eye on their kids.
+
+Min_3_11-2:
+    text: You wonder how they're able to focus on two things at once.
+
+Min_3_12-1:
+    text: This person's glasses are funny.\. You kind of want to try them on, but you don't want to be rude.
+
+Min_3_12-2:
+    text: This man is quietly browsing the magazines.
+
+Min_3_13-1:
+    text: This person seems to be looking around to see if people are noticing his cosplay.
+
+Min_3_14-1:
+    text: \n<EDGY GUY>\{\quake[1]ACHOOO!!!\quake[0]\}\! Crap...\. I have better things to do than be sick...
+
+Min_3_14-2:
+    text: \n<EDGY GUY>\{\quake[1]ACHOOO!!!\quake[0]\}\! Urgh...\. I don't need medicine...\! I can fight off the infection myself...
+
+Min_3_14-3:
+    text: \n<EDGY GUY>\sinv[1]What are you looking at?\. What...\. you think you can take on this cold?\! Not a chance...\. it'll eat you up and spit you out.\sinv[0]
+
+Min_3_15-1:
+    text: This woman is thoroughly examining every product listed on the vending machine.
+
+Min_3_15-2: #don't use
+    text: \n<LIPSTICK WOMAN>He has a kind heart if you'd just get to know him,\. but...\. he says he's "too cool" for many things nowadays.\.
+
+Min_3_15-3:
+    text: \n<LIPSTICK WOMAN>Cough syrup, tea...\. if he wasn't "too cool" for medicine we'd have gotten it by now!
+
+Min_3_15-4:
+    text: \n<LIPSTICK WOMAN>I just barely managed to coax him to come here with me...\! But he insists I stay outside.\. \quake[1]Sigh...\quake[0]
+
+Min_3_16-1:
+    text: \n<CYAN TEE GIRL>Hee hee!\. We haven't hung out in forever,\. big bro!
+
+Min_3_16-2:
+    text: \n<CYAN TEE GIRL>Did you find somewhere cool to take me today?\! I can't wait!
+
+Min_3_16-3:
+    text: \n<BLACK HOODIE GUY>We've gone everywhere there is to go in this place...\. You won't be disappointed if we go somewhere familiar,\. right Beth?
+
+Min_3_16-4:
+    text: \n<BLACK HOODIE GUY>If only I had a map...\. and a car...\. and a driver's license.
+
+#same as 16
+
+Min_3_18-1:
+    text: These girls don't seem to notice you. \!<br>...They're in the middle of a conversation about a variety of superficial topics.
+
+Min_3_19-1:
+    text: 
+
+Min_3_20-1:
+    text: She doesn't look like she wants to talk to you.\. You can't tell if her expression is scary,\. or if it's just makeup.
+
+Min_3_21-1:
+    text: These people are discussing what they've done so far during summer break.\. The pizza seems fresh out of the oven.
+
+Min_3_22-1: #this line unused
+    text: \n<HAIRPIN BOY>Mint or chocolate donut?\. MINT-DONO is way more \sinv[1]badass\sinv[0] than CHOCO-CHAN,\. but chocolate is tastier than mint...
+
+Min_3_22-2:
+    text: \n<HAIRPIN BOY>Oh,\. are you a fellow SWEETHEART fan?\! Do you mind me helping me out here?
+
+Min_3_22-3:
+    text: \n<HAIRPIN BOY>Which one should I get...\. a mint donut for MINT-DONO or a choco one for CHOCO-chan?
+
+Min_3_22-4:
+    text: MINT
+
+Min_3_22-5:
+    text: CHOCO
+
+Min_3_22-6:
+    text: STRAWBERRY FOR SWEETHEART
+
+Min_3_22-7:
+    text: \n<HAIRPIN BOY>MINT...\. Yeah, I'm sure you're right!\! MINT-DONO's way more \sinv[1]badass\sinv[0] than CHOCO-CHAN.
+
+Min_3_22-8:
+    text: \n<HAIRPIN BOY>CHOCO...\. Yeah, I'm sure you're right!\! Chocolate tastes better than mint, after all.
+
+Min_3_22-9:
+    text: \n<HAIRPIN BOY>Huh...\. SWEETHEART?\! Do you really like her that much?
+
+Min_3_22-10:
+    text: \n<HAIRPIN BOY>I mean, she's supposed to be the main character and all, but...\! isn't she a little obnoxious sometimes?
+
+Min_3_23-1:
+    text: This man looks troubled, for some reason.
+
+Min_3_24-1:
+    text: \n<RIBBON GIRL>Hey, do you know what grown-ups like to do in their spare time?
+
+Min_3_24-2:
+    text: \n<RIBBON GIRL>My uncle took me out because mom's busy...\. But he looks so bored just sitting there...
+
+Min_3_24-3:
+    text: \n<RIBBON GIRL>Maybe if we did something he likes to do, he'd wanna hang out more!
+
+Min_4_1-1:
+    text: \n<LOVEBIRD BOY>Hahaha!\. Look at my girlfriend! Isn't she awesome?
+
+Min_4_1-2:
+    text: \n<LOVEBIRD BOY>We're gonna be married someday!
+
+Min_4_2-1:
+    text: \n<HAPPY LADY>Aren't these apples \sinv[1]perfectly\sinv[0] in season?
+
+Min_4_2-2:
+    text: \n<HAPPY LADY>I can't wait to go home and bake them into a \sinv[1]delicious\sinv[0] pie for my little babies~
+
+Min_4_2-3:
+    text: \n<HAPPY LADY>Oh, have you seen my kids? They're waiting just outside in the lobby.
+
+Min_4_2-4:
+    text: \n<HAPPY LADY>I'm sure they're having such a fun time with my husband while they're waiting.\! They're always so excited to go anywhere with their father, you know.
+
+Min_4_2-5:
+    text: \n<HAPPY LADY>My husband just dotes on our kids too...\. He always looks so happy when he's watching them!
+
+Min_4_2-6:
+    text: ...This lady continues to talk to nobody in particular.
+
+Min_4_3-1:
+    text: \n<ABSENTMINDED MAN>Uhhh....\! Which ones did your mom want us to get again?
+
+Min_4_3-2:
+    text: \n<PONYTAIL GIRL>Jeez, dad...\. Do you ever pay attention?
+
+Min_4_3-3:
+    text: \n<PONYTAIL GIRL>She wanted...\. Three cartons of milk,\. a medium bag of sugar,\. and five bunches of grapes.
+
+Min_4_3-4:
+    text: \n<ABSENTMINDED MAN>Right, right...\! Where were those again?
+
+Min_4_5-1:
+    text: This man seems paralyzed by choice.
+
+Min_4_6-1:
+    text: \n<MEAN WOMAN>\Com[2]Where's the manager around here?\. Excuse me, I asked to see the manager!
+
+Min_4_6-2:
+    text: \n<MEAN WOMAN>Honestly, the customer service in this place is \quake[1]pathetic\quake[0].\!<br>You people have just lost a customer!
+
+Min_4_6-3:
+    text: ...The woman is still fuming.\. Maybe you shouldn't get too close...
+
+Min_4_7-1:
+    text: \n<POOR KID>\}Sorry...\. Sorry...\. Sorry...
+
+Min_4_7-2:
+    text: \n<POOR KID>Mom...\. Can we just go home now?
+
+Min_4_8-1:
+    text: This man is appraising each piece of meat extremely carefully.\! He must be an expert.
+
+Min_4_9-1:
+    text: This kid is shopping all alone.\. Maybe she's on an errand?\!<br> ...You feel a little impressed.
+
+Min_4_10-1:
+    text: This woman is humming to herself while she's shopping.
+
+Min_4_13-1:
+    text: These women are planning a trip.\. They're talking about the beach.
+
+Min_4_13-2:
+    text: \n<GIRL>Hey,\. have you seen my dad about?\! He's a police officer, you know!
+
+Min_4_13-3:
+    text: \n<GIRL>I'm waiting for him to clock out so I can surprise him.
+
+Min_4_13-4:
+    text: This girl seems happy...\. And a bit hyperactive.
+
+Min_4_11-1:
+    text: This woman keeps glancing over at the BLONDE WOMAN.\!<br> ...She doesn't seem to have much interest in shopping.
+
+Min_4_12-1:
+    text: \n<DEEP GUY>\sinv[1]Man...\. I should paint the inside of my room black...\. so it can be the same color as my heart...
+
+Min_4_12-2:
+    text: \n<EMO GIRL>\sinv[1]That's so deep...
+
+Min_4_15-1:
+    text: \n<YELLOW SHIRT KID>I like sandy puzzles.
+
+Min_4_16-1:
+    text: \n<ELDERLY MAN>Ooohhhh...\. did we come at the right time?\. Are we too early,\. too late?
+
+Min_4_16-2:
+    text: \n<ELDER WIFE>Come now,\. dear,\. our boy texted us he'll be here soon.\! Don't worry so much,\. heheheh!
+
+Min_4_16-3:
+    text: This older couple is having a heartfelt reunion with their son...\. It seems like they haven't seen eachother in a very long time. 
+
+#same as 16
+
+Min_4_18-1:
+    text: These two boys are enjoying a pistacho pizza.
+
+Min_4_19-1:
+    text: \n<POOFY DRESS>Sigh...\. guess he's not showing up...
+
+Min_4_20-1:
+    text: \n<CYAN BUTTON UP MAN>No idea why my daughter isn't climbing on the monkey bars,\. but at least she's having fun!
+
+Min_4_21-1:
+    text: This woman is looking at all the cotton candy flavours.
+
+Min_4_21-2:
+    text: Vanilla, strawberry, mysterious blue flavor...\! <br>What a puzzling choice.
+
+Min_4_21-3:
+    text: ...This woman is still looking at the different flavors after all these hours.
+
+Min_4_21-4:
+    text: You almost want to suggest her strawberry flavor.
+
+Min_4_23-1:
+    text: \n<LOVEBIRD GIRL>Hey!\. Look at my boyfriend!\. Isn't he so cool?
+
+Min_4_23-2:
+    text: \n<LOVEBIRD GIRL>We're gonna live in a house together forever one day!
+
+Min_4_24-1:
+    text: \n<LOGO SHIRT>We should totally pick up 'INVASION OF THE ZOMBIE SUKEBANS' for our sleepover.\. I hear it's a horror thriller like you've never seen!
+
+Min_4_24-2:
+    text: \n<STRIPED SHIRT>I dunno, JACK, I want to watch something silly tonight.
+
+Min_4_24-3:
+    text: \n<STRIPED SHIRT>I hear 'THE CANDY DIVA AND THE SHOWBIZ GHOST' is pretty fun.\! It's a musical!
+
+Min_4_24-4:
+    text: \n<LOGO SHIRT>We can watch a musical any day, KYLE.\! But seeing a horror movie about delinquent schoolgirls?\. Now that's an \sinv[1]experience\sinv[0]!
+ 
+Min_4_24-5:
+    text: \n<STRIPED SHIRT>JACK, be honest...\! You just think all the schoolgirls look cute, don't you?
+
+#skip here?
+
+Min_4_24-6:
+    text: \n<LOGO SHIRT BOY>I swear I had it in my pocket....
+
+Min_4_24-7:
+    text: \n<STRIPED SHIRT BOY>Come on, JACK!\. I wanna see the movie!
+
+Min_4_24-8:
+    text: \n<LOGO SHIRT BOY>I know, I know,\. just give me a minute!
+
+#same as 4_24
+
+Min_5_4-1:
+    text: \n<STRIPED SHIRT>This movie is incredible!\. A man building a bomb to save his country?\! The story...\. the acting...\! it's perfect!
+
+Min_5_4-2:
+    text: \n<STRIPED SHIRT>It's so well made,\. it almost makes you think it actually happened!
+
+Min_5_8-1:
+    text: \n<HOODIE DRESS>At school I keep seeing fliers for a certain film club.\! They're everywhere... 
+
+Min_5_8-2:
+    text: \n<HOODIE DRESS>In the library...\. on lockers...\. in bins...\! Sometimes in the bathroom!
+
+Min_5_8-3:
+    text: \n<HOODIE DRESS>They must be really desperate for new members!
+
+Min_5_8-4:
+    text: This girl is quietly browsing the movies. Best not to disturb her.
+
+Min_5_9-1:
+    text: This guy seems like he's waiting for everyone else to make the first move.
+
+Min_5_9-2:
+    text: This man is slouched in his chair, staring off at nothing.
+
+Min_5_9-3:
+    text: This man seems like he can't wait to grab and guzzle his drink.
+
+Min_5_9-4:
+    text: This lady seems really tired,\. but the smile on her face is soft and sweet.
+
+Min_5_9-5:
+    text: \n<BABYFACE GUY>I got you a surprise once we're all done here!\. You'll have to see what it is later though, hehe!
+
+Min_5_9-6:
+    text: This man has an easy going smile on his face.\! He seems relaxed.
+
+Min_5_9-7:
+    text: \n<PURPLE STRIPES>God,\. you reek of coffee, heh.\! How do you stand that smell the entire day?
+
+Min_5_9-8:
+    text: ...This guy isn't saying anything as he tries to ignore you.
+
+Min_5_9-9:
+    text: <SARCASTIC BOY>Hey, you.\. Could you back off some?\. You're in my personal space.
+
+Min_5_14-1:
+    text: This woman is tending to the potted plants.
+
+# ======== WORKING Based NPCs ========
+Cafe_1-1:
+    text: \n<NAME>I am stuff!
+
+Cafe_1-2:
+    text: \n<NAME>I am stuff too!
+
+Gro_1-1:
+    text: \n<EMPLOYEE>\{\sinv[1]Be sure to check out our fresh fruits!\.<br>They're perfectly in season!\. 
+
+Gro_1-2:
+    text: \n<EMPLOYEE>\{\sinv[1]Drinks and canned food, 20% off!\.<br>Only today!
+
+Gro_1-3:
+    text: \n<EMPLOYEE>\{\sinv[1]Fresh produce, 100% organic!\.<br>Sourced directly from local farms!
+
+Gro_1-4:
+    text: \n<EMPLOYEE>\{\sinv[1]Fresh meat and seafood!\.<br>Take your pick, take your pick!
+
+Gro_2-1:
+    text: \n<EMPLOYEE>Ma'am,\. I keep telling you that you need your receipt to get a refund, and...
+
+Gro_2-2:
+    text: The employee is still arguing with the lady.\. He looks tired.
+
+Gro_2-3:
+    text: The employee from the grocery store is browsing fantasy movies.
+
+Gro_3-1:
+    text: This employee looks bored.
+
+Gro_4-1:
+    text: The janitor seems to be taking a break.
+
+# ======== REFERENCE Based NPCs ========
+Ref_1_1-1:
+    text: \n<TIMID-LOOKING GIRL>Woah, cookies!
+
+Ref_1_1-2:
+    text: \n<TIMID-LOOKING GIRL>My aunt was going to bake some today...\! Should we buy a jar?
+
+Ref_1_1-3:
+    text: \n<ENERGETIC-LOOKING GIRL>You like cookies?
+
+Ref_1_1-4:
+    text: \n<TIMID-LOOKING GIRL>I do, but my favorites are the ones full of chocolate chips!
+
+Ref_1_1-5:
+    text: \n<ENERGETIC-LOOKING GIRL>Well, I do like the soft kind.
+
+Ref_1_1-6:
+    text: \n<TIMID-LOOKING GIRL>Huh?\! Soft cookies?
+
+Ref_1_1-7:
+    text: \n<TIMID-LOOKING GIRL>\}Cookies are best when they're crunchy...
+
+Ref_1_3-1:
+    text: \n<BEANIE GIRL>...Oh, hey.\. You're the new kid that moved a while ago.\. I guess you're finally out and about.
+
+Ref_1_3-2:
+    text: \n<BEANIE GIRL>Was the city too scary or something?
+
+Ref_1_3-3:
+    text: \n<BEANIE GIRL>Ugh...\. man,\. rentals are so overpriced these days...
+
+Ref_1_3-4:
+    text: \n<BEANIE GIRL>Lucky me I don't need to rent movies...\.heheheh.
+
+Ref_1_7-1:
+    text: This girl is carefully browsing electronic music CDs. 
+
+Ref_1_7-2: #don't use this line
+    text: ...She looks as though this is her first time going outside in months.
+
+Ref_1_4-1:
+    text: \n<STRAIGHT CUT WOMAN>Hello!\. Welcome to the \c[11]POLICE STATION\c[0].
+
+Ref_1_4-2:
+    text: \n<STRAIGHT CUT WOMAN>Do you have any business with the sheriff?\. If you do,\. please call from 8 AM to 11 AM!
+
+Ref_1_8-1:
+    text: This boy is sitting alone on the bench.
+
+Ref_1_8-2:
+    text: His face is apathetic...\. yet with a hint of melancholy.
+
+# ======== POLICE AND CONSTRUCTION ======== is this a quest? Please finish. / no - sushi
+#police
+Pac_1-1:
+    text: \n<OFFICER>Oh!\. I didn't expect you here!\! ...Were you standing out here all day waiting?
+
+Pac_2-1:
+    text: \n<OFFICER>These days we don't get many serious resports,\. but we do get a lot of graffitti reports.\. There sure are a lot of vandals around!
+
+Pac_3-1:
+    text: 
+
+Pac_4-1:
+    text: 
+#extra: movers
+
+Pac_5-1-1:
+    text: This man looks like he's dreading having to carry all those boxes.
+
+Pac_5-2-1:
+    text: \n<MOVING COMPANY GUY>Hey kid!\! Try not to get too close once we start moving things,\. all right?
+
+Pac_5-2-2:
+    text: \n<MOVING COMPANY GUY>We should be done and gone by the evening,\. so you don't gotta see our ugly mugs too long,\. haha!
+
+#construction
+
+Pac_5-1:
+    text: 
+
+Pac_6-1:
+    text: 
+
+Pac_7-1:
+    text: 
+
+Pac_8-1:
+    text: This man seems tired,\. and very bored too.\. He's probably on lunch break.
+
+Pac_9-1:
+    text: 
+
+#BAKERY
+
+Bak_1_1:
+    text: ...You're not in the mood for donuts right now.
+
+Bak_2_1:
+    text: \n<BAKERY GREETER>Hello and welcome to HENRY'S BAKERY!\. We are currently doing a promotion themed around the SWEETHEART franchise.\. Feel free to check out our new donuts!
+
+Bak_3_1:
+    text:
+
+Bak_3_2:
+    text: These two look like they just got out of their shift. They look pretty tired.
+
+Bak_4_1:
+    text: 
+
+#Security
+
+Sec_1-1:
+    text: \n<SECURITY GUY>Heh heh heh!\. ...Whadda ya need, kid?\. You lost?\. Your Mom went shopping and forgot about you?
+
+Sec_1-2:
+    text: \n<SECURITY GUY>...Ehh,\. that was mean of me.\. Sorry. 
+
+Sec_2-1:
+    text: \n<SECURITY MAN>What do you want?\. Are you seeing straight with that eye of yours?\. It's easy to trip around here,\. y'know?
+
+Sec_2-2:
+    text: \n<SECURITY MAN>What?\. Don't blame me,\. you're the one with an eyepatch.
+
+Sec_3-1:
+    text: \n<SECURITY GAL>I see all kinds of kids wandering about every day.\. They usually come in a group,\. but you're alone...
+
+Sec_3-2:
+    text: \n<SECURITY GAL>You're not here with a friend?\. Mom's at home?\. On a shopping trip by yourself?
+
+Sec_3-3:
+    text: \n<SECURITY GAL>Well,\. it's not my job to pry.\. Stay safe, kid.\. That's what we're here to help with.
+
+# ======== CUTSCENE Based NPCs ========
+Cut_1-1:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>There you are...\. Have you finished your business here?
+
+Cut_1-2:
+    faceset: RV_Bowen
+    faceindex: 8
+    text: \n<BOWEN>We have finished ours as well...\! It was...\. enlightening...
+
+Cut_1-3:
+    faceset: RV_Daphne
+    faceindex: 5
+    text: \n<DAPHNE>So...\. Are you ready to dine with us?
+
+#If yes
+
+Cut_1-4:
+    faceset: RV_Daphne
+    faceindex: 7
+    text: \n<DAPHNE>Excellent...\. Then let us lead the way.
+
+#if no
+
+Cut_1-5:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>We understand...\. Please come back when you are ready.
+
+Cut_2-1:
+    text: \n<FAMILIAR-LOOKING GIRL>...And then it turns out that she was actually CAPT. SPACEBOY's childhood friend, but she got brainwashed by the bad guys, so she doesn't remember him, and then...
+
+Cut_2-2:
+    text: This girl is busy monologuing to her friends.\. She doesn't notice you.
+
+# ======== SITTING NPCs ========
+
+Sit_1_1-1:
+    text: \n<TV WHIZ>I could watch "Mysteries of the Seven Pyramids" all day,\. but I have to wait for a new episode! What else will I do...
+
+Sit_1_1-2:
+    text: \n<TEAL TEE>I just recorded a whole season on my fancy new DVR set!\. You should come watch with me! 
+
+Sit_1_1-3:
+    text: \n<T.V. Whiz>Flowers?\. I bet there's a TV Show about that...\. I'll look it up on the TV Escort!
+
+Sit_1_1-4:
+    text: \n<TEAL TEE>...Paul\....\. That's not what I meant... 
+
+Sit_1_1-5:
+    text: \n<TEAL TEE>I just record a whole season on my fancy new DVR set! And then I go smell the flowers...you should come with me!
+
+Sit_15-1:
+    text: \n<RED-HAIRED GUY>These drinks probably wouldn't be so pricey if we didn't add so much to them...
+
+Sit_16-1:
+    text: These two are talking about school.\. Dramas,\. difficult schoolwork,\. all sorts of things.
+
+Sit_18-1:
+    text: She is quietly enjoying a coffee.
+
+Sit_19-1:
+    text: \n<GRAY PANTS DUDE>But the extra stuff is what makes it so tasty!
+
+Sit_22-1:
+    text: This guy is slowly eating his donut.
+
+Sit_23-1:
+    text: \n<HEADBAND GIRL>Man...\. Why are the tastiest drinks always the most expensive...?
+
+Sit_8-1:
+    text: \n<PURPLE FRIZZLE>Your meatballs look so good...\! Can I have just one piece?\. \sinv[1]Pretty please?\sinv[0]
+
+Sit_8-2:
+    text: \n<MESSY HAIRED BOY>No way!\. You stole my noodles last time too...
+
+Sit_8-3:
+    text: \n<PURPLE FRIZZLE>Come on, \quake[1]pleeease\quake[0]!\. I'll let you have a bit of my salad.
+
+Sit_8-4:
+    text: \n<MESSY HAIRED BOY>I'm not giving you my meatballs for a few crummy leaves!
+
+Sit_8-5:
+    text: \n<PURPLE FRIZZLE>Hmph, fine...\! But I'm not sharing my food with you anymore either!
+
+#Same with 9
+
+Sit_10-1:
+    text: This couple is digging into their meal in complete silence.
+
+#Same with 11
+
+Sit_12-1:
+    text: This man seems to be waiting for someone.\!<br>He looks hungry...
+
+Sit_13-1:
+    text: This woman is completely absorbed in her book.
+
+Bench_1-1:
+    text: \n<JUMPER GUY>I guess you were right about going on a picnic,\. maybe it wasn't that cheesy after all!
+
+Bench_1-2:
+    text: \n<JUMPER GUY>Definitely better than staying closed in your room all day.
+
+Bench_1-3:
+    text: \n<BASKET SHIRT>Told you!\! Plus, it's always nice to hang out with friends!
+
+Bench_2-1:
+    text: 
+
+Bench_3-1:
+    text: This girl is lazily watching everyone play around.\! She doesn't seem to have the energy to play herself.
+
+Bench_4-1:
+    text: \n<RED RIBBON GIRL>Have you ever been to \c[11]MOVIE MARKET\c[0],\. Lynn?\. We should really go there and rent a movie!\. They're doing a SWEETHEART promotion.
+
+Bench_4-2:
+    text: \n<RED RIBBON GIRL>Can you believe that they did a new movie after so many years?
+
+Bench_4-3:
+    text: \n<STRIPED SHORTS GIRL>Ehhh, I don't know.\. I prefer CAPT. SPACEBOY.
+
+Bench_4-4:
+    text: \n<STRIPED SHORTS GIRL>\c[11]MOVIE WORLD\c[0] is also doing a promotion,\. but with him.\! Maybe we could watch both movies?
+
+Bench_4-5:
+    text: \n<RED RIBBON GIRL>Hmm...\. Okay!
+
+##Same with 5
+
+Bench_6-1:
+    text: These two men are engaging in a pretty heated discussion about the best phone manufacturing company.\. RasBerry seems to be winning.
+
+##Same with 7
+
+Bench_11-1:
+    text: This woman is biting into a strawberry frosted donut... 
+
+Bench_11-2:
+    text: For some reason,\. it reminds you of someone.
+
+Bench_12-1:
+    text: \n<PONYTAIL STUDENT>This essay is so \sinv[1]boringgg...\sinv[0]\! Who cares about a thousand words on the meaning of a good life or whatever?
+
+Bench_12-2:
+    text: \n<CURLY CUT STUDENT>It's an interesting question, though...\! Is indulging in your instictual desires a good life,\. or is there a higher meaning?
+
+Bench_12-3:
+    text: \n<PONYTAIL STUDENT>Ugh...\. I need a break from this...
+
+Bench_12-4: #don't use this for now
+    text: \n<CURLY CUT STUDENT>Is it your contributions to the world,\. or is it what things you haven't done to the world?\. You can go on and on...
+
+#same as above
+
+Bench_14-1:
+    text: This girl is eating her donut very quickly.
+
+Bench_14-2:
+    text: Unlike her friend,\. she seems not to mind all the donuts.
+
+Bench_15-1:
+    text: \n<PIXIE GUY>I miss when this place served other things...\! it's all just donuts now!
+
+Bench_15-2:
+    text: \n<PIXIE GUY>I know it's for a promotion,\. but did they have to replace the entire menu with donuts?
+
+Bench_16-1: #how we feeling about this one boys
+    text: This girl has crazy hair,\. with yellow and orange on top of her head...
+
+Bench_16-2:
+    text: It reminds you of an egg being cooked.
+
+Bench_17-1:
+    text: The girl standing outside the bakery earlier is sitting down with a friend,\. eating donuts and laughing...
+
+Bench_17-2:
+    text: She looks like she's having a great time.
+
+Bench_17-3:
+    text: A girl is standing outside the bakery.\! She seems to be waiting for someone...
+
+Bench_18-1:
+    text: A girl you saw earlier is eating donuts happily by herself...\. She looks much more carefree than when you first saw her.
+
+Bench_19-1:
+    text: \n<BALDING MAN> I'm glad we could do this before you head off to college,\. so many new adventures await you!\. Aren't you excited?
+
+Bench_19-2:
+    text: \n<SHY DAUGHTER> Don't yell so loudly, Dad...\! I guess I am a little excited,\. but I'm also really nervous about it all.
+
+Bench_19-3:
+    text: \n<BALDING MAN> Don't be nervous,\. you'll do great!\! I just know you'll have the time of your life...\. I sure did!
+
+Bench_19-4:
+    text: \n<SHY DAUGHTER> I'm sure you had fun with all the \sinv[1]partying\sinv[0] you did...\. I don't know if I have the energy for that.
+
+#same as above
+
+Bench_21-1: #is this a quest? It's weird, don't use this.
+    text: \n<SKEEVY KID>Hey punk...\. Normally cool people like me don't come here...\. You saw nothing!
+
+Bench_21-2:
+    text: \n<SKEEVY KID>I'm dangerous,\. you know...\. So you should back off now...
+
+Bench_21-3: #Don't use
+    text: \n<SKEEVY KID>Good job for telling all those people...\. I'll let this slide...\. for now...
+
+Bench_22-1:
+    text: This boy and girl are talking about what they'll be doing in college.\! They must be siblings.
+
+Sit_3-1-1:
+    text: \n<PURPLE TANK>All these video games and not a single board game in sight,\. not even chess!\. What's up with that?!
+
+Sit_3-1-2:
+    text: \n<PURPLE TANK>I thought they sold real games...
+
+Sit_3-3-1:
+    text: \n<WHITE BEARD>Ahhhh,\. nothing like a nice,\. relaxing sweet to cap off your day,\. eh?
+
+Sit_3-7-1:
+    text: This couple seems to be talking about their favorite movies. 
+
+Sit_3-7-2:
+    text: \n<LOB GIRLFRIEND>The stars look pretty out tonight!
+
+Sit_3-7-3:
+    text: \n<SPECTACLES BOYFRIEND>Yeah...you know what else is pretty?
+
+Sit_3-7-4:
+    text: \n<LOB GIRLFRIEND>Hehe,\. what?
+
+Sit_3-7-5:
+    text: \n<SPECTACLES BOYFRIEND>This cool looking rock I found on the ground!
+
+Sit_3-7-6:
+    text: \n<LOB GIRLFRIEND>.....you know what,\. that is a very pretty rock.
+
+Sit_3-10-1:
+    text: The girl infront of you is telling jokes about some yellow bear...
+
+Sit_3-10-2:
+    text: You don't get it,\. but her friend seems to find it hilarious. 
+
+Sit_3-11-1:
+    text: \n<GYM GUY>People at the gym ask me what I eat to stay fit all the time,\. and I'm more than happy to tell them about my favorite healthy snacks for their fitness journey!
+
+Sit_3-11-2:
+    text: \n<GYM GUY>That being said...\. I still can't help myself when I see a donut. Just...\. frosted perfection.
+
+Sit_3-13-1:
+    text: This man seems bored as he chews on his sandwich.
+
+#--SHOP FLAVORS
+
+Sho_1-1:
+    text: \n<HOT DOG GUY>Everyone knows a nice,\. meaty dog after a day of play is the best way to get your energy back!\. <br>Come on,\. grab a hot dog!
+
+Sho_2-1:
+    text: \n<COTTON CANDY GAL>It's the sweet treat that can't be beat!\. Try some cotton candy,\. it's the best snack around!
+
+Sho_3-1:
+    text: \n<ICE CREAM MAN>It's hot as heck outside,\. isn't it?\. Good thing I got some ice cream to sell,\. huh?\. How about it?
+
+Sho_4-1:
+    text: \n<TACO CASHIER>Burritos!\. Big,\. beefy burritos!\. Oh, and tacos too,\. can't forget those!
+
+Sho_5-1:
+    text: \n<THAI FOOD CASHIER>Try out our red curry,\. I promise it won't burn your tongue off!
+
+#---QUESTS---
+
+#Business owner
+
+Quest_1-1:
+    text: \n<MAN>Oh!\. Hello there, kid!
+
+Quest_1-2:
+    text: \n<MAN>I'm looking for a new location to open my restaurant in,\. and this place looks perfect! In a residential area,\. near a park,\. a mall and a parking lot...
+
+Quest_1-3:
+    text: \n<ENTREPENEUR MAN>The only problem is that the graffiti around here ruin the area,\. not to mention the trash...
+
+Quest_1-4:
+    text: \n<ENTREPENEUR MAN>Say,\. would you be in interested in a little graffiti cleaning job?\. Youngsters like you have a lot of time on their hands.\. I'll pay you an appropriate amount of dollars.\.
+
+#Yes
+
+Quest_1-5:
+    text: \n<ENTREPENEUR MAN>Great!\. After you've cleaned them all,\. come find me.\! I'll be standing here all day.
+
+Quest_1-6:
+    text: \n<ENTREPENEUR MAN>By the way,\. don't clean children's chalk drawings!\! They might get sad.\. If you can't distinguish them from the graffiti,\. remember they're pastel colored.
+
+#No
+
+Quest_1-7:
+    text: \n<ENTREPENEUR MAN>I don't blame you,\. there are far more entertaining things to do,\. haha!\. If you change your mind, I'll be here.
+
+#Back after no
+
+Quest_1-8:
+    text: \n<ENTREPENEUR MAN>Hey,\. it's you again!\. Changed your mind on the offer?
+
+#Talk while there are still graffittis
+
+Quest_1-9:
+    text: \n<ENTREPENEUR MAN>When you've cleaned all the graffiti, come find me. They're all around the city, so be sure to not accidentally miss one!
+
+#Quest finished
+
+Quest_1-10:
+    text: \n<ENTREPENEUR MAN>The city feels a lot cleaner!\! Thanks a bunch,\. kid.\! This new location for my restaurant will totally be a success.
+
+Quest_1-11:
+    text: \n<ENTREPENEUR MAN>Here's your pay!\. Maybe swing by one of those movie rental stores.\. Grab something that really tickles your imagination.\. The more expensive the better,\. I always say!
+    
+Quest_1-14:
+    text: You got 15.00$!
+
+#After quest
+
+Quest_1-12:
+    text: \n<ENTREPENEUR MAN>Thanks a ton for the help, kid! See ya! 
+
+Quest_1-13:
+    text: You lost \c[4]CLEANING SUPPLIES\c[0].
+
+#Trash collecting
+
+Quest_2-1:
+    text: \n<TREE GIRL>Hey!\. You there!
+
+Quest_2-2:
+    text: \n<TREE GIRL>You've seen all the trash around this city, right?\. Disgusting,\. ain't it?
+
+Quest_2-3:
+    text: \n<TREE GIRL>So bring any trash you find over here!\! Come on,\. let's help the world one step at a time!
+
+#GiveTrash
+
+Quest_2-4:
+    text: \n<TREE GIRL>Hey, nice!\. You brought some trash for me!
+
+Quest_2-5:
+    text: \n<TREE GIRL>Here's something, friend! Thanks for the help!
+
+# Kids and their ball
+
+Quest_3-1:
+    text: \n<GREEN POLO KID>Why did you kick the ball so hard,\. SAM?!\. Now we have no idea where it is!
+
+Quest_3-1-2:
+    text: \n<BLONDE PIGTAILS KID>I just got really mad we lost and...\. Uh...
+
+Quest_3-1-3:
+    text: \n<BLONDE PIGTAILS KID>Sorry...
+
+Quest_3-1-4:
+    text: \n<NUMBERED SHIRT BOY>Aww...\. Where did it go...?
+
+Quest_3-1-5:
+    text: \n<NUMBERED SHIRT BOY>Hey, mister,\. can you help us find our soccer ball?\! It's, like,\. white and round.\. It also has some black spots.\. It went that way to the playground,\. I think.
+
+Quest_3-2:
+    text: \n<NUMBERED SHIRT>Awesome!\. We'll be waiting here while you go search for it.
+
+# Move this? (ball flavor text 3 - 6)
+Quest_3-3:
+    text: A lonely discarded ball.
+
+Quest_3-4:
+    text: This could be the ball the kids were looking for. Take it?
+
+# Replace color?
+Quest_3-5:
+    text: You got the \c[4]BALL\c[0].
+
+Quest_3-6:
+    text: \n<STRIPE POLO KID>Nevermind then,\. we'll have to find someone else then...\. Thank you anyway!
+
+Quest_3-7:
+    text: \n<BLONDE PIGTAILS KID>Is this our ball?
+
+Quest_3-8:
+    text: Give them the \c[4]BALL\c[0]?
+
+Quest_3-9:
+    text: \n<BLONDE PIGTAILS KID>Yippee!\. Thanks!
+
+Quest_3-10:
+    text: \n<NUMBERED SHIRT BOY>Amazing!\. Here, have this $5.00 bill I found on the floor earlier.
+
+Quest_3-11:
+    text: \n<GREEN POLO KID>Thank you!!
+
+# Between start and finding ball
+Quest_3-12:
+    text: \n<GREEN POLO KID>Come on!!\. Hurry up!
+
+Quest_3-13:
+    text: These children seem to be arguing.
+
+Quest_3-14:
+    text: \n<NUMBERED SHIRT BOY>Thanks a bunch,\. mister!
+
+#Lost and found======
+
+#player interacts with box / quest is given===========
+
+Quest_4-1:
+    text: \n<STRAIGHT CUT WOMAN>That's the station's lost and found box,\. people all over the city check it for their missing things.\! If you ever lose something,\. don't be afraid to come by and see if it's here!
+
+Quest_4-2:
+    text: \n<STRAIGHT CUT WOMAN>We also have a lot of people who give us their information just in case we find their property.
+
+#ITEM LIST ITEM IS GIVEN TO PLAYER, quest assigned===========
+
+Quest_4-3:
+    text: \n<STRAIGHT CUT WOMAN>If you ever want to help out the station,\. here's a daily list of things that people have reported as missing.
+
+#Whevener sunny brings back an item, gives 3$===========
+
+Quest_4-4:
+    text: \n<STRAIGHT CUT WOMAN>Hey again!\. Thanks for bringing that by,\. I'll let the owner know so they can come pick it up!
+
+Quest_4-5:
+    text: \n<STRAIGHT CUT WOMAN>Here's a little something for your help!
+    
+Quest_4-5-reward:
+    text: You got \v[1517].00$ dollars!
+
+#Last item for  the day is given
+
+#Woman jumps and does exclamation bubble
+
+Quest_4-6:
+    text: \n<STRAIGHT CUT WOMAN>Hey, that's everything for today!\! Thanks a ton kid,\. you're a superstar!\. A lot of people are gonna have a better day because of you.
+
+Quest_4-7:
+    text: \n<STRAIGHT CUT WOMAN>Come back tomorrow if you want to help out again!
+
+#If you dont have any items to bring
+
+Quest_4-8:
+    text: \n<STRAIGHT CUT WOMAN>You’d be doing us a big favor if you bring anything!\! Remember,\. everything you're looking for is on today’s list!

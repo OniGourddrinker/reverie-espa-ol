@@ -1,0 +1,1744 @@
+# =========================================================================================
+# ** Cutscenes for ch3. 
+# =========================================================================================
+
+other-1:
+    text: The \c[11]MALL\c[0]...\! You recall it being in the lower right block.
+
+other-2:
+    text: You should probably go buy \c[4]STEAK\c[0] at the \c[11]GROCERY STORE\c[0] first before lunch...
+
+#1. Twins introduction
+#As player approaches the mall from the left, a sudden stop.
+3_S1_1:
+    text: \n<???>\Com[2]\{HEY!\! \}Wait one moment, will you?
+
+#Player turns around and !s as DP runs up towards him from the left, BW slowly trailing behind her.
+
+3_S1_2:
+    text: \n<DAPHNE?>\quake[1]Pant...\quake[0]\. you're...\! \quake[1]Pant...\quake[0]\. \n[17]...\. right?
+
+3_S1_3:
+    text: \n<BOWEN?>It appears it is, dear sister.
+
+#DP sweats
+
+3_S1_4:
+    text: \n<DAPHNE?>Do you...\. remember us?\! <br>\c[4]DAPHNE\c[0] and \c[4]BOWEN\c[0], from \c[11]FARAWAY TOWN\c[0].?
+
+3_S1_5:
+    faceset: RV_Daphne
+    faceindex: 14
+    text: \n<DAPHNE>It appears...\. Our friendship has been allowed to continue!
+
+#Twins look at each other, then player.
+
+3_S1_6:
+    faceset: RV_Daphne
+    faceindex: 5
+    text: \n<DAPHNE>Truly...\. We thought we would only meet strangers at this place...
+
+#DP jumps twice
+
+3_S1_7:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>But here you are... 
+
+3_S1_8:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>It is good to see you...\. Friend.
+
+3_S1_9:
+    faceset: RV_Daphne
+    faceindex: 5
+    text: \n<DAPHNE>To meet an old friend like this...\. I have many questions.
+
+3_S1_10:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>But as much as we would enjoy catching up...\. We are busy...
+
+3_S1_11:
+    faceset: RV_Bowen
+    faceindex: 0
+    text: \n<BOWEN>Very busy...
+
+3_S1_12:
+    faceset: RV_Daphne
+    faceindex: 5
+    text: \n<DAPHNE>We have a number of tasks to work on, you see.\! Concerning this mall.
+
+3_S1_13:
+    faceset: RV_Daphne
+    faceindex: 13
+    text: \n<DAPHNE>We saw you were approaching it...\! <br>Do you have business here, too?
+
+3_S1_14:
+    faceset: RV_Daphne
+    faceindex: 8
+    text: \n<DAPHNE>In any case...\! We have much to do.
+
+#BW turns towards DP
+
+3_S1_15:
+    faceset: RV_Bowen
+    faceindex: 0
+    text: \n<BOWEN>What about...\. lunch afterwards?
+
+#DP !s.
+
+3_S1_16:
+    faceset: RV_Daphne
+    faceindex: 5
+    text: \n<DAPHNE>Oh!\! Good idea, brother!
+
+3_S1_17:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>We are planning to have lunch here, after our business here is finished.
+
+3_S1_18:
+    faceset: RV_Daphne
+    faceindex: 8
+    text: \n<DAPHNE>You could join us...\. If you wish...
+
+3_S1_19:
+    faceset: RV_Bowen
+    faceindex: 11
+    text: \n<BOWEN>We would be delighted...\. to have your company.
+
+#The twins begin moving towards the mall entrance, then turn back towards the player.
+
+3_S1_20:
+    faceset: RV_Daphne
+    faceindex: 14
+    text: \n<DAPHNE>We will be waiting in the \c[11]FOOD COURT\c[0] later...\. We hope to see you there.
+
+3_S1_21:
+    faceset: RV_Daphne
+    faceindex: 8
+    text: \n<DAPHNE>Let us be on our way...\. brother.
+
+#end scene.
+
+# ---- ---- ---- ---- ---- ---- ---- ----
+#2. Lunch with the twins
+# ---- ---- ---- ---- ---- ---- ---- ----
+
+#D, B, and p are sitting on one of the tables in the mall food court. Most if not all of the tables 
+#around them are occupied by various NPCS (just reuse a bunch of npcs in the mall, like B&A.)
+
+3_S2_1:
+    faceset: RV_Daphne
+    faceindex: 5
+    text: \n<DAPHNE>Hmm...\! What a crowded little place this is.
+
+3_S2_2:
+    faceset: RV_Bowen
+    faceindex: 8
+    text: \n<BOWEN>It is very...\. different...\. from \c[11]FARAWAY TOWN\c[0].
+
+3_S2_3:
+    faceset: RV_Daphne
+    faceindex: 11
+    text: \n<DAPHNE>We only arrived here a week ago...\. We are still adjusting.
+
+#... on DP.
+
+3_S2_4:
+    faceset: RV_Daphne
+    faceindex: 13
+    text: \n<DAPHNE>Speaking of...\! <br>Are you wondering what we are doing in the city?
+
+3_S2_5:
+    faceset: RV_Bowen
+    faceindex: 11
+    text: \n<BOWEN>I am sure you were surprised to see us...
+
+3_S2_6:
+    faceset: RV_Daphne
+    faceindex: 7
+    text: \n<DAPHNE>The truth is...\! We are on a \sinv[1]mission\sinv[0].
+
+3_S2_7:
+    faceset: RV_Daphne
+    faceindex: 4
+    text: \n<DAPHNE>Our parents have decided to open a new bakery here...
+
+3_S2_8:
+    faceset: RV_Daphne
+    faceindex: 3
+    text: \n<DAPHNE>And we...\. are the ones running it!
+
+#Player !s.
+
+3_S2_9:
+    faceset: RV_Daphne
+    faceindex: 8
+    text: \n<DAPHNE>Yes, it is all...\. Very exciting.
+
+3_S2_10:
+    faceset: RV_Daphne
+    faceindex: 11
+    text: \n<DAPHNE>We have free reign over our own stocks...\. and our own recipes.
+
+3_S2_11:
+    faceset: RV_Daphne
+    faceindex: 2
+    text: \n<DAPHNE>\}...Not to mention our own hours.
+
+3_S2_12:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>We have also been enjoying city life...\. somewhat.
+
+3_S2_13:
+    faceset: RV_Bowen
+    faceindex: 11
+    text: \n<BOWEN>It was truly a surprise that MOM and DAD let us go on our own...
+
+3_S2_14:
+    faceset: RV_Daphne
+    faceindex: 5
+    text: \n<DAPHNE>Indeed, brother...\! It was unexpected.
+
+#pause. Fade out & back in with food served?
+
+3_S2_15:
+    faceset: RV_Daphne
+    faceindex: 5
+    text: \n<DAPHNE>Things are the same as usual, back in \c[11]FARAWAY TOWN\c[0].
+
+3_S2_16:
+    faceset: RV_Daphne
+    faceindex: 14
+    text: \n<DAPHNE>The bakery is doing well.\! <br>And our dear little brother...\. is still as rebellious as ever.
+
+#17 is not used
+3_S2_17:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>
+
+3_S2_18:
+    faceset: RV_Daphne
+    faceindex: 8
+    text: \n<DAPHNE>He's gotten it in his head that he can outdo our bakery.
+
+3_S2_19:
+    faceset: RV_Bowen
+    faceindex: 10
+    text: \n<BOWEN>He wishes to be a chef, however... <br>He says...\! \"the ladies love a man who can cook.\"
+
+#20 is not used
+3_S2_20:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>
+
+3_S2_21:
+    faceset: RV_Daphne
+    faceindex: 4
+    text: \n<DAPHNE>.........
+
+3_S2_22:
+    faceset: RV_Daphne
+    faceindex: 10
+    text: \n<DAPHNE>Heheh.
+
+#slight pause. 23~26 may be omitted if the cutscene gets too long!
+
+3_S2_23:
+    faceset: RV_Daphne
+    faceindex: 5
+    text: \n<DAPHNE>He keeps bringing up his rival as well.
+
+3_S2_24:
+    faceset: RV_Daphne
+    faceindex: 13
+    text: \n<DAPHNE>He says...\. that this is his best chance at defeating him.\! <br>I wonder who he is talking about...
+
+#25 is not used
+3_S2_25:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>
+
+3_S2_26:
+    faceset: RV_Bowen
+    faceindex: 19
+    text: \n<BOWEN>.....
+
+#pause. Fade out & back in with food partially eaten?
+
+3_S2_27:
+    faceset: RV_Bowen
+    faceindex: 10
+    text: \n<BOWEN>But enough about us...\! How have you been?
+
+3_S2_28:
+    faceset: RV_Daphne
+    faceindex: 7
+    text: \n<DAPHNE>Ah, yes...\! Have you been enjoying life here?
+#change this line maybe. Just keep the meaning.
+
+#choice btwn yes/no.
+#if yes:
+3_S2_29y:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>Ah...\. So you have adapted to the ways of the city...\! <br>For us, everything is still unfamiliar.
+
+#30y is not used
+3_S2_30y:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>
+
+#if no
+3_S2_29n:
+    faceset: RV_Daphne
+    faceindex: 11
+    text: \n<DAPHNE>Hmm...\. Hmm...\. To be honest, it has been the same for us.
+
+3_S2_30n:
+    faceset: RV_Daphne
+    faceindex: 8
+    text: \n<DAPHNE>The city is...\. difficult...\. to adapt to.
+
+# continue
+
+3_S2_31:
+    faceset: RV_Bowen
+    faceindex: 11
+    text: \n<BOWEN>This place is so big...
+
+3_S2_32:
+    faceset: RV_Bowen
+    faceindex: 4
+    text: \n<BOWEN>We tried exploring all of it once.
+
+3_S2_33:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>Once.
+
+3_S2_34:
+    faceset: RV_Bowen
+    faceindex: 0
+    text: \n<BOWEN>.......
+
+3_S2_35:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>.......
+
+#pause. Fade out & back in with all food gone? ...s on all 3.
+#phone rings. ! on DP. A beep and the ringing stops.
+
+3_S2_36:
+    faceset: RV_Daphne
+    faceindex: 5
+    text: \n<DAPHNE>Hello?
+
+#pause.
+
+3_S2_37:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>Already?\! \.... \.... \.... \! Very well.
+
+#beep.
+
+3_S2_38:
+    faceset: RV_Daphne
+    faceindex: 8
+    text: \n<DAPHNE>BOWEN...\. it seems that the yeast has been delivered early.
+
+3_S2_39:
+    faceset: RV_Bowen
+    faceindex: 10
+    text: \n<BOWEN>Then...\. we must hurry along...
+
+3_S2_40:
+    faceset: RV_Daphne
+    faceindex: 2
+    text: \n<DAPHNE>This lunch was enjoyable...\! But now we should be on our way.
+
+3_S2_41:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>Ah.\! If you want to come see us later...\! <br>Our bakery isn't that far away.
+
+3_S2_42:
+    faceset: RV_Daphne
+    faceindex: 5
+    text: \n<DAPHNE>It is only a bit northwest of here.\! Please, pay us a visit.
+
+3_S2_43:
+    faceset: RV_Bowen
+    faceindex: 0
+    text: \n<BOWEN>\sinv[1]Fresh bread...\sinv[0]\. awaits you...
+
+3_S2_44:
+    faceset: RV_Daphne
+    faceindex: 7
+    text: \n<DAPHNE>It was good to see you, \n[17]...\! Come, brother.
+
+3_S2_45:
+    faceset: RV_Bowen
+    faceindex: 6
+    text: \n<BOWEN>We hope to see you later...
+
+# ---- ---- ---- ---- ---- ---- ---- ----
+#3. Film club introduction
+# ---- ---- ---- ---- ---- ---- ---- ----
+
+#shortly after leaving the mall, the player is stopped. Camera pan to the entrance at (19,8),
+#from which LC, MX, and HW appear one by one. They congregate some way down from a nearby bench.
+#as they talk, the player slowly goes to the bench and sits, watching the scene unfold.
+
+3_S3_A:
+    text: You suddenly feel really tired...\! You need to sit down for a while.
+
+3_S3_1:
+    faceset: RV_Lucy
+    faceindex: 4
+    text: \n<FAMILIAR-LOOKING GIRL>Hee hee!\! What a haul!
+
+3_S3_2:
+    faceset: RV_Lucy
+    faceindex: 8
+    text: \n<FAMILIAR-LOOKING GIRL>I've been looking for a good toy blaster \sinv[1]forever\sinv[0]...\! <br>I can't believe the costume shop had it!
+
+#music note on LC.
+
+3_S3_3:
+    faceset: RV_Howard
+    faceindex: 6
+    text: \n<BROWN-HAIRED BOY>See, LUCY?\! We managed to have fun today after all.
+
+#cobweb on MX.
+
+3_S3_4:
+    faceset: RV_Max
+    faceindex: 0
+    text: \n<BLOND-HAIRED BOY>Yeah, LUCY.\! It all turned out fine.
+
+#anger on LC. Turn to Max. 
+
+3_S3_5:
+    faceset: RV_Lucy
+    faceindex: 13
+    text: \n<FAMILIAR-LOOKING GIRL>\Com[2]You be quiet, MAX!\! You still wasted my whole morning!
+
+3_S3_6:
+    faceset: RV_Lucy
+    faceindex: 10
+    text: \n<FAMILIAR-LOOKING GIRL>You're lucky I managed to find this \sinv[1]sweet\sinv[0] blaster!\! <br>Just barely made today worth it.
+
+3_S3_7:
+    faceset: RV_Max
+    faceindex: 2
+    text: \n<BLOND-HAIRED BOY>Hey, it's not my fault they delayed the event out of the blue!
+
+3_S3_8:
+    faceset: RV_Lucy
+    faceindex: 10
+    text: \n<FAMILIAR-LOOKING GIRL>Whatever.\. You still insisted on dragging me and HOWARD along.
+
+#cobweb on LC & MX.
+
+3_S3_9:
+    faceset: RV_Lucy
+    faceindex: 5
+    text: \n<FAMILIAR-LOOKING GIRL>I knew I should have skipped out the moment you said '\c[4]SWEETHEART collaboration\c[0]'.\! Nobody but you watches that stupid show.
+
+3_S3_10:
+    faceset: RV_Max
+    faceindex: 13
+    text: \n<BLOND-HAIRED BOY>Seriously?\! You know 'that stupid show' has a bigger fanbase than \c[4]THE ADVENTURES OF CAP'T. SPACEBOY\c[0], right?
+
+3_S3_11:
+    faceset: RV_Lucy
+    faceindex: 1
+    text: \n<FAMILIAR-LOOKING GIRL>That's just because nobody knows how to appreciate actually \Com[2]GOOD television!
+
+#... on HW.
+
+3_S3_12:
+    faceset: RV_Howard
+    faceindex: 19
+    text: \n<BROWN-HAIRED BOY>Guys...\. Let's not do this again.\! Remember last time?\. <br>We barely got to film anything.
+
+#LC jumps once
+
+3_S3_13:
+    faceset: RV_Lucy
+    faceindex: 5
+    text: \n<FAMILIAR-LOOKING GIRL>Only because MAX refused to follow my directions!
+
+3_S3_14:
+    faceset: RV_Max
+    faceindex: 13
+    text: \n<BLOND-HAIRED BOY>You were trying to make me get into that alien costume again!\! I told you I'm not wearing it, it's all... sticky and gross inside!
+    
+3_S3_15:
+    faceset: RV_Lucy
+    faceindex: 10
+    text: \n<FAMILIAR-LOOKING GIRL>Oh yeah?\! Well, it's better than that stupid princess costume you always make me wear!\! It's so embarrassing!
+
+#cobweb on MX.
+
+3_S3_16:
+    faceset: RV_Max
+    faceindex: 13
+    text: \n<BLOND-HAIRED BOY>I'd take princesses over tacky space monsters any day.\! <br>At least they aren't cheap and boring!
+
+#anger on LC.
+
+3_S3_17:
+    faceset: RV_Lucy
+    faceindex: 10
+    text: \n<FAMILIAR-LOOKING GIRL>You should know cheap and boring, with your fake knockoff SWEETHEART costumes!
+
+#MX jumps twice
+
+3_S3_18:
+    faceset: RV_Max
+    faceindex: 13
+    text: \n<BLOND-HAIRED BOY>It's called a homage!\. And it's \Com[2]super original!
+
+#LC and MX go face to face
+
+3_S3_19:
+    faceset: RV_Lucy
+    faceindex: 1
+    text: \n<FAMILIAR-LOOKING GIRL>\Com[2]It is so not!
+
+3_S3_20:
+    faceset: RV_Max
+    faceindex: 13
+    text: \n<BLOND-HAIRED BOY>Is too!
+
+3_S3_21:
+    faceset: RV_Lucy
+    faceindex: 15
+    text: \n<FAMILIAR-LOOKING GIRL>\{\Com[2]IS NOT!
+
+3_S3_22:
+    faceset: RV_Max
+    faceindex: 11
+    text: \n<BLOND-HAIRED BOY>\{IS-
+
+#HW jumps once
+
+3_S3_23:
+    faceset: RV_Howard
+    faceindex: 8
+    text: \n<BROWN-HAIRED BOY>\{\Com[2]GUYS!
+
+#LC and HW face HW. Both sweat
+
+3_S3_24:
+    faceset: RV_Max
+    faceindex: 2
+    text: \n<BLOND-HAIRED BOY>...\! Sorry...\. HOWARD.
+
+#LC cobwebs
+
+3_S3_25:
+    faceset: RV_Lucy
+    faceindex: 5
+    text: \n<FAMILIAR-LOOKING GIRL>\}Fine...\. I'm sorry too.
+
+#... on HW
+
+3_S3_26:
+    faceset: RV_Howard
+    faceindex: 11
+    text: \n<BROWN-HAIRED BOY>You guys do want to film something today, right?\! Why don't we get started now?      
+
+3_S3_27:
+    faceset: RV_Howard
+    faceindex: 0
+    text: \n<BROWN-HAIRED BOY>Whose turn was it to direct again?
+
+#LC jumps twice
+
+3_S3_28:
+    faceset: RV_Lucy
+    faceindex: 18
+    text: \n<FAMILIAR-LOOKING GIRL>\Com[2]Ooh!\. Me! Me!
+
+#! on MX
+
+3_S3_29:
+    faceset: RV_Max
+    faceindex: 13
+    text: \n<BLOND-HAIRED BOY>Wait a sec, no fair!\! You directed last time, it's my turn today!
+
+3_S3_30:
+    faceset: RV_Lucy
+    faceindex: 8
+    text: \n<FAMILIAR-LOOKING GIRL>No way!\! You said I could direct today for wasting our time, remember?
+
+3_S3_31:
+    faceset: RV_Max
+    faceindex: 16
+    text: \n<BLOND-HAIRED BOY>Wha-\. \}dangit, I did say that...\. \frBut-
+
+3_S3_32:
+    faceset: RV_Lucy
+    faceindex: 4
+    text: \n<FAMILIAR-LOOKING GIRL>No buts!\. I'm taking the camera today!
+
+#music note on LC, cobweb on MX
+
+3_S3_33:
+    faceset: RV_Max
+    faceindex: 4
+    text: \n<BLOND-HAIRED BOY>Fine...\. But I'm directing next time!
+
+3_S3_34:
+    faceset: RV_Lucy
+    faceindex: 0
+    text: \n<FAMILIAR-LOOKING GIRL>Yeah, yeah.
+
+#pause for a little, then LC jumps twice
+
+3_S3_35:
+    faceset: RV_Lucy
+    faceindex: 16
+    text: \n<FAMILIAR-LOOKING GIRL>\{\Com[2]Alright, listen up!
+
+3_S3_36:
+    faceset: RV_Lucy
+    faceindex: 0
+    text: \n<FAMILIAR-LOOKING GIRL>We're filming a \sinv[1]really\sinv[0] important scene in my movie today!
+
+3_S3_37:
+    faceset: RV_Max
+    faceindex: 2
+    text: \n<BLOND-HAIRED BOY>\}You say that every time we film...
+
+3_S3_38:
+    faceset: RV_Lucy
+    faceindex: 12
+    text: \n<FAMILIAR-LOOKING GIRL>The final showdown between CAP'T. SPACEBOY and the evil DR. BUNNYTRON!
+
+3_S3_39:
+    faceset: RV_Lucy
+    faceindex: 7
+    text: \n<FAMILIAR-LOOKING GIRL>Everything is perfect!\! The fight choreography, the script!
+
+#Sweat on MX and HW
+
+3_S3_40:
+    faceset: RV_Lucy
+    faceindex: 19
+    text: \n<FAMILIAR-LOOKING GIRL>And the costumes, too...\! I spent \sinv[1]forever\sinv[0] getting them just perfect!
+
+#LC music notes
+
+3_S3_41:
+    faceset: RV_Lucy
+    faceindex: 18
+    text: \n<FAMILIAR-LOOKING GIRL>Especially my CAP'T. SPACEBOY cosplay...\! <br>This blaster's just the cherry on top.
+
+#LC rummages in her bag
+
+3_S3_42:
+    faceset: RV_Lucy
+    faceindex: 18
+    text: \n<FAMILIAR-LOOKING GIRL>Hee hee, check it out!\! Green cape...\. SPACEBOY headband...\. <br>This sweet new blaster...\. And...
+
+#? on LC, speed up rummaging animation. After a few seconds ! on LC.
+
+3_S3_43:
+    faceset: RV_Lucy
+    faceindex: 11
+    text: \n<FAMILIAR-LOOKING GIRL>\Com[2]\{HEY!\! MY EYEPATCH IS MISSING!
+
+#! on MX and HW
+
+3_S3_44:
+    faceset: RV_Max
+    faceindex: 17
+    text: \n<BLOND-HAIRED BOY>Your eyepatch?\! Can't you just film without it today?
+
+3_S3_45:
+    faceset: RV_Lucy
+    faceindex: 1
+    text: \n<FAMILIAR-LOOKING GIRL>No way!\! CAP'T. SPACEBOY never takes off his eyepatch! \quake[1]NEVER!
+
+3_S3_46:
+    faceset: RV_Howard
+    faceindex: 9
+    text: \n<BROWN-HAIRED BOY>Did you leave it somewhere?
+
+3_S3_47:
+    faceset: RV_Lucy
+    faceindex: 6
+    text: \n<FAMILIAR-LOOKING GIRL>I don't know...\. Maybe...
+
+#LC cobwebs
+
+3_S3_48:
+    faceset: RV_Lucy
+    faceindex: 9
+    text: \n<FAMILIAR-LOOKING GIRL>\Com[2]This sucks!\! First this morning and now this!\! <br>I was so looking forward to this too...
+
+#HW and MX look at each other, then back at LC. As they take step forwards, LC looks around.
+
+3_S3_49:
+    faceset: RV_Max
+    faceindex: 16
+    text: \n<BLOND-HAIRED BOY>Hey, we can help look for it if-
+
+#Looking at the player, LC !s and cuts the previous lines off while saying:
+
+3_S3_50:
+    faceset: RV_Lucy
+    faceindex: 18
+    text: \n<FAMILIAR-LOOKING GIRL>Ooh!
+
+#Camera pan player, then back to LC.
+
+3_S3_51:
+    faceset: RV_Lucy
+    faceindex: 16
+    text: \n<FAMILIAR-LOOKING GIRL>That's perfect!
+
+#LC approaches player
+
+3_S3_52:
+    faceset: RV_Lucy
+    faceindex: 18
+    text: \n<FAMILIAR-LOOKING GIRL>Hey eyepatch guy, can I borrow that for a second?
+
+#! on HW and MX. MX jumps once
+
+3_S3_53:
+    faceset: RV_Max
+    faceindex: 11
+    text: \n<BLOND-HAIRED BOY>\{\Com[2]LUCY!!
+
+#MX runs up to LC and turns to her. HW walks up while the dialogue plays as well.
+
+3_S3_54:
+    faceset: RV_Max
+    faceindex: 13
+    text: \n<BLOND-HAIRED BOY>Oh my god LUCY, you can't just walk up and say that!
+
+#MX turns to player, sweating.
+
+3_S3_55:
+    faceset: RV_Max
+    faceindex: 9
+    text: \n<BLOND-HAIRED BOY>I'm so sorry!\! My friend's so stupid...
+
+#anger on LC
+
+3_S3_56:
+    faceset: RV_Lucy
+    faceindex: 1
+    text: \n<FAMILIAR-LOOKING GIRL>Excuse you!\! I was just gonna borrow it for a second!
+
+#MX turns back to LC
+
+3_S3_57:
+    faceset: RV_Max
+    faceindex: 13
+    text: \n<BLOND-HAIRED BOY>LUCY, people wear eyepatches for a reason!\! They're hurt, they need that!
+
+3_S3_58:
+    faceset: RV_Lucy
+    faceindex: 9
+    text: \n<FAMILIAR-LOOKING GIRL>But I-
+
+3_S3_59:
+    faceset: RV_Howard
+    faceindex: 19
+    text: \n<BROWN-HAIRED BOY>LUCY...
+
+#Cobweb on LC.
+
+3_S3_60:
+    faceset: RV_Lucy
+    faceindex: 3
+    text: \n<FAMILIAR-LOOKING GIRL>Alright, alright...\! Sorry, um, eyepatch guy.
+
+#pause here. ? on LC.
+
+3_S3_61:
+    faceset: RV_Lucy
+    faceindex: 5
+    text: \n<FAMILIAR-LOOKING GIRL>Hang on...\! Don't I know you?
+
+#..., then ! on LC
+
+3_S3_62:
+    faceset: RV_Lucy
+    faceindex: 8
+    text: \n<FAMILIAR-LOOKING GIRL>I do know you!\. <br>You were at school that one time.\! \n[17], right!
+
+3_S3_63:
+    faceset: RV_Lucy
+    faceindex: 8
+    text: \n<FAMILIAR-LOOKING GIRL>I gave you the tour and all, nice to see you again!
+
+3_S3_64:
+    faceset: RV_Max
+    faceindex: 19
+    text: \n<BLOND-HAIRED BOY>\n[17]...?\! I haven't seen him around.
+
+3_S3_65:
+    faceset: RV_Lucy
+    faceindex: 16
+    text: \n<FAMILIAR-LOOKING GIRL>He's from out of town, <br>I think he's starting school after break.\! Right?
+
+#LC jumps once
+
+3_S3_66:
+    faceset: RV_Lucy
+    faceindex: 0
+    text: \n<FAMILIAR-LOOKING GIRL>Wow, you're still wearing that eyepatch?\! It's been \sinv[1]weeks\sinv[0] since I saw you.
+
+3_S3_67:
+    faceset: RV_Lucy
+    faceindex: 4
+    text: \n<FAMILIAR-LOOKING GIRL>Did you get stabbed in the eye or something?
+
+#MX sweats. HW ...s.
+
+3_S3_68:
+    faceset: RV_Lucy
+    faceindex: 8
+    text: \n<FAMILIAR-LOOKING GIRL>Anyway...\. Remember me?\. I'm \c[4]LUCY\c[0]!\! It's nice to see you again.
+
+#LC turns to MX, then back again
+
+3_S3_69:
+    faceset: RV_Lucy
+    faceindex: 7
+    text: \n<LUCY>This is my friend \c[4]MAX\c[0]!\! He's kind of a weird nerd, but besides that he's okay!
+
+#MX turns to LC.
+
+3_S3_70:
+    faceset: RV_Max
+    faceindex: 13
+    text: \n<MAX>Hey!\. Rude!
+
+#LC turns to HW and MX turns to the player
+
+3_S3_71:
+    faceset: RV_Lucy
+    faceindex: 0
+    text: \n<LUCY>And this is HOWARD!
+
+3_S3_72:
+    faceset: RV_Howard
+    faceindex: 6
+    text: \n<HOWARD>Nice to meet you, \n[17].
+
+#LC face player again
+
+3_S3_73:
+    faceset: RV_Lucy
+    faceindex: 0
+    text: \n<LUCY>He's the president of the school film club.\! We're all members!
+
+3_S3_74:
+    faceset: RV_Max
+    faceindex: 18
+    text: \n<MAX>Yeah.\. \}Though we're kind of... the only members...
+
+#! on LC, then jump twice
+
+3_S3_75:
+    faceset: RV_Lucy
+    faceindex: 0
+    text: \n<LUCY>Say...\. Are you busy today?\! Wanna hang out with us for a while?
+
+3_S3_76:
+    faceset: RV_Lucy
+    faceindex: 0
+    text: \n<LUCY>We're filming something really important today...\. <br>And we could really use your help!
+
+#LC looks around at HW and MX
+
+3_S3_77:
+    faceset: RV_Lucy
+    faceindex: 0
+    text: \n<LUCY>You guys don't mind, right?\! <br>The more crew we have the better!
+
+3_S3_78:
+    faceset: RV_Max
+    faceindex: 0
+    text: \n<MAX>I guess, as long as \n[17] wants to...
+
+3_S3_79:
+    faceset: RV_Howard
+    faceindex: 6
+    text: \n<HOWARD>I wouldn't mind.
+
+#LC turns to player
+
+3_S3_80:
+    faceset: RV_Lucy
+    faceindex: 0
+    text: \n<LUCY>Well?\. Wanna come with us?
+
+#yes/no choice here
+#if yes: LC jumps once
+
+3_S3_81:
+    faceset: RV_Lucy
+    faceindex: 4
+    text: \n<LUCY>Awesome!\! Hee hee, thanks \n[17]!
+
+3_S3_82:
+    faceset: RV_Lucy
+    faceindex: 8
+    text: \n<LUCY>Now, lead the way!\! <br>We're filming the scene at the \c[11]CENTRAL PARK\c[0]!
+
+#end scene. LC MX and HW join the party.
+
+#if no:
+
+3_S3_83:
+    faceset: RV_Lucy
+    faceindex: 3
+    text: \n<LUCY>Oh,\. uh,\. really?\! I was kinda counting on you to say yes...
+
+3_S3_84:
+    faceset: RV_Lucy
+    faceindex: 8
+    text: \n<LUCY>Well, that's fine!\! If you change your mind, we'll be filming in \c[11]CENTRAL PARK\c[0], though.
+
+3_S3_85:
+    faceset: RV_Lucy
+    faceindex: 4
+    text: \n<LUCY>We gotta go now, but see you when I see you, \n[17]!
+
+3_S3_86:
+    faceset: RV_Max
+    faceindex: 8
+    text: \n<MAX>Nice meeting you, \n[17]!
+
+3_S3_87:
+    faceset: RV_Howard
+    faceindex: 10
+    text: \n<HOWARD>Have a nice day, \n[17].
+
+#when gotten close to film club in the park
+
+3_S3_88:
+    faceset: RV_Lucy
+    faceindex: 18
+    text: \n<LUCY>Oh!\. \n[17]!\. There you are!
+
+3_S3_89:
+    faceset: RV_Lucy
+    faceindex: 7
+    text: \n<LUCY>See, guys?\! I told you he'd show up sooner or later!
+
+3_S3_90:
+    faceset: RV_Lucy
+    faceindex: 8
+    text: \n<LUCY>So \n[17], wanna hang out with us for a bit?
+    
+3_S3_91:
+    faceset: RV_Lucy
+    faceindex: 16
+    text: \n<LUCY>Oh...\. That's fine!\! We'll be filming here for a while, so come by if you wanna do some scenes with us!
+
+# ---- ---- ---- ---- ---- ---- ---- ----
+#4. Film Club Film
+# ---- ---- ---- ---- ---- ---- ---- ----
+
+#After arriving at the park, LC walks forwards from the group, then faces towards them. Jump once
+
+3_S4_1:
+    faceset: RV_Lucy
+    faceindex: 0
+    text: \n<LUCY>\sinv[1]Aaaaaaand\sinv[0]\. we've arrived!\. This is the spot!
+
+3_S4_2:
+    faceset: RV_Lucy
+    faceindex: 16
+    text: \n<LUCY>Now then...\! I was gonna shoot that scene with \c[10]DR. BUNNYTRON\c[0] today...
+
+3_S4_3:
+    faceset: RV_Lucy
+    faceindex: 3
+    text: \n<LUCY>But since my eyepatch's gone...\. I guess that's a bust.
+
+#Cobweb on LC, then jump twice after a slight pause.
+
+3_S4_4:
+    faceset: RV_Lucy
+    faceindex: 7
+    text: \n<LUCY>\Com[2]\{That's fine!\}\! We can just film a scene without SPACEBOY today.
+
+3_S4_5:
+    faceset: RV_Howard
+    faceindex: 13
+    text: \n<HOWARD>That's the spirit, LUCY.
+
+3_S4_6:
+    faceset: RV_Max
+    faceindex: 4
+    text: \n<MAX>Wow, that's a first...\. So what's the plan then?
+
+3_S4_7:
+    faceset: RV_Lucy
+    faceindex: 10
+    text: \n<LUCY>Hmm...\. Let me think...
+
+#! on LC.
+
+3_S4_8:
+    faceset: RV_Lucy
+    faceindex: 8
+    text: \n<LUCY>\Com[2]I got it!\. I have just the scene.\! It'll really let you show off your acting chops too, \n[17].
+
+#LC repositions, facing the other three so that they're all in her field of vision (however that's accomplished)
+
+3_S4_9:
+    faceset: RV_Lucy
+    faceindex: 0
+    text: \n<LUCY>\{\Com[2]Alright guys, listen up!
+
+3_S4_10:
+    faceset: RV_Lucy
+    faceindex: 12
+    text: \n<LUCY>\n[17], you'll be the evil \c[10]\quake[1]COMMANDER POSITRON\c[0]\quake[0],\. and MAX will be the \sinv[1]scaredy-cat\sinv[0] scientist he's \quake[1]torturing\quake[0] for information!
+
+#MX jumps once
+
+3_S4_11:
+    faceset: RV_Max
+    faceindex: 16
+    text: \n<MAX>Huh?\. I'm the one getting tortured?\. You always make me play the bad guy!
+
+3_S4_12:
+    faceset: RV_Lucy
+    faceindex: 7
+    text: \n<LUCY>That's because \c[10]\quake[1]COMMANDER POSITRON\c[0]\quake[0] is one of those \sinv[1]menacing, super smart\sinv[0] villains!\! That doesn't fit you at all, MAX. 
+
+#MX cobwebs
+
+3_S4_13:
+    faceset: RV_Lucy
+    faceindex: 18
+    text: \n<LUCY>\n[17], though...\. He's \Com[2]perfect!
+
+#LC music notes, then jumps twice
+
+3_S4_14:
+    faceset: RV_Lucy
+    faceindex: 4
+    text: \n<LUCY>\Com[2]Alright, let's get right to it!\. Howard, is the camera ready?
+
+3_S4_15:
+    faceset: RV_Howard
+    faceindex: 13
+    text: \n<HOWARD>Ready when you are,\. director.
+
+3_S4_16:
+    faceset: RV_Lucy
+    faceindex: 0
+    text: \n<LUCY>\Com[2]Awesome!\. Get into your positions, everyone!
+
+3_S4_17:
+    faceset: RV_Lucy
+    faceindex: 8
+    text: \n<LUCY>Remember to play up your helplessness,\. MAX!\.\! You gotta look like a real coward!
+
+3_S4_18:
+    faceset: RV_Lucy
+    faceindex: 19
+    text: \n<LUCY>Although I guess that won't really be hard for you...
+
+3_S4_19:
+    faceset: RV_Max
+    faceindex: 13
+    text: \n<MAX>Hey!
+
+3_S4_20:
+    faceset: RV_Lucy
+    faceindex: 4
+    text: \n<LUCY>Sorry, sorry.\! Hee hee...
+
+3_S4_21:
+    faceset: RV_Lucy
+    faceindex: 10
+    text: \n<LUCY>And \n[17]!\. \c[10]COMMANDER POSITRON\c[0] is a real \quake[1]sicko\quake[0], okay?\. You gotta be really intimidating!
+
+#LC jumps twice 
+
+3_S4_22:
+    faceset: RV_Lucy
+    faceindex: 16
+    text: \n<LUCY>Alright!\. Ready\., set...
+
+3_S4_23:
+    faceset: RV_Lucy
+    faceindex: 12
+    text: \n<LUCY>\{\Com[2]\quake[1]ACTION!
+
+#dramatic music?
+
+3_S4_24:
+    faceset: RV_Max
+    faceindex: 13
+    text: \n<MAX>Uhhh...\. Don't come any closer,\. COMMANDER POSITRON!\. You and your... evil ways!
+
+#player ...s
+
+3_S4_25:
+    faceset: RV_Max
+    faceindex: 16
+    text: \n<MAX>W-What are you gonna do to me?
+
+#player ...s.
+
+3_S4_26:
+    faceset: RV_Max
+    faceindex: 2
+    text: \n<MAX>\}Uh.
+
+3_S4_27:
+    faceset: RV_Max
+    faceindex: 9
+    text: \n<MAX>You're such a, a scary person!\. I'm so terrified,\. It's practically torture!
+
+3_S4_28:
+    faceset: RV_Max
+    faceindex: 9
+    text: \n<MAX>Please,\. I'll do anything!\. Just spare my life!
+
+#player …s. LC cobwebs, and jumps once.
+
+3_S4_29:
+    faceset: RV_Lucy
+    faceindex: 15
+    text: \n<LUCY>\Com[2]\{CUT!\. CUT!\. CUT!\.
+
+3_S4_30:
+    faceset: RV_Lucy
+    faceindex: 0
+    text: \n<LUCY>\Com[2]\{CUT!\. CUT!\. CUT!\.
+
+#LC walks up to player.
+
+3_S4_31:
+    faceset: RV_Lucy
+    faceindex: 10
+    text: \n<LUCY>What the heck, \n[17]! You're supposed to be saying scary stuff!
+
+3_S4_32:
+    faceset: RV_Lucy
+    faceindex: 5
+    text: \n<LUCY>\c[10]COMMANDER POSITRON\c[0] is a big monologuing villain!\. He's always saying something scary!
+
+#player …s. LC cobwebs, then turns away from player.
+
+3_S4_33:
+    faceset: RV_Lucy
+    faceindex: 10
+    text: \n<LUCY>Alright, alright...\! Fine, I can work with this.
+
+#LC turns back towards player, and …s. Jump once.
+
+3_S4_34:
+    faceset: RV_Lucy
+    faceindex: 16
+    text: \n<LUCY>Oh!
+
+3_S4_35:
+    faceset: RV_Lucy
+    faceindex: 16
+    text: \n<LUCY>Let's just do a fight scene!\! \c[5]CAPT. PINKBEARD\c[0] has a lot of them,\. and his costume is basically the same as SPACEBOY's, anyways.
+
+3_S4_36:
+    faceset: RV_Lucy
+    faceindex: 0
+    text: \n<LUCY>MAX!\. I'll take this one.\! Can you help HOWARD with the camera?
+
+3_S4_37:
+    faceset: RV_Max
+    faceindex: 18
+    text: \n<MAX>Sweet,\. being a helpless victim is boring anyways.
+
+#MX and LC swap places
+
+3_S4_38:
+    faceset: RV_Lucy
+    faceindex: 8
+    text: \n<LUCY>Okay,\. you don't gotta talk much for this!
+
+3_S4_39:
+    faceset: RV_Lucy
+    faceindex: 8
+    text: \n<LUCY>It's just a fight between me,\. the great \c[5]CAPT. PINKBEARD\c[0],\. and you,\. \c[10]LIEUTENANT POSITRON\c[0]!
+
+3_S4_40:
+    faceset: RV_Lucy
+    faceindex: 16
+    text: \n<LUCY>So... do some cool action moves!\. You can do some, right?
+
+#Yes/no option
+#Yes
+
+3_S4_41:
+    faceset: RV_Lucy
+    faceindex: 18
+    text: \n<LUCY>Great!\. Let's get started then!
+
+#no
+
+3_S4_42:
+    faceset: RV_Lucy
+    faceindex: 4
+    text: \n<LUCY>...That's fine!\. I can do even flashier moves to make up for it.
+
+#End of choice divergence
+
+3_S4_43:
+    faceset: RV_Lucy
+    faceindex: 16
+    text: \n<LUCY>Okay, ready?
+
+#She steps away from sunny, then faces towards him.
+
+3_S4_44:
+    faceset: RV_Lucy
+    faceindex: 12
+    text: \n<LUCY>3..\. 2...\. 1...\! \{\Com[2]ACTION!
+
+#Battle transition.
+
+#After battle. player is laying on ground, the others gathered around him.
+
+3_S4_45:
+    faceset: RV_Howard
+    faceindex: 7
+    text: \n<HOWARD>\Com[2]Hey!\. \n[17], are you alright?
+
+#player opens eyes
+
+3_S4_46:
+    faceset: RV_Max
+    faceindex: 11
+    text: \n<MAX>\{\Com[2]LUCY!\. What the heck!
+
+#LC sweats.
+
+3_S4_47:
+    faceset: RV_Lucy
+    faceindex: 11
+    text: \n<LUCY>\quake[1]I- I didn't mean to!\quake[0]\. I thought he would dodge out of the way!
+
+3_S4_48:
+    faceset: RV_Lucy
+    faceindex: 14
+    text: \n<LUCY>\quake[1]Oh gosh oh gosh oh gosh...\quake[0]
+
+3_S4_49:
+    faceset: RV_Max
+    faceindex: 16
+    text: \n<MAX>Maybe he has a concussion!?\. How many fingers am I holding up, \n[17]?
+
+#HW jumps once
+
+3_S4_50:
+    faceset: RV_Howard
+    faceindex: 17
+    text: \n<HOWARD>Guys, we don't have time for this!\. Come on, let's take him to MIYA!
+
+#end scene, fade to black.
+
+# ---- ---- ---- ---- ---- ---- ---- ----
+#5. Clinic injury
+# ---- ---- ---- ---- ---- ---- ---- ----
+
+3_S5_1:
+    faceset: RV_Lucy
+    faceindex: 17
+    text: \n<LUCY>\quake[1]Eughh...\quake[0]\. It's not bad, is it?\! He's not dying,\. is he?
+
+#LC runs up to player, sweats, steps back, cobwebs. Just generally move around like she can’t stay still
+
+3_S5_2:
+    faceset: RV_Lucy
+    faceindex: 14
+    text: \n<LUCY>\Com[2]I- I really didn't mean to hit him!\! I'm sorry!
+
+#MY …s. MX jumps twice
+
+3_S5_3:
+    faceset: RV_Max
+    faceindex: 19
+    text: \n<MAX>What if there's,\. like,\. internal bleeding?\. I saw it on TV once,\. It's supposed to be super bad!
+
+#! On LC.
+
+3_S5_4:
+    faceset: RV_Max
+    faceindex: 19
+    text: \n<MAX>And you can't tell from the outside because all the bleeding happens inside,\. and you only know when you get really really sick, and-
+
+#LC jumps once
+
+3_S5_5:
+    faceset: RV_Lucy
+    faceindex: 15
+    text: \n<LUCY>\{\Com[2]SHUT UP!\. You're not helping!
+
+3_S5_6:
+    faceset: RV_Max
+    faceindex: 9
+    text: \n<MAX>\{I- I'm sorry!\.\} I'm just trying not to freak out!
+
+#Cobweb on LC and MX. … on HW and MY.
+
+3_S5_7:
+    faceset: RV_MIYA
+    faceindex: 6
+    text: \n<MIYA>Kids...\! I need you to calm down right now.
+
+3_S5_8:
+    faceset: RV_Howard
+    faceindex: 0
+    text: \n<HOWARD>Sorry, MIYA.
+
+#MY stands up (however that’s accomplished) and approaches LC
+
+3_S5_9:
+   faceset: RV_MIYA
+   faceindex: 0
+   text: \n<MIYA>You just gave him a couple bruises, LUCY.\! He'll be fine in a few days.
+
+3_S5_10:
+    faceset: RV_Lucy
+    faceindex: 18
+    text: \n<LUCY>Really?!\. Are you sure??
+
+3_S5_11:
+    faceset: RV_Max
+    faceindex: 17
+    text: \n<MAX>No internal bleeding,\. right MIYA?
+
+3_S5_12:
+   faceset: RV_MIYA
+   faceindex: 2
+   text: \n<MIYA>It takes more than a slight push for that to happen.\! <br>He'll be fine, don't worry.
+
+#MX cobwebs. Not if it’s too overt
+
+3_S5_13:
+    faceset: RV_Lucy
+    faceindex: 13
+    text: \n<LUCY>It wasn't just a slight push,\. it was \c[5]CAPT. PINKBEARD\c[0]'s ultimate move...
+
+#LC jumps twice
+
+3_S5_14:
+    faceset: RV_Lucy
+    faceindex: 8
+    text: \n<LUCY>\SINV[1]Whew...\SINV[0]\. What a relief, though!
+
+#MY turns to the player.
+
+3_S5_15:
+   faceset: RV_MIYA
+   faceindex: 9
+   text: \n<MIYA>\n[17], right?\! This'll heal on its own, but try not to touch it or hit it again.\. Okay?
+
+3_S5_16:
+   faceset: RV_MIYA
+   faceindex: 5
+   text: \n<MIYA>Now wait just a second,\. I'll go get you a few bandages.
+
+#MY leaves through a door to another room. PL turns to face the other kids. Moment of awkward silence with everyone …ing. After a second the other two turn to look at LC. She looks side to side, flustered.
+
+3_S5_17:
+    faceset: RV_Lucy
+    faceindex: 3
+    text: \n<LUCY>Ummh...
+
+3_S5_18:
+    faceset: RV_Lucy
+    faceindex: 6
+    text: \n<LUCY>Sorry...\. \n[17]...
+
+3_S5_19:
+    faceset: RV_Lucy
+    faceindex: 17
+    text: \n<LUCY>I really didn't mean to hit you.\! I just got a bit excited, and...
+
+#... on everyone. Sweat on LC
+
+3_S5_20:
+    faceset: RV_Lucy
+    faceindex: 3
+    text: \n<LUCY>Eheh, geez... is it getting hot in here, or what?
+
+#LC jump once
+
+3_S5_21:
+    faceset: RV_Lucy
+    faceindex: 16
+    text: \n<LUCY>Hey!\. I just remembered I have to do something really important to do back home!\! I need to,\. uh...
+
+#LC sweats
+
+3_S5_22:
+    faceset: RV_Lucy
+    faceindex: 3
+    text: \n<LUCY>Anyway,\. see you around!
+
+#LC runs out the door
+
+#MX looks around the player and HW. Sweat.
+
+3_S5_23:
+    faceset: RV_Max
+    faceindex: 12
+    text: \n<MAX>Hey!\. Wait up!
+
+#MX leaves the same way. HW cobwebs, but stays put. Turn to player
+  
+3_S5_24:
+    faceset: RV_Howard
+    faceindex: 5
+    text: \n<HOWARD>Sorry about them.\! They're both a little excitable, you know?
+
+3_S5_25:
+    faceset: RV_Howard
+    faceindex: 2
+    text: \n<HOWARD>I'll make them properly apologize later,\. I promise.
+
+#... on HW. Slight pause
+
+3_S5_26:
+    faceset: RV_Howard
+    faceindex: 0
+    text: \n<HOWARD>You know...\. if you ever feel like hanging out sometime,\. LUCY, MAX and I could always use a new friend. 
+
+3_S5_27:
+    faceset: RV_Howard
+    faceindex: 15
+    text: \n<HOWARD>We usually hang out around \c[11]CENTRAL PARK\c[0] these days.
+
+3_S5_28:
+    faceset: RV_Howard
+    faceindex: 12
+    text: \n<HOWARD>If you're a little turned off by us because of today,\. I get it.
+
+3_S5_29:
+    faceset: RV_Howard
+    faceindex: 9
+    text: \n<HOWARD>I just figured you'd be interested in meeting new folks.\! Maybe feel less lonely?
+
+#Pause 
+
+3_S5_30:
+    faceset: RV_Howard
+    faceindex: 0
+    text: \n<HOWARD>Sorry if I'm overreaching a bit here, but...\. you look like you could use a fresh start.
+
+3_S5_31:
+    faceset: RV_Howard
+    faceindex: 6
+    text: \n<HOWARD>So if you want,\. come pay us a visit.
+
+3_S5_32:
+    faceset: RV_Howard
+    faceindex: 10
+    text: \n<HOWARD>See you around,\. \n[17].
+
+#HW walks out the door. MY comes through the back door. She looks at the door
+
+3_S5_33:
+   faceset: RV_MIYA
+   faceindex: 0
+   text: \n<MIYA>Oh, they're all gone.
+
+3_S5_34:
+   faceset: RV_MIYA
+   faceindex: 6
+   text: \n<MIYA>Geez,\. those kids.\! This isn't the first time they came in here like that,\. you know.
+
+3_S5_35:
+   faceset: RV_MIYA
+   faceindex: 19
+   text: \n<MIYA>All that screaming and shouting...\. I couldn't even tell who was hurt!
+
+3_S5_36:
+   faceset: RV_MIYA
+   faceindex: 10
+   text: \n<MIYA>They're just so energetic.
+
+3_S5_37:
+   faceset: RV_MIYA
+   faceindex: 2
+   text: \n<MIYA>Although,\. I wish I had some of that energy sometimes...
+
+#? On MY. Turn to player.
+
+3_S5_38:
+   faceset: RV_MIYA
+   faceindex: 9
+   text: \n<MIYA>Hey, you seem like the quiet type.\! How'd you get mixed up with them?
+
+3_S5_39:
+   faceset: RV_MIYA
+   faceindex: 0
+   text: \n<MIYA>Though...\. I guess I could say the same about HOWARD,\. too.
+
+#slight pause
+
+3_S5_40:
+   faceset: RV_MIYA
+   faceindex: 5
+   text: \n<MIYA>Anyway,\. here's some bandages.\. Make sure to switch them out once a day, okay?
+
+3_S5_41:
+   faceset: RV_MIYA
+   faceindex: 5
+   text: \n<MIYA>I'll put these in that \c[4]GROCERY BAG\c[0] you got there.
+
+#! On MY.
+
+3_S5_42:
+   faceset: RV_MIYA
+   faceindex: 9
+   text: \n<MIYA>Is that...\. \c[4]STEAK\c[0] in your plastic bag?
+
+3_S5_43:
+   faceset: RV_MIYA
+   faceindex: 3
+   text: \n<MIYA>You should probably refrigerate that as soon as possible.\! <br>It's pretty warm.
+
+3_S5_44:
+   faceset: RV_MIYA
+   faceindex: 19
+   text: \n<MIYA>Don't come back here in a few days with food poisoning, got that?
+
+3_S5_45:
+   faceset: RV_MIYA
+   faceindex: 9
+   text: \n<MIYA>Anyway,\. you should get going.\! it's getting pretty late.
+
+3_S5_46:
+   faceset: RV_MIYA
+   faceindex: 4
+   text: \n<MIYA>Stop by anytime if you're not feeling well.
+
+# ---- ---- ---- ---- ---- ---- ---- ----
+#6. Phone call hallucination
+# ---- ---- ---- ---- ---- ---- ---- ----
+
+#the house is dark. As the player enters the house, the phone starts to ring. Once the player picks up:
+
+3_S6_1:
+    text: \n<\}☐☐☐☐☐☐\{>.............
+
+3_S6_2:
+    text: \n<\}☐☐☐☐☐☐\{>...........
+
+3_S6_3:
+    text: \n<\}☐☐☐☐☐☐\{>........
+
+3_S6_4:
+    text: \n<\}☐☐☐☐☐☐\{>......\n[17]?
+
+3_S6_5:
+    text: \n<\}☐☐☐☐☐☐\{>Wow, you picked up.
+
+3_S6_6:
+    text: \n<\}☐☐☐☐☐☐\{>Heh...\. I didn't think you would.
+
+#repeat message 2
+
+3_S6_7:
+    text: \n<\}☐☐☐☐☐☐\{>So, how've you been?
+
+3_S6_8:
+    text: \n<\}☐☐☐☐☐☐\{>Is the city treating you well?
+
+3_S6_9:
+    text: \n<\}☐☐☐☐☐☐\{>...\|Have you made any new friends?
+
+#pause for 3 secs, then repeat message 2
+
+3_S6_10:
+    text: \n<\}☐☐☐☐☐☐\{>It wouldn't kill you to say something.
+
+#message 2
+
+3_S6_11:
+    text: \n<\}☐☐☐☐☐☐\{>\quake[1]Sigh\quake[0].\! Alright, fine.
+
+3_S6_12:
+    text: \n<\}☐☐☐☐☐☐\{>As for us...
+
+3_S6_13:
+    text: \n<\}☐☐☐☐☐☐\{>☐☐☐☐☐'s been doing fine without you.
+
+3_S6_14:
+    text: \n<\}☐☐☐☐☐☐\{>Well...\. He is now, at least.
+
+3_S6_15:
+    text: \n<\}☐☐☐☐☐☐\{>☐☐☐☐ and ☐☐☐ are fine too.
+
+3_S6_16:
+    text: \n<\}☐☐☐☐☐☐\{>...I guess we didn't need you to stay after all, huh \n[17]?
+
+#pause for 3 secs, message 2
+
+3_S6_17:
+    text: \n<\}☐☐☐☐☐☐\{>...You really don't have anything to say, huh?
+
+3_S6_18:
+    text: \n<\}☐☐☐☐☐☐\{>You sure could talk back at the hospital.
+
+3_S6_19:
+    text: \n<\}☐☐☐☐☐☐\{>Just telling us all that...\. and then leaving.
+
+3_S6_20:
+    text: \n<\}☐☐☐☐☐☐\{>Sure, maybe it wasn't your choice...
+
+3_S6_21:
+    text: \n<\}☐☐☐☐☐☐\{>But still.
+
+3_S6_22:
+    text: \n<\}☐☐☐☐☐☐\{>You could've tried more.
+
+#pause. As the next message plays player !s.
+
+3_S6_23:
+    text: \n<\}☐☐☐\{>\n[17]...
+
+3_S6_24:
+    text: \n<\}☐☐☐\{>I know you were going through some things...
+
+3_S6_25:
+    text: \n<\}☐☐☐\{>But...
+
+3_S6_26:
+    text: \n<\}☐☐☐\{>It would've been nice to see my best friend more.
+
+3_S6_27:
+    text: \n<\}☐☐☐\{>Only three days...\! It just wasn't enough.
+
+3_S6_28:
+    text: \n<\}☐☐☐\{>Not for anything.
+
+3_S6_29:
+    text: \n<\}☐☐☐\{>But I mean...\. it's okay, right?
+
+3_S6_30:
+    text: \n<\}☐☐☐\{>You don't have to think about us anymore!
+
+3_S6_31:
+    text: \n<\}☐☐☐\{>Go and be with your new friends.
+
+3_S6_32:
+    text: \n<\}☐☐☐\{>You won't think of us.
+
+3_S6_33:
+    text: \n<\}☐☐☐\{>And we won't think of you.
+
+#pause
+
+3_S6_34:
+    text: \n<\}☐☐☐☐\{>We all made a promise to be together...
+
+3_S6_35:
+    text: \n<\}☐☐☐☐\{>But you can't really do that.\! Can you, \n[17]?
+
+3_S6_36:
+    text: \n<\}☐☐☐☐\{>Even if you really wanted to.
+
+3_S6_37:
+    text: \n<\}☐☐☐☐\{>You just have to leave us behind.\! I know you do.
+
+3_S6_38:
+    text: \n<\}☐☐☐☐\{>I just...\. \quake[1]can't understand\quake[0].
+
+3_S6_39:
+    text: \n<\}☐☐☐☐\{>Why would you tell us right before you left?
+
+3_S6_40:
+    text: \n<\}☐☐☐☐\{>You had...\. \quake[1]so much time\quake[0].
+
+3_S6_41:
+    text: \n<\}☐☐☐☐\{>And now...\. We have to pick up the pieces you left behind.
+
+#pause
+
+3_S6_42:
+    text: \n<\}☐☐☐☐☐\{>Again...
+
+3_S6_43:
+    text: \n<\}☐☐☐☐☐\{>You're leaving me behind again...
+
+3_S6_44:
+    text: \n<\}☐☐☐☐☐\{>Just like you did four years ago.
+
+3_S6_45:
+    text: \n<\}☐☐☐☐☐\{>You haven't changed, \n[17].
+
+3_S6_46:
+    text: \n<\}☐☐☐☐☐\{>\fn<OMORI_GAME>And maybe...\. You never will.
+
+#pause
+
+3_S6_47:
+    text: \n<\}☐☐☐☐☐☐\{>\n[17].....
+
+3_S6_48:
+    text: \n<\}☐☐☐\{>\n[17].....
+
+3_S6_49:
+    text: \n<\}☐☐☐☐\{>\fn<OMORI_GAME>\n[17].....
+
+3_S6_50:
+    text: \n<\}☐☐☐☐☐\{>\fn<OMORI_GAME>\n[17].....
+
+#A brief screen goes to black, and back on in a moment. The lights are brightly on. Pause for a little.
+
+3_S6_51:
+    text: \n<MOM>\n[17]?\. \n[17]!
+
+3_S6_52:
+    text: \n<MOM>You're breathing a bit weird.\. Are you okay,\. honey?
+
+3_S6_53:
+    text: \n<MOM>...\. Okay...\. well, how was your day,\. sweetie?\! Did you meet any new friends while you were out?
+
+3_S6_54:
+    text: \n<MOM>The city is so large,\. I'm sure there's lots of people you can get along with.
+
+3_S6_55:
+    text: \n<MOM>It's okay if you still don't want to talk to anyone, though...\. I understand.
+
+3_S6_56:
+    text: \n<MOM>The city can be a bit overwhelming,\. so just take things at your own pace!
+
+3_S6_57:
+    text: \n<MOM>Sorry for working so late all the time,\. but I definitely won't be tomorrow!\. We're gonna have that steak dinner together just like I promised! 
+
+3_S6_58:
+    text: \n<MOM>I'm really looking forward to it!
+
+3_S6_59:
+    text: \n<MOM>I have to go.\! I'll be home soon!\. Mommy loves you!\! Bye honey!

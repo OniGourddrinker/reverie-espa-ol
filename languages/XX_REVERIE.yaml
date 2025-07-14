@@ -1,0 +1,82 @@
+# =========================================================================================
+# * System or Plugin related terms for REVERIE.
+# =========================================================================================
+StatusDisplay:
+    id:
+        varDiff: 1512
+        switchDiffOverride: 2806
+    stat:
+        atk: ATK
+        def: DEF
+        agi: SPD
+        luk: LCK
+        hit: HIT
+        eva: EVA
+    difficulty:
+        -1: EASY
+        0: NORMAL
+        1: HARD
+    status:
+        rate: RATE
+        turn: TURN
+        group: GROUP
+        immune: IMMUNE
+        gapSize: 60
+        groupColor: "#7aa2ff"
+        stateColor: "#ffff55"
+        statusColor: "#ffffff"
+    commandMessage:
+        noEscape: Can't escape!
+        escape: "Escape rate: %1%"
+        statLine: "[\\fs[16]ATK: %1, DEF: %2, SPD: %3, LCK: %4, HIT: %5, EVA: %6\\fs[24]]"
+        equipLine: "[\\fs[16]LVL: %1, WEAPON: %2, CHARM: %3\\fs[24]]"
+        level: "Lv: %1"
+    states:
+        235: GLOW
+        236: WEEP
+        237: BURN
+        238: SLEEP
+        239: CHARM
+        240: FROZEN
+        241: SICK
+        242: INSTA-KO
+
+ItemDisplay:
+    itemType:
+        weapon: WEAPON
+        armor: CHARM
+        toy: TOY
+        consumable: SNACK
+        key: IMPORTANT
+    weaponType:
+        1: YOU
+        2: SWEETHEART
+        3: DOUGHIE
+        4: SPACEBOY
+        5: NORMAL
+        6: DAPHNE
+        7: LUCY
+        8: BOWEN
+        9: MAX
+        10: HOWARD
+        11: ANY
+    armorType:
+        1: ANY
+        2: KEL
+        3: YOU
+        4: LUCY
+        5: MAX
+        6: HOWARD
+    skillPassive: \c[3][PASSIVE]\c[0]
+    skillFree: 0\I[9]
+    skillCost: "Cost: %1"
+
+PopUp:
+    # %1 subject / attacker, %2 target / defender.
+    attackStrong: ...It was a moving attack!
+    attackWeak: ...It was a dull attack.
+    healStrong: ...It was a moving heal!
+    healWeak: ...It was a dull heal.
+    actionMiss: "%1's attack whiffed!"
+    actionNothing: "%1's attack did nothing."
+    attackReflect: "%2 reflected the attack!"

@@ -1,0 +1,40 @@
+# =========================================================================================
+# ** Reverie dialogue
+# =========================================================================================
+
+# PROLOGUE DW
+
+message_1:
+    text: \n<BIG YELLOW CAT>Welcome back, DREAMER.
+    
+message_2:
+    text: \n<BIG YELLOW CAT>This world has changed drastically since your last visit.
+    
+#black hole opens in front of the player.
+
+message_3:
+    text: \n<BIG YELLOW CAT>I will be watching.
+    
+message_4:
+    text: Enter the \c[11]BLACK HOLE\c[0]?
+
+
+# metro door section
+
+message_6:
+    text: \n<SNALEY>Hello, friend.\! Oh, I don't have to use the bathroom.\! I just like the atmosphere in here.
+
+message_7:
+    text: \n<CRATE GATOR>Sorry Kids,\. construction work going on.\!<br>You can push past the crates or use your \c[4]EMERGENCY RADIO\c[0] to be sent back to me.
+
+message_8:
+    text: ...\. Doesn't seem to be any GATORs around here.
+
+message_9:
+    text: \n<CONDUCTOR JASH>\"Ladies and gents...\! We have arrived at our stop.\! Welcome to \c[11]FALLEN WORLD\c[0].\"
+
+message_9-1:
+    text: \n<CONDUCTOR JASH>\"Ladies and gents...\! We have arrived at our stop.\! Welcome to \c[11]VAST FOREST\c[0].\"
+
+message_10:
+    text: \n<CONDUCTOR JASH>\"Please exit the train in an orderly fashion.\! Thank you for your patronage and please ride with us again.\"\! \}\quake[1]Bzzt...

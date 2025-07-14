@@ -1,0 +1,54 @@
+message_0:
+        text: \n<SHOPKEEP>Did my boombox catch your eye?\! Feel free to play whatever you want on it, free of charge!\! Oh, don't worry about inserting tapes.\! It'll know what you want to play.
+      
+message_1:
+        text: A boombox that can play any song you've heard during your adventure.\! Which album will you play?
+    
+message_2:
+        text: Do you want to turn off the boombox?
+
+# song names starting with chapter 1
+
+chap_1:
+        text: METRO-SIDE
+chap_2:
+        text: SPACE-SIDE
+
+song_choose:
+        text: Choose which song you'd like to play.
+    
+song_cant:
+        text: You haven't heard this one yet...
+
+song_unknown:
+        text: "???"
+
+song_1:
+        text: Diffused Light
+song_2:
+        text: French Toast
+song_3:
+        text: Kick Him in the Ribs
+song_4:
+        text: Going Up...
+song_5:
+        text: Scan Lines
+# chapter 2
+song_6:
+        text: Fallen World
+song_7:
+        text: I Can't Catch Up
+song_8:
+        text: Lost Again
+song_9:
+        text: Star Shooter
+song_10:
+        text: Shoot for the Stars
+song_11:
+        text: Fangirl
+song_12:
+        text: Our Turf
+song_13:
+        text: A Corpus Celeste
+song_14:
+        text: Winds of Change

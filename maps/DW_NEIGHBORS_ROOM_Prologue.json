@@ -1,0 +1,27 @@
+{ "columns":16,
+ "image":"..\/img\/tilesets\/DW_NeighborsRoomPrologue.png",
+ "imageheight":512,
+ "imagewidth":512,
+ "margin":0,
+ "name":"DW_NeighborsRoomPrologue",
+ "spacing":0,
+ "tilecount":256,
+ "tileheight":32,
+ "tiles":
+    {
+     "90":
+        {
+         "animation":[
+                {
+                 "duration":200,
+                 "tileid":90
+                }, 
+                {
+                 "duration":200,
+                 "tileid":106
+                }]
+        }
+    },
+ "tilewidth":32,
+ "type":"tileset"
+}

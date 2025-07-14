@@ -1,0 +1,245 @@
+{ "columns":32,
+ "image":"..\/img\/tilesets\/RV_CityPark.png",
+ "imageheight":1024,
+ "imagewidth":1024,
+ "margin":0,
+ "name":"RV_CityPark",
+ "spacing":0,
+ "tilecount":1024,
+ "tiledversion":"1.10.1",
+ "tileheight":32,
+ "tiles":[
+        {
+         "animation":[
+                {
+                 "duration":400,
+                 "tileid":5
+                }, 
+                {
+                 "duration":400,
+                 "tileid":37
+                }, 
+                {
+                 "duration":400,
+                 "tileid":6
+                }],
+         "id":5
+        }, 
+        {
+         "animation":[
+                {
+                 "duration":100,
+                 "tileid":861
+                }, 
+                {
+                 "duration":100,
+                 "tileid":862
+                }, 
+                {
+                 "duration":100,
+                 "tileid":863
+                }],
+         "id":861
+        }, 
+        {
+         "animation":[
+                {
+                 "duration":100,
+                 "tileid":893
+                }, 
+                {
+                 "duration":100,
+                 "tileid":894
+                }, 
+                {
+                 "duration":100,
+                 "tileid":895
+                }],
+         "id":893
+        }],
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.10",
+ "wangsets":[
+        {
+         "colors":[
+                {
+                 "color":"#ff0000",
+                 "name":"RV Park Brick Path",
+                 "probability":1,
+                 "tile":53
+                }, 
+                {
+                 "color":"#00ff00",
+                 "name":"RV Park Sand",
+                 "probability":1,
+                 "tile":205
+                }, 
+                {
+                 "color":"#0000ff",
+                 "name":"RV Park Dirt",
+                 "probability":1,
+                 "tile":301
+                }],
+         "name":"RV Park Floors",
+         "tile":159,
+         "type":"corner",
+         "wangtiles":[
+                {
+                 "tileid":20,
+                 "wangid":[0, 0, 0, 1, 0, 0, 0, 0]
+                }, 
+                {
+                 "tileid":21,
+                 "wangid":[0, 0, 0, 1, 0, 1, 0, 0]
+                }, 
+                {
+                 "tileid":22,
+                 "wangid":[0, 0, 0, 0, 0, 1, 0, 0]
+                }, 
+                {
+                 "tileid":23,
+                 "wangid":[0, 1, 0, 1, 0, 1, 0, 0]
+                }, 
+                {
+                 "tileid":24,
+                 "wangid":[0, 0, 0, 1, 0, 1, 0, 1]
+                }, 
+                {
+                 "tileid":52,
+                 "wangid":[0, 1, 0, 1, 0, 0, 0, 0]
+                }, 
+                {
+                 "tileid":53,
+                 "wangid":[0, 1, 0, 1, 0, 1, 0, 1]
+                }, 
+                {
+                 "tileid":54,
+                 "wangid":[0, 0, 0, 0, 0, 1, 0, 1]
+                }, 
+                {
+                 "tileid":55,
+                 "wangid":[0, 1, 0, 1, 0, 0, 0, 1]
+                }, 
+                {
+                 "tileid":56,
+                 "wangid":[0, 1, 0, 0, 0, 1, 0, 1]
+                }, 
+                {
+                 "tileid":84,
+                 "wangid":[0, 1, 0, 0, 0, 0, 0, 0]
+                }, 
+                {
+                 "tileid":85,
+                 "wangid":[0, 1, 0, 0, 0, 0, 0, 1]
+                }, 
+                {
+                 "tileid":86,
+                 "wangid":[0, 0, 0, 0, 0, 0, 0, 1]
+                }, 
+                {
+                 "tileid":170,
+                 "wangid":[0, 2, 0, 2, 0, 2, 0, 0]
+                }, 
+                {
+                 "tileid":171,
+                 "wangid":[0, 0, 0, 2, 0, 2, 0, 2]
+                }, 
+                {
+                 "tileid":172,
+                 "wangid":[0, 0, 0, 2, 0, 0, 0, 0]
+                }, 
+                {
+                 "tileid":173,
+                 "wangid":[0, 0, 0, 2, 0, 2, 0, 0]
+                }, 
+                {
+                 "tileid":174,
+                 "wangid":[0, 0, 0, 0, 0, 2, 0, 0]
+                }, 
+                {
+                 "tileid":202,
+                 "wangid":[0, 2, 0, 2, 0, 0, 0, 2]
+                }, 
+                {
+                 "tileid":203,
+                 "wangid":[0, 2, 0, 0, 0, 2, 0, 2]
+                }, 
+                {
+                 "tileid":204,
+                 "wangid":[0, 2, 0, 2, 0, 0, 0, 0]
+                }, 
+                {
+                 "tileid":205,
+                 "wangid":[0, 2, 0, 2, 0, 2, 0, 2]
+                }, 
+                {
+                 "tileid":206,
+                 "wangid":[0, 0, 0, 0, 0, 2, 0, 2]
+                }, 
+                {
+                 "tileid":236,
+                 "wangid":[0, 2, 0, 0, 0, 0, 0, 0]
+                }, 
+                {
+                 "tileid":237,
+                 "wangid":[0, 2, 0, 0, 0, 0, 0, 2]
+                }, 
+                {
+                 "tileid":238,
+                 "wangid":[0, 0, 0, 0, 0, 0, 0, 2]
+                }, 
+                {
+                 "tileid":266,
+                 "wangid":[0, 3, 0, 3, 0, 3, 0, 0]
+                }, 
+                {
+                 "tileid":267,
+                 "wangid":[0, 0, 0, 3, 0, 3, 0, 3]
+                }, 
+                {
+                 "tileid":268,
+                 "wangid":[0, 0, 0, 3, 0, 0, 0, 0]
+                }, 
+                {
+                 "tileid":269,
+                 "wangid":[0, 0, 0, 3, 0, 3, 0, 0]
+                }, 
+                {
+                 "tileid":270,
+                 "wangid":[0, 0, 0, 0, 0, 3, 0, 0]
+                }, 
+                {
+                 "tileid":298,
+                 "wangid":[0, 3, 0, 3, 0, 0, 0, 3]
+                }, 
+                {
+                 "tileid":299,
+                 "wangid":[0, 3, 0, 0, 0, 3, 0, 3]
+                }, 
+                {
+                 "tileid":300,
+                 "wangid":[0, 3, 0, 3, 0, 0, 0, 0]
+                }, 
+                {
+                 "tileid":301,
+                 "wangid":[0, 3, 0, 3, 0, 3, 0, 3]
+                }, 
+                {
+                 "tileid":302,
+                 "wangid":[0, 0, 0, 0, 0, 3, 0, 3]
+                }, 
+                {
+                 "tileid":332,
+                 "wangid":[0, 3, 0, 0, 0, 0, 0, 0]
+                }, 
+                {
+                 "tileid":333,
+                 "wangid":[0, 3, 0, 0, 0, 0, 0, 3]
+                }, 
+                {
+                 "tileid":334,
+                 "wangid":[0, 0, 0, 0, 0, 0, 0, 3]
+                }]
+        }]
+}

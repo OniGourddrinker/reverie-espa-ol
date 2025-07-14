@@ -1,0 +1,783 @@
+# =========================================================================================
+# This sheet contains flavor text used in cities
+# =========================================================================================
+
+# ======== APARTMENTS INTERIORS ========
+apartment_homedoor:
+    text: Will you go back home?\. (You don't feel like coming back out.)
+
+apartment_homedoor_1:
+    text: You don't feel like going back home quite yet.
+
+apartment_lock_1:
+    text: The door is locked.
+
+apartment_lock_2:
+    text: Put something goofy here of some door lock variation or something.
+
+apartment_firedoor:
+    text: It's an emergency exit.\! It's not an emergency.\..\..\. yet.
+
+apartment_plant_1:
+    text: A potted plant.\. A little greenery to brighten the area.
+
+apartment_flowerpot_1:
+    text: A small potted flower sits nicely on a little table.\. Makes the corridor feel less empty.
+
+apartment_mop_1:
+    text: A mop.\. It leans askew on the corner.
+
+apartment_mop_2:
+    text: A mop.\. Why is the rooftop being cleaned anyways?
+
+apartment_umbrella_1:
+    text: An umbrella holder.\. Surprisingly, an umbrella is in it.
+
+apartment_leftroom:
+    text: A storage room.\. Maybe there are more leaning mops inside.
+
+apartment_floor_f1:
+    text: The 1st floor.\. Or is it called the ground floor?
+
+apartment_floor_f2:
+    text: The 2nd floor.
+
+apartment_floor_f3:
+    text: The 3rd floor.
+
+apartment_floor_f4:
+    text: The 4th floor.\. It's your floor!
+
+apartment_window_1:
+    text: The window.\. You can see the front street from here.
+
+apartment_mailbox_1:
+    text: A red mailbox.
+
+apartment_painting_1:
+    text: A barely started painting of the skyline.\. The paint is dry...
+
+# ======== POLICE ========
+
+street_police_door:
+    text: This door probably leads to the offices.\. It's locked.
+
+street_police_badge:
+    text: A giant,\. golden plaque of a police badge.
+
+# ======== PARK ========
+
+street_park_poisonous:
+    text: As nice and tasty this plant and its berries look,\. eating them wouldn't be a very good idea.
+
+# ======== CAFE/BRAND/TWINS ========
+
+street_display:
+    text: A wide variety of treats are on display.
+
+street_cafe_menu:
+    text: A chalkboard with today's menu.
+
+street_vending:
+    text: A vending machine.
+
+street_vending_soda:
+    text: A soda vending machine.
+
+street_deal:
+    text: Looks like there's a special deal going on this week.
+
+street_donuts:
+    text: Many donuts of different flavors.\. There's even jelly-filled.
+
+street_display_bread:
+    text: A wide selection of slightly less than fresh bread.
+
+street_open_box_1:
+    text: Inside the box,\. you see cookie cutters,\. rolling pins,\. cans of yeast,\. and a folded up cardboard cutout.
+
+street_open_box_2:
+    text: Inside the box you see a trophy.\. You also see a replica of the same trophy.
+
+# ======== SUBWAY ========
+
+street_metro_tulips:
+    text: These are tulips.\! You feel a special kinship to them.
+
+street_metro_gates:
+    text: You can't get past these gates.\. Your exploring ends here for now.
+
+street_metro_map:
+    text: Red, green, yellow, blue, purple...\. Where do they all go?\. It's a mystery to you.
+
+street_metro_info:
+    text: A map.\. If you get lost,\. you can look at it for directions.\. But you're not lost, yet.\. Are you?
+
+street_metro_ticket:
+    text: A ticket machine.\. You don't really need to buy any.
+
+# ======== BLUE MOVIE ========
+
+street_blue_action:
+    text: These shelves are full of action movies.
+
+street_blue_spaceboy:
+    text: This whole section has been completely taken over by \c[4]CAPT. SPACEBOY\c[0] movies.\. This new movie must be really popular.
+
+street_blue_spy:
+    text: These shelves are full of spy movies.
+
+street_blue_space:
+    text: These shelves are full of space opera movies.
+
+street_blue_adventure:
+    text: This section seems to be dedicated to adventure movies.
+
+street_blue_misc:
+    text: This section seems to be full of miscellanous movies.
+
+# ======== CLINIC ========
+
+street_clinic_registry:
+    faceset: RV_MIYA
+    faceindex: 9
+    text: \n<MIYA>Thats just the client registry.\. It's just a list of names and stuff.
+
+street_clinic_computer:
+    faceset: RV_MIYA
+    faceindex: 16
+    text: \n<MIYA>Nice looking thing,\. isn't it?\. Wish I had one of these at home.\. Then I could play solitaire whenever I want.
+
+street_clinic_degree:
+    faceset: RV_MIYA
+    faceindex: 18
+    text: \n<MIYA>Oh.\. That's my degree.\! Heh,\. it isn't exactly a doctorate but...\. it gets the job done.\. I guess.
+
+street_clinic_magazines:
+    text: The magazine rack is full of pramphlets about health.
+
+street_blue_magazines:
+    text: The magazine rack is full of periodicals about popular media.
+
+# ======== RED MOVIE ========
+
+street_red_sweetheart:
+    text: There's a whole section of the store filled with DVDs for \c[4]SWEETHEART\c[0] movies.\. The demand must be very high.
+
+street_red_animated:
+    text: These shelves are full of animated movies.\. They feel so familiar to you, even now.
+
+street_red_horror:
+    text: These shelves are full of horror movies.\. This is the good stuff.
+
+street_red_cheesy:
+    text: These shelves are full of teen movies.\. They seem pretty cheesy.
+
+street_red_vintage:
+    text: A vintage cardboard cutout of a movie that released a long while ago.
+
+street_red_machine:
+    text: Out of order.
+
+street_red_west:
+    text: These shelves are full of western movies.\. You didn't know there were so many.
+
+# ======== DIGITAL ========
+
+street_digital_computer:
+    text: Computers, fitted with the latest and most advanced technology.
+
+street_digital_charger:
+    text: New CDs and chargers for the latest cell phones line this wall.
+
+street_digital_boombox:
+    text: TVs,\. boomboxes,\. and phones line this wall for a hefty price.
+
+street_digital_games:
+    text: The most popular games sit on this wall, including some you've never heard of.
+
+street_digital_cameras:
+    text: There are several polaroid cameras on display.\. You know someone who would love this place.
+
+street_digital_headphone:
+    text: An assortment of various MP3s and headphones arranged in chromatic order.
+
+street_digital_employee:
+    text: \n<EMPLOYEE>Welcome to DIGITAL SPOT.\. If you need any help, the staff will be there.
+
+# ======== MALL ========
+
+street_mall_grananas:
+    text: Grananas.
+
+street_mall_bananas:
+    text: Bananas.
+
+street_mall_grapes:
+    text: Grapes.
+
+street_mall_apple:
+    text: Apples.
+
+street_mall_grapple:
+    text: Grapples.
+
+street_mall_wet:
+    text: A wet floor sign,\. for safety.
+
+street_mall_meat:
+    text: Woah!\. So much meat!
+
+street_mall_veggies:
+    text: A wide selection of vegetables.
+
+street_mall_drinks:
+    text: Large amounts of energy drinks,\. soda,\. and fruit juice.
+
+street_mall_janitor:
+    text: The janitor is cleaning the floor.\. Best not to disturb him.
+
+# ======== SUBWAY ========
+
+street_pizza_yum:
+    text: A pizza for one.\. You would eat all of it if it wasn't stealing.
+
+street_pizza_drinks:
+    text: The freezer is full to the brim with drinks.
+
+street_pizza_nyc:
+    text: A poster for a huge,\. New York style pizza.\. You know someone who'd gobble it right up...
+
+street_pizza_pack:
+    text: A giant stack of pizza cartons.
+
+street_pizza_trophy:
+    text: The trophy has "Best pizza of the year" engraved in the front.
+
+# ======== MOVIE STREET ========
+
+street_pizza_poster:
+    text: Posters of pizza.\. It must taste even better than it looks.
+
+street_movie_boxes:
+    text: Old boxes.\. They must be filled with movies.
+
+street_movie_poster:
+    text: Posters for movie rentals.\. It'd be nice to sit down with a friend and watch a movie at night.
+
+# ======== GENERAL ========
+
+street_phonebooth:
+    text: A telephone booth.\. If you really need to,\. you can call someone with pocket change. 
+
+# ======== STREET EXTERIORS ========
+street_outofbound:
+    text: You shouldn't go wandering too far.
+
+street_sign_electronic:
+    text: Text
+
+street_sign_cafe:
+    text: Text
+
+street_hydrant:
+    text: Text
+
+street_mailbox:
+    text: Text
+
+street_box_1:
+    text: Text
+
+street_trash_1:
+    text: Text
+
+street_trashcan_green:
+    text: A green trashcan.\. For organic materials.
+
+street_trashcan_blue:
+    text: A blue trashcan.\. For traditional recyclable materials.
+
+street_trashcan_gray:
+    text: A gray trashcan.\. For waste neither organic nor recyclable.
+
+street_trashcan_green_empty:
+    text: A geen trashcan.\. It's surprisingly empty.
+
+street_trashcan_blue_empty:
+    text: A blue trashcan.\. It's surprisingly empty.
+
+street_trashcan_gray_empty:
+    text: A gray trashcan.\. It's surprisingly empty.
+
+street_trashcan_gray_why:
+    text: A blue trashcan.\. It's trash.\. Life isn't a video game,\. so you won't find anything of value in here.
+
+street_car:
+    text: You haven't ridden in a car for a while.\. If you knew how to drive,\. you could go somewhere special...
+
+street_car_police:
+    text: This may be a cop car,\. but just standing near it makes you feel like you're being judged.
+
+street_flowers:
+    text: Flowers lining the street.\. Pretty.
+
+street_pile_north:
+    text: Piles of garbage,\. rotting in the sun.
+
+street_plant_trash:
+    text: Somehow this plant is closer to the garbage bins than the garbage itself.
+
+street_bin_empty:
+    text: A garbage bin.\. It's shockingly empty.
+
+street_alley:
+    text: The darkness of the alleyway is a stark contrast to the bright and sunny day around you.
+
+street_recycle_empty:
+    text: A recycling bin.\. It's pretty empty.
+
+street_bin_full:
+    text: A garbage bin.\. It's full.
+
+street_mailbox_red:
+    text: A red mailbox.\. You still prefer blue ones.
+
+street_tv_broken:
+    text: An old TV.\. It looks like somebody decided to upgrade.
+
+street_electronics:
+    text: Inside there is both a mini bar and a large selection of electronics.
+
+street_clinic:
+    text: You can see inside the clinic.\. It looks very cleaned and organized.
+
+street_coffee_table:
+    text: A table.\. It's covered with coffee stains.
+
+street_danger_sign:
+    text: A caution sign for crossing the street.
+
+street_bike:
+    text: Somebody parked their bike here.
+
+street_bakers_before:
+    text: This sign says “BAKER'S”.\. Something about it reminds you of \c[11]FARAWAY TOWN\c[0]...
+
+street_bakers_after:
+    text: It's the sign for the twins' new bakery.\. It says "BAKER'S"
+
+street_bus_sign:
+    text: A sign for the bus stop.
+
+street_rental_sign:
+    text: This sign says “For Rent”.\. You wonder what stores might make this place their future home.
+
+street_building:
+    text: The entrance to another apartment building.
+
+street_ugly:
+    text: Someone could trip on this.\. You almost did.\. This pile is so noticeable until it isn't.
+
+street_gate:
+    text: You hear the orchestra of a construction crew behind the door.\. You'd love to take a look behind the scenes,\. but you'd rather not get scolded.
+
+street_tank:
+    text: A discarded tank top.\. Someone must've gone shirtless on the street...\. How brash.
+
+street_lazy:
+    text: Some discarded drink cans.\. Someone must have been too lazy to throw them away.
+
+street_crank:
+    text: You could certainly pilot this mechanical marvel. You could get inside and press all the buttons and pull the levels just fine.
+
+street_crank2:
+    text: But could you do it well?\. Probably not.
+
+street_twins_morning:
+    text: It looks like this lot was just moved into.\!<br>...The door is locked.
+
+street_twins_1:
+    faceset: RV_Daphne
+    faceindex: 17
+    text: \n<DAPHNE>Come back in a few days!\! We are still getting ready-
+
+street_twins_2:
+    faceset: RV_Daphne
+    faceindex: 2
+    text: \n<DAPHNE>Oh!\! It is you, \n[17].
+
+street_twins_3:
+    faceset: RV_Daphne
+    faceindex: 7
+    text: \n<DAPHNE>So you have visited us...\! You are most welcome to our humble bakery.
+
+street_twins_4:
+    faceset: RV_Daphne
+    faceindex: 8
+    text: \n<DAPHNE>Unfortunately...\. we are still setting up.\! It does not look...\. proper...\. inside.
+
+street_twins_5: #choice here
+    faceset: RV_Daphne
+    faceindex: 5
+    text: \n<DAPHNE>Even so...\! Would you still like to come inside for a while?
+
+street_twins_5-a: #choice here
+    faceset: RV_Daphne
+    faceindex: 5
+    text: \n<DAPHNE>...Would you like to come inside for a while?
+
+#no
+
+street_twins_6:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>That is fine...\! Come back later when we have our...\. \sinv[1]GRAND OPENING\sinv[0].
+
+#yes
+
+street_twins_7:
+    faceset: RV_Daphne
+    faceindex: 5
+    text: \n<DAPHNE>BOWEN,\. \n[17] has come to visit us...
+
+street_twins_8:
+    faceset: RV_Bowen
+    faceindex: 4
+    text: \n<BOWEN>\n[17]...\! What a surprise.\! Welcome...
+
+street_twins_9:
+    faceset: RV_Bowen
+    faceindex: 9
+    text: \n<BOWEN>As you can see...\. we are still unpacking.\! <br>But it will not take long for everything to be prepared.
+
+street_twins_10:
+    faceset: RV_Bowen
+    faceindex: 8
+    text: \n<BOWEN>Perhaps we will open...\. yes, \c[11]the day after tomorrow\c[0].
+
+street_twins_11:
+    faceset: RV_Daphne
+    faceindex: 8
+    text: \n<DAPHNE>Yes...\! That will be our grand opening...
+
+#music note on both
+
+street_twins_12:
+    faceset: RV_Daphne
+    faceindex: 2
+    text: \n<DAPHNE>But for now...\! Our bakery is in no state to be perused.
+
+street_twins_13:
+    faceset: RV_Bowen
+    faceindex: 6
+    text: \n<BOWEN>But, since you've come all this way...\! Would you like some \sinv[1]fresh bread\sinv[0]?
+
+#receive a bunch of bread items
+
+street_twins_14:
+    faceset: RV_Daphne
+    faceindex: 4
+    text: \n<DAPHNE>We always keep a supply of \sinv[1]fresh bread\sinv[0] with us, wherever we go.
+
+street_twins_15:
+    faceset: RV_Bowen
+    faceindex: 0
+    text: \n<BOWEN>We will get back to work now...\. But feel free to visit us, anytime...
+
+#end. fadeout
+
+street_twins_16:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>Ah...\. \n[17].\! How are you doing...?
+
+street_twins_17:
+    faceset: RV_Bowen
+    faceindex: 0
+    text: \n<BOWEN>Ah...\. \n[17].\! How are you doing...?
+
+street_twins_evening:
+    text: The door is locked.\! \c[4]DAPHNE\c[0] and \c[4]BOWEN\ c[0] must have gone for the night.
+
+street_police:
+    text: This may be a police car,\. but just standing near it makes you feel like you're being judged.
+
+# ======== SHOPKEEP DIALOGUE ========
+
+# --Talk
+
+item_red-1:
+    text: \n<LAZY SHOPKEEP>It isn't like I have much of a choice,\. but if you need anything I'll be up here.
+
+# --Buy talk
+
+item_red-2:
+    text: \n<LAZY SHOPKEEP>That's a great choice right there,\. total cult classic.\. That will cost you $\v[1794].\! Are you here to cash out the item?
+
+#--Multiple items
+
+item_red-3:
+    text: \n<LAZY SHOPKEEP>Jeez kid,\. you must have a lot of free time.\. That will cost you $\v[1794].\! Is this everything?
+
+#--Not enough money
+
+item_red-4:
+    text: \n<LAZY SHOPKEEP>Sorry, but that's not enough.\. If you want cheap movies,\. then go to \c[11]MOVIE WORLD\c[0].
+
+item_red-5:
+    text: \n<LAZY SHOPKEEP>It's all yours then.
+
+#==TECH STORE
+
+# --talk
+
+item_tech-1:
+    text: \n<CASHIER>Looking to buy anything?\. It's a slow day today,\. so I can show you whatever you need.
+
+# --buy talk
+
+item_tech-2:
+    text: \n<CASHIER>Ah!\. Something caught your eye?\! Then let me ring it up for you.
+
+item_tech-2_2:
+    text: \n<CASHIER>The total's $\v[1794].
+
+#-- buy multiple items
+
+item_tech-3:
+    text: \n<CASHIER>A shopping spree,\. is it?\! You must have quite the allowance.\. Let me ring these up for you.
+
+#--not enough money
+
+item_tech-4:
+    text: \n<CASHIER>Sorry,\. but that's not enough money!
+
+item_tech-5:
+    text: \n<CASHIER>Thank you for your patronage!
+
+#BLUE
+
+item_blue-1:
+    text: \n<SHOPKEEP>Hey there!\. If you're not sure what to rent,\. I can recommend you some stuff!
+
+item_blue-2:
+    text: \n<SHOPKEEP>All right,\. let's ring you up then!
+
+item_blue-3:
+    text: \n<SHOPKEEP>Sorry pal, but that's not enough money.\! Try and save up!
+
+item_blue-4:
+    text: \n<SHOPKEEP>That'll be $\v[1794].
+
+item_blue-5:
+    text: \n<SHOPKEEP>Swing by anytime in the future!
+    
+# == ITEM/SHOP GENERAL
+
+item_notpaid:
+    text: You can't leave without paying...
+    
+# Trying to give the important item color to the item name escape code (not \itemget) doesn't work atm due to hardcode-
+# will probably fix that in the future, leaving them here for now though
+
+item_putbackshelf:
+    text: Would you like to put \c[4]\ni[\v[1795]]\c[0] back in the<br>shelf?
+    
+item_shelftake:
+    text: You took \c[4]\ni[\v[1795]]\c[0] off the shelf.
+
+# ======== ITEMS ========
+
+item_persona:
+    text: There's one video game that's 75% off...\. It seems to be about using different kinds of SPROUT MOLES to fight other moles.\. Your mind is filling with the possibilities.
+
+item_persona1:
+    text: ...Price tag says $8.\! Bring it to the cash register?
+
+item_persona_2:
+    text: Price tag says 8$.\. Bring it to the cash register? (DONT USE)
+
+item_computer_magazine:
+    text: Among the miscellaneous technology,\. you find a magazine.\! Reading it could help you understand computers better.
+
+item_architecture:
+    text: A VHS tape is sticking out from behind a boombox.\! Judging from the cover,\. it seems to be about metro architecture.
+
+item_fairy:
+    text: Among the cartoon movies,\. one catches your eye about a mystical adventure with a fairy and a vampire.\! Your mind is filling with the possibilities.
+
+item_horror:
+    text: ...For some reason,\. there's a book placed in the movie section.\! It seems to be about ghostly urban legends.\. Your mind is filling with the possibilities. 
+
+item_sea:
+    text: Among the various movies, there appears to be some kind of documentary.\! It looks like it’s about pollution and the effects it has on marine life.\! Your mind is filling with the possibilities.\. Price tag says $9.\! Bring it to the cash register?
+
+item_survival:
+    text: 
+
+item_ghost:
+    text: ...There's a vhs placed among the dvds?\. It looks old and dusty...\. you get a vaguely spooky feeling from it. (DONT USE FOR NOW)
+
+item_gambling:
+    text: While looking trough the magazine rack,\. a certain pamphlet called \ni[518] catches your eye.\! Take it? (DO NOT USE FOR NOW)
+
+item_gambling_desc:
+    text: A small pamphlet warning people of the risks of gambling and loan sharks.
+
+item_pricetag5:
+    text: Price tag says $5.\. Bring it to the cash register?
+
+item_pricetag9:
+    text: Price tag says $9.\. Bring it to the cash register?
+
+item_pricetag10:
+    text: Price tag says $10.\. Bring it to the cash register?
+
+# ======== SHOP DIALOGUE ========
+
+item_toffee-1:
+    faceset: RV_TOFFEE
+    faceindex: 2
+    text: \n<BARISTA>Hello there!\! Welcome to our cafe.\. Is there anything you would like to order?
+
+item_toffee-2:
+    faceset: RV_TOFFEE
+    faceindex: 3
+    text: \n<BARISTA>I'm sorry,\. I'm too busy to talk with you right now!
+
+# ======== CLOSED TEXT ========
+
+mall_closed:
+    text: The \c[11]MALL\c[0] is closed.
+
+cafe_closed:
+    text: The \c[11]CAFE\c[0] is closed.
+
+elec_closed:
+    text: \c[11]DIGITAL SPOT\c[0]. is closed.
+
+pizza_closed:
+    text: \c[11]SLICE OF HEAVEN\c[0] is closed.
+
+# ======== PIZZA AND BAKERY ========
+
+pizza_shop_1:
+    text: The snacks smell delicious, but you don't feel like buying anything right now.
+
+pizza_shop_2:
+    text: \n<CASHIER>You want any of this stuff?\! It tastes good... Probably.
+
+# ======== WENDYHEART ========
+
+wendy_1*:
+    text: ...The aura that this cardboard cutout gives off feels like a complete rip-off.
+
+wendy_2*:
+    text: Do you want to engage?
+
+wendy_3*:
+    text: ...And that teaches that copycat a lesson.
+
+# ======== FREE STEAK ========
+
+steak_1:
+    text: \n<EMPLOYEE>You're wanting steak, huh?\! Sorry champ, you don't have enough money.
+
+steak_2:
+    text: \n<EMPLOYEE>...Come on, don't look at me like that.\! Look,\. just...
+
+steak_3:
+    text: \n<EMPLOYEE>Don't get used to it okay?
+
+# ======== DONUT BOSS ========
+
+donut_1:
+    text: A couple cardboard cutouts of characters from the SWEETHEART show.\! The bakery must be doing a collaboration.
+
+donut_2:
+    text: ...Seeing these characters again brings back memories of watching the show as a child. 
+
+donut_3:
+    text: Will you reminisce about a scene?
+
+donut_4:
+    text: ...That's pretty much how you remember the scene going. 
+
+donut_5:
+    text: ...That's not quite how you remember the scene going, but you're glad \c[4]SWEETHEART\c[0] proved victorious.
+
+# ======== WENDY BOSS ========
+
+wendy_1:
+    text: A cardboard cutout of the fast food store's mascot.
+
+wendy_2:
+    text: ...She looks a little obnoxious.\! And also somewhat familiar.
+
+#copy luna 4 and 5 for these
+
+wendy_3:
+    text: Your head hurts...\! You've been thinking too hard about bunnies.
+
+wendy_4:
+    text: You won, despite her food-related trickery...\! You feel a little hungry now.
+
+# ======== LUNA BOSS ========
+
+luna_0:
+    text: A cardboard cutout of \c[4]CAPT. SPACEBOY\c[0].
+
+luna_1:
+    text: A cardboard cutout of a character you don't recognize.
+
+luna_2:
+    text: ...\.On closer inspection, it appears that she's being introduced in the new \c[4]CAPT. SPACEBOY\c[0] movie.
+
+luna_3:
+    text: \c[4]CAPT. LUNA\c[0]...\! She's apparently \c[4]CAPT. SPACEBOY\c[0]'s archnemesis.
+
+luna_4:
+    text: '..........'
+
+luna_5:
+    text: You feel a burst of inspiration...\. Will you daydream for a little while?
+
+#if lose
+luna_6:
+    text: That was a little one-sided...\! Seems like she fights a little unfairly.
+
+#if win
+luna_7:
+    text: That was an intense battle...\! Seems like she's a worthy rival for \c[4]CAPT. SPACEBOY\c[0].
+
+#IMPORTANT / BASKET
+
+basket_rv:
+    text: An empty picnic basket.\! Would you like to save?
+    
+#RW GRAFITTY SIDE QUEST
+
+#Before accepting quest
+grafitti_notstarted:
+    text: Street art.
+    
+#If completed (cleaned all grafitti)
+grafitti_completed:
+    text: You feel like you've cleaned as much as you could.\!<br>Now would be a good time to report back...
+    
+#Lost and Found Item List
+lostnfoundlist_1:
+    text: You look at the missing item list that was given to you...
+
+lostnfoundlist_2:
+    text: \- ▢\ A set of colored blocks<br>\- ▢\ A "lucky" boot<br>\- ▢\ A rubber swan
+    
+lostnfoundlist_3:
+    text: \- ▢\ A green baseball cap
+    
+# ====
+message_1000:
+      faceset: MainCharacters_DreamWorld
+      faceindex: 2
+      text: 

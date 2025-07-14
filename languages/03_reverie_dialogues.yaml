@@ -1,0 +1,673 @@
+# =========================================================================================
+# NPC dialogues
+# =========================================================================================
+
+# METRO B2 NPCs--------------
+
+message_1:
+    text: \n<COWBLIN>This station has a cool temperature...\. Finally...
+
+message_2:
+    text: \n<TIFANNY DARLING>Oh my, these evil spirits really won't leave me alone.\. First my house, then this station...and they won't leave me alone, even when I give them clams!
+
+message_3:
+    text: \n<PRINCESS GHOST>Blast,\. where is everybody else!\! I told them to come to the station so that we could board the train!
+
+message_4:
+    text: \n<PROPELLER GHOST>Ooohhh...\. Man, this place is so scary....\. I hope there aren't any mean ghosts around here...
+
+message_5:
+    text: \n<TOPHAT GHOST>Consarn it, which floor was it again....\. Is my map upside down?
+
+message_6:
+    text: \n<WEEPING WILLOW>Hey, it's me...\. Weeping Willow...\! You don't need to pay attention to me,\. I'm just here waiting for the train...\. Like everybody else...
+
+message_7_1:
+    text: \n<POPCORN GIRL>Commuting from this station isn't that bad, actually!\. The ghosts give me clams for popcorn sometimes!\. Wonder where they get them...
+
+message_7_2:
+    text: \n<POPCORN GIRL>You want some popcorn?\. It's 100 clams.\. I always bring around my extra tray for corn related emergencies!
+
+#When buying
+
+message_7_3:
+    text: \n<POPCORN GIRL>Yeah!\. Here you go!\. It's POPCORN!
+
+message_8:
+    text: \n<TEACUP SPIRIT>Oohooooooo... Can you feel that spooky chill in the aiiiir? You've entered our spooky land...
+
+# SPROUT MOLE VILLAGE NPCs--------------
+
+message_9:
+    text: \n<BROTHER MOLE>My brother is safe with his TOFU, but he had to flee...\! I hope that the other colonists are okay.
+
+message_10:
+    text: \n<BROTHER MOLE>\c[11]FALLEN WORLD\c[0] has gotten really dangerous.\! I didn't want to leave, but I had to...\! At least I get to see my brother again!
+
+message_11:
+    text: \n<FAMILY MOLE>I hate Mondays.
+
+message_12:
+    text: \n<CHEF MOLE>There's pineapple TOFU and lemon TOFU, coconut TOFU, pepper TOFU...\!
+
+message_12_2:
+    text: \n<CHEF MOLE>...TOFU burger, TOFU sandwich.\! That's about it.
+
+#Alternative dialogue (there's a piece of tofu with a sprout)
+
+message_12_3:
+    text: \n<CHEF MOLE>That piece of tofu looks just like me!
+
+message_13:
+    text: \n<CHEF MOLE>I had an amazing dream last night.\! I tried TOFU flavors of every dessert....\! It was heaven.
+
+message_14:
+    text: \n<CHEF MOLE>What if we put TOFU on pizza?\! ...\! No, that'd be silly.\! Even worse than lukewarm tofu.
+
+message_15:
+    text: \n<SPROUT MOLE>I may be a patient mole, but this guy has been inside that washing machine for days...\! I just want to do my laundry!
+
+message_16_1:
+    text: \n<FAMILY MOLE>I've travelled across the world... even to the black depths below from which none return... do you know why?\! For the GREATEST FURNITURE this world has to offer! \!
+
+message_16_2:
+    text: \n<FAMILY MOLE>When I couldn't buy it, I found the parts and made it myself. Behold the fruits of my labor!
+
+message_16_3:
+    text: \n<FAMILY MOLE>My grandiose abode is now the greatest in the village! None compare!\! Does the greatest house in the village make the greatest mole? I think so!
+
+message_17:
+    text: \n<SPORT MOLE>Huff...\. I'm training to become a legendary Harold!\! Huff...\. Huff...\. It'll be tough, but I'm going to become the defender this village needs!
+
+message_18:
+    text: \n<GUARD MOLE>Halt!\! It's too dangerous outside.\! For your safety, you'll have to remain here.
+
+message_19:
+    text: \n<FAMILY MOLE>In these dark times, the only thing that's keeping me sane in this world is my lack of self control.
+
+message_20:
+    text: \n<SPROUT MOLE>Tofu is becoming more and more precious with each passing day!\! Make sure you always have some on you.
+
+#Alternative dialogue
+message_20_2:
+    text: \n<SPROUT MOLE>My order is taking so long to arrive!\. I only ordered a hundred of roasted tofu cubes.\! Customer service these days is awful.
+
+message_21:
+    text: \n<BIRD MOLE>Chirp?
+
+message_21_1:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 2
+    text: \n<DOUGHIE>Chirp.
+
+message_22:
+    text: \n<BEAUTIFUL MOLE>Although the situation is dire, it doesn't stop me from being absolutely gorgeous.
+
+message_23:
+    text: \n<DOUBLE MOLE>We are left twondering what happened that made everything go bad recently.
+
+message_24_1:
+    text: \n<STUDENT MOLE>The old teacher ditched because of some "apocalypse," but that's okay.
+
+message_24_2:
+    text: \n<STUDENT MOLE>Our new teacher is so much better, he's not a stickler like the old guy and his lesson plan rocks!\! I'm learning so much more now!
+
+message_25_1:
+    text: \n<STUDENT MOLE>... As the world outside comes to an end, so does my personal life...
+
+message_25_2:
+    text: \n<STUDENT MOLE>I thought I had friends, but it turns out...\! They LOVE TOFU! I wonder now if I was their friend, or just another prospective meal...
+
+message_26_1:
+    text: \n<STUDENT MOLE>The world is falling apart outside, but I'm happy as long as I have paper and pencils.
+
+message_26_2:
+    text: \n<STUDENT MOLE>Before I knew it, I've been drawing a whole comic in class! Read the awesome tales of SUPER SPROUT MOLE!
+
+message_27_1:
+    text: \n<DUNCE MOLE>I want to do right by the school, so I'm teaching while everything's messy outside.\!
+
+message_27_2:
+    text: \n<DUNCE MOLE>I always get in trouble for using different SPROUT MOLES in place of numbers, but my students are getting it!\. I could get used to this...
+
+message_28_1:
+    text: \n<FAMILY MOLE>While the destruction nearby was great and affected many including the castle, we moles who dwelled in the colony managed to keep ourselves away from it.
+
+message_28_2:
+    text: \n<FAMILY MOLE>We have all managed to remain safe despite the terror!
+
+message_29:
+    text: \n<DOUBLE MOLE>We are left twondering what happened that made everything go bad recently.
+
+message_30_1:
+    text: \n<SPROUT MOLE>I can tell by your faces and dissimilar species that you're a group of travellers.\! I can also tell that you've encountered many a SPROUT MOLE on your travels! I'd bet on it!
+
+message_30_2:
+    text: \n<SPROUT MOLE>Alas, travellers, I'd also bet you've seen none a SPROUT MOLE such as I.\! When the crowd of my kin flocks to tofu, or SWEETHEART...\. I remain my own mole!\! Have you ever seen a mole such as I?
+
+message_31_1:
+    text: \n<BUTLER MOLE>We've lost our job at the castle due to the recent events, so now we've reinvented ourselves as a farmer.
+
+message_31_2:
+    text: \n<BUTLER>Still!\! My plants aren't growing.\! Could they need more sunlight?
+
+#Mayor mole
+#Wrong tag
+message_32_1:
+    text: \n<MAYOR MOLE>You are traveling with \c[13]SWEETHEART\c[0]?!\. Please let me speak to her!\. This is a matter of utmost importance!
+
+#Wrong tag after speaking to SWH
+message_32_2:
+    text: \n<MAYOR MOLE>It is comforting to see that SWEETHEART has returned.
+
+#SWH tag
+message_32_3:
+    text: \n<MAYOR MOLE>Sweet and fair duchess!\. How good it is to see you! We were in dire need of your arrival... we have fallen into dark times.
+
+message_32_4:
+    text: \n<MAYOR MOLE>Not a lot of us have ventured into the \c[11]CASTLE\c[0] and few come back.\. It seems it has fallen into disrepair and anarchy, and in turn we have trenched ourseleves here.
+
+message_32_5:
+    text: \n<MAYOR MOLE>Please, bring justice and order to our lands, somehow!\. Everything has fallen into disrepair and you are bound to these domains.
+
+#-----Sprout mole village NPC SWH tag reactions
+message_swh_1:
+    text: \n<PEON>Could it be... \QUAKE[1]IT IS!\.\QUAKE[1] \SINH[1]SWEETHEART!!\!\SINH[1] Ahem... I'm such a huge fan! Could I have an autograph?
+
+message_swh_2:
+    text: \n<PEON>\QUAKE[1]SWEETHEART?\.\QUAKE[1] In a \QUAKE[2]SPROUT MOLE VILLAGE?\QUAKE[2]\. Why, you could only be down her for a special reason!\. Is it me?\. Please say it's me.
+
+message_swh_3:
+    text: \n<PEON>Ah!\. Your majesty!\- \QUAKE[2]I must grace you with the presence of my SWEETHEART MERCH COLLECTION!\.\QUAKE[2] It's only the 3rd best in the world...
+
+message_swh_4:
+    text: \n<PEON>I've never seen you in person...\. SWEETHEART\. ... You look so much grander in person than on your posters!
+
+message_swh_5:
+    text: \n<PEON>My liege!\. You come bearing the gift of your presence!\. So here, an offering in turn!
+
+message_swh_6:
+    text: \n<PEON>What brings you here, SWEETHEART?\. Oh, I'm sure it could not be for my humblest of presences.\. Here, may this compensate!
+
+#After receiving item
+message_swh_7:
+    text: The sprout mole has been left in a daze.
+
+#Talking to butler mole as Sweetheart
+
+message_swh_8:
+    text: \n<BUTLER MOLE>Oh, my la-\!
+
+message_swh_9:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 24
+    text: \n<SWEETHEART>How preposterous!\. A servant of my convivial castle, reducing itself to such lowly farmwork!\. You are dirtying my name!
+
+message_swh_10:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 16
+    text: \n<SWEETHEART>This will not go unpunished!
+
+message_swh_11:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 26
+    text: \n<SWEETHEART>\QUAKE[1]THIS WILL NOT GO UNPUNISHED\QUAKE[1]!
+
+# Trying to go to metro while SWH is missing
+no_swh_1:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 38
+    text: \n<SPACEBOY>Hey...\. We probably should look for SWEETHEART first before we leave.
+
+# CRUMBLING CASTLE NPCs--------------
+#Big Molio - Big Molio is blocking the way to the dungeon
+
+#First meeting
+message_40_1:
+    text: \n<BIG MOLIO>I am BIG MOLIO.\! I am hungry.\! My hunger craves one thing only... A \c[4]TOFU CAKE\c[0].\! May I ask you for a \c[4]TOFU CAKE\c[0]?
+
+message_40_2:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 2
+    text: \n<DOUGHIE>Oho...\! What kind of cake is made with tofu?\! I've never baked with anything except flour...
+
+message_40_3:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 37
+    text: \n<SPACEBOY>Well, now you can broaden your horizons.\! Let's go find somewhere for DOUGHIE to cook.
+
+#Talk again, no cake
+message_40_4:
+    text: \n<BIG MOLIO>...You do not have a \c[4]TOFU CAKE\c[0].\! That is okay.\! My hunger wants the cake, and not you.\! I shall wait.
+
+#Talk with cake
+message_40_5:
+    text: \n<BIG MOLIO>A \c[4]TOFU CAKE\c[0]... Please, I am hungry.\! May I have it?
+
+#Give cake
+message_40_6:
+    text: \n<BIG MOLIO>I am grateful to you.
+
+message_40_7:
+    text: \n<BIG MOLIO>I will remember your generosity, even as my hunger craves for something else.
+
+#Dialogues for baking Tofu cake
+
+message_41_1:
+    text: There's a half baked cake in the oven. Will you turn the oven on?
+
+message_41_2:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 1
+    text: \n<DOUGHIE>Oho...\! This cake is fresh and ready!
+
+# SB JAIL CELL MINI CUTSCENE --------------
+message_sb_1:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 39
+    text: \n<SPACEBOY>Wait...\. isn't this...
+
+message_sb_2:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 2
+    text: \n<DOUGHIE>Hmm.\. For some reason this cell seems nicer than the others.
+
+message_sb_3:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 0
+    text: \n<DOUGHIE>Was there a particular reason for this, SWEETHEART?
+
+message_sb_4:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 17
+    text: \n<SWEETHEART>Ohohoho!\. Well, you see, this is where SPACEBOY stayed while he was living with me!
+
+message_sb_5:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 16
+    text: \n<SWEETHEART>Ahh, it was such a lovely time...\. back when he did just about everything asked of him...
+
+message_sb_6:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 21
+    text: \n<SWEETHEART>As opposed to now, where he regularly argues and disobeys.
+
+message_sb_7:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 45
+    text: \n<SPACEBOY>People don't live in cells normally, SWEETHEART!
+
+message_sb_8:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 21
+    text: \n<SWEETHEART>Hmph!\. I gave you such a nice one, too, and yet you have the NERVE to be ungrateful!
+
+message_sb_9:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 4
+    text: \n<DOUGHIE>Oho... oh dear...
+
+message_sb_10:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 44
+    text: \n<SPACEBOY>Look, we've already had this conversation like, ten times by now.
+
+message_sb_11:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 38
+    text: \n<SPACEBOY>Let's just...\. drop it.
+
+message_sb_12:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 21
+    text: \n<SWEETHEART>For once, I agree.\. We have far more important things to be doing!
+# QUESTS--------------
+#------------Poster retrieval
+#Receive quest
+message_quest_1:
+    text: \n<LOOTER MOLE>Hey.\. I lost my posters somewhere while I was having a major panic.
+
+message_quest_2:
+    text: \n<LOOTER MOLE>They're pretty important collectors items, and I think I might panic again if I don't get them back.
+
+message_quest_3:
+    text: \n<LOOTER MOLE>If you ever find any, please bring them to me, so that I can know peace as I sleep.
+
+#Talk while he doesn't have posters
+message_quest_4:
+    text: \n<LOOTER MOLE>I don't see any posters on you.\. At least, not any that are collector's items.
+
+message_quest_5:
+    text: \n<LOOTER MOLE>Please!\. Keep an eye out for them!\. I can feel my blood pressure rising already!
+
+#Give poster
+message_quest_6:
+    text: \n<LOOTER MOLE>Ooooh!\. Oh, you've managed to find some!
+
+message_quest_7:
+    text: \n<LOOTER MOLE>Oh, please, take this with all of my thanks!
+
+#Quest done
+message_quest_8:
+    text: \n<LOOTER MOLE>Finally, I feel the shakes starting to weaken...\. thank you so much!
+
+message_quest_9:
+    text: \n<LOOTER MOLE>Please have this!\. I don't need it anymore, not when I have to focus on my collection.
+
+# ================================================================
+#                    SONG NPCS
+# ================================================================
+
+# ================ GARDEN BLOCK (ANGRY SONG) ================
+# Garden vines are blocking the south of garden to PYREFLY FOREST. This need some visual prompt on map as well to notify the player it's open more clearly.
+# This dialogue assumes that Sweetheart has left the party already, especially since I don't think you can reach this point again until after you find her.
+# Question mark appears above Spaceboy's head
+
+garden_block_1:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 38
+    text: \n<SPACEBOY>Hmm... the way out here is blocked off.\. Looks like it's gotten overgrown since last time I was here.
+
+garden_block_2:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 2
+    text: \n<DOUGHIE>Oho?\. You were here before, SPACEBOY?
+
+garden_block_3:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 44
+    text: \n<SPACEBOY>Yeah, I visited here once when SWEETHEART and I were still dating.
+
+garden_block_4:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 44
+    text: \n<SPACEBOY>It... wasn't the most pleasant experience.
+
+garden_block_5:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 4
+    text: \n<DOUGHIE>I could imagine... 
+
+# Dialogue for interacting with song area. 
+
+garden_block_6:
+    text: This sprout mole seems to be staring off into space absentmindedly... 
+
+# No yes/no option, just small menu of songs
+
+# Incorrect Song
+
+garden_block_8:
+    text: The sprout mole is unresponsive.
+
+# Correct Song
+
+garden_block_9:
+    text: The sprout mole is invigorated with passion and rage!
+
+# After
+garden_block_10:
+    text: \n<MARSHA>Honestly...\. I've been procrastinating on clearing the weeds all this time.
+
+# ================================================================
+#                    GOLDEN KNIGHT MOLES
+# ================================================================
+
+# ================ TRAP DOOR SHORTCUT (ANGRY SONG) ================
+#PUZZLE MOLE 1 (Top Left) The "really really really" guy
+#Now just need to be annoyed to move on left trapdoor
+
+goldmole_alex_1:
+    text: \n<ALEX THE ESTEEMED>I used to be a member of the esteemed elite...\! Having a special code and everything.
+
+goldmole_alex_2:
+    text: \n<ALEX THE ESTEEMED>But then the castle got wrecked just like that!\! What am I supposed to do now?
+
+goldmole_alex_3:
+    text: \n<ALEX THE ESTEEMED>Oh, do you want me to move?\! Like really want me to move?\! Like really really want me to move?\! Like really really really want me to move?
+
+goldmole_alex_4:
+    text: This sprout mole seems to be a bit annoyed with the current situation...
+
+goldmole_alex_4_1:
+    text: ... So much to not even notice you.
+
+goldmole_alex_4_2:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 21
+    text: \n<SWEETHEART>Such insolence...\. By my own knight, too...
+
+# Wrong
+goldmole_alex_5:
+    text: \n<ALEX THE ESTEEMED>What was that supposed to be?\! Is that supposed to make me feel better?
+
+# Correct
+goldmole_alex_6:
+    text: \n<ALEX THE ESTEEMED>What in the world is that song?\! Just because of that, I'm going to be even more in your way!\! Hmph!
+
+# After
+goldmole_alex_7:
+    text: \n<ALEX THE ESTEEMED>How about that!\! That will teach you to show me subpar music! 
+
+# ================ HEDGE ITEM (SAD SONG) ================
+#PUZZLE MOLE 4 (Top Right) Ranting one about password are stupid
+#Now just sad in top right garden
+
+goldmole_helen_1:
+    text: \n<HELEN THE CALAMITOUS>I used to be super busy standing here being one of the calamitous elite...\! but with the castle in ruins I no longer have any password to guard...
+
+goldmole_helen_2:
+    text: \n<HELEN THE CALAMITOUS>The password may be stupid...\. but now that I have no job,\. I feel my life is more aimless than ever.
+
+goldmole_helen_3:
+    text: This sprout mole seems to be a bit dejected with the current situation... 
+
+# Wrong
+goldmole_helen_4:
+    text: \n<HELEN THE CALAMITOUS>...What on earth was that for?
+
+# Correct
+goldmole_helen_5:
+    text: \n<HELEN THE CALAMITOUS>Ah, that made me feel a little better.\! Oh, was I in the way? I'll move now.
+
+# After
+goldmole_helen_6:
+    text: \n<HELEN THE CALAMITOUS>I feel a little better now.\! I'm just pondering about my future.
+
+# ================ PAINTING HELL QUEST ================
+#PUZZLE MOLE 2 (Bottom Right) Tofu one that doubts
+#Now is in dungeon about painting hell
+
+goldmole_brian_1:
+    text: \n<BRIAN THE DISTINGUISHED>Careful where you tread...\! You are in the presence of one of SWEETHEART's distinguished elites.
+
+goldmole_brian_2:
+    text: \n<BRIAN THE DISTINGUISHED>But despite that,\. there is a trouble that an elite like me cannot deal with.
+
+goldmole_brian_3:
+    text: \n<BRIAN THE DISTINGUISHED>You see, with the castle falling into ruination,\. there is one room in the dungeon that just seemed to open up out of nowhere.
+
+goldmole_brian_4:
+    text: \n<BRIAN THE DISTINGUISHED>In the room theres a long corridoor filled with paintings...\. and, oh the horrors!\! They're all alive!
+
+goldmole_brian_5:
+    text: \n<BRIAN THE DISTINGUISHED>I cannot possibly deal with cleaning that room!\! And what if they happen to escape?!\! Imagine the terror!
+
+goldmole_brian_6:
+    text: \n<BRIAN THE DISTINGUISHED>I know you all are not sprout moles...\! but I need any help I can get...
+
+goldmole_brian_7:
+    text: \n<BRIAN THE DISTINGUISHED>Could you help clear out \c[11]the room full of paintings for me\c[0]? \c[11]There's a wall to the right of you that you can walk past\c[0].
+
+# Choice YES/NO
+# No
+goldmole_brian_8:
+    text: \n<BRIAN THE DISTINGUISHED>Hmph... I guess I must still do my duty as an elite myself then...
+
+# Yes
+goldmole_brian_9:
+    text: \n<BRIAN THE DISTINGUISHED>Oh, I owe you a debt of gratitude!\! If you can do that it will be of massive help!
+
+goldmole_brian_10:
+    text: \n<BRIAN THE DISTINGUISHED>And as for evidence... come back when you get a \c[4]RED ROSE\c[0]... I saw it in the deepest part of the room. If you manage to get it then that's enough proof for me.
+
+# Not satisfied
+goldmole_brian_11:
+    text: \n<BRIAN THE DISTINGUISHED>Ah, you have not got a \c[4]RED ROSE\c[0] yet.\! You have no evidence you did your job correctly.
+
+# Satisfied
+goldmole_brian_12:
+    text: \n<BRIAN THE DISTINGUISHED>My! you managed to obtain the \c[4]RED ROSE\c[0]!\! You must have went and cleared that entire room!
+
+goldmole_brian_13:
+    text: \n<BRIAN THE DISTINGUISHED>Oh thank you so very much.\! I no longer have to deal with that terror ever again!\! Here's something I found as a token of thanks.
+
+# > You got item
+
+goldmole_brian_14:
+    text: \n<BRIAN THE DISTINGUISHED>I can rest easy forever more.
+
+# ================ CAROL ================
+#PUZZLE MOLE 3 (Bottom Left) Tofu one that is polite
+#Carol guards surface
+goldmole_carol_1:
+    text: \n<CAROL THE ILLUSTRIOUS>Halt there, citizen!\. The surface has become far too dangerous, so I'm on guard duty by this ladder.
+
+goldmole_carol_2:
+    text: \n<CAROL THE ILLUSTRIOUS>Altough, I'd much rather go for some exquisite tofu at the restaurant.\. It's so ennuye here!
+
+#Sweetheart talk
+
+goldmole_carol_3:
+    text: \n<CAROL THE ILLUSTRIOUS>Oh, grandious duchess!\. It is so good to see you're faring well despite the recent destruction!
+
+goldmole_carol_4:
+    text: \n<CAROL THE ILLUSTRIOUS>We knights have been doing our best to keep the order here.\. Please, have these!
+
+# ================================================================
+#                    KEEPER OF CASTLE (AFTER SCENE)
+# ================================================================
+
+message_koc_1:
+    text: \n<KEEPER OF THE CASTLE>You...\| The bright eyed one...\| There is nothing here for you.
+    
+message_koc_2:
+    text: \n<KEEPER OF THE CASTLE>There may have been,\. once.
+    
+message_koc_3:
+    text: \n<KEEPER OF THE CASTLE>But now.\! Now you do not need anything I could give you.
+    
+message_koc_4:
+    text: \n<KEEPER OF THE CASTLE>Any wish you could have is within your grasp.
+    
+message_koc_5:
+    text: \n<KEEPER OF THE CASTLE>You must simply reach out and take it.
+    
+message_koc_6:
+    text: \n<KEEPER OF THE CASTLE>Farewell...\. and good luck.
+
+# ================================================================
+#                       EXTRA BATTLES AREA
+# ================================================================
+
+# ================ Painting Hell ================
+painting_lock:
+    text: The gate is locked.
+
+# After
+painting_1:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 36
+    text: \n<SPACEBOY>Can I just say something for a moment?
+
+painting_2:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 38
+    text: \n<SPACEBOY>What in the world was that?\! Do you just have bunch of sentient paintings lay around in a room deep underground, SWEETHEART?
+
+painting_3:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 24
+    text: \n<SWEETHEART>\Com[2]Such accusations!\! Why would I ever think there's such thing that can replicate by beauty!
+
+painting_4:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 24
+    text: \n<SWEETHEART>If I want to see a sentient replication, then I could have just visited those dastardly sea witches instead!
+
+painting_5:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 21
+    text: \n<SWEETHEART>I wouldn't be surprised if it's because of them again, if anything!\! They should have been turned into whale food a long time ago!
+
+painting_6:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 4
+    text: \n<DOUGHIE>...
+
+# ================ Bear Dungeon with Alice ================
+
+# Gate Examine - Random selection of choice similar to base game joke
+bear_1:
+    text: You already knew what happened last time.
+
+bear_2:
+    text: You are not going through that again.
+
+bear_3:
+    text: The condition was absolutely unbearable.
+
+bear_4:
+    text: The trapped creatures do NOT need your help.
+
+# Switch - You can only touch flavor text after beating Alice (who released the bears)
+bear_5:
+    text: The button was already pressed despite your objections.
+
+# ================ Pyrefly Trio ================
+
+# Pyrefly trio is just 3 strong enemies troop
+trio_1:
+    text: \n<FIERY>Hey!\! What you doin' there!\! Can't you see we're busy plotting!
+
+trio_2:
+    text: \n<VAMPYRE>Uhh, can you tone it down a bit...?\! I don't like loud noises...\! Can't we just mind our own business...
+
+trio_3:
+    text: \n<FIERY>They came to us first!\! You know what that means!\! It's time for a prank!
+
+trio_4:
+    text: \n<VAMPYRE>Your pranks just cause distress! Burning people isn't funny...\! should that not be obvious?
+
+trio_5:
+    text: \n<IRIS>Good grief, enough talking.\! Let's just get this over with.
+
+trio_6:
+    text: \n<VAMPYRE>Wait,\. what do you m-\^
+
+# Fight
+trio_7:
+    text: \n<VAMPYRE>Wahh,\. sorry!\! Please excuse my friends!\! I'm sure they don't mean to do anything bad to you all!
+
+trio_8:
+    text: \n<VAMPYRE>Please,\. take this as a token of apology!
+
+# You got
+trio_9:
+    text: \n<VAMPYRE>It's...\. one of the spell book I have.\! It does lightning stuff...\. it might not be that good though...
+
+# After talk
+trio_a1:
+    text: \n<FIERY>Seriously man, you have to up your game.
+
+trio_a2:
+    text: \n<VAMPYRE>Wahh, sorry!\. But no one else is doing healing duty!
+
+trio_a3:
+    text: \n<IRIS>Just think of someone you really hate and then channel your rage.\! Electrocute them to death or something.\! Don't you ever have someone you really hate?
+
+trio_a4:
+    text: \n<VAMPYRE>Uh, no?\. Why?
+
+trio_a5:
+    text: \n<IRIS>Geez Louise, you're more helpless than a baby.

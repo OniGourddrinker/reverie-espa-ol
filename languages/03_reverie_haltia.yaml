@@ -1,0 +1,273 @@
+# ================================================================
+# HALTIA
+#
+# Haltia will reoccur slightly in B2 later area as well.
+# ================================================================
+
+intro_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<STOP SIGN GHOST>Careful, now.\! It's \quake[1]dangerous\quake[0] inside.\. What business you got in there?
+
+intro_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<STOP SIGN GHOST>What's dangerous about it?\! Well...\. the area beyond here is...\. "unstable."
+
+intro_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<STOP SIGN GHOST>My job's to stop randos from dilly-dallying in there, all willy-nilly.\. It's for their own sakes really.
+
+intro_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 11
+    text: \n<STOP SIGN GHOST>I mean,\. really.\. I'm not like, paid or anything.\. Like, it is by my own virtue.\. Sincere, even.
+
+intro_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>Anyways...\. Right...\. I didn't introduce myself yet...\! The name's HALTIA.\. Nice to meet you.\. I don't really see stuff that breathe too often, so...\. excuse my awkwardness?
+
+intro_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 11
+    text: \n<HALTIA>Feel free to ask me questions about this place.\. It gets lonely around here sometimes...\. Some activity would be nice.
+
+question_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 11
+    text: \n<HALTIA>Greetings.\. What do you want to talk about?
+
+question_c1:
+    text: YOU
+
+question_c2:
+    text: THE METRO
+
+question_c3:
+    text: THE AREA
+
+question_c4:
+    text: LETTING IN
+
+question_c5:
+    text: SHOP
+
+# > YOU
+you_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 11
+    text: \n<HALTIA>Oh well,\. uh...\| What should I even talk about...
+
+you_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>I am a poltergeist.\. I like trains.\. I guess.\. The clothing's a bit blatant, but I swear I didn't pick this attire myself...\. exactly.
+
+you_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>How did I come into existence as a poltergeist, you may ask.\! Well... I'll be honest, I dunno either.
+
+you_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 11
+    text: \n<HALTIA>I mean, if I'm a ghost it's probably safe to assume I died at some point...
+
+you_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>That reminds me,\. as a ghost I'm naturally incorporeal...\. At least to some degree.\! For my case, I happen to \c[4]absorb all incoming ANGRY attacks\c[0].
+
+you_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>I dunno how that works exactly...\. Maybe I got in an accident due to road rage in my previous life.\! Who knows.\. You don't exactly ask someone why they breathe.
+
+you_7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 11
+    text: \n<HALTIA>Which reminds me...\. I have two other siblings, who also just so happen to absorb their respective EMOTIONs.\! The universe just aligns sometimes.
+
+you_8:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>Though, I doubt you'd be seeing them...\. They're likely in different stations entirely.
+
+# > THE METRO
+metro_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>This place...\. Well...\. I don't really know the specific purpose of this area. 
+
+metro_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>That question is better saved for...\. You know that mysterious tall shadow guy,\. the one that holds a lamp?\. They probably know about it more than me.
+
+metro_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>What I can talk about,\. though,\. are the phenomena that arise here, deep underground.
+
+metro_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>As you may have noticed,\. there are quite a few ghosts...\. or apparitions...\. or the undead,\. whatever you call it.
+
+metro_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>Deeper areas seem to give rise to stranger phenomena,\. especially places like this where it's been abandoned for a long time.
+
+metro_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>Though recently... there was this big \sinv[1]rumbling\sinv[0],\. and the area got lifted up a bit?\! At least, that's what I think.\. I'm a poltergeist,\. not a depth gauge.
+
+metro_7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>New cracks opened up since that incident, connecting the metro with the outside world.\. Maybe that could explain part of the phenomena.
+
+# > THE AREA
+area_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>The area behind me?\! Yeah, it's pretty dangerous.
+
+area_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>Some pockets of the deeper metro areas are...\. strange, to say the least.\! Even for my ghostly standards.
+
+area_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>You'll see all sorts of creatures seemingly popping out of nowhere, at random.\. Like a broken dream, if you will.
+
+area_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>That is, all sorts of foes from a bunch of places, ranging from \c[4]FALLEN WORLD\c[0] all the way to the \c[4]CASTLE\c[0]. Potentially even other areas I dunno about yet.
+
+area_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>But they aren't exactly the same thing. It's like,\. a hazy apparition, a copy or an afterimage you could say. Though they still can certainly hurt you...
+
+area_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 11
+    text: \n<HALTIA>I've even seen copies of myself from time to time.\! I swear,\. if you see any,\. that's not me.\. The real me is here.\. Right now.
+
+area_7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>Though they tend to not really talk in the first place, so it should be easy to tell.\. I hope.
+
+area_8:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>Apparitions stalk the night, as they say.\. So don't go there unless you wanna be beaten up until your soul is red like ground cherry.
+
+# > CAN YOU LET IN?
+battle_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>Do you really, really, REALLY need to get in there?
+
+# Ok i swear i will change this one
+battle_2: 
+    faceset: SideCharacters_ReverieFW
+    faceindex: 11
+    text: \n<HALTIA>Like,\. Do you even know what happens there?\! Because I don't think you even do.
+
+battle_3: 
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>Look, if you really need to get in there...\. I guess I can make some arrangements.
+
+battle_4: 
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>How about this...?\! Prove your strength.\. Me and you,\. we fight.\! If you are strong enough, I won't worry as much.\. How's that?
+
+battle_c1:
+    text: GREAT
+
+battle_c2:
+    text: AWFUL
+
+# > AWFUL
+battle_5: 
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>Yeah...\. Thought so too...
+
+# > GREAT
+battle_6: 
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>Oh, ok.\! Wasn't expecting that.\! Uhh...\. Alright then,\. I guess...\! Bring it on!
+
+# POST BATTLE
+battle_7: 
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>Alright!\. That's enough!\! You seem to know what you're doing.
+
+battle_8: 
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>I'll move this barracade now.\! Just behave in there,\. alright?
+
+# Ellipsis Bubble
+
+battle_9: 
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>Oh right, reminds me.\! While you're in there could you do me a favor.
+
+battle_10: 
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>I have some...\. how do I describe it...\. \c[4]THINGS\c[0]?\! Some magical ghost shenanigans,\. hard to explain,\. let's just leave it at that.
+
+battle_11: 
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>\c[4]There should be 3 of them\c[0], if I remember correctly.\! I need it to set up some...\. stuff.\! Could be helpful to you too, who knows.
+
+battle_12: 
+    faceset: SideCharacters_ReverieFW
+    faceindex: 11
+    text: \n<HALTIA>Anyways, I will stay outside around here.\! Feel free to talk to me anytime.
+
+# > QUEST (Auto Start when fulfilled)
+
+quest_1: 
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>Oh wow,\. you got my,\. uh,\. things.
+
+quest_2: 
+    faceset: SideCharacters_ReverieFW
+    faceindex: 11
+    text: \n<HALTIA>If you don't mind,\. I'll take that.
+
+quest_3: 
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>With that out of the way...\! Now I can make you things!
+
+quest_4: 
+    faceset: SideCharacters_ReverieFW
+    faceindex: 11
+    text: \n<HALTIA>What?\! That's not something you think it would do?\! It's simple ghost stuff, really.
+
+quest_5: 
+    faceset: SideCharacters_ReverieFW
+    faceindex: 10
+    text: \n<HALTIA>Anyways,\. if you're interested in my little trinkets then you can come and talk to me for that aswell.

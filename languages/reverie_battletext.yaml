@@ -1,0 +1,1572 @@
+
+# =========================================================================================
+# Reverie Battle Text
+# %1 is Subject, %2 is Target
+#
+# In order of priorities:
+# userActorText: Used when the user is an actor
+# userEnemyText: Used when the user is an enemy
+# targetActorText: Used when the target is an actor
+# targetEnemyText: Used when the target is an enemy
+# text: Basic text
+# =========================================================================================
+
+# =========================================================================================
+# COMMON
+# =========================================================================================
+
+# BASIC ATTACKS - Mostly in form of "X verbs Y"
+attack_basic:
+  text: "%1 attacks %2!"
+  
+attack_basic2:
+  text: "%1 attacks!"
+
+attack_nibble:
+  text: "%1 nibbles at %2!"
+
+attack_bite:
+  text: "%1 bites at %2!"
+
+attack_slash:
+  text: "%1 slashes at %2!"
+
+attack_flame: # Common with fire enemies, tend to relate to burn or angry
+  text: "%1 flames %2!"
+  
+attack_shoot:
+  text: "%1 fires!"
+  
+attack_kick:
+  text: "%1 kicks %2!"
+
+attack_slap:
+  text: "%1 slaps %2!"
+
+attack_slam:
+  text: "%1 slams into %2!"
+
+attack_scratch:
+  text: "%1 scratches %2!"
+
+attack_trip: # Omori and few enemies have it; lower speed
+  text: "%1 trips %2!"
+
+attack_chainsaw:
+  text: "%1 pulls out a chainsaw on %2!"
+
+# Common but Fancier Skills
+gen_guard:
+  text: "%1 guards."
+
+gen_endure:
+  text: "%1 endured a hit."
+
+gen_explode: # Self destruct enemies
+  text: "%1 explodes!"
+
+gen_flirt:
+  text: "%1 flirts with %2!"
+
+gen_calm-1:
+  text: "%1 calms down."
+
+gen_calm-2:
+  text: "%1 EMOTIONS and AILMENTS are removed."
+
+gen_charge-1:
+  text: "%1 is charging up for next attack..."
+
+gen_charge-2:
+  text: "%2 next attack will deal \\c[4]increased damage\\c[0]!"
+
+gen_allycharge-1:
+  text: "%1 helps %2 charge up for next attack..."
+
+gen_allycharge-2:
+  text: "%2 next attack will deal \\c[4]increased damage\\c[0]!"
+
+gen_critcharge-1:
+  text: "%1 aims for weak point..."
+
+gen_critcharge-2:
+  text: "%1 next attack will deal \\c[4]critical damage\\c[0]!"
+
+gen_hitcharge-1:
+  text: "%1 takes aim..."
+
+gen_hitcharge-2:
+  text:  "%1 next attack will deal \\c[4]always hit\\c[0]!"
+
+slap_her-1:
+  text: "%1 slaps herself!"
+  
+slap_her-2:
+  text: "%1 pulled herself together!"
+
+slap_him-1:
+  text: "%1 slaps himself!"
+  
+slap_him-2:
+  text: "%1 pulled himself together!"
+
+slap_them-1:
+  text: "%1 slaps themselves!"
+  
+slap_them-2:
+  text: "%1 pulled themselves together!"
+
+slap_it-1:
+  text: "%1 slaps itself!"
+  
+slap_it-2:
+  text: "%1 pulled itself together!"
+
+enemy_taunt-1:
+  text: "%1 taunts %2!"
+
+enemy_taunt-2:
+  text: "Everyone's DEFENSE fell moderately."
+  
+enemy_taunt-3:
+  text: "Everyone's ATTACK rose moderately!"
+
+# EMOTIONS
+
+multi_angry:
+  targetActorText: "All friends feels ANGRY!"
+  targetEnemyText: "All foes feels ANGRY!"
+
+multi_sad:
+  targetActorText: "All friends feels SAD..."
+  targetEnemyText: "All foes feels SAD..."
+
+multi_happy:
+  targetActorText: "All friends feels HAPPY!"
+  targetEnemyText: "All foes feels HAPPY!"
+
+# BUFF AND DEBUFFING
+
+buff_stats:
+  text: "%1's STATS rose!"
+
+debuff_stats:
+  text: "%1's STATS fell!"
+
+buff_stats_other:
+  text: "%2's STATS rose!"
+
+debuff_stats_other:
+  text: "%2's STATS fell!"
+
+multi_buff_atk:
+  targetActorText: "All friends' ATTACK rose!"
+  targetEnemyText: "All foes' ATTACK rose!"
+
+multi_buff_def:
+  targetActorText: "All friends' DEFENSE rose!"
+  targetEnemyText: "All foes' DEFENSE rose!"
+
+multi_buff_spd:
+  targetActorText: "All friends' SPEED rose!"
+  targetEnemyText: "All foes' SPEED rose!"
+  
+multi_buff_hit:
+  targetActorText: "All friends' HIT/EVA rose!"
+  targetEnemyText: "All foes' HIT/EVA rose!"
+
+multi_buff_stats:
+  targetActorText: "All friends' STATS rose!"
+  targetEnemyText: "All foes' STATS rose!"
+
+multi_debuff_atk:
+  targetActorText: "All friends' ATTACK fell!"
+  targetEnemyText: "All foes' ATTACK fell!"
+
+multi_debuff_def:
+  targetActorText: "All friends' DEFENSE fell!"
+  targetEnemyText: "All foes' DEFENSE fell!"
+
+multi_debuff_spd:
+  targetActorText: "All friends' SPEED fell!"
+  targetEnemyText: "All foes' SPEED fell!"
+  
+multi_debuff_hit:
+  targetActorText: "All friends' HIT/EVA fell!"
+  targetEnemyText: "All foes' HIT/EVA fell!"
+
+multi_debuff_stats:
+  targetActorText: "All friends' STATS fell!"
+  targetEnemyText: "All foes' STATS fell!"
+
+# BUFF MAXIMIZE / MINIMIZE
+
+max_buff_atk:
+  text: "%1's ATTACK maximized!"
+
+max_buff_def:
+  text: "%1's DEFENSE maximized!"
+
+max_buff_spd:
+  text: "%1's SPEED maximized!"
+
+max_buff_hit:
+  text: "%1's HIT/EVA maximized!"
+
+min_buff_atk:
+  text: "%1's ATTACK minimized!"
+
+min_buff_def:
+  text: "%1's DEFENSE minimized!"
+
+min_buff_spd:
+  text: "%1's SPEED minimized!"
+
+min_buff_hit:
+  text: "%1's HIT/EVA minimized!"
+
+max_buff_stats:
+  text: "%1's STATS maximized!"
+
+min_buff_stats:
+  text: "%1's STATS minimized!"
+
+max_buff_stats_other:
+  text: "%2's STATS maximized!"
+
+min_buff_stats_other:
+  text: "%2's STATS minimized!"
+
+multi_max_buff_atk:
+  targetActorText: "All friends' ATTACK maximized!"
+  targetEnemyText: "All foes' ATTACK maximized!"
+
+multi_max_buff_def:
+  targetActorText: "All friends' DEFENSE maximized!"
+  targetEnemyText: "All foes' DEFENSE maximized!"
+
+multi_max_buff_spd:
+  targetActorText: "All friends' SPEED maximized!"
+  targetEnemyText: "All foes' SPEED maximized!"
+
+multi_max_buff_hit:
+  targetActorText: "All friends' HIT/EVA maximized!"
+  targetEnemyText: "All foes' HIT/EVA maximized!"
+
+multi_min_buff_atk:
+  targetActorText: "All friends' ATTACK minimized!"
+  targetEnemyText: "All foes' ATTACK minimized!"
+
+multi_min_buff_def:
+  targetActorText: "All friends' DEFENSE minimized!"
+  targetEnemyText: "All foes' DEFENSE minimized!"
+
+multi_min_buff_spd:
+  targetActorText: "All friends' SPEED minimized!"
+  targetEnemyText: "All foes' SPEED minimized!"
+
+multi_min_buff_hit:
+  targetActorText: "All friends' HIT/EVA minimized!"
+  targetEnemyText: "All foes' HIT/EVA minimized!"
+
+# CLEAN BUFF / DEBUFF - Also applies to dekaja/dekunda skills
+clean_buff:
+  targetActorText: "All friends' BUFFS were removed!"
+  targetEnemyText: "All foes' BUFFS were removed!"
+
+clean_debuff:
+  targetActorText: "All friends' DEBUFFS were removed!"
+  targetEnemyText: "All foes' DEBUFFS were removed!"
+
+clean_ailment:
+  targetActorText: "All friends' AILMENTS were removed!"
+  targetEnemyText: "All foes' AILMENTS were removed!"
+
+# FAIL TEXT
+
+fail_no_juice:
+  text: "%1 does not have enough JUICE!"
+  
+fail_generic:
+  text: "%1 fails to cast a skill."
+
+# KO
+
+insta_kill_self:
+  text: "%1 is knocked out instantly!"
+
+insta_kill_target:
+  text: "%2 is knocked out instantly!"
+
+# =========================================================================================
+# SPECIAL - Some are used in multiple bosses
+# =========================================================================================
+
+fear_vertigo-1:
+  text: "%1 throws the foes off balance!"
+
+fear_cripple-1:
+  text: "%1 cripples the foes!"
+
+fear_suffocate-1:
+  text: "%1 suffocates the foes!"
+
+fear_suffocate-2:
+  text: "All foes feel a shortness of breath."
+
+# =========================================================================================
+# PARTY MEMBERS
+# =========================================================================================
+
+# ==== SUNNY ==== #
+sunny_ode:
+  text: "%1 concentrates %2's EMOTION!"
+  
+sunny_largo:
+  text: "%1 slows the enemy down..."
+  
+sunny_quartet:
+  text: "%1 looks into %2's EMOTION!"
+  
+sunny_concerto:
+  text: "%1 concentrates and plays..."
+  
+sunny_grace_note:
+  text: "%1 plays a quick note."
+  
+sunny_forte:
+  text: "%1 conducts conducts %2 to perform loudly!"
+  
+sunny_presto:
+  text: "%1 speeds things up!"
+  
+sunny_ballad:
+  text: "%1 concentrates everyone's EMOTION!"
+  
+sunny_fermata:
+  text: "%1 holds on to %2's EMOTION..."
+  
+sunny_sonata:
+  text: "%1 plays a sonata."
+
+sunny_overture:
+  text: "%1 plays a musical lead."
+
+sunny_andante-1:
+  text: "%1 plays a calming tune..."
+  
+sunny_andante-2:
+  text: "All friends' debuffs and ailments were removed!"
+
+# Sunny Specials #
+sunny_allegro:
+  text: "%1 strikes three times."
+
+sunny_encore_1:
+  text: "%1 gathered himself..."
+
+sunny_encore_2:
+  text: "Everyone's SKILL COSTs are halved!"
+
+sunny_calm_down:
+  text: "%1 calms down."
+  
+sunny_focus:
+  text: "%1 focuses."
+  
+sunny_persist:
+  text: "%1 persists."
+  
+# ==== SWEETHEART ==== #
+swh_brag:
+  text: "%1 starts bragging to %2!"
+  
+swh_triple_slap:
+  text: "%1 swats wildly ahead!"
+  
+swh_heartbreaker:
+  text: "%1 breaks %2's heart!"
+  
+swh_windup-1:
+  text: "%1 raises her hand..."
+  
+swh_windup-2:
+  text: "...and hits %2 hard!"
+  
+swh_cruel_buster:
+  text: "%1 hurt everyone's feelings!"
+  
+swh_obnoxious_music:
+  text: "%1 plays obnoxious music!"
+  
+swh_war_cry:
+  text: "%1 psyches herself up!"
+
+swh_smite:
+  text: "%1 smites %2!"
+
+swh_taunt-1:
+  text: "%1 taunts the enemy!"
+  
+swh_taunt-2:
+  text: "All foes' DEFENSE fell moderately."
+  
+swh_taunt-3:
+  text: "All foes' ATTACK rose moderately!"
+
+swh_power_trip:
+  text: "%1 does a power trip on %2!"
+
+swh_shiny_polish:
+  text: "%1 gives %2 a shiny finish!"
+
+swh_nutcracker:
+  text: "%1 goes to town!"
+  
+swh_slow_dance:
+  text: "%1 entrances the enemy with a slow waltz..."
+  
+swh_tap_dance:
+  text: "%1 nimbly kicks away!"
+  
+swh_impatience:
+  text: "%1 impatiently attacks!"
+  
+swh_sharp_insult:
+  text: "%1 insults everyone!"
+
+swh_slap_awake:
+  text: "%1 slaps everyone awake!"
+
+swh_danse_macabre:
+  text: "%1 does a dance of death!"
+
+# ==== DOUGHIE ==== #
+doughie_cheer_up:
+  text: "%1 cheers up %2!"
+  
+doughie_bake:
+  text: "%1 makes a cookie just for %2!"
+  
+doughie_punchdown:
+  text: "%1 gives %2 a beating!"
+  
+doughie_knead-1:
+  text: "%1 kneads %2."
+  
+doughie_knead-2:
+  text: "%1 is tired of bread..."
+  
+doughie_stress_eat:
+  text: "%1 pulls out a fresh cookie for %2!"
+  
+doughie_bag_o_flour:
+  text: "%1 spills flour everywhere!"
+  
+doughie_ferment:
+  text: "%1 gives %2 a pick-me-up..."
+
+doughie_sugar_high:
+  text: "%1 gives %2 a sugar high!"
+
+doughie_concentrate-1:
+  text: "%1 gathers her power..."
+  
+doughie_concentrate-2:
+  text: "%1's next attack will be strengthened!"
+  
+doughie_cover:
+  text: "%1 covers %2."
+
+doughie_fresh_pizza:
+  text: "%1 pulls out a fresh pizza for everyone!"
+
+doughie_homemade_jam-1:
+  text: "%1 makes HOMEMADE JAM!"
+  
+doughie_homemade_jam-2:
+  text: "It had no effect."
+  
+doughie_bis_quick-1:
+  text: "%1 calls for some backup!"
+  
+doughie_bis_quick-2:
+  text: "BISCUIT raised everyone's DEFENSE!"
+  
+doughie_white_bread-1:
+  text: "%1 gives %2 a palette cleanser..."
+  
+doughie_white_bread-2:
+  text: "%2's AILMENTS were removed!"
+
+doughie_prudence:
+  text: "%1 starts off with some good care."
+
+doughie_sunny_side_up:
+  text: "%1 whistles a cheery tune while cooking."
+
+doughie_detox_food:
+  text: "%1 makes everyone some detoxicating food."
+
+doughie_decanter:
+  text: "%1 let the dust settles."
+
+doughie_rotten:
+  text: "%1 gives %2 rotten milk..."
+
+doughie_lethal:
+  text: "%1 gives %2 a lethal injection!"
+
+# ==== SPACEBOY ==== #
+sb_angsty_song:
+  text: "%1 sings an angsty song."
+  
+sb_avenger:
+  text: "%1 collects his vengeful spirit!"
+  
+sb_intimidate:
+  text: "%1 intimidates everyone!"
+  
+sb_cover_fire:
+  text: "%1 cover fires!"
+  
+sb_aria:
+  text: "%1 sings a sorrowful song..."
+  
+sb_bullet_hell:
+  text: "%1 fires everywhere!"
+  
+sb_cool_breeze-1:
+  text: "%1 creates a cooling breeze!"
+  
+sb_cool_breeze-2:
+  text: "All foes' BUFFs are removed!"
+  
+sb_catharsis:
+  text: "%1 channels his inner fury!"
+  
+sb_flashbang-1:
+  text: "%1 fires a bright laser!!"
+  
+sb_flashbang-2:
+  text: "Everyone's SPEED and HIT/EVASION ROSE!"
+  
+sb_quick_draw:
+  text: "%1 has the faster hand!"
+  
+sb_flare:
+  text: "%1 flashes a blinding light!"
+  
+sb_comet_punch-1:
+  text: "%1 punches with the force of a shooting star!"
+  
+sb_comet_punch-2:
+  text: "...it hurted both %2 and him!"
+
+sb_power_hit:
+  text: "%1 smashes %2!"
+
+sb_first_aid:
+  text: "%1 performs a first aid procedure!"
+
+sb_heat_ray:
+  text: "%1 fires off a burning ray!"
+  
+sb_medical_kit:
+  text: "%1 applies a bandage to %2!"
+
+sb_caution:
+  text: "%1 starts off with some caution."
+
+sb_liver_punch:
+  text: "%1 hits %2 where it hurts!"
+
+# ==== EQUIPMENT SKILLS ==== #
+eq_tragic:
+  text: "%1 reads a tragic poem."
+
+eq_maziodyne:
+  text: "%1 gives a shocking revelation."
+
+eq_maragidyne:
+  text: "%1 throws a ball of fire."
+
+# =========================================================================================
+# CH1 CONTENT
+# =========================================================================================
+
+# ==== FOREST BUNNY ==== #
+
+bunny_nothing:
+  text: "%1 is hopping around!"
+  
+bunny_be_cute:
+  text: "%1 winks at %2!"
+  
+bunny_sad_eyes:
+  text: "%1 looks sadly at %2."
+  
+# ==== FOREST BUNNY? ==== #
+
+attack_nibble2:
+  text: "%1 nibbles at %2?"
+
+bunny_nothing2:
+  text: "%1 is hopping around?"
+  
+bunny_be_cute2:
+  text: "%1 winks at %2?"
+  
+bunny_sad_eyes2:
+  text: "%1 looks sadly at %2?"
+  
+# ==== LOST SPROUT MOLE / GOLDEN MOLE ==== #
+
+attack_sprout_mole:
+  text: "%1 bumps into %2!"
+  
+sprout_nothing:
+  text: "%1 is rolling around."
+  
+sprout_run_around:
+  text: "%1 runs around!"
+  
+# ==== RARE BEAR ==== #
+  
+bear_roar:
+  text: "%1 lets out a huge roar!"
+
+bear_hug:
+  text: "%1 hugs %2 really hard!"
+
+bear_vitalja-1:
+  text: "%1 does incomprehensible things."
+
+bear_vitalja-2:
+  text: "%1's ATTACK and DEFENSE increased greatly!"
+
+# ==== GREAT GATE ==== #
+
+makoto_yuki:
+  text: "%1 does its best impression of an OPEN DOOR."
+  
+makoto_yuki2:
+  text: "%1 stands firm because it is a door."
+  
+# ==== LIFE JAM GUY ==== #
+
+ljg_death_jam:
+  text: "%1 turns you into TOAST."
+  
+ljg_biscuit:
+  text: "%1 throws some biscuit at %2!"
+  
+ljg_literal_biscuit:
+  text: "%1 throws BISCUIT!"
+  
+ljg_cover_in_life_jam-1:
+  text: "%1 covers everyone in life jam!"
+  
+ljg_cover_in_life_jam-2:
+  text: "Everyone's buffs were removed!"
+  
+ljg_ingest_jam:
+  text: "%1 ingests some LIFE JAM!"
+  
+# ==== CONDUCTOR BUNNY ==== #
+
+conductor_call-1:
+  text: "%1 blows a TRAIN WHISTLE!"
+  
+conductor_call-2:
+  text: "...Nothing happened..."
+  
+conductor_train:
+  text: "%1's train crashes into everyone!!"
+  
+# ==== CONEHEAD MOLE ==== #
+
+conehead_readjust:
+  text: "%1 readjusts its hat..."
+  
+# ==== TV GIRL ==== #
+
+tvgirl_coffee-1:
+  text: "%1 uses COFFEE!"
+  
+tvgirl_coffee-2:
+  text: "%1's debuffs were removed!"
+  
+tvgirl_static-1:
+  text: "%1 goes static..."
+  
+tvgirl_static-2:
+  text: "Everyone let their guard down."
+  
+tvgirl_butcher:
+  text: "%1 butchers %2!"
+  
+tvgirl_stab:
+  text: "%1 stabs %2!"
+  
+tvgirl_drama:
+  text: "%1 does a violent dance!"
+  
+tvgirl_hacknslash:
+  text: "%1 hacks away!"
+  
+tvgirl_dynamite:
+  text: "%1 uses DYNAMITE!"
+  
+tvgirl_eyedrops:
+  text: "%1 uses EYE DROPS!"
+  
+# ==== METRO / SCAR RAT ==== #
+
+metro_rat_nothing:
+  text: "%1 looks around."
+  
+# =========================================================================================
+# CH2 CONTENT
+# =========================================================================================
+
+# ==== PLANET X ==== #
+
+planetx_freikugel:
+  text: "%1 uses his ultimate attack!"
+  
+planetx_fatal_sword:
+  text: "%1 slashes twice!"
+  
+planetx_rampage:
+  text: "%1 goes on a rampage!"
+  
+planetx_pierce_armor:
+  text: "%1 lands a sucker punch!"
+  
+planetx_wig:
+  text: "%1 flutters in the wind..."
+  
+planetx_failiure:
+  text: "%1 is out of JUICE!"
+  
+planetx_gain_juice:
+  text: "%1 tries to gather himself."
+  
+planetx_nothing:
+  text: "%1 stares akwardly."
+
+# ==== CATTAIL BUNNY ====
+cattail_camo:
+  text: "%1 hides in the bushes..."
+  
+# ==== BROKEN TAPE ====
+broken_tape_tangle:
+  text: "%2 becomes caught in %1!"
+  
+# ==== TAPEWORM ====
+tapeworm_nothing:
+  text: "%1 wiggles around..."
+  
+# ==== MOUSE ====
+mouse_auto_clicker:
+  text: "%1 downloads a software!"
+
+mouse_spam_clicker:
+  text: "%1 is spam clicking!"
+  
+# ==== CROCODILE CLIP ====
+croc_bite:
+  text: "%1 bites %2!"
+
+croc_angrify:
+  text: "%1 angers itself!"
+  
+croc_snap:
+  text: "%1 snaps aggressively..."
+  
+# ==== FALLEN STAR ====
+fstar_launch:
+  text: "%1 launches itself onto %2!"
+  
+# ==== SHOOTING STAR ====
+
+sstar_flash:
+  text: "%1 flashes a blinding light!"
+  
+# ==== ADWARE ==== #
+
+adware_mouse:
+  text: "%1 helps %2 to click!"
+  
+adware_clickbait:
+  text: "%1 clickbaits %2!"
+  
+adware_shrink:
+  text: "%1 shrinks its X icon!"
+  
+adware_annoy:
+  text: "%1 annoys %2!"
+  
+# ==== SPAM MAIL ==== #
+
+spam_wall_of_text:
+  text: "%1 sends a wall of text."
+
+# ==== ZIP BOMB ==== #
+
+zip_start_timer:
+  text: "%1 starts its timer..."
+  
+zip_tick-1:
+  text: "%1 ticks away..."
+  
+zip_tick-2:
+  text: "...faster!"
+  
+zip_tick-3:
+  text: "...but is too sad..."
+  
+zip_unzip:
+  text: "%1 explodes!"
+  
+zip_zip_of_death-1:
+  text: "%1 explodes violently!"
+  
+zip_zip_of_death-2:
+  text: "Everyone's SPEED fell greatly."
+  
+# ==== TROJAN HORSE ==== #
+
+trojan_horse_nothing:
+  text: "%1 does its best impression of a horse."
+  
+# ==== SPACE FANGIRL ==== #
+
+sfg_angstiest_song:
+  text: "%1 wails loudly!"
+  
+sfg_ultra_brag:
+  text: "%1 flaunts her superiority!"
+  
+sfg_space_laser:
+  text: "%1 fires her laser!"
+  
+sfg_bullet_hell:
+  text: "%1 fires wildly!"
+  
+# ==== KITE KID ==== #
+  
+kite_kid_jacks:
+  text: "%1 throws jacks!"
+  
+kite_kid_brag:
+  text: "%1 brags about their unbreakable bond!"
+  
+kite_kid_provoke:
+  text: "%1 provokes %2!"
+  
+kite_kid_repair:
+  text: "%1 repairs %2!"
+  
+kite_kid_counter_setup:
+  text: "%1 readies himself."
+  
+kite_kid_counter_attack:
+  text: "%1 hits back!"
+  
+kite_kid_modify:
+  text: "%1 modifies %2."
+  
+kite_kid_bawl:
+  text: "%1 bawls!"
+  
+kite_kid_siphon:
+  text: "%1 siphons %2's JUICE!"
+  
+kite_kid_up_offense:
+  text: "%1 raises his offense!"
+  
+# ==== KID'S KITE ==== #
+
+attack_kite:
+  text: "%1 hits %2!"
+  
+kite_fly:
+  text: "%1 flies onto everyone!"
+  
+kite_tangle:
+  text: "%2 gets caught in %1's strings!"
+  
+kite_dive:
+  text: "%1 dives into %2!"
+  
+# ==== DOOM BOX EX ==== #
+
+attack_doom_ex:
+  text: "%1 slams into %2!"
+  
+doom_ex_adjust_radio:
+  text: "%1 adjusts its radio."
+  
+doom_ex_blast_music:
+  text: "%1 drops some sick beats!"
+  
+doom_ex_flame:
+  text: "%1 drops a fire track!"
+
+doom_ex_summon_tape:
+  text: "%1 spits out a cassette tape!"
+  
+# ==== DOOM BOX EX ==== #
+
+attack_dial_ex-1:
+  text: "%1 is slow."
+  
+attack_dial_ex-2:
+  text: "%2 hurts themself in frustration!!"
+  
+dial_ex_buffer:
+  text: "%1 is buffering."
+  
+dial_ex_slow:
+  text: "%1 slows down..."
+  
+dial_ex_install:
+  text: "%1 installs new updates."
+  
+dial_ex_call:
+  text: "%1 calls for a friend!"
+  
+# ==== SHARK PLANE EX ==== #
+
+attack_splane_ex:
+  text: "%1 rams into %2!"
+  
+splane_ex_target:
+  text: "%1 focuses on its next target."
+  
+splane_ex_overclock:
+  text: "%1 revs its engine!"
+  
+splane_ex_chomp:
+  text: "%1 chomps %2!"
+  
+splane_ex_pick_teeth:
+  text: "%1 is picking its teeth."
+  
+splane_ex_big_ram:
+  text: "%1 rams into %2 aggressively!"
+  
+# =========================================================================================
+# CH3 CONTENT
+# =========================================================================================
+
+# ==== LUCY (STORY) ====
+attack_lucy:
+  text: "%1 swiftly kicks %2!"
+
+lucy_nothing:
+  text: "%1 does a flip and strikes a pose!"
+
+lucy_brag:
+  text: "%1 flaunts her superiority!"
+  
+lucy_super:
+  text: "%1 does a spinning kick!"
+
+# ==== MINT-DONO ====
+mint_staydown:
+  text: "%1 unleashes a flurry of blows!"
+
+mint_pointless:
+  text: "%1 is preparing for a powerful attack!"
+  
+# ==== CHOCO-CHAN ====
+
+choco_dont_worry:
+  text: "%1 heals her team!"
+
+choco_get_fucked:
+  text: "%1 takes everyone's breath away!"
+
+choco_angst:
+  text: "%1 reads out an angsty fiction."
+
+choco_energy:
+  text: "%1 raises the energy."
+
+# ==== WENDYHEART ====
+  
+wendyheart_summon:
+  text: "%1 grabs something from the kitchen!"
+  
+wendyheart_brag:
+  text: "%1 brags about her superior cooking skills!"
+
+wendyheart_heal:
+  text: "%1 cooks up some food for everyone!"
+
+wendyheart_clear:
+  text: "%1 cleans her allies!"
+  
+wendyheart_moderate_atk:
+  text: "%1 punches down on %2!"
+  
+wendyheart_angry:
+  text: "%1 roasts everyone!"
+
+# ==== CUPCAKE BUNNY ====
+attack_ccb:
+  text: "%1 bumps into %2."
+
+ccb_happy:
+  text: "%1 cheers itself up!"
+  
+ccb_spd:
+  text: "%1 decorates everyone with sprinkles!"
+  
+ccb_crit:
+  text: "%1 lowers %2's guard with its cuteness."
+  
+# ==== MILKSHAKE BUNNY ====
+attack_milkshake:
+  text: "%1 spills milkshake on %2."
+
+milkshake_angry:
+  text: "%1 agressively shakes!"
+  
+milkshake_atk:
+  text: "%1 rattles everyone up!"
+  
+milkshake_moderate_atk:
+  text: "%1 shakes %2!"
+  
+# ==== PANCAKE BUNNY ====
+attack_pancake:
+  text: "%1 nibbles on %2."
+
+pancake_sad:
+  text: "%1 feels down..."
+  
+pancake_def:
+  text: "%1 raises its dough!"
+  
+pancake_heal:
+  text: "%1 supports %2 with some comfort food."
+  
+# ==== LUNA ==== #
+luna_megido_stasis-1:
+  text: "%1 focuses up..."
+  
+luna_megido_stasis-2:
+  text: "%1's attacks will ignore EMOTION for 3 turns!"
+  
+luna_celestial_ray:
+  text: "%1 channels the power of the heavens!"
+  
+luna_nuke:
+  text: "%1 unleashes a devastating attack!"
+  
+luna_tarukaja:
+  text: "%1 readies her weapon..."
+  
+luna_dekaja-1:
+  text: "%1 knocks everyone off balance!"
+  
+luna_dekaja-2:
+  text: "All friends' buffs were removed!"
+  
+luna_dekunda-1:
+  text: "%1 repositions!"
+  
+luna_dekunda-2:
+  text: "%1's debuffs were removed!"
+  
+luna_heavy_shot:
+  text: "%1 takes a huge swing!"
+  
+luna_critical-1:
+  text: "%1 grits her teeth..."
+  
+luna_critical-2:
+  text: "%1's next attack will be CRITICAL!"
+  
+luna_berserk:
+  text: "%1 swings wildly!"
+  
+luna_stance-1:
+  text: "%1 readjusts her stance..."
+  
+luna_stance-2:
+  text: "%1's next attack won't miss!"
+  
+luna_calm_down:
+  text: "%1 calms down."
+  
+# =========================================================================================
+# CH4 CONTENT
+# =========================================================================================
+
+# ==== DUST BUNNY ====
+dust_nothing:
+  text: "%1 is trying to keep itself together."
+
+dust_hit:
+  text: "%1 throws dust at %2!"
+
+dust_scatter:
+  text: "%1 can't hold itself together and explodes!"
+
+# ==== GHOST BUNNY + CONDUCTOR ====
+ghost_phase-1:
+  text: "%1 phases through %2!"
+
+ghost_phase-2:
+  text: "%2 feels tired..."
+
+ghost_nothing:
+  text: "%1 floats in place."
+
+ghost_weird:
+  text: "%1 gives %2 a weird feeling."
+
+ghost_call-1:
+  text: "%1 whistles an eerie sound."
+
+ghost_call-2:
+  text: "...You hear a distant wail...?"
+
+ghost_train:
+  text: "%1's train phases through everyone!!"
+
+# ==== SPROUT MOLD ====
+sproutmold_sticky:
+  text: "%1 brushes its rotting leaf on %2."
+
+sproutmold_stench:
+  text: "%1 gives off an awful stench."
+  
+sproutmold_sad:
+  text: "%1 reminisces about better days."
+
+# ==== TAILISRAT ====
+tailis_claw:
+  text: "%1 claws %2!"
+
+tailis_angry:
+  text: "%1 remembers its tragic past..."
+
+tailis_raise:
+  text: "%1 tries stretching."
+
+# ==== JACKSON ====
+# Note: Chainsaw is considered basic attack.
+
+jackson_angry:
+  text: "%1 is annoyed!"
+
+jackson_vitalja-1:
+  text: "%1 readies itself..."
+
+jackson_vitalja-2:
+  text: "%1's ATTACK and DEFENSE increased greatly!"
+
+jackson_tetrakarn-1:
+  text: "%1 prepares itself for incoming attacks..."
+
+jackson_tetrakarn-2:
+  text: "\\c[4]All NEUTRAL attacks within this turn is repelled!\\c[0]"
+
+jackson_sweep:
+  text: "%1 sweeps the chainsaw in a wide arc!"
+
+# ==== HALTERGEIST ====
+haltia_hard:
+  text: "%1 knocks over %2 with a sign!"
+
+haltia_sweep:
+  text: "%1 takes a large swing!"
+
+haltia_flag:
+  text: "%1 waves around a red flag."
+
+haltia_signal:
+  text: "%1 gives a signal to their allies."
+
+haltia_dekaja:
+  text: "%1 knocks everyone off balance!"
+
+haltia_special:
+  text: "%1 unleashes a \\c[4]FURIOUS\\c[0] self-destructive strike!"
+
+haltia_nothing:
+  text: "%1 is recovering from the attack."
+
+haltia_cannot:
+  text: "%1 was unable to cast their special skill..."
+
+# ====== BUCKETHEAD MOLE ======
+
+bucket_readjust:
+  text: "%1 readjusts its hat..."
+
+# ====== ROLLERPAINT MOLE ======
+
+roller_paint:
+  text: "%1 spills paints on %2"
+
+roller_flick:
+  text: "%1 flicks paint at %2's eyes!"
+
+# ====== HAROLD (BOTH) ======
+
+harold_sharpen:
+  text: "%1 sharpens its blade."
+
+harold_tackle:
+  text: "%1 tackles %2!"
+
+harold_sweep:
+  text: "%1 delivers a sweeping attack!"
+
+harold_tragic:
+  text: "%1 is having a war flashback..."
+
+# ====== MAGISTER LUCIUS ======
+
+lucius_flash:
+  text: "%1 flashes a blinding light!"
+
+lucius_lighten:
+  text: "%1 lightens up %2's mood!"
+
+lucius_glow:
+  text: "%1 shoots a glowing ball at %2!"
+
+lucius_heal:
+  text: "%1 casts a healing spell on %2!"
+
+# ====== CHOIR MOLE ======
+
+choir_kind_of-1:
+  text: "%1 sings a song for %2!"
+  
+choir_kind_of-2:
+  text: "It was kind of bad..."
+
+choir_sad:
+  text: "%1 sings a sad song for %2."
+  
+choir_pace_up:
+  text: "%1 makes %2 pick up the pace!"
+  
+# ====== SOUS CHEF MOLE ======
+
+sous_skewer:
+  text: "%1 skewers %2!"
+
+sous_sharpen:
+  text: "%1 sharpens its fork!"
+  
+sous_criticism:
+  text: "%1 harshly criticizes %2!"
+  
+# ====== GIRL IN PAINTING ======
+
+painting_brag:
+  text: "%1 brags about its artistic history!"
+
+painting_annoy:
+  text: "%1 drags on and on about %2's unsightly appearance!"
+
+painting_selfcare:
+  text: "%1 takes care of her coating."
+
+painting_flirt:
+  text: "%1 gives %2 \"The Look.\""
+  
+# ====== VIRTUOSO MOLE ====== SOME IS SHARED WITH CHOIR
+
+virtuoso_strict:
+  text: "%1 tells the choir they are not trying hard enough!"
+
+virtuoso_accelerando:
+  text: "%1 speeds up the choir!"
+
+virtuoso_sweep:
+  text: "%1 swings his baton in a sweeping arc!"
+
+virtuoso_retry:
+  text: "%1 tells the choir they are inadequate!"
+
+# ====== HEAD CHEF MOLE ====== SOME IS SHARED WITH SOUS CHEF
+
+chef_encourage:
+  text: "%1 encourages the others to do better."
+
+chef_careful:
+  text: "%1 tells the others to be careful."
+
+chef_burner:
+  text: "%1 starts a kitchen fire on %2!"
+
+chef_snacktime:
+  text: "%1 bakes snacks for his party."
+
+# ====== SIR MAXIMUS IV ====== SOME IS SHARED WITH HAROLD
+
+maximus_tragedy:
+  text: "%1 narrates a heavy, heartfelt tragedy..."
+
+maximus_practice:
+  text: "%1 reminds everyone of the battle training!"
+
+maximus_sweep:
+  text: "%1 delivers a hard-hitting sweeping attack!"
+
+maximus_ultimate:
+  text: "%1 uses his great-grandfather's ultimate attack!"
+
+# ====== ROCOCO ======
+
+rococo_tragedy:
+  text: "%1 narrates his tragic backstory..."
+
+rococo_encourage:
+  text: "%1 describes an uplifting painting he did."
+
+rococo_speedpaint:
+  text: "%1 does some speed painting!"
+
+rococo_misdirection:
+  text: "%1 does the art of misdirection!"
+
+rococo_sweepstrike:
+  text: "%1 swings around a bucket of paint!"
+
+rococo_glowpaint:
+  text: "%1 spilled neon glowing paint on everyone!"
+
+rococo_heal:
+  text: "%1 gives %2 some healing artwork to look at?"
+
+rococo_cleanally: # Clean Ally
+  text: "%1 erases his canvas clean."
+
+rococo_cleanenemy: # Clean Enemy
+  text: "%1 crosses the line... On everyone's face"
+
+rococo_summonmole:
+  text: "%1 calls in some extra help."
+
+# ====== BUGS BUNNY ====== THESE THREE SHARES SPIDER SKILLS OR GENERIC
+
+bug_bunny_balance:
+  text: "%1 tries to balance on its head."
+
+# ====== POTTED PLANT ======
+
+potted_trip:
+  text: "%2 trips on %1's roots."
+
+potted_rest:
+  text: "%1 is resting in its pot."
+
+# ====== SPIDER CAT ======
+
+spider_web_ball:
+  text: "%1 coughs up a web ball."
+
+spider_suddenjump:
+  text: "%1 suddenly lunges at %2!"
+
+spider_scuttle: # Used by spider enemies; self-happy
+  text: "%1 happily scuttles around!"
+
+spider_entangle:
+  text: "%1 entangles %2 in sticky webs."
+
+spider_venomous:
+  text: "%1 envenomates %2 with a bite!"
+
+spider_stinging:
+  text: "%1 gives %2 a stinging bite!"
+
+# ====== CANDLE BUNNY ======
+
+candle_lighten:
+  text: "%1 lightens up %2!"
+
+candle_glow:
+  text: "%1 illuminates %2!"
+
+# ====== PYROFLY ======
+
+pyro_buzz:
+  text: "%1 buzzes excitedly..."
+
+pyro_crackle:
+  text: "%1 makes a crackling sound."
+
+# ====== IVY ======
+
+ivy_sadden:
+  text: "%1 makes %2 tear up..."
+
+ivy_allergen:
+  text: "%1 gives %2 an allergic reaction!"
+
+ivy_brush:
+  text: "%1 brushes its jagged leaves on %2!"
+  
+# ====== FIERY ======
+
+fiery_cheer_all:
+  text: "%1 cheers everyone up!"
+
+fiery_maragidyne:
+  text: "%1 throws a fire show!"
+
+fiery_heat_riser:
+  text: "%1 raises the heat!"
+
+fiery_fandango:
+  text: "%1 does a fiery fandango!"
+
+fiery_andalucia:
+  text: "%1 hits a barrage of jabs!"
+
+fiery_flash:
+  text: "%1 flashes a blinding light!"
+
+# ====== VAMPYRE ======
+# Note to translators: These are SMT skill names.
+
+vampyre_dekunda:
+  text: "%1 casts DEKUNDA!"
+
+vampyre_mediarama:
+  text: "%1 casts MEDIARAMA!"
+
+vampyre_luster_candy:
+  text: "%1 casts LUSTER CANDY!"
+
+vampyre_maziodyne:
+  text: "%1 casts MAZIODYNE!"
+
+vampyre_tragic:
+  text: "%1 reads a tragic story!"
+
+vampyre_amrita:
+  text: "%1 casts AMRITA!"
+
+# ====== IRIS ======
+
+iris_poisonair:
+  text: "%1 releases poisonous gas everywhere!"
+
+iris_whip:
+  text: "%1 flails around serrated vines!"
+
+iris_strangle:
+  text: "%1 strangles %2!"
+
+iris_deaths_door:
+  text: "%1 puts all SICK members at death's door!"
+
+iris_dekaja_1:
+  text: "%1 is annoyed at high BUFFS..."
+
+iris_dekaja_2:
+  text: "%1 drags everyone down!"
+
+# ====== WIDOW SPIDER ======
+
+widowsp_spin_web:
+  text: "%1 spins a small web around %2!"
+
+widowsp_venom_bite:
+  text: "%1 gives %2 a venomous bite!"
+
+widowsp_sting_bite:
+  text: "%1 gives %2 a stinging bite!"
+
+# ====== WIDOW BOY ======
+
+widow_poisonair:
+  text: "%1 poisons the air..."
+
+widow_multi:
+  text: "%1 hits %2 with multiple arms!"
+
+widow_command:
+  text: "%1 gives commands."
+
+widow_tragic:
+  text: "%1 reads out a melancholic prose."
+
+widow_encourage:
+  text: "%1 gives encouragement."
+
+widow_web:
+  text: "%1 casts a large web over everyone!"
+
+widow_attackraise:
+  text: "%1 tells his friends to ready up."
+
+widow_dekaja:
+  text: "%1 ensnares the party in place."
+  
+widow_dekunda:
+  text: "%1 tidies up the webs."
+
+widow_summon:
+  text: "%1 calls in his spider friends."
+
+widow_deaths_door:
+  text: "%1 puts all SICK members at death's door!"
+
+# ====== ALICE ======
+
+alice_trap:
+  text: "%1 clasps %2 with her staff."
+
+alice_raise:
+  text: "%1 knocks her staff on the floor aggressively."
+
+alice_sabotage:
+  text: "%1 secretly set up traps."
+
+alice_tragic:
+  text: "%1 narrates a tragic poem."
+
+alice_command:
+  text: "%1 commands her party."
+
+alice_dekunda:
+  text: "%1 tends to the animals."
+
+alice_dekaja:
+  text: "%1 stops the party in place!"
+
+alice_summon:
+  text: "%1 let some bears out."
+  
+alice_summon-single:
+  text: "%1 let a bear out."
+
+alice_summon-fail:
+  text: "%1 was unable to call for more bears."
+
+alice_dieforme-1:
+  text: "%1 takes advantage of the dread..."
+
+alice_dieforme-2:
+  text: "All \\c[4]WEEPING\\c[0] members are KO'ed."
+
+alice_dieforme-fail:
+  text: "%1 cannot find any \\c[4]WEEPING\\c[0] members to take advantage of."
+
+alice_drain:
+  text: "%1 drains everyone's JUICE."

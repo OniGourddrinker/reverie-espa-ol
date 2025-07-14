@@ -1,0 +1,360 @@
+
+# =========================================================================================
+# Bestiary
+# =========================================================================================
+EmptyEnemyName: 'INFO BOOK!'
+Information:
+  # =========================================================================================
+  # INFO
+  # =========================================================================================
+  1:
+    name: |
+      \c[4]STATS:\c[0] LUCK
+    background: {name: 'rv_info_statluck', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'FA_OMORI', index: 0}
+    listIndex: 1
+    forceTransformId: 1200
+    ignoreEnemyCondition: true
+    pages:
+      1:
+        text: |
+          \c[4]LUCK\c[0] affects both the odds
+          of inflicting, and receiving 
+          \c[4]CRITICAL\c[0] hits and \c[4]AILMENTS\c[0].
+
+          In detail, The odds are based on 
+          the difference between the user
+          and target's luck.
+          
+          Each point of difference 
+          increases the chance of inflicting
+          and decreases the chance of 
+          receiving \c[4]CRITICAL\c[0] hits
+          or \c[4]AILMENTS\c[0] by \c[4]1%\c[0].
+          
+          The majority of skills, including basic 
+          attacks, have a \c[4]base rate of 5%\c[0].
+  2:
+    name: |
+      \c[4]STATS:\c[0] EVASION
+    background: {name: 'rv_info_stateva', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'FA_OMORI', index: 0}
+    listIndex: 1
+    forceTransformId: 1200
+    ignoreEnemyCondition: true
+    pages:
+      1:
+        text: |
+          The \c[4]EVASION\c[0] stat is a new stat that  
+          reduces the odds of being hit by an 
+          attack.
+          
+          Hit rate is now the difference
+          between the attacker's \c[4]HIT RATE\c[0],
+          and the defender's \c[4]EVASION\c[0].
+  3:
+    name: |
+      \c[4]BUFFS:\c[0] OVERVIEW
+    background: {name: 'rv_info_buffgen', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'FA_OMORI', index: 0}
+    listIndex: 2
+    forceTransformId: 1200
+    ignoreEnemyCondition: true
+    pages:
+      1:
+        text: |
+          Both BUFFS and DEBUFFS are now on
+          the same spectrum. Buffing will 
+          reduce debuff tiers, and vice versa.
+          
+          Their effects also no longer 
+          expire on their own.
+  4:
+    name: |
+      \c[4]BUFFS:\c[0] ATTACK & DEFENSE
+    background: {name: 'rv_info_buffatk', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'FA_OMORI', index: 0}
+    listIndex: 3
+    forceTransformId: 1200
+    ignoreEnemyCondition: true
+    pages:
+      1:
+        text: |
+          Both ATTACK and DEFENSE buffs are 
+          now multiplicative on damage values, 
+          rather than changing base ATTACK 
+          or DEFENSE stats.
+
+          Each tier of ATTACK BUFF increases 
+          damage dealt by \c[4]x1.15\c[0]; 
+          DEBUFF decreases by \c[4]x0.85\c[0].
+
+          Each tier of DEFENSE BUFF reduces 
+          damage received by \c[4]x0.85\c[0]; 
+          DEBUFF increases by \c[4]x1.15\c[0].
+  5:
+    name: |
+      \c[4]BUFFS:\c[0] SPEED
+    background: {name: 'rv_info_buffspd', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'FA_OMORI', index: 0}
+    listIndex: 4
+    forceTransformId: 1200
+    ignoreEnemyCondition: true
+    pages:
+      1:
+        text: |
+          SPEED buffs are now weaker than
+          base OMORI, especially the last tier.
+          Debuffs remain the same.
+
+          Numbers are the following:
+          
+          \c[4]TIER 3:\c[0] x300% (From x500%)
+          \c[4]TIER 2:\c[0] x200%
+          \c[4]TIER 1:\c[0] x150%
+
+          \c[4]TIER -1:\c[0] x80%
+          \c[4]TIER -2:\c[0] x50%      
+          \c[4]TIER -3:\c[0] x25%
+  6: 
+    name: |
+      \c[4]BUFFS:\c[0] HIT & EVASION
+    background: {name: 'rv_info_buffhit', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'FA_OMORI', index: 0}
+    listIndex: 5
+    forceTransformId: 1200
+    ignoreEnemyCondition: true
+    pages:
+      1:
+        text: |
+          HIT RATE and EVASION 
+          (HIT/EVA in short) 
+          changes both the HIT RATE 
+          and EVASION stat. 
+          
+          Numbers are the following:
+          
+          \c[4]TIER 3:\c[0] +45%
+          \c[4]TIER 2:\c[0] +30%
+          \c[4]TIER 1:\c[0] +15%
+
+          \c[4]TIER -1:\c[0] -15%
+          \c[4]TIER -2:\c[0] -30%      
+          \c[4]TIER -3:\c[0] -45%
+  7: 
+    name: |
+      \c[4]AILMENTS:\c[0] OVERVIEW
+    background: {name: 'rv_info_ail1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'FA_OMORI', index: 0}
+    listIndex: 6
+    forceTransformId: 1200
+    ignoreEnemyCondition: true
+    switchCondition: 2722
+    pages:
+      1:
+        text: |
+          AILMENTS are negative status 
+          effects, with some of them being 
+          emotion-based.
+
+          AILMENT rate operates similarly to
+          CRITICAL rate, being based on the
+          difference of the \c[4]LUCK\c[0] stat, with  
+          each skill having specific base chance.
+          
+          Only one can be applied at a time, 
+          with NON-EMOTIONAL AILMENTS having 
+          a higher priority.
+
+          \c[11]More info on enemies weaknesses can
+          \c[11]be seen when holding SHIFT or CTRL
+          \c[11]keys while hovering over enemies.
+  8: 
+    name: |
+      \c[4]AILMENTS:\c[0] EMOTION
+    background: {name: 'rv_info_ail2', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'FA_OMORI', index: 0}
+    listIndex: 7
+    forceTransformId: 1200
+    ignoreEnemyCondition: true
+    switchCondition: 2722
+    pages:
+      1:
+        text: |
+          Emotional AILMENTS requires the 
+          target to have a specific emotion
+          before it can be applied.
+
+          While being under its influence, it 
+          \c[4]will lock the target into that emotion.\c[0]
+          Its effects counters the emotion's 
+          benefits and exacerbates its drawbacks.
+
+          Emotional AILMENTS consist of 
+          \c[4]BURN, GLOW, WEEP, and FROZEN.\c[0]
+          They last for 2-3 turns.
+
+          Non-emotional AILMENTS consist of 
+          \c[4]SLEEP, CHARM, and SICK.\c[0]
+          They last for 1-2 turns.
+  9: 
+    name: |
+      \c[4]AILMENTS:\c[0] EFFECTS (1)
+    background: {name: 'rv_info_ail3', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'FA_OMORI', index: 0}
+    listIndex: 8
+    forceTransformId: 1200
+    ignoreEnemyCondition: true
+    switchCondition: 2722
+    pages:
+      1:
+        text: |
+          \c[4]BURN [ANGRY]:\c[0]
+          * Sets DEFENSE to 1
+          * x75% ATTACK
+          * -10% HEART per turn
+          * Prevents usage of non-damage skills
+
+          \c[4]WEEP [SAD]:\c[0]
+          * Sets SPEED to 1
+          * x75% DEFENSE
+          * -10% JUICE per turn
+          * Prevents usage of damage skills
+          * x200% SKILL COST
+
+          \c[4]GLOW [HAPPY]:\c[0]
+          * -100 LUCK
+          * -50 HIT RATE
+          * -100 EVASION
+      2:
+        text: |
+          Additionally, higher EMOTION levels
+          also increases susceptibility to
+          the AILMENT associated with it.
+
+          \c[4]ECSTATIC:\c[0] +35% GLOW
+          \c[4]MANIC:\c[0] +70% GLOW
+
+          \c[4]DEPRESSED:\c[0] +25% WEEP
+          \c[4]MISERABLE:\c[0] +50% WEEP
+
+          \c[4]ENRAGED:\c[0] +25% BURN
+          \c[4]FURIOUS:\c[0] +50% BURN
+  10: 
+    name: |
+      \c[4]AILMENTS:\c[0] EFFECTS (2)
+    background: {name: 'rv_info_ail4', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'FA_OMORI', index: 0}
+    listIndex: 8
+    forceTransformId: 1200
+    ignoreEnemyCondition: true
+    switchCondition: 2722
+    pages:
+      1:
+        text: |
+          \c[4]FROZEN [NEUTRAL]:\c[0]
+          * Skips turn
+          * Cannot be healed
+          * Guaranteed to be hit
+
+          \c[4]SLEEP:\c[0]
+          * Skips turn
+          * Guaranteed to be hit
+          * Guaranteed to take critical hit
+
+          \c[4]CHARM:\c[0]
+          * Targeting is inversed
+            (Except self skills and items)
+
+          \c[4]SICK:\c[0]
+          * x60% ATK, DEF, SPD
+          * -40% HIT, EVA
+          * -7% HEART and JUICE per turn
+  11:
+    name: |
+      \c[4]MISC:\c[0] CHANGES
+    background: {name: 'rv_info_other1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'FA_OMORI', index: 0}
+    listIndex: 0
+    forceTransformId: 1200
+    ignoreEnemyCondition: true
+    pages:
+      1:
+        text: |
+          Up to 6 skills can now be equipped 
+          compared to original 4.
+
+          SAD juice conversion is reduced:
+          \c[4]SAD:\c[0] 30% => 20%
+          \c[4]DEPRESSED:\c[0] 50% => 40%      
+          \c[4]MISERABLE:\c[0] 100% => 60%
+
+          Enemies now also use JUICE when
+          using their skills, meaning they
+          can run out of JUICE as well.
+
+          TOASTED party members now gain
+          half the experience rather than 
+          nothing at all.
+  12:
+    name: |
+      \c[4]EMOTIONS:\c[0] RECAP
+    background: {name: 'rv_info_emo1', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'FA_OMORI', index: 0}
+    listIndex: -2
+    forceTransformId: 1200
+    ignoreEnemyCondition: true
+    pages:
+      1:
+        text: |
+          See chart for general recap.
+
+          Important reminder, EMOTIONS also 
+          affect drop rates as shown:
+
+          \c[4]ANGRY:\c[0] +EXP
+          \c[4]HAPPY:\c[0] +CLAMS, +ITEMS
+          \c[4]SAD:\c[0] -EXP, -CLAMS
+
+          Though, certain enemies may be
+          exempt to these changes.
+  13:
+    name: |
+      \c[4]MISC:\c[0] DIFFICULTY
+    background: {name: 'rv_info_other2', x: 0, y: 0}
+    position: {x: 160, y: 425}
+    character: {name: 'FA_OMORI', index: 0}
+    listIndex: -1
+    forceTransformId: 1200
+    ignoreEnemyCondition: true
+    pages:
+      1:
+        text: |
+          \c[4]NORMAL\c[0] increases damage dealt,
+          reduces damage taken, and chance 
+          to receive ailments. 
+
+          This is closer to original game 
+          experience in terms of difficulty.
+
+          \c[4]EASY\c[0] further increase
+          the benefits NORMAL mode provides.
+
+          \c[4]HARD\c[0] gives some enemies unique skills,
+          behavior, and increses troop size
+          occasionally.
+
+          This is the full experience as all
+          enemy mechanics are shown.

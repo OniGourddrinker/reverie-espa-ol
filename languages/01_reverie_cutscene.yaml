@@ -1,0 +1,1030 @@
+# =========================================================================================
+# ** FALLEN WORLD
+# =========================================================================================
+
+# Miscellaneous
+PX_Warn_1:
+    text: You feel and intimidating presence around this area...
+
+PX_Warn_2:
+    text: Are you certain you want to proceed?
+
+# Introduction
+
+message_0:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 5
+    text: \n<DOUGHIE>Oho... Where are we?
+
+message_1:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 17
+    text: \n<SWEETHEART>Ugh!\! As if I could ever forget this smelly dump! This must be OTHERWORLD!
+
+message_2:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 39
+    text: \n<SPACEBOY>OTHERWORLD...?\! But this can't be! We're standing on an island, not a planet!
+
+message_3:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 38
+    text: \n<SPACEBOY>Although...\! Hm, I do seem to recognize the air of this place...
+
+# Cobwebs on SB
+
+message_4:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 38
+    text: \n<SPACEBOY>I wonder... What's happened here?
+
+#End Scene.
+
+#3-2
+
+#Shortly after leaving the exit, the party passes a figure on the left. ! on DG
+
+message_5:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 0
+    text: \n<DOUGHIE>Hark...\. There's somebody there!
+
+#Party approaches figure. DG comes up first.
+
+message_6:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 2
+    text: \n<DOUGHIE>My good friend, may I ask whatever could have happened to this place?
+
+#... on figure. Cobwebs on DG. SWH jumps twice.
+
+message_7:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 24
+    text: \n<SWEETHEART>\{\quake[1]DON'T IGNORE US, PEASANT!\quake[0]\}\! I order you to kneel before me immediately!
+
+#... on figure. Anger on SW. ... On SB
+
+message_8:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 39
+    text: \n<SPACEBOY>SWEETHEART, wait!\! This person seems... familiar?
+
+#! On SB, then jump
+
+message_9:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 42
+    text: \n<SPACEBOY>By space! Is it you, SPACE PIRATE ACE?\! I nearly didn't recognize you!
+
+#? on the figure. 3 seconds later, ! on figure. 
+
+message_10:
+    text: \n<ACE>I- It's the CAPTAIN!\! I thought I'd never see you again! 
+
+#ACE stands upright. Cobwebs on SWH as she moves back.
+
+message_11:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 38
+    text: \n<SPACEBOY>You're alive, ACE!\! But... Did you turn on your COMMUNICATOR?\! The signal has been intermittent at best...
+
+message_12:
+    text: \n<ACE>I did, CAPTAIN!\! That's the last thing I did before passing out.\! I knew you'd come to my rescue, sir! I just knew it!
+
+message_13:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 38
+    text: \n<SPACEBOY>Rescue...?\. What exactly happened here, ACE?
+
+message_14:
+    text: \n<ACE>You mean... you don't know?
+
+message_15:
+    text: \n<ACE>Well sir, everything was stable one moment, and the next we were falling out of orbit!\! We couldn't do anything but fall down.
+
+#! on SB
+
+message_16:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 40
+    text: \n<SPACEBOY>So one of our ships crashed?\! I hope everyone's okay.
+
+message_17:
+    text: \n<ACE>No, CAPTAIN, not just our ship!\! The whole MOON fell along with us!
+
+#! on everyone
+
+message_18:
+    text: \n<ACE>In other words, CAPTAIN... OTHERWORLD's finished!\! And I have no idea where the rest of the crew are...
+
+#... on ace. Cobwebs on SWH 
+
+#SB turns around.
+
+message_19:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 36
+    text: \n<SPACEBOY>...
+
+#turning back
+
+message_20:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 39
+    text: \n<SPACEBOY>Chin up, ACE!\! You're a SPACE PIRATE, a paragon of courage and hope!
+
+message_21:
+    text: \n<ACE>But, CAPTAIN...
+
+message_22:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 42
+    text: \n<SPACEBOY>No buts!\! I, CAPT. SPACEBOY, will get us through this situation!\! And ACE, I need you to use your COMMUNICATOR to find the rest of our crew and save the day!
+
+#ACE jumps twice
+
+message_23:
+    text: \n<ACE>Of- Of course, CAPTAIN!\! I'll do my best to make sure everyone's safe, in no time at all!
+
+#ACE peels off upwards. SB turns back to party. Sweat on SB
+
+message_24:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 4
+    text: \n<DOUGHIE>Oho...\! what happened?
+
+#Anger on SWH
+
+message_25:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 21
+    text: \n<SWEETHEART>Ugh, stop acting all high and mighty!\! Everyone can tell you're about to cry like a baby.
+
+#Cobwebs on SB.
+
+message_26:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 40
+    text: \n<SPACEBOY>...I'm sorry.\! It's just been a long day.
+
+message_27:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 24
+    text: \n<SWEETHEART>If anyone should be complaining, it should be \com[2]ME!\! We're nowhere near my castle!\! How am I supposed to get back now?
+
+message_28:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 39
+    text: \n<SPACEBOY>Well... even if OTHERWORLD's destroyed, our headquarters could still be intact.\! If it is, there still might be a spaceship that can take you home, SWEETHEART.
+    
+message_28-1:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 39
+    text: \n<SPACEBOY>That's probably our best bet.
+
+message_29:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 21
+    text: \n<SWEETHEART>\}Ugh...\. I don't even know where I am...\! I don't have a choice, do I?
+
+#Sweat on DG. Jump Once
+
+message_30:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 4
+    text: \n<DOUGHIE>Maybe riding the spaceship will be fun...\! we could see the stars!
+
+message_31:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 24
+    text: \n<SWEETHEART>\{\com[2]FINE!\}\! But that spaceship had better take me home immediately!
+
+message_32:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 37
+    text: \n<SPACEBOY>Very well, let's go forth.\! \}Hopefully headquarters isn't too far away...
+
+#3-3: Biscuit and tag intro.
+
+#Party approaches picnic basket from lower left. Camera pans to save point ~6 blocks away vertically. DG jumps twice.
+
+message_33:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 8
+    text: \n<DOUGHIE>There you are, brother!\! I was getting worried for a second!
+
+message_34:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 8
+    text: \n<DOUGHIE>How are you doing, BISCUIT?
+
+message_35:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 1
+    text: \n<DOUGHIE>We've encountered a few roadblocks on our way here, but it's still been a fun adventure!
+
+message_36:
+    faceset: RV_Biscuit
+    faceindex: 4
+    text: \n<BISCUIT>Oho!
+
+# Cobwebs on SW
+
+message_37:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 24
+    text: \n<SWEETHEART>What is this nonsensical charade?\! I demand that your buffoon of a brother start speaking sense at once!
+
+#Question mark on DG
+
+message_38:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 2
+    text: \n<DOUGHIE>Speaking sense?\! What's wrong with what he said? 
+
+#exclamation mark on SB
+
+message_39:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 39
+    text: \n<SPACEBOY>Oh, I see!\! This must be some sort of twin telepathy!
+
+#exclamation on DG
+
+message_40:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 4
+    text: \n<DOUGHIE>Huh?\! Oho~\. Can you not understand him? 
+
+#... on DG.
+
+message_41:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 2
+    text: \n<DOUGHIE>Hey \n[17], can you TAG me in?\! I can translate what BISCUIT is trying to tell us.
+
+#End scene.
+
+#If player tries to leave the vicinity of the basket:
+
+message_42:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 9
+    text: \n<DOUGHIE>Oho... Don't leave BISCUIT hanging!
+
+#If Biscuit is interacted with while DG is not tagged in.
+
+message_43:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>Oho...\. oho!
+
+# If BISCUIT is interacted with DG tagged in.
+
+message_44:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 2
+    text: \n<DOUGHIE>Hello, BISCUIT!
+
+message_45:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>Hello, dear DOUGHIE.\! Can your companions understand me now?
+
+#... on SWH and SB.
+
+message_46:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 21
+    text: \n<SWEETHEART>\}...That's how he talks?
+
+message_47:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 4
+    text: \n<DOUGHIE>Oho~ I had no idea you guys couldn't comprehend him until now.
+
+#Music note on DG.
+
+message_48:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 1
+    text: \n<DOUGHIE>Anyways... are you sticking around here, brother?\! I'd like to come see how you're doing once in a while.
+
+message_49:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>I'd like to, sister.\! But in case I run out of ingredients...\. Will you give me a call whenever you encounter picnics like this?
+
+message_50:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>If you do, I'll be happy to bake for you and your friends any time.
+
+#music note on DG.
+
+message_51:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 1
+    text: \n<DOUGHIE>You got it, BISCUIT!
+
+#Turning to player.
+
+message_52:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 1
+    text: \n<DOUGHIE>You won't regret BISCUIT helping us, \n[17].\! He's a better cook than me sometimes!
+
+message_53:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 2
+    text: \n<DOUGHIE>Oh, and don't forget to TAG me in if you ever want me translating him for you!
+
+message_53-1:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 2
+    text: \n<DOUGHIE>He also knows quite a bit,\! sometimes asking might give some useful information about the area!
+
+#end scene.
+
+#3-4
+
+#While traversing Makeshift Town, the party comes across a curious-looking machine. Fade out.
+
+#Fade in, with Sunny and party walking across the island. SB turns around and notices the machine, and !s. 
+
+message_54:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 39
+    text: \n<SPACEBOY>That machine...\! Can you give me a moment, everyone?
+
+#SB approaches the machine and begins inspecting it, …ing. ? on DG. Cobwebs on SWH.
+
+message_55:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 21
+    text: \n<SWEETHEART>Hmph... How long is this going to take?\! My makeup’s wearing off at an alarming rate, you know.
+
+message_56:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 38
+    text: \n<SPACEBOY>Just a second, SWEETHEART...\. Ah!
+
+#Machine whirs. SB turns around and teleports away. !s on all else.
+
+#Fade out, into destination. SB music notes.
+
+message_57:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 37
+    text: \n<SPACEBOY>So it wasn’t broken after all.\! Ha, SPACE PIRATE technology prevails!
+
+#SB gets off the machine and looks around. 
+
+message_58:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 36
+    text: \n<SPACEBOY>No sign of anyone in the crew...\. that’s a shame.
+
+message_59:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 40
+    text: \n<SPACEBOY>\quake[1]Sigh...\quake[0]\! Where is everybody?
+
+#Player (only SB in party) is free to move around now. After exploring the small island, interacting with the machine yields:
+
+message_60:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 36
+    text: \n<SPACEBOY>I suppose I should get back to the others.\! They must be worried...
+
+#SB uses the teleporter and warps back to the party, who !s again at his reappearance. DG jumps twice.
+
+message_61:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 2
+    text: \n<DOUGHIE>\{\com[2]SPACEBOY!
+
+#Anger bubble on SWH.
+
+message_62:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 24
+    text: \n<SWEETHEART>\com[2]\{YOU- you idiot!\}\! Where have you been?!
+
+message_63:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 3
+    text: \n<DOUGHIE>We thought you were gone forever! SWEETHEART’S been worried sick!
+
+#Sweat on SWH.
+
+message_64:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 28
+    text: \n<SWEETHEART>I most definitely was not!\! I-\. I was simply furious that my bodyguard would abandon me!
+
+message_65:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 40
+    text: \n<SPACEBOY>Ah...\. I’m sorry, everyone.\! I didn’t mean to be gone for so long.
+
+#Sweat on SB, Cobwebs on DG and SWH.
+
+message_66:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 0
+    text: \n<DOUGHIE>Well... you’ve returned to us now, so I guess it’s okay. 
+
+message_67:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 24
+    text: \n<SWEETHEART>\com[2]Hmph!\. The next time you go off on your own, I’m leaving without you!
+
+#slight pause, ? on DG.
+
+message_68:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 2
+    text: \n<DOUGHIE>What is that gadget, anyway?
+
+#SB turns back to teleporter.
+
+message_69: 
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 36
+    text: \n<SPACEBOY>That’s a TELEPORTER that my crew and I use for quick transportation.\! Thankfully, it doesn’t look like it broke during the crash.
+
+message_70:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 1
+    text: \n<DOUGHIE>Oho, like a portal?\! Can I use it?
+
+#DG moves forward. ! on SB.
+
+message_71: 
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 39
+    text: \n<SPACEBOY>\com[2]Hang on, DOUGHIE!\! That machine’s got security measures against people that aren’t SPACE PIRATES. 
+
+#Cobwebs on DG.
+
+message_72:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 5
+    text: \n<DOUGHIE>Oh...\. okay. 
+
+#DG returns to her prior position. SB turns back to party.
+
+message_73: 
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 36
+    text: \n<SPACEBOY>Anyways...\. we might encounter more TELEPORTERS like this in the future.\! If you want me to use it, just TAG me in! 
+
+#Fade out and back into the party.
+
+message_74: 
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 37
+    text: \n<SPACEBOY>Shall we continue?
+
+#end scene.
+
+# 3-5
+
+#After traversing the terrain for a short while, the party comes across a group of 3-4 lost sprout moles blocking the way
+
+message_75:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 12
+    text: \n<DOUGHIE>Ohooo...\. Those sprout moles are in the way...\. how can we get past them?
+
+message_76: 
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 39
+    text: \n<SPACEBOY>Don't fret!\! I'm sure we can ask them politely to let us through!
+
+#SB steps forward.
+
+message_77: 
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 42
+    text: \n<SPACEBOY>Excuse me, small friends!\! My friends and I would like to ask if you would be kind enough to let us through?
+
+message_78:
+    text: \n<SPROUT MOLE 1>Hmph!\! We don't have time to move, blue boy!\! We're having a very important discussion about TOFU right now!
+
+message_79:
+    text: \n<SPROUT MOLE 2>This idiot thinks that steamed TOFU is better than fried TOFU!
+
+message_80:
+    text: \n<SPROUT MOLE 1>You idiot!\! Frying the TOFU ruins the delicate texture!
+
+message_81:
+    text: \n<SPROUT MOLE 3>Ugh!\! We all know eating it raw is the most superior way to have TOFU!
+
+message_82: 
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 38
+    text: \n<SPACEBOY>.....
+
+message_83:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 25
+    text: \n<SWEETHEART>OHOHO!\! Not as charming as you thought, are you?\! All bark and no bite!
+
+#SW chuckles
+
+message_84:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 17
+    text: \n<SWEETHEART>Only someone as glorious as SWEETHEART could convince these simple-minded moles to kneel to their will!
+
+#SB sweat
+
+#SWH turns to player
+
+message_85:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 16
+    text: \n<SWEETHEART>You, TAG me!\! Let me charm these lowly peasants with my \sinv[1]mellifluous\sinv[0] voice and unending charm!
+
+#player tags SWH
+
+message_86:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 18
+    text: \n<SWEETHEART>OUT OF THE WAY, PEONS!\! THE MAGNIFICENT SWEETHEART AND HER LOYAL BODYGUARDS HAVE A CASTLE TO GET TO!
+
+message_87:
+    text: \n<SPROUT MOLE 2>Oh my, oh my!\! Is that...?
+
+message_88:
+    text: \n<SPROUT MOLE 1>It is!\! It's SWEETHEART in the dough!
+
+message_89:
+    text: \n<SPROUT MOLE 3>Of course, lady SWEETHEART!\! We'll move right away! 
+
+#Sprout Moles scurry off and the pathway is cleared.
+
+message_90:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 25
+    text: \n<SWEETHEART>OHOHOHO!\! Those peons never fail to amuse me!
+
+#end scene. player can now tag in SWH whenever they choose to!
+
+# 3-6
+
+#After another short while, the party arrives at an impassable water section. There are a pair of strange devices here, with one being on either side of the water.
+
+message_91:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 44
+    text: \n<SPACEBOY>We should be nearing Headquarters soon.\! Stay on guard everyone, my captain-senses tell me something is amiss!\!
+    
+message_92:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 10
+    text: \n<DOUGHIE>Captain-senses???
+    
+#end scene.
+
+# 3-7
+
+#Camera pan on broken HQ and nearby rubble. ! on SB.
+
+message_93:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 39
+    text: \n<SPACEBOY>What in the-\! what happened to our HEADQUARTERS?
+    
+#SB runs forward and looks around.
+
+message_94:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 45
+    text: \n<SPACEBOY>I expected some damage...\. but this?\! This is just an empty husk...
+    
+message_95:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 21
+    text: \n<SWEETHEART>Eugh, what a mess...\! where are the spaceships you promised?
+
+#SWH jumps twice.
+
+message_95-1:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 24
+    text: \n<SWEETHEART>This whole charade has been a giant, \sinv[1]brobdignagian\sinv[0] waste of time!\! You’ve disappointed me greatly!
+    
+#Cobwebs on SWH. DG goes forward and examines the ‘property of planet x’ sign.
+
+message_96:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 0
+    text: \n<DOUGHIE>Property of...\! who?
+    
+#SB nears DG and looks at the sign as well.
+
+message_97:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 44
+    text: \n<SPACEBOY>PLANET X...\! So that must be the warrior that was terrorizing the locals.
+
+message_97-1:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 45
+    text: \n<SPACEBOY>And to think, they attacked my crew while they were trying to regroup...
+    
+#SB shakes and turns back to the party.
+
+message_98:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 46
+    text: \n<SPACEBOY>\{\com[2]NOBODY messes with my crew!\! WHOEVER DID THIS WILL-
+
+#Screen begins to vibrate and a rumbling sound can be heard. The party turns towards the sound that comes from within the HQ.
+
+#SB exclamation mark 
+
+message_99:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 17
+    text: \n<SWEETHEART>Hah!\! Not so high and mighty now, are we?
+
+message_100: 
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 10
+    text: \n<DOUGHIE>Ohoo, this is serious, SWEETHEART!\! This sounds dangerous....
+
+message_101:
+    text: \n<???>\}Heh heh heh...
+
+#! On everyone. A moment later, a figure crashes into where SB is, but the latter jumps backwards at the last second. Smoke rises, revealing PLANET X.
+
+message_102:
+    text: \n<???>Not bad...\! but you’ll need more than that to beat me.
+
+message_103:
+    text: \n<???>Turn back while you still can, \sinv[1]bakas\sinv[0].\! Or prepare...\. to face my deadly GALAXY JUTSU!
+
+#SB steps forward.
+
+message_104:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 44
+    text: \n<SPACEBOY>So...\. you must be PLANET X.\! Are you the one that so dishonorably attacked my companions?
+
+message_104-1:
+    text: \n<PLANET X>Heh heh...\. So those \sinv[1]weak\sinv[0] idiots were your friends?\! As soon as they saw me draw my katanas, they ran for their lives.
+
+#Anger on SB, and he shakes.
+
+message_104-2:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 45
+    text: \n<SPACEBOY>Upon my honor...\. I will have my revenge for what you did to my friends!
+
+#Before either of them can make a move, SWH steps forward. 
+
+message_105:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 21
+    text: \n<SWEETHEART>\quake[1]Ahem...\quake[0]\! Are you boys done?
+
+#SWH goes further forward and begins appraising PX. Sweat on PX, SB, and DG.
+
+message_106:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 24
+    text: \n<SWEETHEART>First of all, what \sinv[1]RIDICULOUS\sinv[0] attire!\! Just how are you intimidating the peasants around here when you're dressed like a giant mop?!\! I can't believe we're even talking to him.
+
+message_107:
+    text: \n<PLANET X>Wh-\. What?\! How dare you insult the GREATEST NINJA!
+
+message_108:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 24
+    text: \n<SWEETHEART>Some ninja you are!\! Your entrance was about as stealthy as an elephant, and your outfit is simply so \sinv[1]tacky\sinv[0]!
+
+#DG turns to player.
+
+message_109:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 4
+    text: \n<DOUGHIE>\}Hey, what are ninjas?
+
+message_110:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 44
+    text: \n<SPACEBOY>Enough! You shall pay for the crimes you have committed against FALLEN WORLD and her people!
+
+message_111:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 45
+    text: \n<SPACEBOY>The things I do to you are going to be far worse than what you've done to my headquarters!
+
+message_112:
+    text: \n<PLANET X>Your headquarters? I don't see any name on it other than MINE!
+
+#SB jumps up and down.
+
+message_113:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 46
+    text: \n<SPACEBOY>IT HAS ALWAYS BELONGED TO THE SPACE PIRATES! STOP THIS NONSENSE!
+
+message_114:
+    text: \n<PLANET X>Is that so? Then prove it... IN A GLORIOUS TRIAL BY COMBAT! KYAAAAAAAA!
+
+#Battle starts. End scene.
+
+#3-8
+
+#Battle ends. Scene begins with PX standing before the party (possibly kneeling?).
+
+message_115:
+    text: \n<PLANET X>Huff... Huff...
+
+message_116:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 25
+    text: \n<SWEETHEART>\com[2]\sinv[1]OHOHO!\sinv[0]\}\. You didn't stand a chance against SWEETHEART!
+
+message_117:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 5
+    text: \n<DOUGHIE>What about us...
+
+message_118:
+    text: \n<PLANET X>BAH!\! I demand a rematch!\! You targeted me at a time of weakness, when I...\. hadn't slept enough!\! Yes!\! How devious of you!!\!
+
+message_119:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 2
+    text: \n<DOUGHIE>You seemed pretty full of energy when you burst into here...
+
+message_120:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 44
+    text: \n<SPACEBOY>Enough tomfoolery.\! If you leave this base right now, I might let you go without further punishment.
+
+message_121:
+    text: \n<PLANET X>It's so unfair...\. this is \com[2]MY ninja hideout!\! I never saw your \sinv[1]dumb\sinv[0] crew anywhere!
+
+message_122:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 45
+    text: \n<SPACEBOY>Wait...\. what on earth have you done to them?!
+
+message_123:
+    text: \n<PLANET X>What? This place was empty when I found it!\! I thought you were just being dramatic!
+
+message_124:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 39
+    text: \n<SPACEBOY>What?\. it was empty?
+
+message_125:
+    text: \n<PLANET X>Yeah!
+
+#Ellipses above SB and he turns to the side, facing away from the party and PX.
+
+message_126:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 40
+    text: \n<SPACEBOY>We never leave headquarters unattended...\. this is bad, very bad...
+ 
+message_127:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 10    
+    text: \n<DOUGHIE>Ohoo... don't worry SPACEBOY!\! I'm sure your crew is okay...
+
+message_129:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 37
+    text: \n<SPACEBOY>Yes...\. you're right, DOUGHIE.\! I can't give in to despair now.
+
+#If the player chooses “NO":
+
+message_130:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 36
+    text: \n<SPACEBOY>It's not an easy situation... but I need to have faith in my crew!\! They're always able to overcome small hiccups like this!
+
+#SB turns back to PX
+
+message_131:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 44
+    text: \n<SPACEBOY>And you...\. Even if it was empty, this is SPACE PIRATE property!\! You've trespassed without permission and will be punished!
+
+#Sweat bubble above PX.
+
+message_132:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 4  
+    text: \n<DOUGHIE>Uh, SPACEBOY?\! We should just let him go...\. I think he was just being an idiot...
+
+message_133:
+    text: \n<PLANET X>Hey!
+
+#SB pauses
+
+message_134:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 36
+    text: \n<SPACEBOY>Hmph...\. fine.\! You may leave.\! But I don't want to see you trying to crawl back here ever again, or I won't go so easy on you next time!
+
+message_135:
+    text: \n<PLANET X>Grr...\. I'll just find a bigger and more awesome base than this!\! Just watch!
+
+#PX leaves. A black hole is revealed underneath where PX once stood. Time stops and the player is the only one able to move. Upon entering the hole, the player obtains their first piece of sheet music. Once the sheet music has been interacted with, the player returns to the party and the scene continues as normal.
+
+#Scene detail may change. More likely would be something more similar to Sweetheart stage to Lost Library style, where the party doesn’t acknowledge the hole at all. Time stops may be jarring or a bit less serious considering it’s PX with the entire anime cliche style being the joke, considering other bosses in the future will also do something similar. The sheet could also be positioned in a previously inaccessible room that is just unlocked by the boss, rather than being directly dropped from.
+
+#After getting sheet, exiting the room: 
+
+message_136:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 25
+    text: \n<SWEETHEART>My...\. What a headache!\! All that fighting has made me positively exhausted!
+
+message_137:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 4 
+    text: \n<DOUGHIE>I'm pretty sure we did most of the fighting...
+
+message_138:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 21
+    text: \n<SWEETHEART>Pah! You would have failed miserably if not for MY help!\! So ungrateful.
+
+#Sweat bubble on DG
+
+message_139:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 38
+    text: \n<SPACEBOY>I do have to agree...\. all this running around and fighting is quite tiresome.
+
+message_140:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 0    
+    text: \n<DOUGHIE>So...\. now what do we do now we've searched your HQ? 
+
+message_141:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 42
+    text: \n<SPACEBOY>I believe we deserve a break!\! Before we move on from here though, we still have locals to help and areas to explore...
+
+#SB turns to the player.
+
+message_142:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 39
+    text: \n<SPACEBOY>What do you think, \n[17]? Should we go and investigate the area?\! Or should we ride the train and search elsewhere?\! You lead the way.
+
+#Player can explore on their own now. Not a response question
+
+#Player now has the choice to return to NN and ride the train, initiating the wake up sequence, or continue exploring and helping the locals of FW.
+
+message_143:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 38
+    text: \n<SPACEBOY>It looks like we've made a full circle around this place.\! My compatriots are nowhere to be found, unfortunately...
+
+message_144:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 37
+    text: \n<SPACEBOY>Ah, I'm sure they'll turn up eventually if I keep searching.\! If our business here is finished, may I suggest moving on?
+
+message_145:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 39
+    text: \n<SPACEBOY>We should probably return to the railways underground and get our bearings. Maybe there's a train that will take us somewhere else.
+
+#On Train.
+
+message_146:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 2
+    text: \n<DOUGHIE>Oho...\. Where exactly are we going now?
+
+message_147:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 24
+    text: \n<SWEETHEART>Ugh, I'm done running around!\! I demand we return to my castle at once!
+
+message_148:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 36
+    text: \n<SPACEBOY>I'm sorry there wasn't a spaceship back in HEADQUARTERS, SWEETHEART.\! Maybe there will be a train back in the station that could take you home.
+
+message_149:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 37
+    text: \n<SPACEBOY>I'll make it up to you by escorting you until you're back safe and sound, okay?
+
+message_150:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 21
+    text: \n<SWEETHEART>Hmph...\. As if I can't see right through you.
+
+message_151:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 24
+    text: \n<SWEETHEART>\com[2]You've fallen yet again for my charms, haven't you?!\! You really are impossible, SPACEBOY.
+
+message_152:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 44
+    text: \n<SPACEBOY>What-\. \com[2]No!\. I-\! ... Never mind.
+
+message_153:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 4
+    text: \n<DOUGHIE>.............
+
+
+#===== KITE KID =====
+
+message_160:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 8
+    text: \n<KITE KID>Sometimes, I feel like I'm the only one who notices that this world has changed.
+
+message_161:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 8
+    text: \n<KITE KID>Not just the overt destruction, but something in the world's core...\! When I fly my kite up high, I see something from below tugging at the ground.
+
+message_162:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 8
+    text: \n<KITE KID>It's strange, isn't it?\! The more I bond with my kite, the more clearly I can see the contrasting world down below.
+
+message_163:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 8
+    text: \n<KITE KID>.\..\..
+
+message_164:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 8
+    text: \n<KITE KID>I suppose...\. you would like a demonstration of that bond.\! <br>Is that correct?
+
+#yes
+
+message_165:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 8
+    text: \n<KITE KID>Very well...\. We won't hold back, in that case.\! Here we come!
+
+#no
+
+message_166:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 8
+    text: \n<KITE KID>No?\! I see...
+
+#after fight. THESE ARE PLACEHOLDERS! To be changed later.
+
+message_167:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 8
+    text: \n<KITE KID>Wow...\! and I thought my bond was strong...\! But you are all even stronger together!
+
+message_168:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 8
+    text: \n<KITE KID>That's good...\! Being close also means helping each other.\!<br>I wish your party well.
+
+message_169:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 8
+    text: \n<KITE KID>Actually...\! Here's something that might be useful for you on your journey...
+
+#gain kite and windbreaker
+
+message_170:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 8
+    text: \n<KITE KID>I hope you'll find some use for these.
+
+message_171:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 8
+    text: \n<KITE KID>I'll just stay here to admire the scenery with my kite.
+
+#reinteract dialogue, mention od destruction and hint at something
+
+message_172:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 8
+    text: \n<KITE KID>Hmm...\! The weather feels stronger than ever, despite me losing.
+
+message_173:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 8
+    text: \n<KITE KID>I suppose going against the wind requires a level of strength that even we haven't truly mastered yet.

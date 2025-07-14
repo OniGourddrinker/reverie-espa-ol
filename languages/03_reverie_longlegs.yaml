@@ -1,0 +1,38 @@
+# ================================================================
+# DADDY LONGLEGS
+#
+# He will appear quite a few time, hence own file.
+# ================================================================
+
+# ================ Metro B2 ================
+# In the deeper metro he will also be found. This time he will narrate (can be subtle) about how this deeper area is closer to the subconscious. Partly explains why the enemies are from all over the place and how they aren't really the same as the ones from original areas (kind of like duplicates).
+
+metro_1:
+    text: \n<DADDY LONGLEGS>Here you approach, DREAMER.
+
+metro_2:
+    text: \n<DADDY LONGLEGS>You must know now that nothing within this world arose in a vacuum.\. Its places,\. its creatures...\. they all come from somewhere deeper.
+
+metro_3:
+    text: \n<DADDY LONGLEGS>I'm sure you've noticed the denizens here seem...\ out of place.\! Still, of course,\. they are different from the others.\. What's changed, DREAMER?\! Is it you?
+
+metro_4:
+    text: \n<DADDY LONGLEGS>You've always had trouble weathering your own subconscious.\! For what reason did your vessel come to be?
+
+metro_5:
+    text: \n<DADDY LONGLEGS>But of course,\. you seem to have learned that lesson?\! Perhaps you will fare better on your own,\. this time.
+
+# ================ Pyrefly ================
+# Daddy long legs will be in pyrefly, right before the "media locked" area section of Pyrefly (essentially early starting area).
+# He will talk to SUNNY directly, and narrate information (can be subtle) related to how this previously Black Forest turned into a less serious Dream world type area.
+pyre_1:
+    text: \n<DADDY LONGLEGS>You no longer have any secrets to bury...\. in their absence,\. this once dark place seems a bit brighter.
+
+pyre_2:
+    text: \n<DADDY LONGLEGS>Is that why you've come,\. DREAMER?\! I suppose there's nothing wrong with enjoying some respite in this world,\. now and again? 
+
+pyre_3:
+    text: \n<DADDY LONGLEGS>But,\. pray tell,\. what are you searching for this time?\! Something you cannot find in the waking world?
+
+pyre_4:
+    text: \n<DADDY LONGLEGS>Careful, now.\! You see firsthand the ways this world changes...\. be sure you can find your way home without your vessel.
