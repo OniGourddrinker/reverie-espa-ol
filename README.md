@@ -8,7 +8,7 @@ This repository started keeping track of releases from v4.1.0.
 **Note: This repository does not contain assets from the original game OMORI.**
 
 ## Usage
-Download this repository as a zip file (located in the "Code" button). Rename the zip file to be "reverie"
+Download this repository as a zip file (located in the "Code" button). Rename the zip file AND the top level folder inside the zip to be "reverie". Drag the zip file itself to the mods folder in the ModLoader.
 
 ## License
 This project is licensed under a
