@@ -17,6 +17,8 @@ CategoryName:
   FOOD: FOOD
   OBJECT: OBJECT
   ALIEN: ALIEN
+  GHOST: GHOST
+  MIMIC: MIMIC
   # FIEND is solely for alice SMT joke
   FIEND: FIEND
 Information:

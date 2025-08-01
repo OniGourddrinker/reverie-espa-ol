@@ -324,7 +324,7 @@ enc_castle_upper:
 
 enc_castle_lower:
    text: >
-    It's a natural 1! SUNNY's party has the upper hand!
+    It's a natural 1! \n[17]'s party has the upper hand!
 
 enc_castle_same:
    text: >

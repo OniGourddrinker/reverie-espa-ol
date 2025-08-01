@@ -93,6 +93,9 @@ street_donuts:
 street_display_bread:
     text: A wide selection of slightly less than fresh bread.
 
+street_display_donuts:
+    text: A showcase filled with lots of donuts.
+
 street_open_box_1:
     text: Inside the box,\. you see cookie cutters,\. rolling pins,\. cans of yeast,\. and a folded up cardboard cutout.
 
