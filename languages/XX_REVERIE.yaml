@@ -95,3 +95,11 @@ Options:
         header: "ACTUAL TURN ORDER"
         options: ["ON", "OFF"]
         helpText:  "Makes the menu turn order be based on character's speed."
+    showstats:
+        header: "DISPLAY STATS"
+        options: ["ON", "OFF"]
+        helpText:  "Makes the enemy info show more stat details. (Recommend: ON)"
+    showstateicons:
+        header: "DISPLAY STATE ICONS"
+        options: ["ON", "OFF"]
+        helpText:  "Makes both actor and enemy show state icons. (Recommend: ON)"

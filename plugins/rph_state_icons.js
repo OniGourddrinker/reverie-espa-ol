@@ -1,3 +1,14 @@
+
+// Reverie modifies this to:
+// - Fade in and out opacity when the state has only 1 turn left
+// - Be toggleable
+
+class RvStateIcons {
+    static doStateIcons() {
+        return true;
+    }
+}
+
 {
     function getAlpha(sprite) {
     	if (sprite._stateSpriteTurnsLeft <= 1) {
@@ -62,6 +73,10 @@
 
         this._stateIcons.x = (this.width - 96) / 2;
         this._stateIcons.y = this.y < 240 ? this.height : -16;
+
+        if (!RvStateIcons.doStateIcons()) {
+            return;
+        }
 
         // Determine if we need to update
         let nc = [];
