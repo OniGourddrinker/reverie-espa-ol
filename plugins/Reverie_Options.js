@@ -31,40 +31,73 @@ class RvOptions {
         }
     }
 
-    static getDifficultyIndex() {
-        return this.getDifficulty() + 1;
-    }
-
-    static setDifficultyFromIndex(index) {
-        this.setDifficulty(index - 1)
-    }
-
     // 0 means actually doing it, due to index of ON being first
     static doTurnOrder() {
         return ConfigManager.reverieTurnOrder == 0;
     }
+
+    static doDisplayStats() {
+        return ConfigManager.reverieShowStats == 0;
+    }
+
+    static doDisplayStateIcons() {
+        return ConfigManager.reverieShowStateIcons == 0;
+    }
+
+    // Returns a set of info of option for the most basic type of just setting index.
+    static createBasicOption(varName, defaultIndex = 0, spacing = 120) {
+        return {
+            listIndex: 0,
+            spacing: spacing,
+            getIndex: () => {return ConfigManager[varName]},
+            processIndex: (data) => {ConfigManager[varName] = data.index},
+            loadIndex: (config) => {config[varName] = ConfigManager[varName];},
+            saveIndex: (config) => {ConfigManager[varName] = (config[varName] == undefined) ? defaultIndex : config[varName];},
+        }
+    }
 }
 
 /**
- * This is to keep track of optionIndex.
+ * This is to keep track of optionData.
  * The actual value will be overridden automatically.
  */
-RvOptions.optionIndex = {
-    header: 0,
-    difficulty: 0,
-    turnorder: 0
+RvOptions.optionData = {
+    header: {
+        listIndex: 0,
+        spacing: 120,
+        getIndex: () => {return -1},
+        processIndex: (data) => {},
+        loadIndex: (config) => {},
+        saveIndex: (config) => {},
+    },
+    difficulty: {
+        listIndex: 0,
+        spacing: 120,
+        getIndex: () => {return RvOptions.getDifficulty() + 1},
+        processIndex: (data) => {RvOptions.setDifficulty(data.index - 1)},
+        loadIndex: (config) => {},
+        saveIndex: (config) => {},
+    },
+    turnorder: RvOptions.createBasicOption("reverieTurnOrder", 1), // off by default
+    showstats: RvOptions.createBasicOption("reverieShowStats", 0),
+    showstateicons: RvOptions.createBasicOption("reverieShowStateIcons", 0),
 }
 
+// =========================================================
+// SAVE AND LOAD OPTIONS
+// =========================================================
 Reverie.Options.Window_OmoMenuOptionsGeneral_processOptionCommand = Window_OmoMenuOptionsGeneral.prototype.processOptionCommand;
 Window_OmoMenuOptionsGeneral.prototype.processOptionCommand = function () {
     Reverie.Options.Window_OmoMenuOptionsGeneral_processOptionCommand.call(this);
     var index = this.index();
     var data = this._optionsList[index];
-    // Switch Case Index
-    switch (index) {
-        case RvOptions.optionIndex.difficulty: RvOptions.setDifficultyFromIndex(data.index); break;
-        case RvOptions.optionIndex.turnorder: ConfigManager.reverieTurnOrder = data.index; break;
-    };
+
+    for (const [key, value] of Object.entries(RvOptions.optionData)) {
+        if (value.listIndex == index) {
+            value.processIndex(data);
+            break;
+        }
+    }
 };
 
 Reverie.Options.ConfigManager_makeData = ConfigManager.makeData;
@@ -72,8 +105,9 @@ ConfigManager.makeData = function () {
     // Get Original Config
     var config = Reverie.Options.ConfigManager_makeData.call(this);
     // Set Config Settings
-    // Difficulty is a local save variable.
-    config.reverieTurnOrder = this.reverieTurnOrder;
+    for (const [key, value] of Object.entries(RvOptions.optionData)) {
+        value.loadIndex(config);
+    }
     // Return Config
     return config;
 };
@@ -82,9 +116,9 @@ Reverie.Options.Window_OmoMenuOptionsGeneral_makeOptionsList = Window_OmoMenuOpt
 Window_OmoMenuOptionsGeneral.prototype.makeOptionsList = function () {
     Reverie.Options.Window_OmoMenuOptionsGeneral_makeOptionsList.call(this);
     const LANG = RvOptions.getLanguageData();
-    this.createCustomOption(LANG, "header", 120, -1);
-    this.createCustomOption(LANG, "difficulty", 120, RvOptions.getDifficultyIndex());
-    this.createCustomOption(LANG, "turnorder", 120, ConfigManager.reverieTurnOrder);
+    for (const [key, value] of Object.entries(RvOptions.optionData)) {
+        this.createCustomOption(LANG, key, value.spacing, value.getIndex());
+    }
 };
 
 /**
@@ -102,7 +136,7 @@ Window_OmoMenuOptionsGeneral.prototype.createCustomOption = function (lang, varN
         spacing: spacing,
         index: index,
     });
-    RvOptions.optionIndex[varName] = this._optionsList.length - 1;
+    RvOptions.optionData[varName].listIndex = this._optionsList.length - 1;
 }
 
 Reverie.Options.ConfigManager_applyData = ConfigManager.applyData;
@@ -110,6 +144,9 @@ ConfigManager.applyData = function (config) {
     // Run Original Function
     Reverie.Options.ConfigManager_applyData.call(this, config);
     this.reverieTurnOrder = (config.reverieTurnOrder == undefined) ? 1 : config.reverieTurnOrder;
+    for (const [key, value] of Object.entries(RvOptions.optionData)) {
+        value.saveIndex(config);
+    }
 };
 
 // =========================================================
@@ -123,7 +160,7 @@ Window_OmoMenuOptionsGeneral.prototype.drawOptionSegment = function(header, opti
         if (header.startsWith(SAVEKEY)) {
             header = header.substring(SAVEKEY.length)
             if (!RvOptions.inSave()) {
-                this.contents.textColor = 'rgb(120, 120, 120)';
+                this.contents.textColor = 'rgb(100, 100, 100)';
             }
         }
         Reverie.Options.Window_OmoMenuOptionsGeneral_drawOptionSegment.call(this, header, options, spacing, rect);
@@ -152,3 +189,17 @@ BattleManager.getActorInputOrder = function () {
     list = list.filter(_ => _[2])
     return list.map(_ => _[0])
 };
+
+/**
+ * Control when to display stats.
+ * @returns boolean
+ */
+StatusDisplayManager.doDisplayStats = function() {
+  return RvOptions.doDisplayStats();
+}
+
+RvStateIcons = class extends RvStateIcons {
+    static doStateIcons() {
+        return RvOptions.doDisplayStateIcons();
+    }
+}

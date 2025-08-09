@@ -2,7 +2,7 @@
   "id": "reverie",
   "name": "REVERIE",
   "description": "REVERIE: CHAPTER 4",
-  "version": "4.1.1",
+  "version": "4.1.3",
   "manifestVersion": 1,
   "_flags": [
     "do_olid"
@@ -65,7 +65,7 @@
       "plugins/Stahl_ChaseLevel.js",
       "plugins/rph_state_icons.js",
       "plugins/DGT_multxparams.js",
-      "plugins/DGT_syncsprites.js",
+      "plugins/Stahl_StateSync.js",
       "plugins/Reverie_QuestsBadges.js",
       "plugins/Reverie_DisplayTweak.js",
       "plugins/Reverie_VersionUpdate.js",
@@ -173,7 +173,7 @@
       "img/sv_actors/!battle_spider_cat.png",
       "img/system/Balloon.png",
       "img/system/IconSet.png",
-      "img/system/enemy_box.png",
+      "img/system/enemy_box_stats.png",
       "img/system/splashGalv.png",
       "img/system/splashGalv2.png",
       "img/animations/RV_LIGHTING.png",

@@ -5,7 +5,7 @@ var Stahl = Stahl || {};
 Stahl.EvenMoreInfo = Stahl.EvenMoreInfo || {};
 
 /*:
- * @plugindesc [v1.0.0] Extended More Info with modifiable content using JS override.
+ * @plugindesc [v1.1.0] Extended More Info with modifiable content using JS override.
  * 
  * @author ReynStahl
  *
@@ -16,7 +16,12 @@ Stahl.EvenMoreInfo = Stahl.EvenMoreInfo || {};
  * Majority of function requires overriding with JS.
  * Read the comments written with the function instead.
  * 
- * Additionally requires "mp_enemy_box_gradients.png" and "enemy_box_extended.png" in system images
+ * Requirement:
+ * - "mp_enemy_box_gradients.png" in system images
+ * - "enemy_box_stats.png" in system images
+ * - "enemy_box_extended.png" in system images
+ * 
+ * v1.1.0: Support doDisplayStats, making it toggleable.
  */
 
 /**
@@ -33,6 +38,14 @@ function StatusDisplayManager() {
  */
 StatusDisplayManager.doOpenMore = function() {
   return Input.isPressed('shift') || Input.isPressed('up') || Input.isPressed('down') || Input.isPressed('control');
+}
+
+/**
+ * Control when to display stats.
+ * @returns boolean
+ */
+StatusDisplayManager.doDisplayStats = function() {
+  return true;
 }
 
 /**
@@ -172,6 +185,7 @@ Scene_Battle.prototype.loadReservedBitmaps = function() {
   Stahl.EvenMoreInfo.Scene_Battle_loadReservedBitmaps.call(this);
   //Reserve the new gradient for enemy MP
   ImageManager.reserveSystem('mp_enemy_box_gradients', 0, this._imageReservationId);
+  ImageManager.reserveSystem('enemy_box_stats', 0, this._imageReservationId);
   ImageManager.reserveSystem('enemy_box_extended', 0, this._imageReservationId);
 };
 
@@ -205,22 +219,34 @@ Sprite_EnemyBattlerStatus.prototype.ninePatchRect = function(image, c1, c2, r1, 
 };
 
 // ================ MAIN REFRESH DISPLAY ================
-Sprite_EnemyBattlerStatus.prototype.minWidth = function() { return 225 };
-
 Sprite_EnemyBattlerStatus.prototype.refreshBitmap = function(battler) {
   // If Battler Exists
   if (battler) {
+    this.bitmap.fontSize = 24;
+
     // Get Battler Name
     var name = battler.name();
     var nameWidth = this.bitmap.measureTextWidth(name, true);
+    var displayStats = StatusDisplayManager.doDisplayStats();
 
     // Recreate Bitmap
-    var infoLines = StatusDisplayManager.getExtraInfoLines(battler);
-    var boxHeight = this._openMore ? (105 + Math.max(infoLines.length-1, 0) * StatusDisplayManager.extraLineHeight()) : 80;
-    var imageFile = this._openMore ? 'enemy_box_extended' : 'enemy_box';
+    var infoLines = [];
+    var boxHeight = 57;
+    var boxWidth = this.minWidth();
+    var imageFile = 'enemy_box';
 
-    this.bitmap = new Bitmap(Math.max(this.minWidth(), nameWidth + 20), boxHeight);
-    
+    if (displayStats) {
+      boxHeight = 80;
+      boxWidth = this.minWidth() + 105; // if display stat need more room to the side
+      imageFile = 'enemy_box_stats';
+      if (this._openMore) {
+        infoLines = StatusDisplayManager.getExtraInfoLines(battler);
+        boxHeight = 105 + Math.max(infoLines.length-1, 0) * StatusDisplayManager.extraLineHeight();
+        imageFile = 'enemy_box_extended';
+      }
+    }
+
+    this.bitmap = new Bitmap(Math.max(boxWidth, nameWidth + 20), boxHeight);
     this.bitmap.fontSize = 24;
     this.bitmap.fillAll('rgba(0, 0, 0, 0)');
 
@@ -228,44 +254,35 @@ Sprite_EnemyBattlerStatus.prototype.refreshBitmap = function(battler) {
     var backBitmap = ImageManager.loadSystem(imageFile);
     
     // Make Background
-    if (this._openMore) 
+    if (displayStats && this._openMore) 
       this.ninePatchRect(backBitmap, 7, 8, 100, 150); // If more info, expand both
     else 
       this.ninePatchRect(backBitmap, 7, 8, backBitmap.height, backBitmap.height); // Regular just expand width
 
     // Draw Name
-    this.bitmap.drawText(name, 0, 5, this.width, 24, 'center');
+    this.bitmap.drawText(name, 0, 0, this.width, 27, 'center');
 
-    // Bottom right of black box, relative to right side
-    this.bitmap.fontSize = 13;
-    this.bitmap.drawText(StatusDisplayManager.getFootnoteMessage(battler), -10, 12, this.width, 24, 'right');
+    if (displayStats) {
+      // Bottom right of black box, relative to right side
+      this.bitmap.fontSize = 13;
+      let footnoteText = StatusDisplayManager.getFootnoteMessage(battler);
+      this.bitmap.drawText(footnoteText, -10, 12, this.width, 24, 'right');
 
-    // Draw Stats
-    let sideText = StatusDisplayManager.getSideStatLines(battler);
-    let curStatY = 83;
-    let curStatGap = 25;
-    this.bitmap.fontSize = 14;
+      // Draw Stats
+      let sideText = StatusDisplayManager.getSideStatLines(battler);
+      this.drawSideStats(sideText);
 
-    // Less item get bit larger
-    if (sideText.length <= 4) {
-      curStatY = 92;
-      curStatGap = 30;
-      this.bitmap.fontSize = 15;
-    }
-
-    for (let i = 0; i+1 < sideText.length; i += 2) {
-      this.bitmap.drawText(sideText[i] || "", 8, 0, this.width, curStatY, 'left'); // Left content
-      this.bitmap.drawText(sideText[i+1] || "", -8, 0, this.width, curStatY, 'right'); // Right content
-      curStatY += curStatGap;
-    }
-
-    // Draw HP / MP bar
-    this.drawBar('enemy_box_gradients', 'hp_icon', battler.hpRate(), `${battler.hp}/${battler.mhp}`, 40);
-    this.drawBar('mp_enemy_box_gradients', 'mp_icon', battler.mpRate(), `${battler.mp}/${battler.mmp}`, 56);
-
-    // Display more info lines
-    if (this._openMore) {
-      this.drawMoreInfoLines(infoLines);
+      // Draw HP / MP bar
+      this.drawBar('enemy_box_gradients', 'hp_icon', battler.hpRate(), `${battler.hp}/${battler.mhp}`, 40);
+      this.drawBar('mp_enemy_box_gradients', 'mp_icon', battler.mpRate(), `${battler.mp}/${battler.mmp}`, 56);
+      
+      // Display more info lines
+      if (this._openMore) {
+        this.drawMoreInfoLines(infoLines);
+      }
+    } else {
+      // Draw HP / MP bar
+      this.drawBar('enemy_box_gradients', 'hp_icon', battler.hpRate(), "", 34);
     }
 
     // Refresh Cursor
@@ -287,6 +304,25 @@ Sprite_EnemyBattlerStatus.prototype.drawBar = function(barImage, iconImage, prog
   
   this.bitmap.fontSize = 12;
   this.bitmap.drawText(label, sx, yOffset + 5, bar.width - 3, 3, 'right');
+}
+
+Sprite_EnemyBattlerStatus.prototype.drawSideStats = function(sideText) {
+  let curStatY = 83;
+  let curStatGap = 25;
+  this.bitmap.fontSize = 14;
+
+  // Less item get bit larger
+  if (sideText.length <= 4) {
+    curStatY = 92;
+    curStatGap = 30;
+    this.bitmap.fontSize = 15;
+  }
+
+  for (let i = 0; i+1 < sideText.length; i += 2) {
+    this.bitmap.drawText(sideText[i] || "", 8, 0, this.width, curStatY, 'left'); // Left content
+    this.bitmap.drawText(sideText[i+1] || "", -8, 0, this.width, curStatY, 'right'); // Right content
+    curStatY += curStatGap;
+  }
 }
 
 Sprite_EnemyBattlerStatus.prototype.drawMoreInfoLines = function(infoLines) {
