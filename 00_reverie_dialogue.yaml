@@ -1,0 +1,40 @@
+# =========================================================================================
+# ** Reverie dialogue
+# =========================================================================================
+
+# PROLOGUE DW
+
+message_1:
+    text: \n<GRAN GATO AMARILLO>Bienvenido de vuelta, SOÑADOR.
+    
+message_2:
+    text: \n<GRAN GATO AMARILLO>Este mundo ha cambiado drásticamente desde su última visita.
+    
+#black hole opens in front of the player.
+
+message_3:
+    text: \n<GRAN GATO AMARILLO>Estaré observando.
+    
+message_4:
+    text: Entrar en el \c[11]AGUJERO NEGRO\c[0]?
+
+
+# metro door section
+
+message_6:
+    text: \n<SNALEY>Hola, amigo.\! Oh, no tengo que usar el baño.\! Simplemente me gusta la atmósfera que hay aquí.
+
+message_7:
+    text: \n<CAJA LAGARTO>Lo siento niños,\. actualmente están de obras.\!<br>Puedes empujar las cajas o usar la \c[4]RADIO DE EMERGENCIA\c[0] para ser enviado de vuelta conmigo.
+
+message_8:
+    text: \n...\. No parece haber ningún LAGARTO por aquí.
+
+message_9:
+    text: \n<CONDUCTOR JASH>\"Damas y caballeros...\! Hemos llegado a nuestra parada.\! Bienvenidos a \c[11]FALLEN WORLD\c[0].\"
+
+message_9-1:
+    text: \n<CONDUCTOR JASH>\"Damas y caballeros...\! Hemos llegado a nuestra parada.\! Bienvenidos a \c[11]VAST FOREST\c[0].\"
+
+message_10:
+    text: \n<CONDUCTOR JASH>\"Por favor, salgan del tren de forma ordenada. Gracias por su patrocinio y por favor, vuelva a viajar con nosotros.\"\! \}\quake[1]Bzzt...

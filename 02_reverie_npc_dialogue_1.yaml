@@ -1,0 +1,1359 @@
+# =========================================================================================
+# This sheet contains NPC dialogue of CH3 City. The number are organized in Writing Sheet
+# 
+# Type_NPC-DialogueNum:
+#   text: \n<NAME>I am stuff!
+# =========================================================================================
+
+# ======== MAJOR (Mobile) Based NPCs ========
+Maj_1_1-1:
+    text: \n<NAME>I am stuff!
+
+Maj_1_1-2:
+    text: \n<NAME>I am stuff too!
+
+Maj_1_2-1: #street roamer
+    text: \n<SEÑORA CON VESTIDO VERDE>Veamos...\. ahora tenemos que ir al \c[11]DIGITAL SPOT\c[0]...\. luego a la \c[11]CLÍNICA\c[0]...\. y después...
+
+Maj_1_2-2:
+    text: \n<SEÑORA CON VESTIDO VERDE>Muy bien, cariño...\! ¿Qué era lo que querías en este lugar?
+
+Maj_1_2-3:
+    text: \n<SEÑORA CON VESTIDO VERDE>Mami va a tardar solo un momento...\! ¿Podés esperar acá un segundito?
+
+Maj_1_2-4:
+    text: Esta mujer parece estar perdida en sus pensamientos mientras recorre la sección de electrónica.
+
+Maj_1_3-1: #street roamer
+    text: \n<CHICA CON ALFILER ESCARLATA>\sinv[1]\{¡FIGURA DE SWEETHEART!\. ¡FIGURA DE SWEETHEART!
+
+Maj_1_3-2:
+    text: \n<CHICA CON ALFILER ESCARLATA>Ughhhhh...\. Estoy tan \sinv[1]abuuuuurida\sinv[0]...
+
+Maj_1_3-3: #unused
+    text: \n<CHICA CON ALFILER ESCARLATA>Aww,\. Por favor!\. El segundo piso está cerrado por reparaciones.\! ¿Dónde voy a comprar ahora la muñeca de SWEETHEART con caja de voz?
+
+Maj_1_4-1:
+    text: \n<TIPO DE LA AVENA>Amo ver qué avenas nuevas hay.\. No me canso de comerla,\. pero está bueno variar un poco.
+
+Maj_1_4-2:
+    text: \n<TIPO DE LA AVENA>Mejor que comer una tortilla todos los días.\. Eso engorda demasiado.
+
+Maj_1_5-1:
+    text: \n<HOMBRE CON PELO PUNTIAGUDO>¡Vaya cantidad de electrónicos, ¿no?\. Estoy comparando piezas para encontrar el mejor estéreo.\. ¡Necesito uno que para cantar a mi cita de mañana!
+
+Maj_1_7-1: #street roamer
+    text: \n<CHAQUETA CON PELO CORTO>¡Todavía es temprano,\. AVA!\. ¡Aprovechémoslo al máximo!\.
+
+Maj_1_7-2:
+    text: \n<CHAQUETA CON PELO CORTO>Escuche que \c[11]MOVIE WORLD\c[0] esta teniendo una promoción!\! ¿Y si alquilamos una pelicula que no conocemos y vemos qué pasa?
+
+Maj_1_7-3: #street roamer
+    text: \n<CHAQUETA CON PELO LARGO>No es una mala idea...\. Solo recordá que tenemos un horario para mañana, ¿de acuerdo?
+
+Maj_1_7-4:
+    text: \n<CHAQUETA CON PELO CORTO>The night is still young, AVA! I still want to do something fun tonight! #dont use
+
+Maj_1_7-5:
+    text: \n<CHAQUETA CON PELO LARGO>EVE...\. I can't believe you're not tired.\. If we don't go to sleep,\. we'll be like zombies in the morning. #dont use
+
+Maj_1_7-6:
+    text: \n<CHAQUETA CON PELO LARGO>Besides,\. I don't know how long the SUBWAY will open.\. What if it closes,\. and we get stranded? #dont use
+
+Maj_1_7-7:
+    text: \n<LOB JACKET GIRL>Oye,\. ¿Viste a mi amiga por acá?\. She's got like,\. Tiene el pelo largo y negro.\. Se suponía que iba a encontrarse conmigo acá....
+
+Maj_1_7-8:
+    text: \n<CHAQUETA CON PELO LARGO>Ey.\. ¿Viste a mi amiga?\. Tiene el pelo corto,\.  usa una campera amarilla\. Ya debería estar acá....
+
+Maj_2_1-1: #street roamer
+    text: \n<ABUELA>Hola, jovencito.\. ¿Saliste solo a dar una vuelta por la ciudad?
+
+Maj_2_1-2:
+    text: \n<ABUELA>Me encanta ver a los jóvenes como vos vivir sus días.\. <br>¡Disfrutá tu juventud mientras la tengas, je je!
+
+Maj_2_2-1: #street roamer
+    text: \n<EJECUTIVO>No me molestes\! Estoy ocupado esperando a alguien.
+
+Maj_2_2-2: #make this a different npc
+    text: Se nota por la cara de este tipo que no está escuchando.
+
+#Maj_2_4-1: #make this a different npc
+#    text: \n<PIGTAILS GIRL>Who keeps bringing puzzles to the playground?\. All the pieces keep getting lost and sandy...
+
+Maj_2_4-1:
+    text: \n<CHICA CON COLETAS>Oof...\. Me estoy empezando a sentir mareada...
+
+Maj_2_4-2:
+    text: \n<CHICA CON COLETAS>¡Pero no puedo parar!\. ¡Estoy en medio de mi intento de récord mundial!
+
+Maj_2_5-1:
+    text: \n<NOVIA>Ooohhh...\. ¿Cuándo va a llegar el colectivo?\. ¡Estuve parada todo el día!
+
+Maj_2_5-2:
+    text: \n<NOVIA>¿Por qué aca los colectivos siempre llegan tarde?\. Mi esposo lleva una hora tratando de ver si aparece alguno.
+
+Maj_2_6-1:
+    text: \n<Novio>No veo que venga el colectivo...\. Capaz tendríamos que haber alquilado una limusina después de todo...
+
+Maj_2_7-1:
+    text: \n<CHICA CON REMERA ROSADA>Normalmente me compraría un helado...\. pero mamá no me dio plata hoy\. Qué bajón...  
+
+Maj_2_7-2:
+    text: \n<CHICA CON REMERA ROSADA>Hoy también hace un calor insoportable...\. \{\quake[1]¡Necesito refrescarme!\quake[0]\}\
+
+Maj_2_7-3:
+    text: \n<CHICA CON REMERA ROSADA>¡Durante el día hace tanto calor a la hora del almuerzo,\. que siento que estoy dentro de un horno!
+
+Maj_2_7-4:
+    text: \n<CHICA CON REMERA ROSADA>Si mañana hace calor otra vez,\. capaz mamá me deja comprar un helado...
+
+Maj_2_8-1:
+    text: \n<CALVO>¡Te digo que me están estafando!\! ¡Probé \sinv[1]doce\sinv[0] productos para el crecimiento del pelo este mes y ninguno funcionó!
+
+Maj_2_8-2:
+    text: \n<CALVO>¡La próxima vez que vaya al centro comercial,\. voy directo a ese local a quejarme con el encargado!
+
+Maj_3_1-1: #street roamer
+    text: \n<HOMBRE ELEGANTE>Bruhumph!\. Joven,\. me atrevería a decir que no te he visto por aquí antes.\. ¿Sos nuevo en la ciudad? \! ¡Asegurate de estar atento a los rufianes nefastos!
+
+Maj_3_1-2:
+    text: \n<HOMBRE ELEGANTE>Una vez estaba tranquilo en el subte.\. ¡Y un chico travieso me pegó un chicle en los pantalones!\. Dejame decirte,\. fue un verdadero escandalo
+
+Maj_3_2-1: #street roamer
+    text: \n<CHICA CON ANTEOJOS>¡Qué día hermoso! \.Normalmente estaría en casa leyendo,\. pero un clima así hay que aprovecharlo, ¿no te parece?
+
+Maj_3_2-2:
+    text: \n<CHICA CON ANTEOJOS>De repente sonríe y parece mucho más relajada.
+
+# ======== MINOR (Standing) Based NPCs ========
+Min_1_1-1:
+    text: \n<NAME>I am stuff!
+
+Min_1_2-1:
+    text: \n<CHICO CON CAMISA A CUADROS>Je je...\. ¡Todos los chicos en la escuela van a pensar que soy genial cuando consiga esa figura de edición limitada de CAPT. SPACEBOY
+
+Min_1_2-2:
+    text: \n<CHICO CON CAMISA A CUADROS>¿Ellos... ellos lo tienen acá, ¿no?\. ¿Estoy buscando en el local equivocado?
+
+Min_1_3-1:
+    text: Esta mujer lleva muchas joyas elegantes.\. Debe ser muy rica.
+
+Min_1_4-1:
+    text: Los bolsillos de esta chica parecen completamente llenos.
+
+Min_1_4-2:
+    text: ...Se pueden ver PET ROCKS asomándose de sus bolsillos.
+
+Min_1_5-1:
+    text: Este hombre no para de jugar con su corbata.\. Parece nervioso.
+
+Min_1_5-2:
+    text: No entendes casi nada de lo que dice este hombre.\! Habla de acciones,\. bonos,\. estadísticas...\. cosas que jamás te enseñaron en la escuela.
+
+Min_1_6-1:
+    text: Esta chica no deja de mirar la calle con expectativa.\! Debe estar esperando que la pasen a buscar.
+
+Min_1_7-1:
+    text: \n<HERMANA POMPOSA>Aww...\. ¿El segundo piso esta cerrado?\! ¿De verdad?
+
+Min_1_7-2:
+    text: \n<HERMANA POMPOSA>Ay,\. no grites tan fuerte...
+
+Min_1_8-1:
+    text: \n<HERMANO DE CABELLO PULCRO>¿Cerrado por obras?...'\! Qué mala suerte la nuestra hoy, hermana.
+
+Min_1_8-2:
+    text: \n<HERMANO DE CABELLO PULCROR>¡Vamos,\. hermana!\. ¡Tenemos que irnos antes de que sea demasiado tarde!
+
+Min_1_9-1:
+    text: Este chico está mirando la sección de videojuegos. Parece bastante emocionado.
+
+Min_1_10-1:
+    text: \n<CHICA DE LOS COMICS>Pedí un libro enorme sobre la historia de la serie de CAPT. SPACEBOY...\. pero todavía no llegó.
+
+Min_1_10-2:
+    text: \n<CHICA DE LOS COMICS>Ojalá tuviera a alguien más con quien hablar sobre la historia del cómic... pero es difícil encontrar gente tan interesada como yo.
+
+Min_1_10-3:
+    text: \n<CHICA DE LOS COMICS>Sigh....
+
+Min_1_11-1:
+    text: Esta chica está comiendo papas fritas mientras mira la sección de películas. 
+
+Min_1_12-1:
+    text: \n<PERSONA BRONCEADA>¡Argh! ¿Por qué siempre hace tanto sol en esta ciudad?\. ¡La mitad del dinero que gasté acá se fue en protector solar!
+
+Min_1_12-2:
+    text: Este tipo probablemente está esperando el tren.\. Parece bastante agotado.
+
+Min_1_13-1:
+    text: \n<CHICO ATLÉTICO> Qué lindo y soleado está hoy, ¿verdad?\. ¡Es el día perfecto para correr por toda la ciudad!
+
+Min_1_13-2:
+    text: \n<CHICO ATLÉTICO>Aunque...\. capaz paso por SLICE OF HEAVEN a comer una pizza primero, je.
+
+Min_1_13-3:
+    text: Casi se puede ver el sol reflejándose en este chico solo por su estado de ánimo.
+
+Min_1_14-1:
+    text: Este tipo parece estar comparando partes de computadora...
+
+Min_1_15-1:
+    text: \n<CHICO CON CORTE TAZÓN>Entonces... desde acá, ¿el centro comercial está derecho para arriba, no?\. <br>¿O era a la derecha y después para arriba?    
+
+Min_1_15-2:
+    text: \n<CHICO CON CORTE TAZÓN>¡Rayos! ¿Me lo perdí?...
+
+Min_1_15-3:
+    text: \n<CHICO CON CORTE TAZÓN>Entonces\. solo tengo que doblar a la derecha...\. y después otra derecha...\. y otra más...\. ¿no?
+
+Min_1_15-4:
+    text: \n<CHICO CON CORTE TAZÓN>Guh,\. ¡¿Por qué es tan confusa la estación de policía?!
+
+Min_1_16-1:
+    text: \n<CHICO CON FRANJA NARANJA>Es más rápido volver a casa en scooter o esperar el próximo tren?
+
+Min_1_16-2:
+    text: \n<CHICO CON FRANJA NARANJA>Si sigo esperando, voy a llegar más tarde todavía...
+
+Min_1_17-1:
+    text: Este chico está mirando algún tipo de anuncio de un juego nuevo.\. Parece bastante emocionado.
+
+Min_1_18-1:
+    text: Esta mujer está en las nubes.\. No parece notarte.
+
+Min_1_19-1:
+    text: Esta chica parece estar esperando a sus amigas.\! seguro sabe dónde están los mejores rincones para pasarla bien....
+
+Min_1_20-1:
+    text: Esta chica está soplando fuerte su taza de café.\! Parece que no le gusta lo caliente.
+
+Min_1_21-1:
+    text: \n<Dama Magenta>Dios, qué calor hace...\. y la tienda de bebidas está tan lejos...
+
+Min_1_21-2:
+    text: \n<Dama Magenta>\Com[2]No!\.¡Vos podés hacerlo!\! ¡Una vez que entres a la tienda vas a estar fresquito!
+
+Min_1_21-3:
+    text: Esta señora tiene una expresión de pura felicidad.
+
+Min_1_22-1:
+    text: Esta señora está mirando al hombre con una cara de exasperación.
+
+Min_1_23-1:
+    text: Este hombre está mirando al cielo con una furia intensa.
+
+Min_1_23-2:
+    text: Este hombre parece muy relajado, mirando el cielo al atardecer.
+
+Min_1_24-1:
+    text: \n<TOMBOY>\sinv[1]Seguiremos adelante,\. con las manos entrelazadas,\. pero ¿qué pasa cuando nuestros planes son rechazados,\. por una araña gigante y una cucaracha asquerosa?\sinv[0]
+
+Min_1_24-2:
+    text: \n<TOMBOY>\sinv[1]¡LOS APLASTARÉ,\. POR QUE SOS MI AMOR!!\sinv[0]
+
+Min_1_24-3:
+    text: Esta chica está cantando para sí misma. 
+
+Min_1_24-4:
+    text: \n<TOMBOY>\sinv[1] Asi que no tengas miedo,\.  ni te sientas insegura, querida,\. porque estoy acá con vos,\. Soy tu repelente de insectos,\. ¡aunque espero no oler tan mal!\sinv[0]
+
+Min_1_24-5:
+    text: \n<TOMBOY>\sinv[1]¡EN ESTE MUNDO ENORME LLENO DE COSAS QUE SE ARRASTRAN,\. YO ESTARÉ A TU LADO!\sinv[0]
+
+Min_1_24-6:
+    text: ...Parece muy apasionada.
+
+Min_2_1-1:
+    text: Esta mujer está hablando por teléfono.
+
+Min_2_1-2:
+    text: \n<MUJER ENOJADA>¡Ahora escuchame bien! \. ¡Te dije que esto iba a pasar mañana, y estuviste de acuerdo hasta hoy!
+
+Min_2_1-3:
+    text: ...Esta mujer parece bastante alterada.\! Probablemente no deberías molestarla.
+
+Min_2_2-1:
+    text: \n<SCARLET HIME>
+
+Min_2_3-1:
+    text: \n<CHICO SIN MANGAS>Hace meses que estoy esperando a que repongan la última consola...\. pero nada.
+
+Min_2_3-2:
+    text: \n<SCHICO SIN MANGAS>Dioooos...\. ¿Por qué mi amigo tenía que querer un GAME FRIEND para su cumpleaños? \. Nunca hay stock, y cuando hay, son carísimos.
+
+Min_2_4-1:
+    text: Esta chica está mirando con entusiasmo las promociones de la película de SWEETHEART que acaba de salir...
+
+Min_2_4-2:
+    text: No has visto SWEETHEART hace años...\! No sabés si sigue siendo realmente relevante hoy en día.
+
+Min_2_5-1:
+    text: Esta chica sigue acomodándose el moño.\. Se ríe tanto que se le afloja.
+
+Min_2_5-2:
+    text: El ciclo interminable continúa....
+
+Min_2_6-1:
+    text: \n<CHICA CON PELO DECORADO>...Y entonces dije ¡No hay manera!\.Y ella dijo ¡Sí que la hay!\. Y empezamos a reírnos,\. y me reí tanto que me salió jugo por la nariz,\. y entonces-!
+
+Min_2_7-1:
+    text: \n<TRILLIZO VERDE>¡Hoy va a ser el mejor día de todos!\! ¡NAOMI y ANDRES van a jugar a la mancha conmigo, y voy a ser imparable!
+
+Min_2_7-2:
+    text: \n<TRILLIZO VERDE>¡Soy el más rápido de los tres trillizos!.\. ¡Mi mami lo dijo!\. ¡Tengo que practicar para ser corredor olímpico algún día!
+
+Min_2_7-3:
+    text: \n<TRILLIZO VERDE>¿Vos creés que puedo hacerlo, no?\. ¡Entonces mirame!
+
+Min_2_8-1:
+    text: \n<TRILLIZO AMARILLA>¡Hoy va a ser el día más genial de todos!\! ¡EVERETT y ANDRES van a trepar un árbol conmigo, y yo voy a trepar más alto que nadie!
+
+Min_2_8-2:
+    text: \n<TRILLIZO AMARILLA>¡Tengo la mayor en...\.resis\....resistencia de los tres trillizos!\. ¡Mi mami lo dijo!\. ¡Tengo que practicar para ser escalador olímpico algún día!
+
+Min_2_8-3:
+    text: \n<TRILLIZO AMARILLA>¿Podés mirarme trepar?\. ¡Me dan más ganas de subir más alto cuando alguien me mira!
+
+Min_2_9-1:
+    text: \n<TRILLIZO ROJO>¡Hoy va a ser el día más asombroso de todos!\!  ¡NAOMI y EVERETT van a jugar a las escondidas conmigo, y yo voy a quedarme escondido para siempre!
+
+Min_2_9-2:
+    text: \n<TRILLIZO ROJO>¡Puedo ser \sinv[1]muy\sinv[0] silencioso...\. si quiero! ¡Mi mami lo dijo!\! Pero no me dijo si había un deporte olímpico para eso...
+
+Min_2_9-3:
+    text: \n<TRILLIZO ROJO>¡Vos también parecés que sos silencioso!\! Tenés pinta de ser un natural.\! ¿Me das algunos consejos?
+
+Min_2_11-1:
+    text: \n<INMOBILIARA>'Es un lugar ideal para familias'...\. sí, creo que es un buen punto de venta para este complejo.
+
+Min_2_11-2:
+    text: \n<INMOBILIARAL>Esa madre y su hijo se acaban de mudar.\! Me gusta pensar que están cerca de todo lo que podrían necesitar.
+
+Min_2_12-1:
+    text: Estas chicas no parecen notarte. \!<br>...Están en medio de una conversación sobre una variedad de temas superficiales.
+
+Min_2_13-1:
+    text: \n<CHICA AZUL>¡Papá, apúrate!\! ¡La próxima vez que vengas aquí puedes pedir algo diferente!
+
+Min_2_17-1:
+    text: \n<HERMANA DE GAFAS ROSAS>\....Así que sí, a veces me duermo como a las 2 AM.\! Pero el lado positivo es que descubrí que mi sabor de café favorito es el caramelo moka
+
+Min_2_17-2:
+    text: \n<HERMANA CON HORQUILLA>Uhm, no puedo ni imaginarlo.¡Quedarse despierto tan tarde solo por la tarea!\! Al menos el café es barato, ¿no?
+
+Min_2_17-3:
+    text: Estas dos hermanas se están quejando de los chicos de la escuela.
+
+Min_2_17-4:
+    text: La hermana menor está hablando de un chico que le mostró su moco a la clase...\. Qué asco.
+
+Min_2_19-1:
+    text: ...Este hombre se ve completamente miserable.
+
+Min_2_20-1:
+    text: \n<NIÑO CON CHAQUETA ROJA>\{\Com[2]¡PAPÁ!\. ¡PAPÁ!\.\} ¿Podesmos ir a \c[11]MOVIE WORLD\c[0]?\. ¡Quiero ver los pósteres geniales de nuevo!
+
+Min_2_20-2:
+    text: \n<NIÑO CON CHAQUETA ROJA>\sinv[1]¿Por favor, por favor?\. ¿Por favor, por favor?\. ¿Por favor, por favor?\sinv[0]
+
+Min_2_21-1:
+    text: \n<NIÑO PELIRROJO>\{\Com[2]¡PAPÁ!\. ¡PAPÁ!\.\} ¿Podesmos ir a la \c[11]PARADA DE COLECTIVO\c[0] ?\. ¡Quiero saludar a todos los conductores de autobús de nuevo!\.
+
+Min_2_21-2:
+    text: \n<NIÑO PELIRROJO>\sinv[1]¿Por favor, por favor?\. ¿Por favor, por favor?\. ¿Por favor, por favor?\sinv[0]
+
+Min_2_22-1:
+    text: \n<MUJER ALTA>No me hables ahora mismo...\. estoy en un descanso temprano para almorzar.
+
+Min_2_23-1:
+    text: Este hombre ha estado mirando el menú por un rato.\. Parece que no puede decidirse...
+
+Min_2_24-1:
+    text: Este niño está esperando que su amigo termine su rompecabezas.
+
+Min_3_1-1:
+    text: Este hombre está observando atentamente a la gente pasar.\! Sus ojos se posan en ti por un segundo también.
+
+Min_3_2-1:
+    text: \n<CAMISA LLAMEANTE>Amigo...\. Es increíble cómo no importa si puedes ver las estrellas o no,\. siempre van a estar ahí...
+
+Min_3_2-2:
+    text: \n<CAMISA LLAMEANTE>De verdad quiero ir a observar las estrellas pronto...
+
+Min_3_2-3:
+    text: \n<CAMISA LLAMEANTE>as estrellas se ven realmente hermosas por la noche,\. ¿verdad?\. Miles de luces brillantes por todo el cielo....
+
+Min_3_2-4:
+    text: \n<CAMISA LLAMEANTE>¿Quieres saber la parte más loca?\.¡Toda la luz que vemos de ellas es del pasado,\. porque la luz puede tardar años en llegar hasta nosotros!
+
+Min_3_3-1:
+    text: Este niño está tratando de esconder un chicle pegajoso en su mano.\. Te está mirando el pelo con una sonrisa malvada...
+
+Min_3_4-1:
+    text: \n<ANCIANO ALEGRE>Tengo que hacer ejercicio a menudo para mantener estos viejos huesos sanos!\! Ustedes, los jóvenes, también deberían aprender los beneficios de las actividades físicas.\! ¡Son realmente gratificantes!
+
+Min_3_5-1:
+    text: Puedes oler las flores que esta persona está sosteniendo desde aquí.\. Son fuertes, pero no desagradables.
+
+Min_3_5-2:
+    text: ... Nunca te diste cuenta de que las rosas podían oler tanto.
+
+Min_3_6-1:
+    text: La mujer parada aquí está mirando todos los anuncios y descuentos frente a ella,\. leyendo cuidadosamente cada uno....
+
+Min_3_6-2:
+    text: Mamá hace lo mismo cuando va de compras.
+
+Min_3_6-3:
+    text: Está pateando la máquina expendedora cada pocos segundos.\. Parece desesperada..
+
+Min_3_6-4:
+    text: Parece que a alguien se le atascaron los bocadillos.
+
+Min_3_7-1:
+    text: \n<ADICTO AL FITNESS>He estado trabajando mucho mis bíceps últimamente.\!  ¡Siento que puedo levantar tanto como una grúa!
+
+Min_3_7-2:
+    text: \n<ADICTO AL FITNESS>Dime, chico, ¿parezco que podría levantar un par de troncos con cada brazo?
+
+Min_3_7-3:
+    text: Esta mujer está sentada en el banco,\. mirando a la nada.
+
+Min_3_8-1:
+    text: \n<DAMA CON VESTIDO AZUL>No me hagas caso.\! Solo estoy disfrutando del aire fresco mientras estoy en mi descanso.\! ¿No son bonitas las azucenas?
+
+Min_3_9-1:
+    text: \n<COLETAS ROSAS>\{\Com[2]\sinv[1]ACHOOO!!!\sinv[0]\}\. Ugh...\. Se siente como si el mundo entero estuviera conspirando para agravar mis alergias.
+
+Min_3_9-2:
+    text: \n<COLETAS ROSAS>Estupido polen,\. i¡Tiene que estar cayendo por todas partes!\. ¡Y la estúpida CLÍNICA, sin medicinas cuando las necesito!
+
+Min_3_9-3:
+    text: \n<COLETAS ROSAS>\{\Com[2]\sinv[1]ACHOOO!!!\sinv[0]\}\! Ugh...\. por que yo...
+
+Min_3_10-1: #don't use this yet
+    text: \n<MUJER ATREVIDA>Esta ciudad es como un laberinto...\! ¡Camino con mis pies adoloridos hasta la tienda de ropa,\. y hoy está cerrada!\! Centro comercial de porquería...
+
+Min_3_10-2:
+    text: \n<MUJER ATREVIDA>Hmph!\. Ahora tengo que encontrar el camino de regreso a la estación de subte...
+
+Min_3_11-1:
+    text: Estas mamás están charlado,\. pero aun así vigilan de cerca a sus hijos.
+
+Min_3_11-2:
+    text: Te preguntas cómo son capaces de concentrarse en dos cosas a la vez.
+
+Min_3_12-1:
+    text: Las gafas de esta persona son graciosas.\. Como que quieres probártelas, pero no quieres ser maleducado.
+
+Min_3_12-2:
+    text: Este hombre está mirando tranquilamente las revistas.
+
+Min_3_13-1:
+    text: Esta persona parece estar mirando a su alrededor para ver si la gente está notando su cosplay.
+
+Min_3_14-1:
+    text: \n<TIPO EDGY>\{\quake[1]ACHOOO!!!\quake[0]\}\! Mierda...\. engo cosas mejores que hacer que estar enfermo...
+
+Min_3_14-2:
+    text: \n<TIPO EDGY>\{\quake[1]ACHOOO!!!\quake[0]\}\! Urgh...\. No necesito remedios...\! puedo combatir la infección yo solo...
+
+Min_3_14-3:
+    text: \n<TIPO EDGY>\sinv[1]¿Qué miras?\. ¿Qué...\.  crees que puedes con este resfriado?\! Ni lo sueñes...\.te devorará y te escupirá..\sinv[0]
+
+Min_3_15-1:
+    text: Esta mujer está examinando minuciosamente cada producto que aparece en la máquina expendedora.
+
+Min_3_15-2: #don't use
+    text: \n<MUJER CON LÁPIZ LABIAL>Tiene un buen corazón si llegaras a conocerlo,\. pero...\. dice que ahora es "demasiado genial" para muchas cosas.\.
+
+Min_3_15-3:
+    text: \n<MUJER CON LÁPIZ LABIAL>Jarabe para la tos, té...\. ¡si no fuera "demasiado genial" para la medicina, ya lo habríamos conseguido!
+
+Min_3_15-4:
+    text: \n<MUJER CON LÁPIZ LABIAL>Apenas logré convencerlo para que viniera aquí conmigo...\! Pero insiste en que me quede afuera.\. \quake[1]Sigh...\quake[0]
+
+Min_3_16-1:
+    text: \n<NIÑA CIAN>¡Ji, ji!\. No hemos salido en muchísimo tiempo,\. hermano!
+
+Min_3_16-2:
+    text: \n<NIÑA CIAN>¿Encontraste un lugar genial para llevarme hoy?\! ¡No puedo esperar!
+
+Min_3_16-3:
+    text: \n<HOMBRE CON SUDADERA NEGRA>Ya hemos ido a todos los lugares a los que se puede ir en este sitio...\.  No te pondras triste si vamos a un lugar conocido\. ¿Verdad, Beth?
+
+Min_3_16-4:
+    text: \n<HOMBRE CON SUDADERA NEGRA>Si tan solo tuviera un mapa...\. y un coche...\. y una licencia de conducir.
+
+#same as 16
+
+Min_3_18-1:
+    text: Estas chicas no parecen notarte. \!<br>...Están en medio de una conversación sobre una variedad de temas superficiales.
+
+Min_3_19-1:
+    text: 
+
+Min_3_20-1:
+    text: No parece que quiera hablar contigo.\.  No puedes saber si su expresión es aterradora,\. o si es solo maquillaje.
+
+Min_3_21-1:
+    text: Estas personas están discutiendo lo que han hecho hasta ahora durante las vacaciones de verano.\. La pizza parece recién salida del horno.
+
+Min_3_22-1: #this line unused
+    text: \n<Chico Horquilla>¿Dona de menta o de chocolate?\. MINT-DONO es mucho mas \sinv[1]ruda\sinv[0] que CHOCO-CHAN,\. pero el chocolate sabe mejor que la menta...
+
+Min_3_22-2:
+    text: \n<Chico Horquilla>Oh,\.¿También eres fan de SWEETHEART? \! ¿Te importaría ayudarme aquí?
+
+Min_3_22-3:
+    text: \n<Chico Horquilla>¿Cuál debería elegir...\.  una dona de menta por MINT-DONO or a  o una de chocolate por CHOCO-chan?
+
+Min_3_22-4:
+    text: MENTA
+
+Min_3_22-5:
+    text: CHOCO
+
+Min_3_22-6:
+    text: FRESA POR SWEETHEART
+
+Min_3_22-7:
+    text: \n<Chico Horquilla>MENTA...\. Sí, ¡estoy seguro de que tienes razón!\! MINT-DONO es más \sinv[1]ruda\sinv[0] que CHOCO-CHAN.
+
+Min_3_22-8:
+    text: \n<Chico Horquilla>CHOCO...\. Sí, ¡estoy seguro de que tienes razón!\!  El chocolate sabe mejor que la menta, después de todo.
+
+Min_3_22-9:
+    text: \n<Chico Horquilla>Huh...\. SWEETHEART?\! ¿De verdad te gusta tanto?
+
+Min_3_22-10:
+    text: \n<Chico Horquilla>Digo, se supone que es la protagonista y todo eso...\! pero... ¿Ella no es un poco insoportable a veces?"
+
+Min_3_23-1:
+    text: Este hombre parece preocupado, por alguna razón.
+
+Min_3_24-1:
+    text: \n<CHICA CON MOÑO>Oye, ¿sabes qué les gusta hacer a los adultos en su tiempo libre?
+
+Min_3_24-2:
+    text: \n<CHICA CON MOÑO>Mi tío me trajo porque mamá está ocupada...\.  Pero él parece tan aburrido solo sentado ahí....
+
+Min_3_24-3:
+    text: \n<CHICA CON MOÑO>Tal vez si hiciéramos algo que a él le gusta hacer, pasaria mas tiempo conmigo!
+
+Min_4_1-1:
+    text: \n<CHICO TORTOLO>¡Jajaja!\. ¡Mira a mi novia! ¿No es genial?
+
+Min_4_1-2:
+    text: \n<CHICO TORTOLO>¡Nos vamos a casar algún día!
+
+Min_4_2-1:
+    text: \n<MUJER FELIZ>Aren't these apples \sinv[1]perfectly\sinv[0] in season?
+
+Min_4_2-2:
+    text: \n<MUJER FELIZ>No puedo esperar a llegar a casa y hornear un \sinv[1]delicioso\sinv[0] pastel para mis pequeños~
+
+Min_4_2-3:
+    text: \n<MUJER FELIZ>Ah, ¿has visto a mis hijos? Están esperando justo afuera en el vestíbulo.
+
+Min_4_2-4:
+    text: \n<MUJER FELIZ>Estoy segura de que la están pasando genial con mi esposo mientras esperan.\! Siempre están tan emocionados de ir a cualquier parte con su padre, ¿sabes?
+
+Min_4_2-5:
+    text: \n<MUJER FELIZ>Mi esposo también adora a nuestros hijos...\. ¡Siempre se ve tan feliz cuando los está mirando!
+
+Min_4_2-6:
+    text: ...Esta señora sigue hablándole a nadie en particular.
+
+Min_4_3-1:
+    text: \n<HOMBRE DISTRAÍDO>Uhhh....\!¿Cuáles quería tu mamá que compráramos de nuevo?
+
+Min_4_3-2:
+    text: \n<CHICA CON COLA DE CABALLO>¡Dios, papá...\. ¿Alguna vez prestas atención?
+
+Min_4_3-3:
+    text: \n<CHICA CON COLA DE CABALLO>Ella quería...\. Tres cartones de leche,\. una bolsa mediana de azúcar,\. y cinco racimos de uvas.
+
+Min_4_3-4:
+    text: \n<HOMBRE DISTRAÍDO>Claro, claro...\! ¿Dónde estaban esos de nuevo?
+
+Min_4_5-1:
+    text: Este hombre parece paralizado por la elección.
+
+Min_4_6-1:
+    text: \n<MUJER CRUEL>\Com[2]¿Dónde está el gerente por aquí?\. ¡Disculpe, pedí hablar con el gerente!
+
+Min_4_6-2:
+    text: \n<MUJER CRUEL>Honestamente, el servicio al cliente en este lugar es \quake[1]patético\quake[0].\!<br>!Ustedes acaban de perder un cliente!"
+
+Min_4_6-3:
+    text: ...La mujer sigue echando humo.\. Quizás no deberías acercarte demasiado...
+
+Min_4_7-1:
+    text: \n<CHICO POBRE>\}Perdon...\. Perdon...\. Perdon...
+
+Min_4_7-2:
+    text: \n<CHICO POBRE>Mamá...\. ¿Podemos irnos a casa ya?
+
+Min_4_8-1:
+    text: Este hombre está evaluando cada pieza de carne con extremo cuidado.\! Debe ser un experto.
+
+Min_4_9-1:
+    text: Este niña está comprando completamente sola.\. ¿Quizás está haciendo un recado?\!<br> ...Te sientes un poco impresionado.
+
+Min_4_10-1:
+    text: Esta mujer está tarareando mientras hace las compras.
+
+Min_4_13-1:
+    text: Estas mujeres están planeando un viaje.\.  Están hablando de la playa.
+
+Min_4_13-2:
+    text: \n<CHICA>Oye,\. ¿has visto a mi papá por ahí?\! ¡Es oficial de policía, sabes!
+
+Min_4_13-3:
+    text: \n<CHICA>Estoy esperando a que termine su turno para poder sorprenderlo.
+
+Min_4_13-4:
+    text: Esta chica parece feliz...\. Y un poco hiperactiva..
+
+Min_4_11-1:
+    text: Esta mujer sigue mirando de reojo a la MUJER RUBIA.\!<br> ...No parece tener mucho interés en las compras.
+
+Min_4_12-1:
+    text: \n<TIPO PROFUNDO>\sinv[1]Ummm...\. debería pintar el interior de mi habitación de negro...\. para que sea del mismo color que mi corazón...
+
+Min_4_12-2:
+    text: \n<CHICA EMO>\sinv[1]That's so deep...
+
+Min_4_15-1:
+    text: \n<NIÑO CON REMERA AMARILLA>Me gustan los rompecabezas de arena.
+
+Min_4_16-1:
+    text: \n<ABUELO>Ooohhhh...\. ¿Vinimos en el momento adecuado?\. ¿Llegamos demasiado temprano\. demasiado tarde?
+
+Min_4_16-2:
+    text: \n<ABUELA>Vamos,\. cariño,\. nuestro hijo nos envió un mensaje de texto diciendo que llegará pronto.\! No te preocupes tanto,\. jejeje!
+
+Min_4_16-3:
+    text: Esta pareja de ancianos está teniendo un reencuentro conmovedor con su hijo...\. Parece que no se han visto en mucho, mucho tiempo. 
+
+#same as 16
+
+Min_4_18-1:
+    text: Estos dos chicos están disfrutando de una pizza de pistacho.
+
+Min_4_19-1:
+    text: \n<VESTIDO ESPONJOSO>Sigh...\. Supongo que no va a venir...
+
+Min_4_20-1:
+    text: \n<HOMBRE CON CAMISA CIAN>Ni idea de por qué mi hija no está subiéndose a las barras paralelas,\. pero al menos se está divirtiendo.
+
+Min_4_21-1:
+    text: Esta mujer está mirando todos los sabores de algodón de azúcar.
+
+Min_4_21-2:
+    text: Vainilla, fresa, sabor azul misterioso...\! <br>¡Qué elección tan desconcertante!
+
+Min_4_21-3:
+    text: ...Esta mujer sigue mirando los diferentes sabores después de todas estas horas.
+
+Min_4_21-4:
+    text: Casi quieres sugerirle el sabor a fresa
+
+Min_4_23-1:
+    text: \n<CHICA TORTOLA>¡Oye!\. ¡Mira a mi novio!\. ¿No es genial?
+
+Min_4_23-2:
+    text: \n<CHICA TORTOLA>¡Vamos a vivir juntos en una casa para siempre algún día!
+
+Min_4_24-1:
+    text: \n<REMERA CON LOGO>Deberíamos conseguir 'INVASION OF THE ZOMBIE SUKEBANS' para nuestra pijamada.\. ¡He oído que es un thriller de terror como nunca has visto!
+
+Min_4_24-2:
+    text: \n<CAMISA RAYADA>No sé, JACK, quiero ver algo tonto esta noche.
+
+Min_4_24-3:
+    text: \n<CAMISA RAYADA>Escuche que 'THE CANDY DIVA AND THE SHOWBIZ GHOST' es bastante divertida.\! ¡Es un musical!
+
+Min_4_24-4:
+    text: \n<REMERA CON LOGO>Podemos ver un musical cualquier día, KYLE.\! Pero ¿ver una película de terror sobre colegialas delincuentes?\. Eso sí que es una \sinv[1]experiencia\sinv[0]!
+ 
+Min_4_24-5:
+    text: \n<CAMISA RAYADA>JACK, sé honesto...\! Solo crees que todas las colegialas se ven lindas, ¿verdad?
+#skip here?
+
+Min_4_24-6:
+    text: \n<REMERA CON LOGO>¡Juro que lo tenía en mi bolsillo!....
+
+Min_4_24-7:
+    text: \n<CAMISA RAYADA>¡Vamos, JACK!\. ¡Quiero ver la película!
+
+Min_4_24-8:
+    text: \n<REMERA CON LOGO> Lo sé, lo sé,\. ¡Solo dame un minuto!
+
+#same as 4_24
+
+Min_5_4-1:
+    text: \n<CAMISA RAYADA>¡Esta película es increíble!\. Un hombre construyendo una bomba para salvar a su país\! La historia...\. la actuación...\! ¡Es perfecta!
+
+Min_5_4-2:
+    text: \n<CAMISA RAYADA>¡Está tan bien hecha,\. que casi te hace pensar que realmente sucedió!
+
+Min_5_8-1:
+    text: \n<VESTIDO CON CAPUCHA>En la escuela sigo viendo folletos de un cierto club de cine.\! Están por todas partes... 
+
+Min_5_8-2:
+    text: \n<VESTIDO CON CAPUCHA>En la biblioteca...\. en los casilleros...\. en los tachos de basura...\! ¡A veces en el baño!
+
+Min_5_8-3:
+    text: \n<VESTIDO CON CAPUCHA>¡Deben estar desesperados por nuevos miembros!
+
+Min_5_8-4:
+    text: Esta chica está silenciosamente mirando las películas. Mejor no molestarla.
+
+Min_5_9-1:
+    text: Este tipo parece estar esperando a que todos los demás den el primer paso.
+
+Min_5_9-2:
+    text: Este hombre está reclinado en su silla, mirando al vacío.
+
+Min_5_9-3:
+    text: Este hombre parece que no puede esperar para agarrar y tragarse su bebida.
+
+Min_5_9-4:
+    text: Esta señora parece muy cansada,\. pero la sonrisa en su rostro es suave y dulce.
+
+Min_5_9-5:
+    text: \n<HOMBRE CON CARA DE BEBE>¡Te tengo una sorpresa una vez que terminemos aquí!\. Tendrás que ver qué es más tarde, ¡jeje!
+
+Min_5_9-6:
+    text: Este hombre tiene una sonrisa relajada en su rostro.\! Parece relajado.
+
+Min_5_9-7:
+    text: \n<RAYAS MORADAS>Dios,\. apestas a café,\! ¿Cómo aguantas ese olor todo el día?
+
+Min_5_9-8:
+    text: ...Este tipo no dice nada mientras intenta ignorarte.
+
+Min_5_9-9:
+    text: <CHICO SARCÁSTICO>Oye, tú.\. ¿Podrías retroceder un poco?\. Estás en mi espacio personal.
+
+Min_5_14-1:
+    text: Esta mujer está cuidando las macetas.
+
+# ======== WORKING Based NPCs ========
+Cafe_1-1:
+    text: \n<NAME>I am stuff!
+
+Cafe_1-2:
+    text: \n<NAME>I am stuff too!
+
+Gro_1-1:
+    text: \n<EMPLOYEE>\{\sinv[1]¡Asegúrate de ver nuestras frutas frescas! \.<br>¡Están de temporada y en su mejor momento!\. 
+
+Gro_1-2:
+    text: \n<EMPLOYEE>\{\sinv[1]¡20% de descuento en bebidas y alimentos enlatados! \.<br>¡Solo por hoy!
+
+Gro_1-3:
+    text: \n<EMPLOYEE>\{\sinv[1]¡Productos frescos, 100% orgánicos! \.<br>¡Obtenidas directamente de granjas locales!
+
+Gro_1-4:
+    text: \n<EMPLOYEE>\{\sinv[1]¡Carnes y pescados frescos!\.<br¡Elija su favorito, elija su favorito!
+
+Gro_2-1:
+    text: \n<EMPLOYEE>Señora,\. sigo diciéndole que necesita su recibo para obtener un reembolso, y...
+
+Gro_2-2:
+    text: El empleado todavía está discutiendo con la señora.\. Se lo ve cansado.
+
+Gro_2-3:
+    text: El empleado del supermercado está chusmeando películas de fantasía.
+
+Gro_3-1:
+    text: Este empleado se ve aburrido.
+
+Gro_4-1:
+    text: El encargado parece estar tomándose un descanso.
+
+# ======== REFERENCE Based NPCs ========
+Ref_1_1-1:
+    text: \n<CHICA DE ASPECTO TÍMIDO>¡Wow, galletitas!
+
+Ref_1_1-2:
+    text: \n<CHICA DE ASPECTO TÍMIDO>Mi tía iba a hornear algunas hoy...\! ¿Compramos un frasco?
+
+Ref_1_1-3:
+    text: \n<CHICA ENERGÉTICA>¿Te gustan las galletitas?
+
+Ref_1_1-4:
+    text: \n<CHICA DE ASPECTO TÍMIDO>Sí, pero mis favoritas son las que tienen chispas de chocolate
+
+Ref_1_1-5:
+    text: \n<CHICA ENERGÉTICA>Bueno a mí me gustan las blandas.
+
+Ref_1_1-6:
+    text: \n<CHICA DE ASPECTO TÍMIDO>Huh?\! ¿Galletitas blandas?
+
+Ref_1_1-7:
+    text: \n<CHICA DE ASPECTO TÍMIDO>\}Las galletitas son mejores cuando están crocantes
+
+Ref_1_3-1:
+    text: \n<CHICA CON GORRITO>...Ah, hola.\.  Sos el chico nuevo que se mudó hace un tiempo.\. Veo que por fin saliste a dar una vuelta.
+
+Ref_1_3-2:
+    text: \n<CHICA CON GORRITO>¿La ciudad te dio miedo o algo?
+
+Ref_1_3-3:
+    text: \n<CHICA CON GORRITO>Ugh...\.  la verdad,\. los alquileres están carísimos hoy en día...
+
+Ref_1_3-4:
+    text: \n<CHICA CON GORRITO>Menos mal que no necesito alquilar películas...\.jejeje.
+
+Ref_1_7-1:
+    text: Esta chica está mirando con cuidado los CDs de música electrónica.
+
+Ref_1_7-2: #don't use this line
+    text: ...She looks as though this is her first time going outside in months.
+
+Ref_1_4-1:
+    text: \n<MUJER CON CORTE RECTO>¡Hola!\. Bienvenido a la \c[11]ESTACIÓN DE POLICÍA\c[0].
+
+Ref_1_4-2:
+    text: \n<MUJER CON CORTE RECTO>¿Tiene algún asunto con el comisario? \. Si es así,\. por favor llame de 8 a 11 de la mañana.
+
+Ref_1_8-1:
+    text: Este chico está sentado solo en el banco.
+
+Ref_1_8-2:
+    text: Tiene la cara apática...\. pero con un toque de melancolía.
+
+# ======== POLICE AND CONSTRUCTION ======== is this a quest? Please finish. / no - sushi
+#police
+Pac_1-1:
+    text: \n<OFICIAL>¡Oh!\. ¡No te esperaba acá!\! ...¿Estuviste esperando acá afuera todo el día?
+
+Pac_2-1:
+    text: \n<OFICIAL>Hoy en dia no recibimos muchos reportes serios,\. pero sí un montón de reportes por grafitis.\. ¡Se ve que hay un montón de vándalos!
+
+Pac_3-1:
+    text: 
+
+Pac_4-1:
+    text: 
+#extra: movers
+
+Pac_5-1-1:
+    text: Este señor tiene cara de que no quiere cargar todas esas cajas.
+
+Pac_5-2-1:
+    text: \n<EMPLEADO DE MUDANZAS>¡Oye,chico!\! Intentá no acercarte mucho cuando empecemos a mover las cosas,\. ¿sí?
+
+Pac_5-2-2:
+    text: \n<EMPLEADO DE MUDANZAS>Estaremos listos y fuera de acá para la tarde/noche, ,\. así no nos ves las caras de bobos por mucho tiempo,\. ¡jaja!
+
+#construction
+
+Pac_5-1:
+    text: 
+
+Pac_6-1:
+    text: 
+
+Pac_7-1:
+    text: 
+
+Pac_8-1:
+    text: Este señor se ve cansado,\. y también muy aburrido.\. Probablemente está en su hora de almuerzo.
+
+Pac_9-1:
+    text: 
+
+#BAKERY
+
+Bak_1_1:
+    text: ...No tienes ganas de donas ahora mismo.
+
+Bak_2_1:
+    text: \n<ANFITRIÓN PANADERO> Hola y bienvenido a HENRY'S BAKERY!\. Estamos con una promoción especial inspirada en la franquicia SWEETHEART.\. ¡No dudes en probar nuestras nuevas donas!
+
+Bak_3_1:
+    text:
+
+Bak_3_2:
+    text: Parece que esos dos acaban de terminar su turno. Se ven bastante agotados.
+
+Bak_4_1:
+    text: 
+
+#Security
+
+Sec_1-1:
+    text: \n<TIPO DE SEGUIRDAD>¡Je, je, je!\. ...¿Qué necesitas, chico?\. ¿Te perdiste?\. ¿Tu mamá se fue de compras y se olvidó de ti?
+
+Sec_1-2:
+    text: \n<TIPO DE SEGUIRDAD>...Ehh,\. Eso fue malo de mi parte.\. Disculpa. 
+
+Sec_2-1:
+    text: \n<HOMBRE DE SEGUIRDAD>¿Qué querés?\. ¿Estás viendo bien con ese ojo?\.  Es fácil tropezarse por acá,\. ¿sabés?
+
+Sec_2-2:
+    text: \n<HOMBRE DE SEGUIRDAD>¿Qué?\. No me culpes a mí,\.  vos sos el que tiene un parche en el ojo.
+
+Sec_3-1:
+    text: \n<MUJER DE SEGUIRDAD>Veo a un montón de chicos deambulando por acá todos los días.\.Generalmente vienen en grupo,\. pero vos estás solo...
+
+Sec_3-2:
+    text: \n<MUJER DE SEGUIRDAD>¿No viniste con un amigo?\. ¿Tu mamá está en casa?\. ¿Viniste solo de compras?
+
+Sec_3-3:
+    text: \n<MUJER DE SEGUIRDAD>En fin,\. no es mi trabajo meterme.\. Tené cuidado.\. Para eso estamos acá.
+
+# ======== CUTSCENE Based NPCs ========
+Cut_1-1:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>Ahí estás...\. ¿Terminaste lo que tenías que hacer acá?
+
+Cut_1-2:
+    faceset: RV_Bowen
+    faceindex: 8
+    text: \n<BOWEN>Nosotros también terminamos lo nuestro...\! Fue...\. revelador...
+
+Cut_1-3:
+    faceset: RV_Daphne
+    faceindex: 5
+    text: \n<DAPHNE>Así que...\. ¿Estás listo para cenar con nosotros?
+
+#If yes
+
+Cut_1-4:
+    faceset: RV_Daphne
+    faceindex: 7
+    text: \n<DAPHNE>Excelente...\.  Entonces, permítannos acompañarte
+
+#if no
+
+Cut_1-5:
+    faceset: RV_Daphne
+    faceindex: 0
+    text: \n<DAPHNE>Entendemos...\. Por favor, volvé cuando estés listo.
+
+Cut_2-1:
+    text: \n<CHICA CONOCIDA>...Y resulta que ella era en realidad la amiga de la infancia del CAPT. SPACEBOY, pero los malos le lavaron el cerebro, así que no se acuerda de él, y entonces...
+
+Cut_2-2:
+    text: Esta chica está ocupada monologando con sus amigos.\. No te nota.
+
+# ======== SITTING NPCs ========
+
+Sit_1_1-1:
+    text: \n<GENIO DE LA TV>¡Podría pasarme todo el día viendo 'Misterios de las Siete Pirámides',\. pero toca esperar un nuevo episodio.  ¿Y ahora qué hago...?
+
+Sit_1_1-2:
+    text: \n<REMERA VERDE AGUA>¡Acabo de grabar una temporada entera en mi súper DVR nuevo!\.¡Deberías venir a verla conmigo! 
+
+Sit_1_1-3:
+    text: \n<GENIDEO DE LA T.V>¿Flores?\. ¡Seguro hay un programa de televisión sobre eso...!...\. ¡Lo voy a buscar en la guía de TV!
+
+Sit_1_1-4:
+    text: \n<REMERA VERDE AGUA>...Paul\....\. no es lo que quise decir.... 
+
+Sit_1_1-5:
+    text: \n<REMERA VERDE AGUA>¡Acabo de grabar una temporada entera en mi súper DVR nuevo! Y después voy a oler las flores...¡deberías venir conmigo!
+
+Sit_15-1:
+    text: \n<HOMBRE PELIRROJO>Capaz estas bebidas no serían tan caras si no les metiéramos tanto...
+
+Sit_16-1:
+    text: Estos dos están hablando de la escuela.\. Dramas,\.  tareas difíciles,\. todo tipo de cosas.
+
+Sit_18-1:
+    text: Está disfrutando su café en silencio.
+
+Sit_19-1:
+    text: \n<TIPO CON PANTALONES GRISES>¡Pero lo extra es lo que lo hace tan rico!
+
+Sit_22-1:
+    text: Este tipo está comiendo su dona despacio..
+
+Sit_23-1:
+    text: \n<CHICA CON VINCHA> ¿Por qué las bebidas más sabrosas son siempre las más caras...?
+
+Sit_8-1:
+    text: \n<FRIZZ MORADO>Tus albóndigas se ven riquísimas...\! ¿Me convidás un pedacito nada más?\. \sinv[1]¿Por favor, por favor?\sinv[0]
+
+Sit_8-2:
+    text: \n<CHICO DESPEINADO>¡De ninguna manera!\. ¡La última vez también me robaste los fideos!...
+
+Sit_8-3:
+    text: \n<FRIZZ MORADO>Dale, \quake[1]por favoooor\quake[0]!\. Te doy un poco de mi ensalada.
+
+Sit_8-4:
+    text: \n<CHICO DESPEINADO>No te doy mis albóndigas por unas miserables hojas.
+
+Sit_8-5:
+    text: \n<FRIZZ MORADO>Hmph, está bien...\! ¡Pero yo tampoco te comparto más mi comida!
+
+#Same with 9
+
+Sit_10-1:
+    text: Esta pareja está comiendo su comida en total silencio.
+
+#Same with 11
+
+Sit_12-1:
+    text: Este hombre parece estar esperando a alguien.\!<br>Se ve que tiene hambre...
+
+Sit_13-1:
+    text: Esta mujer está totalmente inmersa en su libro.
+
+Bench_1-1:
+    text: \n<HOMBRE CON BUZO>Creo que tenías razón sobre ir de picnic,\. ¡al final no fue tan cursi!
+
+Bench_1-2:
+    text: \n<HOMBRE CON BUZO>Definitivamente mejor que quedarse encerrado en tu cuarto todo el día.
+
+Bench_1-3:
+    text: \n<CAMISA DE BALONCESTO>¡Te lo dije!\! Además, ¡siempre está bueno pasar el rato con amigos!
+
+Bench_2-1:
+    text: 
+
+Bench_3-1:
+    text: Esta chica está viendo a todos divertirse con desgano.\! Parece que no le da la energía para sumarse a jugar.
+
+Bench_4-1:
+    text: \n<CHICA CON MOÑO ROJO>¿Alguna vez fuiste a \c[11]MOVIE MARKET\c[0],\. Lynn?\. ¡Realmente deberíamos ir y alquilar una película!\.  Están haciendo una promoción de SWEETHEART.
+
+Bench_4-2:
+    text: \n<CHICA CON MOÑO ROJO>¿Podés creer que hicieron una película nueva después de tantos años?
+
+Bench_4-3:
+    text: \n<CHICA CON SHORTS RAYADOS>Ehhh, no sé.\.  Yo prefiero CAPT. SPACEBOY.
+
+Bench_4-4:
+    text: \n<CHICA CON SHORTS RAYADOS>\c[11]MOVIE WORLD\c[0] Tambien esta haciendo una promoción,\. pero con el.\! ¿Quizás podríamos ver las dos películas?
+
+Bench_4-5:
+    text: \n<CHICA CON MOÑO ROJO>Hmm...\. Okay!
+
+##Same with 5
+
+Bench_6-1:
+    text: Estos dos hombres están teniendo una discusión bastante acalorada sobre la mejor compañía de fabricación de celulares.\. RasBerry parece estar ganando.
+
+##Same with 7
+
+Bench_11-1:
+    text: Esta mujer le está dando un mordisco a una dona con glaseado de frutilla... 
+
+Bench_11-2:
+    text: Por alguna razón,\. te hace acordar a alguien.
+
+Bench_12-1:
+    text: \n<ESTUDIANTE CON COLA>Este ensayo es \sinv[1]abuuuuuuurido...\sinv[0]\! ¿A quién le interesa escribir mil palabras sobre el significado de la buena vida o esas cosas?
+
+Bench_12-2:
+    text: \n<ESTUDIANTE CON RULOS>Es una pregunta interesante, igual...\! ¿Llevar una vida de deseos instintivos es una buena vida,\. o hay un significado más elevado?
+
+Bench_12-3:
+    text: \n<ESTUDIANTE CON COLA>Ugh...\. Necesito un descanso de esto...
+
+Bench_12-4: #don't use this for now
+    text: \n<ESTUDIANTE CON RULOS>¿Son tus contribuciones al mundo,\. o es lo que no le hiciste al mundo?\. Podes seguir y seguir...
+
+#same as above
+
+Bench_14-1:
+    text: Esta chica se está comiendo su dona muy rápido.
+
+Bench_14-2:
+    text: A diferencia de su amiga,\. a ella no parece importarle todas las donas.
+
+Bench_15-1:  #que carajos es pixie ?? como las hadas un corte ??
+    text: \n<HOMBRE PIXIE>Echo de menos cuando en este lugar vendían otras cosas...\! ¡ahora solo hay donas!
+
+Bench_15-2:
+    text: \n<HOMBRE PIXIE>Sé que es por una promoción,\. pero ¿era necesario reemplazar todo el menú con donas?
+
+Bench_16-1: #how we feeling about this one boys
+    text: Esta chica tiene el pelo súper loco,\. con amarillo y naranja en la parte de arriba...
+
+Bench_16-2:
+    text: Te hace acordar a un huevo cocinándose.
+
+Bench_17-1:
+    text: La chica que estaba afuera de la panadería antes está sentada con una amiga,\. comiendo donas y riéndose...
+
+Bench_17-2:
+    text: Se la ve que la está pasando genial.
+
+Bench_17-3:
+    text: Una chica está parada afuera de la panadería.\!  Parece estar esperando a alguien...
+
+Bench_18-1:
+    text: La chica que viste antes está comiendo donuts felizmente sola...\. Se la ve mucho más despreocupada que cuando la viste por primera vez.
+
+Bench_19-1:
+    text: \n<HOMBRE CALVO> Me alegra que hayamos podido hacer esto antes de que te vayas a la facultad,\. ¡Te esperan muchísimas aventuras nuevas! \. ¿No estás emocionada?
+
+Bench_19-2:
+    text: \n<HIJA TÍMIDA> No grites tan fuerte, papá...\! ISupongo que sí estoy un poco emocionada,\. pero también estoy muy nerviosa por todo esto.
+
+Bench_19-3:
+    text: \n<HOMBRE CALVO>¡No estés nerviosa,\. te va a ir bien!\! Estoy seguro de que la vas a pasar increíble...\. ¡Yo la pasé así!
+
+Bench_19-4:
+    text: \n<HIJA TÍMIDA> Estoy segura de que vos te divertiste con toda la fiesta \sinv[1]fiesta\sinv[0] que hiciste...\. No sé si yo tengo la energía para eso.
+
+#same as above
+
+Bench_21-1: #is this a quest? It's weird, don't use this. realmente espero que este no se haya usado
+    text: \n<NIÑO RARO>Oye, mocoso...\. La gente genial como yo normalmente no viene por aquí....\. ¡No viste nada!
+
+Bench_21-2:
+    text: \n<NIÑO RARO>Soy peligroso,\. entendido...\. Así que deberías alejarte ahora mismo...
+
+Bench_21-3: #Don't use
+    text: \n<NIÑO RARO>Bien hecho por contárselo a toda esa gente...\.  Lo dejaré pasar...\. por ahora...
+
+Bench_22-1:
+    text: Este chico y esta chica están hablando de lo que harán en la universidad..\! Deben ser hermanos.
+
+Sit_3-1-1:
+    text: \n<MUSCULOSA MORADA>¡Tantos videojuegos y ni un solo juego de mesa a la vista,\. ni siquiera ajedrez!\. ¡¿Qué pasa con eso?!
+
+Sit_3-1-2:
+    text: \n<MUSCULOSA MORADA>Creí que vendían juegos reales....
+
+Sit_3-3-1:
+    text: \n<BARBA BLANCA>Ahhhh,\.  nada como un dulcecito rico,\. y relajante para terminar el día,\. ¿eh?
+
+Sit_3-7-1:
+    text: Esta pareja parece estar hablando de sus películas favoritas. 
+
+Sit_3-7-2:
+    text: \n<NOVIA>¡Qué lindas están las estrellas esta noche!
+
+Sit_3-7-3:
+    text: \n<NOVIO CON ANTEOJOS>Sí...¿Sabes qué otra cosa es bonita?
+
+Sit_3-7-4:
+    text: \n<NOVIA>Jeje,\. ¿Qué?
+
+Sit_3-7-5:
+    text: \n<NOVIO CON ANTEOJOS>¡Esta roca genial que encontré en el piso!
+
+Sit_3-7-6:
+    text: \n<NOVIA>.....Sabes qué,\. Esa roca es muy bonita.
+
+Sit_3-10-1:
+    text: La chica delante tuyo está contando chistes sobre un oso amarillo...
+
+Sit_3-10-2:
+    text: Vos no lo entendés,\. pero a su amiga le da muchísima gracia.
+
+Sit_3-11-1:
+    text: \n<TIPO GYM>La gente en el gimnasio me pregunta qué como para mantenerme en forma todo el tiempo,\. y estoy más que feliz de contarles sobre mis bocadillos saludables favoritos para su camino fitness!
+
+Sit_3-11-2:
+    text: \n<TIPO GYM>Dicho eso...\. no me puedo resistir cuando veo una dona. Simplemente...\. la perfección glaseada.
+
+Sit_3-13-1:
+    text: Este señor se ve aburrido mientras come su sánguche.
+
+#--SHOP FLAVORS
+
+Sho_1-1:
+    text: \n<PANCHERO>Todo el mundo sabe,\.sabe que un pancho bien cargado después de un día de diversión es lo mejor para recuperar energías!\. <br ¡Vamos,\. tomá un pancho!
+
+Sho_2-1:
+    text: \n<VENDEDORA DE ALGODÓN DE AZÚCAR>¡Es el dulce insuperable!\. Probá un algodón de azúcar,\. ¡son el mejor dulce que hay!
+
+Sho_3-1:
+    text: \n<HELADERO>Qué calor infernal hace afuera,\. ¿viste?\. Menos mal que tengo helado para vender,\. ¿eh?\. ¿Qué me decís?
+
+Sho_4-1:
+    text: \n<CAJERO DE TACO >Burritos!\. Grandes,\. ¡Burritos de carne bien cargados!\. Oh, y tacos tambien,\. ¡Esos no pueden faltar!
+
+Sho_5-1:
+    text: \n<CAJERO DE THAI FOOD >Vení a probar nuestro curry rojo,\. prometo que no te va a quemar la lengua!
+
+#---QUESTS---
+
+#Business owner por que pasa de hombre a empresario (?)
+
+Quest_1-1:
+    text: \n<HOMBRE>¡Oh!\.¡Hola, chico!
+
+Quest_1-2:
+    text: \n<HOMBRE>Estoy buscando una nueva ubicación para abrir mi restaurante,\.  ¡y este lugar parece perfecto! En una zona residencial,\. cerca de un parque,\. un centro comercial y un estacionamiento...
+
+Quest_1-3:
+    text: \n<EMPRESARIO>El único problema es que los grafitis por acá arruinan la zona,\.  sin mencionar la basura...
+
+Quest_1-4:
+    text: \n<EMPRESARIO>Decime,\. ¿Te interesaría un trabajito de limpieza de grafitis? \.Los jóvenes como vos tienen mucho tiempo libre.\. Te voy a pagar una cantidad de dólares apropiada.\.
+
+#Yes
+
+Quest_1-5:
+    text: \n<EMPRESARIO>¡Genial!\.Cuando los hayas limpiado todos,\.  vení a buscarme.\! Voy a estar acá parado todo el día.
+
+Quest_1-6:
+    text: \n<EMPRESARIO>Ah, por cierto,,\. ¡no limpies los dibujos de tiza de los chicos!\! Se pueden poner tristes.\. Si no los podés distinguir de los grafitis,\. acordate que son de colores pastel.
+
+#No
+
+Quest_1-7:
+    text: \n<EMPRESARIO>No te culpo,\. ¡Hay cosas mucho más entretenidas para hacer,,\. jaja!\.  Si cambiás de opinión, aquí voy a estar.
+
+#Back after no
+
+Quest_1-8:
+    text: \n<EMPRESARIO>Ey,\. ¡vos de nuevo!\. ¿Cambiaste de opinión con la oferta?
+
+#Talk while there are still graffittis
+
+Quest_1-9:
+    text: \n<EMPRESARIO>Cuando hayas limpiado todos los grafitis, vení a buscarme. Están por toda la ciudad, ¡Así que asegurate de no saltearte ninguno por accidente!
+
+#Quest finished
+
+Quest_1-10:
+    text: \n<EMPRESARIO>¡La ciudad se siente mucho más limpia!\! ¡Muchísimas gracias\. chico!.\! Esta nueva ubicación para mi restaurante va a ser un éxito total.
+
+Quest_1-11:
+    text: \n<EMPRESARIO>¡Acá tenés tu paga!\. Por ahí date una vuelta por esos videoclubes.\. Agarrate algo que realmente te vuele la imaginación.\. ¡Cuanto más caro, mejor,\. es lo que siempre digo!
+    
+Quest_1-14:
+    text: ¡Obtuviste 15.00$!
+
+#After quest
+
+Quest_1-12:
+    text: \n<EMPRESARIO>¡Mil gracias por la ayuda, chico! ¡Nos vemos!
+
+Quest_1-13:
+    text: Perdiste \c[4]PRODUCTOS DE LIMPIEZA\c[0].
+
+#Trash collecting
+
+Quest_2-1:
+    text: \n<CHICA ÁRBOL>¡Oye!\. ¡Tú ahí!
+
+Quest_2-2:
+    text: \n<CHICA ÁRBOL>Vos viste toda la basura que hay por esta ciudad, ¿no?\. Asqueroso,\. ¿verdad?
+
+Quest_2-3:
+    text: \n<CHICA ÁRBOL>¡Así que trae cualquier basura que encuentres para acá! \! ¡Dale,\. ayudemos al mundo de a un paso a la vez!
+
+#GiveTrash
+
+Quest_2-4:
+    text: \n<CHICA ÁRBOL>¡Bien ahí!\. ¡Me trajiste basura!
+
+Quest_2-5:
+    text: \n<CHICA ÁRBOL>¡Acá tenés algo, amigo! ¡Gracias por la ayuda!
+
+# Kids and their ball
+
+Quest_3-1:
+    text: \n<CHICO DE POLO VERDE>¡¿Por qué le pegaste tan fuerte a la pelota,\. SAM?!\. ¡Ahora no sabemos ni dónde está!
+
+Quest_3-1-2:
+    text: \n<CHICA DE TRENCITAS RUBIA>Me dio muchísima bronca que hayamos perdido y...\. Uh...
+
+Quest_3-1-3:
+    text: \n<CHICA DE TRENCITAS RUBIA>Perdon...
+
+Quest_3-1-4:
+    text: \n<CHICO CON REMERA NUMERADA>Aww...\. ¿A dónde fue...?
+
+Quest_3-1-5:
+    text: \n<CHICO CON REMERA NUMERADA>Oiga señor,\. ¿Nos ayuda a encontrar nuestra pelota de fútbol?\! Es tipo,\. blanca y redonda.\. También tiene unas manchas negras.\.  Creo que fue para allá,\. para la plaza..
+
+Quest_3-2:
+    text: \n<CHICO CON REMERA NUMERADA>¡Bárbaro!\. Te esperamos acá mientras lo vas a buscar.
+
+# Move this? (ball flavor text 3 - 6)
+Quest_3-3:
+    text: Una pelota solitaria y descartada.
+
+Quest_3-4:
+    text: Esta podría ser la pelota que estaban buscando los chicos. ¿La agarro?
+
+# Replace color?
+Quest_3-5:
+    text: Obtuviste \c[4]PELOTA\c[0].
+
+Quest_3-6:
+    text: \n<CHICO CON REMERA A RAYAS>Bueno, no importa entonces.,\.Vamos a tener que buscar a otro...\. ¡Gracias de todos modos!
+
+Quest_3-7:
+    text: \n<CHICA DE TRENCITAS RUBIA>¿Esta es nuestra pelota?
+
+Quest_3-8:
+    text: ¿Darles la \c[4]PELOTA\c[0]?
+
+Quest_3-9:
+    text: \n<CHICA DE TRENCITAS RUBIA>Yippee!\. ¡Gracias!
+
+Quest_3-10:
+    text: \n<CHICO CON REMERA NUMERADA>¡Increíble!\. Tomá, acá tenés este billete de $5.00 que encontré antes en el piso.
+
+Quest_3-11:
+    text: \n<CHICO CON POLO VERDE>¡¡Gracias!!
+
+# Between start and finding ball
+Quest_3-12:
+    text: \n<CHICO CON POLO VERDE>¡¡Dale!!\. ¡Apúrate!
+
+Quest_3-13:
+    text: Estos chicos parecen estar discutiendo.
+
+Quest_3-14:
+    text: \n<CHICO CON REMERA NUMERADA>¡Muchísimas gracias,\. señor!
+
+#Lost and found======
+
+#player interacts with box / quest is given===========
+
+Quest_4-1:
+    text: \n<MUJER CON CORTE RECTO>Esa es la caja de objetos perdidos de la estación,\.  gente de toda la ciudad la revisa buscando sus cosas que perdieron.\! Si alguna vez perdés algo,\. ¡No tengas miedo de venir a ver si está acá!
+
+Quest_4-2:
+    text: \n<MUJER CON CORTE RECTO>También tenemos mucha gente que nos deja su información por si encontramos sus pertenencias.
+
+#ITEM LIST ITEM IS GIVEN TO PLAYER, quest assigned===========
+
+Quest_4-3:
+    text: \n<MUJER CON CORTE RECTO>Si alguna vez querés dar una mano en la estación,\. acá tenés una lista diaria de cosas que la gente reportó como perdidas.
+
+#Whevener sunny brings back an item, gives 3$===========
+
+Quest_4-4:
+    text: \n<MUJER CON CORTE RECTO>¡Hola de nuevo!\. ¡Gracias por traerlo!,\. Le avisare al dueño para que venga a buscarlo.
+
+Quest_4-5:
+    text: \n<MUJER CON CORTE RECTO>¡Acá tenés un regalito por tu ayuda!
+    
+Quest_4-5-reward:
+    text: ¡Obtuviste \v[1517].00$ dolares!
+
+#Last item for  the day is given
+
+#Woman jumps and does exclamation bubble
+
+Quest_4-6:
+    text: \n<MUJER CON CORTE RECTO> ¡Eso es todo por hoy!\! ¡Mil gracias chico\. sos un angel!\. Mucha gente va a tener un mejor día gracias a vos.
+
+Quest_4-7:
+    text: \n<MUJER CON CORTE RECTO>¡Volvé mañana si querés dar una mano de nuevo!
+
+#If you dont have any items to bring
+
+Quest_4-8:
+    text: \n<MUJER CON CORTE RECTO>¡Nos harías un gran favor si traés cualquier cosa!\! Recuerda,\. todo lo que buscás está en la lista de hoy.

@@ -1,0 +1,680 @@
+# =========================================================================================
+# ** REVERIE FLAVOR TEXT
+# =========================================================================================
+
+# generic
+
+message_mom1:
+    text: \n<MAMÁ>Hola \n[17]!\. Soy yo MAMÁ.\! ¿Cómo estás hoy?
+
+message_mom2:
+    text: \n<MAMÁ>Quería avisarte que hoy voy a trabajar hasta tarde.\! ...Sí, ya sé, es la tercera vez esta semana…\! Lo siento, cariño
+
+message_mom3:
+    text: \n<MAMÁ>¡Oh, pero sé qué te va a animar!\! ¿Qué te parece si tu y yo cenamos bife mañana?
+
+message_mom4:
+    text: \n<MAMÁ>¿Podes ir al SUPERMECADO del centro comercial y conseguir carne de bife ? \! Deje un poco de dinero arriba de la mesa del comedor. \! Compra cuanto quieras, MAMÁ invita.
+
+message_mom5:
+    text: \n<MAMÁ>Sé que no has salido mucho últimamente…\. Pero, ¿no sería lindo hacer nuevos amigos en la gran ciudad?
+
+message_mom6:
+    text: \n<MAMÁ>Y tu cumpleaños es en unos días también…\! ¡Si hicieras algunos amigos, podrían celebrarlo juntos!\. Suena bien, ¿no?
+
+message_mom7:
+    text: \n<MAMÁ>Bueno, eso es todo por ahora.\! ¡MAMI te ama!\. Adios, cariño!
+
+message_0:
+    text: Tu escritorio donde haces tu tareas.\!<br>Tu tarea de verano esta arriba, sin terminar.\!<br>Lo harás… en algún momento.
+    
+message_0dream:
+    text: Tu escritorio donde haces tu tareas.\!<br>No hay nada que puedas hacer ahora mismo.
+
+message_1:
+    text: 
+
+message_2:
+    text: Sartenes de mamá.\! Últimamente ha empezado a cocinar más a menudo.
+message_3:
+    text: Una tabla para cortar.\! Está ligeramente manchada de rojo por haberle puesto carne encima.
+
+message_4:
+    text: El fregadero de la cocina.\! Recuerda de lavarte las manos antes de comer.
+
+message_5:
+    text: Una cocina y un horno.\! ¡No lo toques cuando esta prendido! 
+
+message_6:
+    text: Estanterías repletas de flores.\!<br>La familia de BASIL manda una nueva cada dos semanas más o menos
+    #do we want to use this?
+    
+# Player's House
+
+
+message_fridge:
+    text: No le queda mucho.\! Supongo que es hora de ir de compras...
+
+message_money:
+    text: MÁMA te dejo $20.00. ¿Tomarlo?\$
+
+message_money2:
+    text: Obtuviste $20.00!
+
+message_money3:
+    text: Probablemente deberías llevarte algo de dinero.
+
+
+message_7:
+    text: Un perchero para sombreros con sombrero incluido.\! Nunca<br>lo vas a usar.
+
+message_8:
+    text: Una silla giratoria para usar la computadora cómodamente.
+
+message_9:
+    text: Una consola.\!<br>CAPTAIN SPACEBOY'S SUPER SPACE ADVENTURE esta puesto.\! Es el juego original, pero con un nombre nuevo y elegante.
+
+message_10:
+    text: Un perchero.
+    
+message_11:
+    text: Algo de ropa sucia.
+    
+message_12:
+    text: Después de todo, no podés jugar en la consola sin un control.
+    
+message_13:
+    text: no. -nru
+    
+message_14:
+    text: ¿Qué entrada vas a leer?
+    
+message_15:
+    text: Una pintura que cierto ARTISTA hizo para ti.
+
+message_16:
+    text: Revisaste el principio del cuaderno de dibujos...\!<br>Dentro, colocado con cuidado, hay un boceto que MINCY hizo de vos y KEL.
+    
+message_17:
+    text: Un gran y acogedor sofá.
+    
+message_18:
+    text: Una cómoda.
+    # This is mum's dresser here.
+    # Add more exposition here...?
+    
+message_19:
+    text: Una mesa absurdamente larga para dos personas.\! Si celebraras una fiesta, tendría la longitud perfecta para una multitud.
+    
+message_20:
+    text: Tienes el \c[13]VIOLIN\c[0].
+    
+message_21:
+    text: Un tacho de basura.\! Parece que este ya está casi lleno.
+    
+message_22:
+    text: Un tacho de basura.\! Parece que este ya está casi lleno.\!<br>¿Sacar la basura?
+    
+message_23:
+    text: Un tacho de basura.\! Tenías pensado poner algo decorativo acá, pero ya no había lugar para más cosas..\!<br>Y así fue como el tacho de basura reclamó su lugar en el mundo.
+    
+message_24:
+    text: No hay mensajes nuevos.
+    
+message_25:
+    text: La mesita de café de MAMÁ.
+    
+message_door:
+    text: ¿Estas seguro de salir afuera?
+
+message_door1:
+    text: El telefono podria ser importante...
+
+message_door2:
+    text: Te sientes muy cansado...\! Deberias ir a la cama.
+
+message_26:
+    text: Encontraste una página de  \c[4]Partitura musical\c[0].
+
+message_bonsai:
+    text: Un arbolito bonsái al que le han dedicado mucho cariño.
+
+message_allegro:
+    text: Has aprendido \c[1]ALLEGRO\c[0].
+
+message_sadsong:
+    text: Has aprendido una nueva canción - \c[13]MELODÍA TRISTE\c[0].
+
+message_angrysong:
+    text: Has aprendido una nueva canción. - \c[13]MELODÍA FURIOSA\c[0].
+
+message_happysong:
+    text: Has aprendido una nueva canción. - \c[13]MELODÍA FELIZ\c[0].
+
+message_memory:
+    text: Has aprendido \c[1]MEMORIA IMPERECEDERA\c[0].
+
+message_encore:
+    text: You remembered \c[1]ACTUACÍON EXTRA\c[0].
+
+message_cherish:
+    text: Recordaste cómo \c[1]APRECIAR\c[0].
+
+message_overcome:
+    text: Recordaste cómo \c[1]SUPERAR\c[0].
+
+message_sadsong1:
+    text: Sentís que la gente que está TRISTE va a apreciar esta melodía.
+
+message_bed:
+    text: Te sientes cansado...\! Hoy fue un día largo.
+
+message_bed1:
+    text: ¿Te vas a ir a dormir?
+
+message_bed1-endch3:
+    text: ¿Te vas a ir a dormir?\. <br>(Si hacés esto, se termina el capítulo. ¡No te olvides de guardar!)
+
+message_steakfridge:
+    text: Mamá te pidió que guardes la carne en la heladera.
+
+message_steakfridge2:
+    text: Sacás la carne de la bolsa y lo ponés en la heladera.\. Probablemente todavía esté bueno.
+
+message_steakfridge3:
+    text: La carne descansa en la heladera.
+
+# DW House
+
+message_27:
+    text: Por alguna razón, te pareció que eras arrastrado hacia la luz...
+    
+message_28:
+    text: Tocaste el botón de prender, pero la pantalla sigue en negro....\! Parece que es un apagón.
+    
+message_29:
+    text: Un brotecito diminuto.
+    
+message_30:
+    text: Esta flor está creciendo dentro de la tabla.
+message_31:
+    text: La contestadora no funciona.    
+message_32:
+    text: Se siente como si algo debería estar acá… pero no hay nada.
+    
+message_33:
+    text: La puerta esta bloqueada.
+    
+message_34:
+    text: Nada más que estática.
+    
+message_35:
+    text: El gabinete está abierto.\! Un resplandor azul profundo emana desde el interior.\!<br>¿Quieres mirar adentro del gabinete?
+    
+message_36:
+    text: Un plato abandonado.
+    
+message_37:
+    text: Árbol.
+    
+message_38:
+    text:  \n<SERPIENTE>\sinv[1]Sssssssssssss...\sinv[0]\! Cuando los tiempos son difíciles, hay que hacer que alcance.)
+    
+message_39:
+    text:  \n<SERPIENTE>\sinv[1]Hisssss...\sinv[0]\! (Creo que puede que lo haya interpretado demasiado literalmente.)
+    
+# METRO F1
+
+message_40:
+    text:  Basura aleatoria.\! Nada que te vaya a parecer interesante.
+    
+message_41:
+    text:  Hay una pelicula en la TV.\!<br>Una chica con trenzas camina por un camino de ladrillos.
+
+message_42:
+    text:  Practicaste buena higiene al lavarte las manos.
+
+message_bathroom:
+    text:  El baño de las chicas.\! Probablemente no deberías ir ahí
+
+# NPCs
+
+message_43:
+    text: \n<MEGAPHONE>Soy malo tomando decisiones...\! Llevo horas sin poder decidir si debería ir arriba...\| o abajo...
+    
+message_44:
+    text: \n<LEAFIE>\quake[1]\com[2]Eek!\quake[0]\! ¡Este lugar esta \quake[1]infestado\quake[0] con alimañas!\! ¡Alejense, Bestias plagadas de enfermedades!
+    
+message_45:
+    text: \n<REPLACE>Estoy eligiendo una revista para leer mientras espero a mi amigo\!Fue a buscar algo para tomar, pero ya lleva un buen rato.
+    
+message_46:
+    text: \n<GATOR GUY>Disculpa, esta salida esta cerrada. TSe derrumbó la entrada en la superficie, y mandamos a unos lagartos a arreglarla."
+
+message_46-1:
+    text: \n<GATOR GUY>¡Eh! ¡Noté que no llevás ningún equipo de seguridad!\! Por acá están haciendo obras, ¿no lo notaste?
+
+message_46-2:
+    text: \n<GATOR GUY>¡Tomá, algo para protegerte!
+
+#FOR THE CENTRAL HUB SHOPKEEP, IMPLEMENT A SHOP. THE REFERENCE CODE FOR THE PLUGIN COMMAND IS 'centralshop' . MAKE IT SELL WHATEVER EARLY GAME ITEMS, MAYBE 5 OR SO.
+    
+# goo fruit
+    
+message_47:
+    text: \n<GOOMAN>¡Ey, tú!\! Tenés pinta de estar por agarrarte un escorbuto.\! ¿Por qué no comprás una de estas frutas frescas que encontré?\! Porque soy así de generoso, te doy una muestra sin cargo.
+    
+message_48:
+    text: Obtuviste \c[4]MANZANA DE PLASTICO\c[0]...
+    
+message_49:
+    text: \n<GOOMAN>Entre vos y yo, no me lo comería..\! No tienen gusto a nada.\! Probá frotártelo en la piel.
+    
+# after
+
+message_50:
+    text: \n<GOOMAN>Perdón, ya cerré el negocio\! Repartí tantas muestras que me arruiné.\! ¡El mundo de la economía es dura!
+    
+message_51:
+    text: \n<GOOMAN>However!\! Si me das 10000 CLAMS, ¡Voy a poder relanzar mi negocio y te dare otra fruta fresca de regalo!\!<br>..¿Qué significa esa mirada?
+    
+message_52:
+    text: \n<WHATEVER>Ya no necesito montañas de dinero..\! Tengo una familia ahora.
+    
+message_53:
+    text: \n<WHATEVER JR.>Necesito montañas de dinero.
+
+#DEMI
+
+message_AAAA:
+    text: \n<DEMI>No tengo idea de dónde quedaron mis libros..\! Creo que los perdi.
+
+message_AAAA-1:
+    text: \n<DEMI>Sigh...\! Aunque hay algunas revistas aquí.
+
+#RESTING GATOR
+
+message_3am:
+    text: \n<CONSTRUCTION GATOR>Está bueno tomarse un descanso del trabajo de vez en cuando.
+    
+# bangs quest. *ONLY* PLACE HAPPY IN THE FIRST FLOOR! THE SECOND WILL BE IN A LOWER FLOOR.
+    
+message_54:
+    text: \n<BANGS>Mis amigos se perdieron y ahora no los puedo encontrar.\! ¿Podrias ayudarme?\! No me siento con ganas de mirar alrededor.
+    
+# yes
+
+message_55:
+    text: \n<BANGS>Genial, gracias.\! Deben estar por aquí cerca.\! Creo.
+
+# no
+
+message_56:
+    text: \n<BANGS>Respecto tu decisíon.
+    
+# partial
+
+message_57:
+    text: \n<BANGS>Oh, encontraste uno.
+
+message_5-1:
+    text: \n<BANGS>Tomá, llevate esto también.
+
+message_5-2:
+    text: Obtuviste \c[4]BEBIDA ENERGÉTICA\c[0]!
+
+message_5-3:
+    text: \n<BANGS>El otro debería estar más abajo, creo.
+    
+# done. THIS LINE SHOULD *NOT* APPEAR IN THE DEMO!!
+
+message_58:
+    text: \n<BANGS>¡Encontraste a los dos!\! No tengo ganas de darte una recompensa asi que pregunta a HAPPY por una
+    
+# happy and brows
+
+message_59:
+    text: \n<HAPPY>No puedo jugar sin mis amigos!\! ¿Puedo acompañarte un rato?\! ¡Juguemos a seguir al lider!
+    
+#DON'T USE THIS LINE IN THE DEMO!!
+
+message_60:
+    text: \n<BROWS>AAAHHHHHHHHHHHHHHHHHH!!!
+    
+message_61:
+    text: HAPPY se metió sin pedir permiso.
+    
+# abandon the quest
+    
+message_62:
+    text: \n<HAPPY>Oh, ¿Te estas yendo?\! ¡Yo mientras me quedo saltando por acá hasta que regreses!
+    
+message_63:
+    text: \n<BROWS>Ahhhhh?
+    
+# happy/brows done
+
+message_64:
+    text: \n<HAPPY>Se reunio con BANGS!\! ¡Estoy tan HAPPY, que me dan ganas de ... saltar!
+    
+message_65:
+    text: \n<HAPPY>Oh, ¿Una recompensa?\! Aqui, Toma esto **FILL IN LATER**!
+
+message_66:
+    text: \n<BROWS>Ahhhhh.
+
+message_5a:
+      text: \n<GIBS EL MÚSICO DE LA ESTACIÓN>¡Buenas, gente!\! Soy GIBS, el MÚSICO DE LA ESTACIÓN!\!<br>Antes era un MÚSICO ESTACIONARIO, Pero dejé esa vida hace poco tiempo… cuando caí acá
+
+message_6a:
+      text: \n<GIBS EL MÚSICO DE LA ESTACIÓN>¿Podrías darme 5 CLAMS? Serian<br>de gran ayuda help, ya que soy completamente estacionario.\!<br>¡Te mostraré algo \SINV[1]b'ueno\SINV[0] si lo haces!\$
+
+message_7a:
+      text: \n<GIBS EL MÚSICO DE LA ESTACIÓN>¡Gracias por tu donación!\! Ahora, a cambio...<br>Déjame cantarte la canción de mi gente.
+      
+message_8a:
+      text: \n<GIBS EL MÚSICO DE LA ESTACIÓN>...¡Lo siento, muchachos, pero no puedo mostrarles algo \SINV[1]b'ueno\SINV[0] con ese reproductor escupiendo ruido ahí al lado!\! Es que me saca de sintonía, ¿me entendés?
+
+
+#OPTIONAL.
+
+message_67:
+    text: \n<THINGIE>Una mujer loca pasó por aquí antes.\! Seguía resoplando y murmurando algo así como "MERMELADA VITAL" en voz baja...\! ¿Me pregunto de qué ira todo esto?
+
+#FOR TRAINMASTER JASH, IMPLEMENT A SHOP IN ITS POSITION. THE ONLY ITEM ON SALE MUST BE 'TRAIN PASS'. THE REFERENCE CODE FOR THE SHOP COMMAND IS 
+
+message_100:
+    text: \n<TRAIN MASTER JASH>Soy JASH de muchos talentos y maestro de muchos oficios.\!<br>Vas a comprar un \c[4]TICKET PARA EL TREN\c[0]?
+    
+message_101:
+    text: \n<TRAIN MASTER JASH>No puedo venderte mas  \c[4]TICKETS PARA EL TRES\c[0], estimado cliente.\!<br>Si te cruzás con otro MAESTRO DE TREN JASH, quizás tengas la oportunidad de comprar otro \c[4]TICKET PARA EL TREN\c[0] ...
+
+#BROKE SPROUT MOLE.
+
+message_68:
+    text: \n<BROKE SPROUT MOLE>Shoot...\! No tengo suficientes CLAMS para un ticket.
+
+message_69:
+    text: \n<BROKE SPROUT MOLE>Sabía que no tendría que haber comprado esos 20 \c[3]TOFU\c[0] de esa máquina expendedora...
+
+message_69-1:
+    text: \n<BROKE SPROUT MOLE>¡Dios mio!\. ¿Será posible? ¡La bellísima y encantadora SWEETHEART!
+
+message_69-2:
+    text: \n<BROKE SPROUT MOLE>Por favor,\. ¡Acepta este humilde regalo de un simple, simple topo como yo!\.Es poco, pero es lo único que tengo
+
+#SW WITNESS
+
+message_70:
+    text: \n<FRANK>¿Acabas de ver eso?\! ¡Esa señora golpeó a todos y se fue!
+
+message_71:
+    text: \n<FRANK>¿Que tipo de \sinv[1]maníaca\sinv[0] hace eso?\! ¡Voy a hablar con quien esté a cargo de este lugar!
+
+#DON'T WORRY ABOUT THE CONSTRUCTION GATORS.
+
+#YELLOW LINE GUIDE
+
+message_72:
+    text: Te sientes un poco perdido?\! ¡Simplemente sigue las c[4]LINEAS AMARILLAS\c[0]!\! Llevan directamente a los andenes.
+
+#MAGAZINE NPC, LEFT
+
+message_73:
+    text: \n<REPLACE>Wow, no puedo creer que este tipo haya hecho esto...\! ¡Que mediocre!
+
+#MAGAZINE NPC, RIGHT
+
+message_74:
+    text: \n<REPLACE>¡Guau, no puedo creer que este tipo hiciera esto...!\! ¡Son geniales!
+
+#BOSS WARNING MAN
+
+message_75:
+    text: \n<DANGO>¡Este escándalo me está volviendo loco!\! Oye, ¿puedes ir a decirles a los de la izquierda que se calmen un poco?
+
+message_75-1:
+    text: \n<DANGO>Se ha calmado por aquí...\!Ahora estraño todo el escandalo.
+
+#LOOKING AT POSTERS
+
+message_76:
+    text: \n<GATOR GUY>''EN CASO DE ATAQUE DE OSO, NO USE GAS PIMIENTA...'\! ¡No tenia idea de que los osos vivieran en los metros!
+
+#INSTEAD OF TASK MASTER, JUST PUT A MELON HERE. LOL.
+
+#TRAIN STATION JASH
+#IF ACCESS TRAIN ENTRYWAY WITHOUT JASH'S APPROVAL:
+
+message_77:
+    text: \n<TRAIN STATION JASH>\Com[2]¡Detente ahora mismo!\! No puedes pasar sin un  \c[4]TICKET PARA EL TREN\c[0]!\! Duh!
+
+message_77-1:
+    text: \n<TRAIN STATION JASH>\Com[2]¡Detente ahora mismo!\! Tengo que comprobar tu \c[4]TICKET PARA EL TREN\c[0]!\! Duh!
+
+#IF INTERACTING WITH JASH & NO TICKET:
+
+message_78:
+    text: \n<TRAIN STATION JASH>Oye, no tienes tu  \c[4]TICKET PARA EL TREN\c[0]!
+
+message_79:
+    text: \n<TRAIN STATION JASH>Whoa...\! Eso es un  \c[4]TICKET PARA EL TREN\c[0]!
+
+message_80:
+    text: \n<TRAIN STATION JASH>Bueno...\! ¡Por mí, todo en orden!\! ¡Bienvenidos a bordo, clientes!
+
+#IF INTERACTED AGAIN
+
+message_81:
+    text: \n<TRAIN STATION JASH>¡Bienvenidos a bordo, clientes!
+
+#WAITING FOR TRAIN NPC
+
+message_82:
+    text: \n<FISHBOY>\c[11]FALLEN WORLD\c[0]...?\! Espero que eso sea solo una forma fina de decir \c[11]DEEP WELL\c[0]...
+
+message_82-1:
+    text: \n<FISHBOY>\quake[1]Sigh...\quake[0]\! Extraño mi pescado...
+
+#FOR THE TICKET BOOTH MAN IN THE FALLEN WORLD PLATFORM, RE-USE THE TRAIN MASTER JASH SHOP. 
+
+#ON PLATFORM.
+
+message_83:
+    text: \n<SUNHAT GHOST>Oh, espero estar en la plataforma correcta...\! ¡Este lugar es como un laberinto a veces!
+
+message_83-1:
+    text: \n<SUNHAT GHOST>Desearia estar de vuelta en la fiesta...
+
+message_84:
+    text: \n<JERKO>\quake[1]Yuck!\quake[0]\! ¡Este sitio es desagradable!\! ¿No saben que una apariencia profesional lo es todo?
+
+#INFO BOOTH.
+
+message_85:
+    text: \n<TRAIN STATION JASH>¡Bienvenidos, estimados clientes!\! Esta es la estación \c[11]FALLEN WORLD\c[0].\! ¡Toma el ascensor de la derecha para llegar a la superficie!
+
+message_86:
+    text: \n<TRAIN STATION JASH>¡Toma el ascensor de la derecha para llegar a la superficie!
+
+#TV Girl at HUB:
+
+message_87: 
+    text: \n<TV GIRL>Sabes, no sé cómo he acabado aquí.\! Estaba en \c[11]una habitación con un montón de cajas\c[0].\! Pero todo lo que sé es que el \c[3]CAFÉ\c[0] es \sinv[1]muuuuy\sinv[0] caro.
+
+message_87-1: 
+    text: \n<TV GIRL>Por suerte, compré el ultimo stock que quedaba.\! Me va a tocar ganarme de nuevo esos CLAMS,eso si.
+
+message_87-2: 
+    text: \n<TV GIRL>Es la única cosa que me mantiene \quake[1]cuerda\quake[0] en estos momentos, sabes.
+
+message_87-3: 
+    text: \n<TV GIRL>No, no voy a compartirlo contigo.
+
+#==== LEAFY BUNNY MURDER QUEST ====
+
+message_1q-1:
+    text: \n<LEAFIE>Sabes,\! cuando caí aquí pensé que este lugar se vería bonito \quake[1]sin conejos\quake[0].
+
+message_1q-2:
+    text: \n<LEAFIE>Pero \quake[1]no.\quake[0]\! ¡Hay más \quake[1]conejos\quake[0] que nunca por acá!
+
+message_1q-3:
+    text: \n<LEAFIE>TEllos se visten con sus \quake[1]estupidos\quake[0] sombreros,\! Ellos \quake[1]ni siquiera\quake[0] saben lo que un tren es.
+
+message_1q-7-1:
+    text: \n<LEAFIE>Y también, aquí va un consejo.\! Cuando soplen su \quake[1]odioso\quake[0] \c[5]SILBATO DEL TREN\c[0], prepataté para \c[13]CUBRIRTE\c[0].
+
+message_1q-7-2:
+    text: \n<LEAFIE>¡No paran nunca! Esos \quake[1]conejos\quake[0] y sus silbatos me tienen harto... ya sé cada truco que hacen.
+
+#If you killed at least 1 bunny, ===== THESE ARE NOT USED YET, JUST PLACEHOLDER, CURRENTLY IS USING FROM ORIGINAL OMORI SIDE QUEST FLAVOR
+
+message_1q-4:
+      text: \n<LEAFIE>Oye, parece que has derrotado a unos cuantos \quake[1]conejos!\quake[0]\!<br>Sí, eso es.\! Puedo decirte a cuantos \quake[1]conejos\quake[0] has derrotado sólo mirándote.
+
+message_1q-5:
+      text: \n<LEAFIE>Así de mucho odio a los  \quake[1]conejos.\quake[0]
+
+message_1q-6:
+      text: \n<LEAFIE>Mira, te diré que.\! Hagamos un trato.\!<br>Si derrotas al menos a 5 \quake[1]conejos,\quake[0] vuelve aquí y cuéntamelo...\! Te daré algo bueno.
+
+message_1q-7:
+      text: \n<LEAFIE>¡Ahora ve y destroza a esos \quake[1]conejos!\quake[0]
+
+#MEETING GOALS, some are taken directly from original
+
+#Set variable for number of bunnies defeated and the next count
+
+message_1q-8:
+      text: \n<LEAFIE>\Com[2]Esplendido!\! Veo que has destrozado más \quake[1]conejos.\quake[0]\!<br>¡Eso son \v[615] \quake[0]conejos eliminados\quake[0]!\!<br>¡Muchísimas gracias, camarada odiador de conejos!
+
+message_1q-9:
+      text: \n<LEAFIE>Ahora...\! si tan sólo pudieses matar \v[1001] \quake[1]conejos\quake[0],<br> ¡te daría otro premio!
+
+#DEFAULT TEXT:
+
+message_1q-10:
+      text: \n<LEAFIE>¡Hola, mi estimado camarada odiador de conejos!\!<br>Mirándote a los ojos, puedo ver que has matado a \v[615] \quake[1]conejos\quake[0].
+
+message_1q-11:
+      text: \n<LEAFIE>Tendrás que matar \v[1001] \quake[1]conejos\quake[0] más para tu siguiente premio.\!<br>¡Ahora ve y destruye a esos \quake[1]conejos!\quake[0]
+
+#PRIZES: COTTON BALL, BUNNY EARS, RABBIT FOOT, CONSUMABLES,
+
+message_1q-12:
+      text: Obtuviste \c[13]BOLA DE ALGODÓN\c[0].
+
+message_1q-13:
+      text: Obtuviste \c[13]OREJAS DE CONEJO\c[0].
+
+message_1q-14:
+      text: Obtuviste \c[13]PATA DE CONEJO\c[0].
+
+#After defeating 25 conejos
+
+message_1q-15:
+      text: \n<LEAFIE>\Com[2]¡Esplendido!\! No tengo nada más que pedirte, ¡Estimado camarada odiador de conejos!
+
+message_1q-16:
+      text: \n<LEAFIE>¡Ahora vete y destroza más \quake[1]conejos!\quake[0]
+
+#==== MAESTRO QUEST ====
+# Intro
+message_2q-1:
+      text: \n<MAESTRO>¡Queridos camaradas!\! ¡Estoy en busca de arte!\!<br>Algo que, me atrevo a decir… ¡sea \. \sinv[1]futurista!
+
+message_2q-2:
+      text: \n<MAESTRO>Verás...\| el arte contemporáneo me agota con sus formas mundanas...\!<br>¡Quiero algo que sea emblemático del progreso!\! El futuro!
+
+message_2q-3:
+      text: \n<MAESTRO>He oído que los desechos electrónicos de este lugar contienen metales raros...\! ¡Qué vanguardista!\! ¡Construir el mundo del mañana a partir del refugio del presente!
+
+message_2q-4:
+      text: \n<MAESTRO>Sabes, si alguna vez se encuentran deambulando por los desechos, ¿Podrían buscarme 3 \c[13]CHATARRA RARA\c[0]?
+
+message_2q-5:
+      text: \n<MAESTRO>Se supone que estos fragmentos han sido arrancados de las manos de otros por máquinas agresivas y poderosas.\! ¡Ah, este conflicto, esta codicia, alimentan mi ojo artístico!!
+
+# Complete
+message_2q-6:
+      text: \n<MAESTRO>¡Increíble! ¡Conquistaste estos tres \c[13]CHATARRA RARA\c[0] de los páramos desolados e indiferentes!
+
+message_2q-7:
+      text: \n<MAESTRO>¡Oh, cómo brillará esta historia de victoria y descubrimiento a través de mi arte!\! ¡Gracias! ¡Les estoy en deuda!
+
+message_2q-7-1:
+      text: \n<MAESTRO>Con esto, ya no tengo necesidad de mis piezas más, eh, \quake[1]contemporáneas\quake[0].\! Tomá, quedate con esta.
+## gained necklace
+
+message_2q-7-2:
+      text: Obtuviste \c[13]COLLAR CON GEMAS\c[0]!
+
+message_2q-7-3:
+      text: \n<MAESTRO>Una gema de múltiples facetas, engarzada en un hermoso collar dorado...\! ¡Espero que sea una compensación suficiente por tu trabajo!
+
+# Incomplete
+message_2q-8-single:
+      text: \n<MAESTRO>Ah, ya veo que encontraste \v[1528] \c[13]CHATARRA RARA\c[0] hasta ahora...
+      
+message_2q-8-plural:
+      text: \n<MAESTRO>Ah, ya veo que encontraste \v[1528] \c[13]CHATARRAS RARAS\c[0] hasta ahora...
+
+message_2q-9:
+      text: \n<MAESTRO>Preferiría tomar todos esos de una sola vez...\!¡Quiero ser golpeado por la inspiración cuando las tres piezas estén dispuestas frente a mí!
+
+# Talk Again
+message_2q-10:
+      text: \n<MAESTRO>Es fundamental contemplar la vista..\! Siento que la gente tiende a olvidar las cosas más obvias.
+
+message_2q-11:
+      text: \n<MAESTRO>En el arte, hay que saber escuchar lo que el entorno tiene para decirte.\! Only then can you truly create something original! 
+
+# ==== FLAVOR STUFF ====
+metro-vending:
+    text: Una maquina vendedora.\! No parece que funcione.
+
+nn-tvCrack:
+    text: Una grieta sospechosa en la pared.\. Se oye un leve zumbido eléctrico por detrás.
+
+fw-starWarn:
+    text: Dice "¡Cuidado con las ESTRELLAS FUGACES en este puente!"
+
+fw-couch:
+    text: ¿Te quieres sentar aquí?
+    
+fw-recycle_junkmail:
+    text: Pusiste \c[5]CORREO BASURA\c[0] dentro de la MAQUINA RECICLADORA
+
+fw-recycle_junkmail2:
+    text: La MÁQUINA RECICLADORA dispensó 30 CLAMS.\!<br>Gracias por hacer tu parte para mantener el ambiente limpio.
+
+fw-recycle_junkmail3:
+    text: No tienes \c[5]CORREO BASURA\c[0] para reciclar.
+    
+fw-recycle_junkmail4:
+    text: CORREO BASURA
+
+metro-tvghole:
+    text: Hay un agujero sospechosamente grande en esta pared.\!<br>¿Atravezar el agujero?\. (Puede que no sea una buena idea.)
+
+metro-leave_dough:
+    text: No deberías dejar atrás a DOUGHIE ...
+
+metro-knocking:
+    text: Deberías revisar ese golpeteo primero..
+
+intro-lamp:
+    text: La bombilla está caliente al tacto\! Resplandece como la luz del sol.
+# Unintentional OneShot reference, woohoo
+
+intro-stump:
+    text: Un molinillo gira con lentitud, empujado por la brisa.
+    
+fw-pessi_door:
+    text: La puerta esta bloqueada.\!<br>...\|Una melodía irritante se escucha débilmente desde el interior.
+    
+fw-pessi_door2:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 21
+    text: \n<SWEETHEART>¿Ya terminamos acá?\! Preferiría que nos mantuviéramos \sinv[1]alejados\sinv[0] de esta casa en particular, muchas gracias.

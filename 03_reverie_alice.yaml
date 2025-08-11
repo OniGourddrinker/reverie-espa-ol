@@ -1,0 +1,602 @@
+# ================================================================================================================================
+# ALICE
+# 
+# Alice also gives recurring quests later on, with special hunting conditions.
+# ================================================================================================================================
+
+# ================================================================================================================================
+# INTRO
+# ================================================================================================================================
+
+intro_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<CHICA CON VESTIDO DE VOLANTE>Oh, visitas.\! Qué raro.
+
+intro_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<CHICA CON VESTIDO DE VOLANTE>¿Qué asunto...\.te trae por aquí abajo?\! ¿Viniste a ver algunos osos? \! Entiendo, son unas criaturitas adorables.
+
+intro_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<CHICA CON VESTIDO DE VOLANTE>También son considerablemente poderosos...\. Majestuosas bestias, sin duda.
+
+intro_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<CHICA CON VESTIDO DE VOLANTE>La bondad solo es real cuando tienes poder para respaldarla...\! Sin él, no es más que debilidad.
+
+intro_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<CHICA CON VESTIDO DE VOLANTEAsí que, cuando una criatura así te perdona la vida...\.  Más te vale estar agradecido.\. Eso es \sinv[1]verdadera\sinv[0] bondad.
+
+intro_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 13
+    text: \n<CHICA CON VESTIDO DE VOLANTE>Oh, ¿Dónde están mis modales?.\. Soy ALICE.\. Concisa y sucinta;\. no tengo otros títulos ni condecoraciones.
+
+intro_7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>No he hablado con otro humano en mucho tiempo...\. Aquí todos son BROTOPOS.\. No me importaría conversar contigo un rato.
+
+intro_8:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 15
+    text: \n<ALICE>Juega conmigo.\. ¿Quieres?
+
+# > CHOICE BEGIN
+question_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Hola, Señor.\. ¿De vuelta para conversar un rato?\.
+
+question_c1:
+    text: VOS
+
+question_c2:
+    text: ANIMALES
+
+question_c3:
+    text: ENCARGOS #no se que dice despues pero si no lo podria cambiar a MISIONES
+
+question_c4:
+    text: JUGAR
+
+# FOOD shop option is after Quest 3 with Fiery
+# Dialogue is in 00_reverie_shop.yaml
+question_c5:
+    text: COMPRAR
+
+# ================================================================================================================================
+# YOU / ABOUT SELF
+# ================================================================================================================================
+you_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>¿Yo?\! Bueno, supongo que sí pedí una conversación....
+
+you_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>No suelo dar mucha información sobre mí.\! Le da un mayor sentido de misterio.
+
+you_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>El miedo a lo desconocido es uno de los miedos más fundamentales.\. Sería tonto no capitalizarlo.
+
+you_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Cuando digo que no tengo otro nombre, lo digo en serio.\. Tener un nombre único es mucho más intimidante.
+
+you_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Claro, el nombre no suena exactamente formidable.\. Pero sabes, un poco de yuxtaposición ayuda mucho.
+
+# > START NAME CHOICE
+
+you_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 13
+    text: \n<ALICE>Quiero decir, ¿qué clase de apellido esperarías de mí de todos modos?
+
+name_c1:
+    text: LIDDELL
+
+name_c1_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 13
+    text: \n<ALICE>Ja, ja.\! Qué gracioso.\! Alicia en el País de las Maravillas.\! Una novela popular de Lewis Carroll.
+
+name_c1_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Pero no puedo discutir eso.\!  Sí me basé en esa historia.\! Específicamente, en derivados sombríos de ella.
+
+name_c2:
+    text: KINGSLEIGH
+
+name_c2_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>King-slayer, quieres decir.\. Suena genial.\. No puedo discutir eso.
+
+name_c3:
+    text: MARGATROID
+
+name_c3_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 13
+    text: \n<ALICE>¿Qué?\!  Eso suena a nombre de...\.una mago, o algo así.\!  Luego me dirás que hay alguien llamado KNOWLEDGE porque leé libros.
+
+name_c4:
+    text: MARE
+
+name_c4_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 13
+    text: \n<ALICE>¿Qué?\! ¿Como una pesadilla, lo opuesto a un sueño?\!¿No puedes ser más creativo que eso?
+
+name_c5:
+    text: BELIAL
+
+name_c5_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE¿Un nombre de demonio?\! Suena genial.\! Un buen nombre para un...\. tio, creo.
+
+# ese sentimiento cuando te quedas mirando la pantalla sin saber como funciona nada asi que vas a preguntar a google y es como si lo hubiera puesto asi pero estoy cansado señor stark
+# > END NAME CHOICE
+
+
+you_7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>En fin, dejando eso de lado...\.  Prefiero seguir siendo enigmática.\. No puedo decir mucho.
+
+# ================================================================================================================================
+# BEAR
+# ================================================================================================================================
+
+bear_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Es simple, me gustan los animales.\!Aunque, para que quede claro, no del tipo de princesas bonitas.
+
+bear_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Por mucho que hable de fuerza o de la supervivencia del más apto o lo que sea, no soy del tipo que busca la violencia sin sentido.
+
+bear_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Todos los seres vivos merecen respeto, igual que nosotros.\. Por mucho que me gustaría engañar sobre la mortalidad, lo opuesto también es importante.
+
+bear_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>...Debo admitir que los osos están atrapados aquí por el momento. No parece alinearse con mi filosofía antes mencionada, ¿verdad?
+
+bear_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Eso es porque es temporal.\. Solo necesito una vivienda adecuada antes de... un transporte adecuado.
+
+bear_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Estos animales son un encargo, solo espero que también sean bien tratados en su destino...
+
+bear_7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Un poco de palabras elegantes ahí, lo sé\. Solo me gusta reflexionar mucho sobre ello en mi tiempo libre.
+
+# ================================================================================================================================
+# BATTLE
+# ================================================================================================================================
+
+battle_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>¿Qué es 'hora de juego', preguntas?\. Con estos ositos, por supuesto.\. Ellos también necesitan algo de entretenimiento, sabes.
+
+battle_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 15
+    text: \n<ALICE>Puedo enseñarte cómo jugar con ellos si quieres.\! Estarás a salvo...\. Si sabes lo que estás haciendo.
+
+battle_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Entonces... ¿Quieres jugar conmigo?
+
+# > NO
+battle_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Hmph.\. No eres divertido.
+
+# > YES
+battle_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Genial.\. Así que esto es lo que haré...
+
+# Alice walks to the button, presses it, unleashing the bears too fast to react + party exclamation bubble
+# > BATTLE - Dialogues are in 00_reverie_battle.yaml
+# > POST BATTLE
+
+battle_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Argh.\. Eres más fuerte de lo que pensé.\. Eso me gusta.
+
+# Note: "What on earth" but space
+battle_7: 
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 44
+    text: \n<SPACEBOY>¡¿Qué en las estrellas es eso?!\! ¿A eso le llamas jugar?
+
+battle_8:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Se llama lucha juguetona.\. ¿Nunca habías oído hablar de eso?\.  Es solo un juego tonto, nada serio.
+
+battle_9:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 15
+    text: \n<ALICE>Después de todo, estan vivos ahora mismo.\.  No se hicieron daño de verdad, ¿no?
+
+battle_10:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>En fin, estos osos ya están completamente entretenidos, así que serán dóciles contigo.\. Ahora puedes caminar por la jaula,\. ¿no es eso genial?
+
+battle_11:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Por cierto, debería mencionar...\. Detrás de la jaula hay un agujero...\. Es donde una bestia aterradora duerme.
+
+battle_12:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Ni siquiera yo pude domarlo.\.Así que enfréntalo bajo tu propio riesgo.
+
+battle_13:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Aunque si alguna vez te atreves a desafiarla...\. Estaré allí para ver.\.  Eso debería ser entretenido.
+
+battle_14:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 15
+    text: \n<ALICE>Solo regresa en una pieza..\. No quiero tener que recoger tus partes del cuerpo después de un horrible ataque.
+
+# > COMMON BEAR BATTLE
+# Alice walks in from the left screen
+
+battle2_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 15
+    text: \n<ALICE>Wow,\. De verdad lo hiciste.\! No pensé que realmente lo harías.
+
+battle2_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Sin embargo, no esperes nada de mí.\. Luchaste contra esa bestia por tu propia voluntad.
+
+battle2_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>La experiencia que obtuviste debería ser lo suficientemente valiosa para ti.\. Estoy segura de que fue emocionante.
+
+battle2_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Bueno, ya es suficiente entretenimiento por hoy.\. Volveré a cuidar de mis animales.
+
+# ================================================================================================================================
+# REQUESTS
+# ================================================================================================================================
+
+# > REQUEST
+quest_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>¿Un recado, eh?\. ¿Te dedicas a hacer encargos por ahí solo por ser un buen samaritano?
+
+quest_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Pero no puedo objetar, sería genial tener a alguien que ayude....
+
+quest_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Entonces...\. ¿Conoces a los conejos?\! Criaturas lindas y esponjosas son.
+
+quest_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Bueno...\.  los osos no son exactamente...\. vegetarianos. Eso debería ser de conocimiento común.
+
+quest_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Ahí es donde entran los conejos.\! Hay tantas maneras de prepararlos...\. Ni siquiera sé por dónde empezar...
+
+quest_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE> Tal vez podría empezar despellejando uno vivo\. Luego, echarle agua salada en las heridas para el sabor...\. Y hervirlo para hacer un estofado.
+
+quest_7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 13
+    text: \n<ALICE>¿Qué?\! ¿Por qué esas miradas?\! Obviamente estoy bromeando.\! No puedes pensar en serio que haría todo eso.
+
+quest_8:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Dejando la ética de lado, la carne sabe mejor cuando ha sido sacrificada de forma rápida e indolora.\. Todos los cazadores saben eso.
+
+quest_9:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>En fin...\. puedo darte una tarea cuando vuelvas a hablar conmigo.\. Te daré algo a cambio también.\! Porque soy buena.
+
+# ======== QUEST 1 ======== #
+
+quest1_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Para tu primer encargo ...\. Empezaré con algo simple.
+
+quest1_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>\c[4]Derrota \v[1001] conejos\c[0].\! Pero la trampa es...\. Deben ser derrotados \c[4]mientras están FELICES\c[0].
+
+quest1_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Eso es porque debemos respetar a nuestra presa.\. Es justo darles una forma pacífica de partir....
+
+quest1_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Mórbido, seguro.\. Pero así es la vida a veces.
+
+# Not enough
+quest1_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Hmm... Solo has derrotado \c[4]\v[1584] conejos FELICES\c[0] hasta ahora.\. No es exactamente suficiente... Necesito \c[4]\v[1001]\c[0].
+
+# Enough
+# ======== QUEST 2 ======== #
+quest2_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Ah, parece que has conseguido suficientes conejos.\. Con gusto los tomaré.
+
+quest2_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Como prometí, te compensaré con una recompensa....\! Te enseñaré una \c[4]habilidad\c[0].
+
+quest2_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>ú, la de el vestido rosa con volantes.\! Creo que lo harás perfectamente.
+
+# Fade out and in
+quest2_4:
+    text: SWEETHEART aprendió \c[1]DANZA MACABRA\c[0]!
+
+quest2_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Con esta nueva habilidad...\. deberías poder \c[4]matar a un enemigo al instante\c[0], con suficiente suerte.
+
+quest2_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 13
+    text: \n<ALICE>Claro, esto no funciona con un enemigo más formidable.\.  No te vayas tan lejos con las fantasías;\. la vida no es tan fácil.\.
+
+quest2_7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>En fin, también tengo una razón egoísta para enseñarte esta habilidad...
+
+quest2_8:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Para mi siguiente encargo,\. \c[4]derrota \v[1001] conejos con habilidades de muerte instantánea\c[0].\! Y me refiero a muertes instantáneas de verdad, no solo a un daño absurdamente alto.
+
+quest2_9:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Una muerte rápida e indolora es la forma más humana de matar.\. También produce carne de buena calidad.
+
+quest2_10:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 13
+    text: \n<ALICE>Un simple daño severo no es suficiente.\! Eso solo destrozaría el cadáver hasta dejarlo irreconocible.\! Estoy haciendo un estofado, no una papilla.
+
+quest2_11:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Como consejo, la SUERTE es importante aquí..\! Sería sabio usar equipo basado en la \c[4]SUERTE y estar FELIZ.\c[4].
+
+quest2_12:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Eso es todo por ahora.\! Espero una entrega rápida.
+
+# Not enough
+quest2_13:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Hmm...\. Sola has \c[4]derrotado instantáneamente \v[1585] conejos\c[0] hasta ahora. No es exactamente suficiente... Necesito \c[4]\v[1001]\c[0].
+
+# Enough
+quest2_14:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Parece que ya tienes suficientes conejos.\. No me has decepcionasdo.
+
+quest2_15:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Como recompensa...\.  te daré uno de mis \c[13]POEMA TRÁGICO\c[0]s.\!  De todos modos, tengo muchos.
+
+quest2_16:
+    text:Obtuviste \c[13]POEMA TRÁGICO\c[0].
+
+quest2_17:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Equípate esto, y léelo en voz alta.\! Harás que todos \c[4]LLOREN\c[0].
+
+quest2_18:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>En fin, para la próxima petición, necesitaré preparar algo por un rato.\! Vuelve a hablar conmigo cuando estés listo.
+
+# ======== QUEST 3 ======== #
+# Fail Media Requirement of Pyrefly due to needing FIERY
+quest3_require_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Hm, todavía no he podido encontrar ninguna de las criaturas PYREFLY.\. Vuelve más tarde.
+
+quest3_require_2:
+    text: Parece que necesitas algo de \c[1]inspiración relacionada con el Bosque PYREFLY\c[0].
+
+# Quest Intro
+quest3_1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Para esta tarea...\.  tengo un encargo especial.
+
+quest3_2:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: |
+        \n<ALICE>He preparado un montón de bichos: un FIERY, y un montón of BICHOS CONEJOS.
+
+quest3_3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>El FIERY posee una llama mágica única...\. Eso haría un gran asado con esos conejos.
+
+quest3_4:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>\c[4]El fuego normal no servirá\c[0], así que tendrás que encontrar la manera de \c[4]FASCINAR al FIERY para que QUEME a los conejos\c[0].
+
+quest3_5:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Y recuerda \c[4]matar a TODOS los conejos mientras están QUEMÁNDOSE\c[0].\! No querrás dejar que se apaguen solos, ¿verdad?
+
+quest3_6:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 13
+    text: |
+        \n<ALICE>¿Por qué no solo pedirle ayuda al FIERY?\! No pude convencerlos; no paran de decir tonterías como 'eres un demonio' o 'sácame de la jaula'
+
+quest3_6-1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Qué tontos, ¿no te parece?
+
+
+quest3_7:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Ah, y algo que noté.\!  Las criaturas Fiery son \c[4]muy susceptibles al BRILLO.\c[0].
+
+quest3_8:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>\c[4]Acerta BRILLO primero para bajar la guardia,\.  y luego encadenalo con FASCINAR puede ser una sabia elección.\c[0]
+
+quest3_9:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>En fin...\. ¿estás listo para este gran recado?
+
+# Retry
+quest3_9-1:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>¿Oh, ya volviste?\. ¿estás listo para este gran recado?
+
+# CHOICE: YES/NO
+
+# > NO
+quest3_10:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Justo.\. Una gran comida requiere una gran preparación, por supuesto.
+
+# > YES
+quest3_11:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Bien.\. Entonces, vamos a ello.
+
+# BATTLE
+
+
+# POST BATTLE (FAIL)
+quest3_12:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Hm.\. Te saltaste un par...\. no es del todo perfecto.\! Tendremos que intentarlo de nuevo.
+
+# POST BATTLE (SUCCESS)
+quest3_13:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Buen trabajo.\. Ahora puedo preparar una excelente comida.
+
+quest3_14:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Claro, te daré tu parte.\. Después de todo, hiciste la mayor parte del trabajo.
+
+# Fade out, Cook sound, Fade in
+quest3_15:
+    text: obtuviste 5 \c[13]ESTOFADO AMBAR\c[0]...
+
+quest3_16:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 12
+    text: \n<ALICE>Estos deberían ser increíblemente nutritivos.\. Tu próximo golpe estará CARGADO, lo que aumentará enormemente el daño infligido.
+
+quest3_17:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>He aprendido bastante observando tu batalla.\. Venderé algunos tipos de comida más si alguna vez tienes más hambre.
+
+quest3_18:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>Eso es todo de mi parte.\. No tengo más tareas que darte por ahora.
+
+# Asking when finish
+quest_finish3:
+    faceset: SideCharacters_ReverieFW
+    faceindex: 14
+    text: \n<ALICE>No tengo más tareas que darte por ahora..\! Ya hiciste un gran trabajo.\. Siéntete orgulloso.

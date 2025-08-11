@@ -1,0 +1,623 @@
+# =========================================================================================
+# ** FOR DIALOGUE THAT GIVES INFORMATION, LIKE GAME MECHANICS AND ENEMIES
+# =========================================================================================
+
+# ===========================================================================================
+#                                    INTERACTIONS
+# ===========================================================================================
+#If Biscuit is interacted with while DG is not tagged in.
+WrongTag:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>Oho...\. oho!
+
+BS-intro-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>¡Saludos!\! ¿Qué desean preguntarme?
+
+BS-Choice-1:
+    text: EL ÁREA
+
+BS-Choice-2:
+    text: LOS ENEMIGOS
+
+BS-Choice-2-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>¿Sobre qué enemigo quieres saber más?
+
+BS-Choice-3:
+    text: OTRO
+
+BS-Choice-N:
+    text: NO IMPORTA
+
+BS-Choice-N-1:
+    faceset: RV_Biscuit
+    faceindex: 7
+    text: \n<BISCUIT>De acuerdo.\. Siempre podés volver si te quedaste con curiosidad.
+    
+BS-Journal1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Oh, me acabo de acordar de algo importante.\! Tengo un regalo preparado para ustedes.
+    
+BS-Journal2:
+    faceset: RV_Biscuit
+    faceindex: 4
+    text: \n<BISCUIT>Este es mi diario.\! Anteriormente había escrito recetas acá, pero siento que vos podrías darle un mejor uso que yo.
+    
+BS-Journal3:
+    faceset: RV_Biscuit
+    faceindex: 5
+    text: \n<BISCUIT>Quizás podrías anotar algunas notas sobre los enemigos que enfrentaste hasta ahora.\! Es una idea que se me ocurrio.
+
+BS-Journal4:
+    faceset: MainCharacters_ReverieDreamWorld
+    faceindex: 8
+    text: \n<DOUGHIE>¡Esa es realmente una gran idea, hermano!\! Nunca está de más tener una lista de rivales.\! Uno nunca sabe cuándo va a necesitarla.
+
+BS-Journal5:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Me agrada saber que les gusto mi regalo.\! Ahora, ¿dónde estaba?\! Ah, si...
+
+# ==== FORMATTING ====
+#INTRO - first dialogue mentioned when first interacted
+#AREA - about the area, and what to do
+#ENEMY - about the enemy
+#OTHER - other stuff that could be mentioned, tips or ailments for example.
+
+
+# ===========================================================================================
+#                INTRO METRO (technically only accessible after FW tag unlock)
+# ===========================================================================================
+# ==== Biscuit Metro Hub Picnic ====
+
+#INTRO
+Metrohub-Intro-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Este es un lugar bastante agradable para asentarse, ¿No te parece?\! No es el lugar más limpio, pero la compañía lo compensa.
+
+Metrohub-Intro-2:
+    faceset: RV_Biscuit
+    faceindex: 4
+    text: \n<BISCUIT>Siempre podés comprar algo en la tienda y relajarte por acá.\. Tomarse un descanso también está bien.
+
+#AREA
+Metrohub-Area-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>A simple vista, esto parece un caos sucio y cubierto de grafitis\. pero esta estación parece resistirse activamente a las fuerzas del mundo que nos mantienen ignorantes y aislados. 
+
+Metrohub-Area-2:
+    faceset: RV_Biscuit
+    faceindex: 9
+    text: \n<BISCUIT>Supongo que en un sentido,\. Somos solo una de tantas personas que decidieron romper con la rutina para explorar la naturaleza de este mundo.
+
+#OTHER - Backtracking
+Metrohub-Other-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>A veces puede ser buena idea revisar las áreas por las que ya pasaste.,\. puede que ahora puedas hacer cosas nuevas gracias a las habilidades que adquiriste recientemente.
+
+Metrohub-Other-2:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>¿Quien sabe?,\. Puede que encuentres algo útil por acá… ¿una habitación que antes estaba cerrada, tal vez?
+
+# ==== Biscuit Post-LJG Bench Picnic ==== //ALREADY EXIST STUFF ON OLD YAML
+
+#INTRO
+Metrobench-Intro-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>It i
+
+# ==== Biscuit Lower Metro Picnic ==== TV GIRL
+#INTRO
+Metrolower-Intro-1:
+    faceset: RV_Biscuit
+    faceindex: 9
+    text: \n<BISCUIT>Este lugar es bastante tranqulilo\. No hay mucha gente alrededor.
+
+Metrolower-Intro-2:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>A veces no está mal tomarse un respiro del barullo constante de conversaciones allá en el hub.
+
+#AREA
+Metrolower-Area-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Vi a una chica con uniforme escolar y una tele por cabeza… salió disparada hacia el norte como una tormenta....
+
+Metrolower-Area-2:
+    faceset: RV_Biscuit
+    faceindex: 1
+    text: \n<BISCUIT>Parecía estar alterada por la falta de cafe o algo así. No diría que está muy sintonizada, la verdad.
+
+Metrolower-Area-3:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Quizás podrías ir a ver qué está pasando… aunque parece ser un \sinv[1]poquito\sinv[0] violenta, así que sería bajo tu propio riesgo.
+
+#AREA-POST TV GIRL
+Metrolower-Area2-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Entonces… ¿cómo fue el encuentro con la chica de la tele? ¡Veo que tu cabeza sigue en tus hombros!
+
+Metrolower-Area2-2:
+    faceset: RV_Biscuit
+    faceindex: 5
+    text: \n<BISCUIT>¿Por qué las miradas? Seguro que, detrás de esa fachada violenta, es una buena persona.
+
+#OTHER - Backtracking
+Metrolower-Other-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>A medida que progresás, puede que algunas zonas viejas ya no sean tan familiares.
+
+Metrolower-Other-2:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>Tus enemigos podrían volverse más fuertes y representar nuevas amenazas.,\. nuevos desafios,\. tal vez incluso recompensas.\. Mantengan sus ojos abiertos.
+
+# ==== Biscuit Fallen World Platform Picnic ====
+
+#INTRO
+FWMetro-Intro-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT> Ya veo, así que hasta acá llega el metro. Me pregunto cómo será allá arriba....
+
+#AREA
+FWMetro-Area-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Esto es la estación \c[11]FALLEN WORLD\c[0], el cual podes acceder por el ascensor.
+
+FWMetro-Area-2:
+    faceset: RV_Biscuit
+    faceindex: 1
+    text: \n<BISCUIT>También hay algunos CONEHEAD MOLES allá abajo, probablemente esté hurgando por ahí en busca de más armadura..
+
+FWMetro-Area-3:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Podés perfeccionar tus habilidades por acá si necesitás prepararte para la próxima zona.
+
+# ===========================================================================================
+#                                    FALLEN WORLD
+# ===========================================================================================
+
+# ==== Biscuit Makeshift Picnic ==== TRASH ENEMIES & BURNING AILMENT
+
+#INTRO
+Makeshift-Intro-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Este rincón tiene pinta de ser un buen lugar para relajarse.\! Algunos incluso han montado tiendas.
+
+Makeshift-Intro-2:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>El agua brilla con colores tan intensos y saturados que parece de otro mundo. No es lo que suelo ver
+
+#AREA
+Makeshift-Area-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT> \c[11]MAKESHIFT TOWN\c[0] es un asentamiento improvisado para quienes fueron dispersados por la destrucción.
+
+Makeshift-Area-2:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>La isla del oeste con cráteres parece rebosar de estrellas... quizás sea un buen lugar para pedir un deseo.
+
+#OTHER - Burning Ailment
+Makeshift-Other-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Cuando te encuentres con las estrellas, puede que notes que están siendo consumidas por una llamarada.
+
+Makeshift-Other-2:
+    faceset: RV_Biscuit
+    faceindex: 7
+    text: \n<BISCUIT>Cuidado, también pueden infligirte el estado ARDIENDO a vos y a los miembros de tu grupo.\! Vas a empezar a recibir daño en cada turno y perder parte de tu capacidad ofensiva.
+
+Makeshift-Other-3:
+    faceset: RV_Biscuit
+    faceindex: 9
+    text: \n<BISCUIT>Es importante tener en cuenta que ARDIENDO solo puede aplicarse a un objetivo que esté ENOJADO.\. Tu primer encuentro con emociones alteradas.
+
+Makeshift-Other-4:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>No hay motivo de preocupación si todavía no disponés de los recursos necesarios para afrontarlo,\. se desvanecerá por sí solo después de unos cuantos turnos..
+
+# ==== Biscuit Junkyard Picnic ==== SPACE FANGIRL, TECH ENEMIES, CHARM AILMENT
+
+#INTRO
+Junkyard-Intro-1:
+    faceset: RV_Biscuit
+    faceindex: 1
+    text: \n<BISCUIT>Esta zona parece estar cubierta de basura y contenedores volcados por la destrucción...
+
+Junkyard-Intro-2:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Algunos enemigos por esta zona parecen tener un origen más digital...\. Me pregunto de dónde habrá salido una tecnología tan futurista...
+
+#AREA
+Junkyard-Area-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>No cabe duda de que esta zona tiene su buena parte de personajes pintorescos.... 
+
+Junkyard-Area-2:
+    faceset: RV_Biscuit
+    faceindex: 1
+    text: \n<BISCUIT>Entre ellos hay una chica joven que parece estar hurgando entre los contenedores de basura. 
+
+Junkyard-Area-3:
+    faceset: RV_Biscuit
+    faceindex: 9
+    text: \n<BISCUIT>Es una escena lamentable \! y quizás aún más lamentable que tu amigo CAPTAIN SPACEBOY me recuerde a su apariencia tan llamativa...
+
+#AREA-POST
+Junkyard-Area2-1:
+    faceset: RV_Biscuit
+    faceindex: 9
+    text: \n<BISCUIT>Esa pobre chica parece haberse marchado entre sollozos... Supongo que es lo esperable de alguien tan inmadura.
+
+Junkyard-Area2-2:
+    faceset: RV_Biscuit
+    faceindex: 1
+    text: \n<BISCUIT>¿Qué se supone que era ese atuendo tan ridículo?
+
+#OTHER
+Junkyard-Other-1: 
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>Como quizás hayas notado,\. ADWARE puede causar FASCINAR a tu grupo.
+
+Junkyard-Other-2: 
+    faceset: RV_Biscuit
+    faceindex: 7
+    text: \n<BISCUIT>FASCINAR provoca que quienes lo padecen ataquen a sus propios aliados.,\. o incluso fortalecer a sus enemigos.
+
+Junkyard-Other-3: 
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Esto incluye a los enemigos.\! Si sos capaz de lanzar FASCINAR, los enemigos se atacarán entre sí.
+
+Junkyard-Other-4: 
+    faceset: RV_Biscuit
+    faceindex: 5
+    text: \n<BISCUIT>Acá tenés algo divertido para hacer.\! usa FASCINAR en un ZIP BOMB.\! El resto... queda en tus manos.
+
+# ==== Biscuit Campsite Picnic ====
+
+#INTRO
+Campsite-Intro-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Esta zona, por lo que puede observarse, parece corresponder a la isla principal de \c[11]FALLEN WORLD\c[0]. Algunos residentes aún permanecen, a pesar de la condición deplorable de sus viviendas.
+
+Campsite-Intro-2:
+    faceset: RV_Biscuit
+    faceindex: 8
+    text: \n<BISCUIT>Este lugar también habría parecido una excelente zona para establecerse antes de la destrucción diria yo.
+
+#AREA
+Campsite-Area-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Los residentes locales han reportado la presencia de un individuo sumamente odioso que está causando disturbios considerables al noreste de esta zona.
+
+Campsite-Area-2:
+    faceset: RV_Biscuit
+    faceindex: 9
+    text: \n<BISCUIT>Es una lástima que, al abandonar nuestros hogares con el fin de conocer más del mundo, lo encontremos puesto en peligro por semejantes cretinos...
+
+#AREA-POST
+Campsite-Area2-1:
+    faceset: RV_Biscuit
+    faceindex: 9
+    text: \n<BISCUIT>Al parecer, aquel que se hacía llamar "guerrero ninja" resultó ser simplemente un bufón...\. Por lo menos,el pandemónium finalmente termino. 
+
+Campsite-Area2-2:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Parece que los habitantes han reanudado su marcha hacia la estación, libres al fin de la presencia de ese cretino.
+
+#Other
+Campsite-Other-1: 
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Los enemigos cuentan con un suministro limitado de JUGO, como vos.\! Aunque a menudo la mayoría de los enemigos no se ve tan afectada,\. Los enemigos con habilidades debilitantes podrían requerir más JUGO para ejecutar un ataque.
+
+Campsite-Other-2:
+    faceset: RV_Biscuit
+    faceindex: 1 
+    text: \n<BISCUIT>Cuando notes que un enemigo está ejecutando un ataque potente,\. Podría ser un indicio de que están consumiendo una porción considerable de su JUGO.
+
+Campsite-Other-3: 
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Infligir TRISTEZA podría ser una buena opción.\. A pesar de la mayor defensa, también vuelve al enemigo menos agresivo.
+
+# ==== Biscuit Cattail Picnic ====
+
+#INTRO
+Cattail-Intro-1:
+    faceset: RV_Biscuit
+    faceindex: 8
+    text: \n<BISCUIT>Esta pradera se distingue por su quietud y serenidad.\. Contiene vegetación natural, a diferencia del resto del entorno, que está cubierto de productos tecnológicos rotos y manufacturados.
+
+Cattail-Intro-2:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Por aquí ronda una selección bastante diversa de enemigos... una mezcla de todos los que hemos encontrado hasta ahora en la zona.
+
+#AREA
+Cattail-Area-1:
+    faceset: RV_Biscuit
+    faceindex: 1
+    text: \n<BISCUIT>A los pies del extenso cielo estrellado del \c[11]FALLEN WORLD\c[0],\. puede verse una hermosa cometa surcando el cielo iluminado por la luna
+
+Cattail-Area-2:
+    faceset: RV_Biscuit
+    faceindex: 9
+    text: \n<BISCUIT>Tal vez sea lo que más aprecio de esta zona...
+
+#AREA-POST
+Cattail-Area2-1:
+    faceset: RV_Biscuit
+    faceindex: 9
+    text: \n<BISCUIT>Los vientos del cambio ahora soplan por toda esta tierra....\. Es peculiar. 
+
+Cattail-Area2-2:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Cada vez que contemplo la cometa distante y los molinillos girando\. Siento como si el cielo se alejara cada vez más....
+
+#AREA-POST
+Cattail-Other-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Una vez vencido el jefe principal del área,\. los enemigos restantes tienden a organizarse en formaciones más grandes que al inicio.
+
+Cattail-Other-2:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>Poné a prueba tus conocimientos, porque los enemigos más pequeños no deben subestimarse cuando hay fuerza en números.<br><br>Este es especialmente el caso de ADWARE,\. considerando su prodigiosa capacidad de apoyo.\! Debería ser eliminado lo antes posible.
+
+Cattail-Other-3:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Tal vez aprendas algo útil sobre la priorización de tipos de enemigos...\! Algunos tal vez deban ser enfrentados de inmediato, y otros quizá convenga dejarlos para más adelante.
+    
+# ==== Biscuit Scrapyard Picnic (NEW) ====
+
+#INTRO
+Scrapyard-Intro-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Los enemigos en esta isla se sienten mucho más nostálgicos, ¿no te parece?\! Si tuviera que adivinar, la llegada masiva de nuevo hardware condenó a estos enemigos a la obsolescencia.<br>Tal es el destino de la tecnología...
+    
+Scrapyard-Intro-2:
+    faceset: RV_Biscuit
+    faceindex: 2
+    text: \n<BISCUIT>Sabés, mientras buscaba un lugar donde establecerme, podría jurar que antes no había una isla acá...\| ¡Es como si hubiera aparecido de la nada mientras no estaba mirando!
+    
+#AREA
+Scrapyard-Area-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Si subís a lo alto de ese acantilado, hay una vista espectacular de la Luna desde acá.\! ¿Qué tal si te tirás un rato en el sillón de allá arriba y te relajás?\! No se presenta esta oportunidad muy seguido.
+
+Scrapyard-Area-2:
+    faceset: RV_Biscuit
+    faceindex: 5
+    text: \n<BISCUIT>Ah, pero antes, quizás deberías ayudar a ese hombre extraño que está hurgando entre la basura por allá.\! Parece ser del tipo adinerado.\! Podría valer la pena tu tiempo..
+    
+#POST
+
+Scrapyard-Area-3:
+    faceset: RV_Biscuit
+    faceindex: 4
+    text: \n<BISCUIT>...¿Ya lo hiciste?\! ¡Qué maravilla!\!<br>Ese \c[13]COLLAR CON GEMAS\c[0] es precioso...\! Creo que puede ser un artefacto genuino.\! Woe, si tan solo supiera qué tipo de gema es...
+    
+#OTHER
+Scrapyard-Other-1:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>La vista desde acá es hermosa, pero ¿no se supone que la Luna debería estar más…?\| ¿en el aire?\! Parece que se hundió directamente en el océano y chocó contra \c[11]OTHERWORLD\c[0] como una enorme tarta de pizza!
+    
+Scrapyard-Other-2:
+    faceset: RV_Biscuit
+    faceindex: 10
+    text: \n<BISCUIT>Por desgracia, no diría que esto es amor.\! Las consecuencias del impacto fueron catastróficas, una inundación devastadora y una tragedia que perdurará en la historia.
+
+# ===========================================================================================
+#                        CH4 - B2 METRO, CASTLE, PYREFLY
+# ===========================================================================================
+
+# ================ B2 Metro ================
+
+#INTRO
+MetroB2-Intro-1:
+    faceset: RV_Biscuit
+    faceindex: 7
+    text: \n<BISCUIT>Parece que se nos ha abierto el camino.
+
+MetroB2-Intro-2:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Me pregunto qué nuevas vistas nos esperan a todos al seguir adelante.
+
+message_3_bis:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>Estas criaturas fantasmales...\. Vagando por estos pasillos, me pregunto qué los mantiene aquí...
+
+message_4_bis:
+    faceset: RV_Biscuit
+    faceindex: 9
+    text: \n<BISCUIT>Parece que estamos en el METRO otra vez, esta vez más profundo. Es posible que el camino por delante esté lleno de peligros.\. Ten cuidado!
+
+
+# ================ Sprout Mole Village ================
+
+Village-Intro-1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Hola, hermana.\! He descubierto este restaurante de TOFU que está dirigido por SPROUT MOLES.\! ¡Es bastante interesante!
+
+Village-Intro-2:
+    faceset: RV_Biscuit
+    faceindex: 7
+    text: \n<BISCUIT>¿Cómo estás hoy? ¿Hay algo de lo que te gustaría hablar?
+
+#AREA
+
+Village-Area-1:
+    faceset: RV_Biscuit
+    faceindex: 7
+    text: \n<BISCUIT>Esta es la ciudad SPROUT MOLE.\! Según mi experiencia, los topos que viven acá son en realidad bastante amables con los turistas.\! También escuché que hay una especie de castillo cerca.
+
+Village-Area-2:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>Parece que los últimos acontecimientos sembraron cierto caos por acá… pero nada comparado con lo que ocurrió en otros lugares.
+
+#OTHER
+
+Village-Other-1:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>Hermana, ¿has probado el TOFU antes?\! Es más suave que cualquier pan que haya horneado en mi vida.\! Puedo entender por que los SPROUT MOLES lo aman tanto.
+
+Village-Other-2:
+    faceset: RV_Biscuit
+    faceindex: 9
+    text: \n<BISCUIT>Por favor, sentite libre de comer un poco del mío.\! Pedí demasiado..
+
+# ================ CRUMBLING CASTLE ================
+#-------- Servants sleeping quarter
+#First lines
+cc_biscuit_1:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>Esta serie de habitaciones es muy uniforme, a pesar del caos que reina en el castillo.\! La arquitectura es bastante impresionante.
+
+cc_biscuit_2:
+    faceset: RV_Biscuit
+    faceindex: 9
+    text: \n<BISCUIT>También es un lugar considerablemente más tranquilo y con mayor privacidad.\. Hermana, espero que tu grupo encuentre aquí toda la paz que le sea posible.
+
+#AREA
+cc_biscuit_3:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Creo que vi a alguien vendiendo baratijas en la otra habitación.\! no sé si le irá muy bien con eso...
+
+cc_biscuit_4:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Si les queda mucho inventario, quizás algo de eso te sea útil.
+
+#OTHER
+cc_biscuit_5:
+    faceset: RV_Biscuit
+    faceindex: 7
+    text: \n<BISCUIT>Jamás en mi vida vi tantas frutillas.\. También jamás vi tantas frutillas podridas, pasadas y cubiertas de moho en toda mi vida.
+
+#--------Under the dungeon
+#First lines
+cc_biscuit_6:
+    faceset: RV_Biscuit
+    faceindex: 9
+    text: \n<BISCUIT>Esta zona tiene una leve fresca\! Luego de tanto tiempo expuesto al calor de los hornos, resulta extraño experimentar el frío.
+
+cc_biscuit_7:
+    faceset: RV_Biscuit
+    faceindex: 4
+    text: \n<BISCUIT>¿Cómo te encuentras, hermana?
+
+#AREA
+cc_biscuit_8:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>TEstos pasadizos conducen a diversas celdas en los pisos superiores. Me intriga saber si fueron obra de los prisioneros o de los guardias.
+
+#OTHER
+cc_biscuit_10:
+    faceset: RV_Biscuit
+    faceindex: 2
+    text: \n<BISCUIT>Últimamente he sentido muchas ganas de hornear.\! En particular, tengo antojo de hacer una tarta de frutillas...
+
+cc_biscuit_11:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>Creo que mi deseo ha sido fuertemente influenciado por mi entorno
+
+#--------To Virtuoso dungeon
+#First lines
+cc_biscuit_12:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Encontré un lugar con una atmósfera tranquila, aunque de vez en cuando escucho una orquesta proveniente de las salas más adelante.
+
+cc_biscuit_13:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>¿Querés hacer una pausa antes de seguir adelante?
+
+#AREA
+cc_biscuit_14:
+    faceset: RV_Biscuit
+    faceindex: 6
+    text: \n<BISCUIT>Me pregunto cuánto CLAMS haría falta para restaurar los daños de este castillo.
+
+cc_biscuit_15:
+    faceset: RV_Biscuit
+    faceindex: 7
+    text: \n<BISCUIT>Mi estimación actual es al menos un millón, cuatrocientos tres CLAMS.
+
+#OTHER
+cc_biscuit_16:
+    faceset: RV_Biscuit
+    faceindex: 9
+    text: \n<BISCUIT>La diferencia entre un SPROUT MOLE y un LOST SPROUT MOLE es mucho mayor de lo que había imaginado..\. Ojalá existiera una forma de ayudar a los segundos en su peligro.
+
+# ================ PYREFLY FOREST ================
+
+#First lines
+pf_biscuit_1:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Este lugar tiene un aire de calma.\. Me resulta bastante agradable.
+
+
+pf_biscuit_2:
+    faceset: RV_Biscuit
+    faceindex: 0
+    text: \n<BISCUIT>Si tan solo no hubiera una población tan numerosa de bestias...\! Te aconsejo que luego verifiques si has sufrido alguna mordida.
+
+#AREA
+pf_biscuit_3:
+    faceset: RV_Biscuit
+    faceindex: 1
+    text: \n<BISCUIT>Hay algo anormal en este bosque, pero no logro identificar qué es exactamente\. No creo que sus habitantes sean dignos de confianza.
+
+#OTHER
+pf_biscuit_4:
+    faceset: RV_Biscuit
+    faceindex: 3
+    text: \n<BISCUIT>Por curiosidad, introduje los dedos en el agua hace un momento.\! Su textura era inusualmente densa, y su temperatura, gélida.\! No pienso volver a tocarla.

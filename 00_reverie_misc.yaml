@@ -1,0 +1,208 @@
+# =========================================================================================
+# ** TEMPLATE DIALOGUE
+# =========================================================================================
+
+# Tag Rejects
+tagreject_doughie:
+    text: Esto parece un trabajo para DOUGHIE!
+
+tagreject_spaceboy:
+    text: Esto parece un trabajo para SPACEBOY!
+
+tagreject_sweetheart:
+    text: Esto parece un trabajo para SWEETHEART!
+
+tagreject_rvplayer:
+    text: Esto parece un trabajo para \n[17]!
+
+# GENERAL CHOICES
+choice_nevermind:
+    text: NO IMPORTA
+
+# PICNIC
+picnic_save0:
+    text: >
+        La canasta de picnic de MARI. \!¿Te gustaria GUARDAR?
+
+picnic_save1:
+    text: >
+        Una canasta de picnic vacia.\! ¿Te gustaria GUARDAR?
+
+picnic_opt:
+    text: OPCIONES
+
+picnic_opt_msg:
+    text: >
+        ¿Qué querés modificar?
+
+picnic_opt_1:
+    text: DIFICULTAD
+
+picnic_opt_return:
+    text: REGRESAR
+
+# DIFFICULTY SELECTION
+diff_select-msg:
+    text: Por favor seleciona una DIFICULTAD
+
+diff_select-n1:
+    text: FACIL
+
+diff_select-0:
+    text: NORMAL
+
+diff_select-1:
+    text: DIFICIL
+
+diff_select-2: #REVERIE SECRET MODE?????????? REAL????
+    text: DESPIADADO
+
+diff_select-0-n1:
+    text: DIFICULTAD establecida en \c[4]FACÍL\c[0].
+
+diff_select-0-0:
+    text: DIFICULTAD establecida en \c[4]NORMAL\c[0].
+
+diff_select-1-0:
+    text: DIFICULTAD establecida en \c[4]DIFICILF\c[0].
+
+# ELEVATOR
+
+elevator_prompt:
+    text: ¿Adónde quieres ir?
+
+elevator_F4:
+    text: P4
+
+elevator_F3:
+    text: P3
+
+elevator_F2:
+    text: P2
+
+elevator_F1:
+    text: P1
+
+elevator_B1:
+    text: PS1
+
+elevator_B2:
+    text: PS2
+
+elevator_B3:
+    text: PS3
+
+elevator_broken:
+    text: El boton esta roto.
+
+elevator_same:
+    text: Ya estás en el mismo piso.
+
+# Misc
+msg_strongfoe:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 0
+    text: \n<DOUGHIE>Este enemigo parece fuerte...\. ¿Estás seguro de que estás listo?
+    
+# Cutscene PX for Sheet
+
+message_5:
+    text: \n<SWEETHEART>...
+
+message_6:
+    text: \n<DOUGHIE>...
+
+message_7:
+    text: \n<SPACEBOY>...
+
+message_8:
+    text: Esto parece un trabajo para \n[17]!
+
+message_9:
+    text:
+
+message_10:
+    text:
+
+message_DG_TAG:
+      faceset: MainCharacters_ReverieDreamWorld
+      faceindex: 1
+      text: \n<DOUGHIE>¡Muy bien, allá vamos!
+
+# Skill Learns
+
+message_s1:
+    text: DOUGHIE aprendió \c[1]BIS-QUICK\c[0]!
+
+message_s2:
+    text: SPACEBOY aprendió \c[1]TENACITY\c[0]!
+
+message_s3:
+    text: DOUGHIE aprendió \c[1]WHITE BREAD\c[0]!
+
+message_s3-1:
+    faceset: MainCharacters_ReverieDreamworld
+    faceindex: 4
+    text: \n<DOUGHIE>Eso fue un encuentro...\. Tendremos que estar un poco más preparados para este tipo de ataques.
+
+message_s4:
+    text: SWEETHEART aprendió \c[1]BAILE LENTO\c[0] y \c[1]ZAPATEADO\c[0]!
+
+message_s5:
+    text: DOUGHIE aprendió \c[1]LECHE PODRIDA\c[0]!
+
+message_s6:
+    text: DOUGHIE aprendió \c[1]INYECCIÓN LETAL\c[0]!
+
+message_s7:
+    text: SPACEBOY aprendió \c[1]GOLPE AL HÍGADO\c[0]!
+
+# MARI encounter Skills
+
+message_ms1-1:
+    text: La visión de una sonrisa amorosa oculta entre la lluvia te hizo recordar algo familiar,\. como un viejo sueño.
+
+message_ms1-2:
+    text: \n[17] recordaste como \c[1]CALMARTE\c[0].
+
+# OVEN
+message_oven:
+    text: ¿Vas a usar el \c[4]HORNO\c[0]?
+
+#===== MAIL SHOP =====
+#IF SPACEBOY IS leader
+message_mail_sb:
+    text: \mai¡Ah, pero si no es SPACEBOY,mi cliente favorito y el \sinv[1]segundo\sinv[0] más apuesto! Descuentos para vos, siempre! Así que... ¡Comprá algo, por favor! \}\sinv[1]Kekeke...
+    
+message_foefacts:
+      text: BISCUIT te dio  \c[4]DATOS DE ENEMIGOS!\c[0] y \c[4]LIBRO DE INFORMACION\c[0].
+
+# ===== ALBUM AND MEDIA ITEMS NOTE =====
+note_album-1:
+    text: .\..\..\.Sentís que algo cambió en el \c[4]ALBUM DE FOTOS\c[0].
+
+note_album-2:
+    text: ...Junto con algunos items \c[4]IMPORTANTES\c[0] en tu bolsillo...
+
+# ===== ART AND INFO ITEMS =====
+note_media_art:
+    text: Te sentís un poco mas \c[11]inspirado\c[0].
+
+note_media_info:
+    text: Agregaste algunas entradas nuevas en \c[4]DATOS DE ENEMIGOS\c[0]
+
+note_media_guide:
+    text: Agregaste algunas entradas nuevas en el \c[4]LIBRO DE INFORMACION\c[0]
+
+# ===== UPDATING SAVES =====
+note_update_2to3-1:
+    text: |
+        \c[4]NOTE: Se detectó una partida guardada del CAPÍTULO 2.5.\!<br>Se han aplicado los cambios en los objetos del mundo real.\c[0]
+
+note_update_3to4-1:
+    text: |
+        \c[4]NOTE: Se detectó una partida guardada del CAPÍTULO 3\!<br>cambios de DATOS DE ENEMIGOS, HABILIDADES y NIVEL han sido aplicados.\c[0]
+
+note_update_3to4-2:
+    text: |
+        Obtuviste \c[4]LIBRO DE INFORMACION\c[0]!\! Chequea \c[4]IMPORTANTES\c[0] para mas información.
