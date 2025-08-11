@@ -4,278 +4,278 @@
 
 # ======== APARTMENTS INTERIORS ========
 apartment_homedoor:
-    text: Will you go back home?\. (You don't feel like coming back out.)
+    text: ¿Vas a volver a casa?\. (No parece que tengas ganas de salir otra vez.)
 
 apartment_homedoor_1:
-    text: You don't feel like going back home quite yet.
+    text: Todavía no tenés ganas de volver a casa.
 
 apartment_lock_1:
-    text: The door is locked.
+    text: La puerta esta trabada.
 
 apartment_lock_2:
     text: Put something goofy here of some door lock variation or something.
 
 apartment_firedoor:
-    text: It's an emergency exit.\! It's not an emergency.\..\..\. yet.
+    text: Es una salida de emergencia.\! No es una emergencia.\..\..\. Todavia.
 
 apartment_plant_1:
-    text: A potted plant.\. A little greenery to brighten the area.
+    text: Una planta en una maceta.\. Un poco de verde para alegrar el lugar.
 
 apartment_flowerpot_1:
-    text: A small potted flower sits nicely on a little table.\. Makes the corridor feel less empty.
+    text: Una pequeña flor puesta con gracia sobre una mesita.\. Hace que el pasillo se sienta menos vacío.
 
 apartment_mop_1:
-    text: A mop.\. It leans askew on the corner.
+    text: Un trapeador.\. Se inclina sobre la esquina.
 
 apartment_mop_2:
-    text: A mop.\. Why is the rooftop being cleaned anyways?
+    text: Un trapeador.\. ¿Por qué están limpiando el techo, de todas formas?
 
 apartment_umbrella_1:
-    text: An umbrella holder.\. Surprisingly, an umbrella is in it.
+    text: Un portaparaguas.\. Sorprendentemente, hay un paraguas adentro.
 
 apartment_leftroom:
-    text: A storage room.\. Maybe there are more leaning mops inside.
+    text: Un depósito.\. Quizás haya más trapeadores inclinados adentro.
 
 apartment_floor_f1:
-    text: The 1st floor.\. Or is it called the ground floor?
+    text: The 1er piso.\. ¿O se llama planta baja?
 
 apartment_floor_f2:
-    text: The 2nd floor.
+    text: The 2do piso.
 
 apartment_floor_f3:
-    text: The 3rd floor.
+    text: The 3er piso.
 
 apartment_floor_f4:
-    text: The 4th floor.\. It's your floor!
+    text: The 4to piso.\. ¡Es tu piso!
 
 apartment_window_1:
-    text: The window.\. You can see the front street from here.
+    text: La ventana.\. Desde acá se puede ver la calle de enfrente.
 
 apartment_mailbox_1:
-    text: A red mailbox.
+    text: Un buzón rojo.
 
 apartment_painting_1:
-    text: A barely started painting of the skyline.\. The paint is dry...
+    text: Una pintura apenas comenzada del horizonte.\. La pintura está seca...
 
 # ======== POLICE ========
 
 street_police_door:
-    text: This door probably leads to the offices.\. It's locked.
+    text: Debe ser la entrada a las oficinas.\. Está cerrada
 
 street_police_badge:
-    text: A giant,\. golden plaque of a police badge.
+    text: Una enorme,\. placa dorada con forma de insignia policial.
 
 # ======== PARK ========
 
 street_park_poisonous:
-    text: As nice and tasty this plant and its berries look,\. eating them wouldn't be a very good idea.
+    text: Aunque esas plantas se vean lindas y sus bayas ricas,\. comerlas no sería una muy buena idea..
 
 # ======== CAFE/BRAND/TWINS ========
 
 street_display:
-    text: A wide variety of treats are on display.
+    text: Una vitrina llena de tentaciones.
 
 street_cafe_menu:
-    text: A chalkboard with today's menu.
+    text: Una pizarra con el menú de hoy.
 
 street_vending:
-    text: A vending machine.
+    text: Una maquina expendedora.
 
 street_vending_soda:
-    text: A soda vending machine.
+    text: Una máquina expendedora de gaseosas.
 
 street_deal:
-    text: Looks like there's a special deal going on this week.
+    text: Parece que hay una oferta especial esta semana.
 
 street_donuts:
-    text: Many donuts of different flavors.\. There's even jelly-filled.
+    text: Hay donuts de todos los sabores.\. Incluso hay rellenos de mermelada.
 
 street_display_bread:
-    text: A wide selection of slightly less than fresh bread.
+    text: Una amplia selección de panes no tan frescos.
 
 street_display_donuts:
-    text: A showcase filled with lots of donuts.
+    text: Una vitrina con una gran variedad de donas.
 
 street_open_box_1:
-    text: Inside the box,\. you see cookie cutters,\. rolling pins,\. cans of yeast,\. and a folded up cardboard cutout.
+    text: Dentro de la caja,\. ves cortadores de galletas,\. palos de amasar,\. latas de levadura,\. y una figura de cartón doblada.
 
 street_open_box_2:
-    text: Inside the box you see a trophy.\. You also see a replica of the same trophy.
+    text: Dentro de la caja ves un trofeo.\. También ves una réplica del mismo trofeo.
 
 # ======== SUBWAY ========
 
 street_metro_tulips:
-    text: These are tulips.\! You feel a special kinship to them.
+    text: Estas son tulipanes.\! Sentís una conexión especial con ellas.
 
 street_metro_gates:
-    text: You can't get past these gates.\. Your exploring ends here for now.
+    text: No podés pasar por estas rejas.\. Por ahora, tu exploración termina acá
 
 street_metro_map:
-    text: Red, green, yellow, blue, purple...\. Where do they all go?\. It's a mystery to you.
+    text: Rojo, verde, amarillo, azul, violeta...\. ¿A dónde van todos?\. Es un misterio para vos.
 
 street_metro_info:
-    text: A map.\. If you get lost,\. you can look at it for directions.\. But you're not lost, yet.\. Are you?
+    text: Un mapa.\.  Si te perdés,\. podés mirarlo para orientarte.\. Pero todavía no estás perdido.\. ¿O sí?
 
 street_metro_ticket:
-    text: A ticket machine.\. You don't really need to buy any.
+    text: Una máquina de boletos.\. No necesitás comprar ninguno.
 
 # ======== BLUE MOVIE ========
 
 street_blue_action:
-    text: These shelves are full of action movies.
+    text: Estas estanterías están llenas de películas de acción.
 
 street_blue_spaceboy:
-    text: This whole section has been completely taken over by \c[4]CAPT. SPACEBOY\c[0] movies.\. This new movie must be really popular.
+    text: Toda esta sección ha sido completamente tomada por películas de \c[4]CAPT.SPACEBOY\c[0].\. Esta nueva película debe ser muy popular.
 
 street_blue_spy:
-    text: These shelves are full of spy movies.
+    text: Estas estanterías están llenas de películas de espías.
 
 street_blue_space:
-    text: These shelves are full of space opera movies.
+    text: Estas estanterías están llenas de películas de ópera espacial.
 
 street_blue_adventure:
-    text: This section seems to be dedicated to adventure movies.
+    text: Toda esta sección parece estar dedicada a películas de aventuras.
 
 street_blue_misc:
-    text: This section seems to be full of miscellanous movies.
+    text: Toda esta sección parece estar llena de películas variadas.
 
 # ======== CLINIC ========
 
 street_clinic_registry:
     faceset: RV_MIYA
     faceindex: 9
-    text: \n<MIYA>Thats just the client registry.\. It's just a list of names and stuff.
+    text: \n<MIYA>Eso es solo el registro de clientes.\. Es simplemente una lista de nombres y cosas.
 
 street_clinic_computer:
     faceset: RV_MIYA
     faceindex: 16
-    text: \n<MIYA>Nice looking thing,\. isn't it?\. Wish I had one of these at home.\. Then I could play solitaire whenever I want.
+    text: \n<MIYA>Lindo aparato,\. ¿no?\. Ojalá tuviera uno de estos en casa.\. Así podría jugar al solitario cuando quiera.
 
 street_clinic_degree:
     faceset: RV_MIYA
     faceindex: 18
-    text: \n<MIYA>Oh.\. That's my degree.\! Heh,\. it isn't exactly a doctorate but...\. it gets the job done.\. I guess.
+    text: \n<MIYA>Oh.\. Ese es mi título.\! Je,\. no es exactamente un doctorado pero...\. cumple su trabajo.\. Supongo.
 
 street_clinic_magazines:
-    text: The magazine rack is full of pramphlets about health.
+    text: El revistero está lleno de folletos sobre salud.
 
 street_blue_magazines:
-    text: The magazine rack is full of periodicals about popular media.
+    text: El revistero está lleno de publicaciones periódicas sobre medios populares.
 
 # ======== RED MOVIE ========
 
 street_red_sweetheart:
-    text: There's a whole section of the store filled with DVDs for \c[4]SWEETHEART\c[0] movies.\. The demand must be very high.
+    text: Hay toda una sección de la tienda llena de DVDs de películas de \c[4]SWEETHEART\c[0].\. La demanda debe ser muy alta.
 
 street_red_animated:
-    text: These shelves are full of animated movies.\. They feel so familiar to you, even now.
+    text: Estas estanterías están llenas de películas animadas.\. Te resultan tan familiares, incluso ahora.
 
 street_red_horror:
-    text: These shelves are full of horror movies.\. This is the good stuff.
+    text: Estas estanterías están llenas de películas de terror.\. Esto es de lo bueno.
 
 street_red_cheesy:
-    text: These shelves are full of teen movies.\. They seem pretty cheesy.
+    text: Estas estanterías están llenas de películas adolescentes.\. Parecen bastante cursis.
 
 street_red_vintage:
-    text: A vintage cardboard cutout of a movie that released a long while ago.
+    text: Una figura de cartón vintage de una película que se estrenó hace mucho tiempo.
 
 street_red_machine:
-    text: Out of order.
+    text: Fuera de servicio.
 
 street_red_west:
-    text: These shelves are full of western movies.\. You didn't know there were so many.
+    text: Estas estanterías están llenas de películas del oeste.\. No sabías que había tantas.
 
 # ======== DIGITAL ========
 
 street_digital_computer:
-    text: Computers, fitted with the latest and most advanced technology.
+    text: Computadoras equipadas con la tecnología más reciente y avanzada.
 
 street_digital_charger:
-    text: New CDs and chargers for the latest cell phones line this wall.
+    text: Nuevos CDs y Cargadores para los últimos modelos de celulares cubren toda esta pared.
 
 street_digital_boombox:
-    text: TVs,\. boomboxes,\. and phones line this wall for a hefty price.
+    text: TVs,\. boomboxes,\. y teléfonos cubren toda esta pared... y a un precio bastante elevado.
 
 street_digital_games:
-    text: The most popular games sit on this wall, including some you've never heard of.
+    text: Los juegos más populares ocupan toda esta pared, incluso algunos que nunca escuchaste nombrar.
 
 street_digital_cameras:
-    text: There are several polaroid cameras on display.\. You know someone who would love this place.
+    text: Hay varias cámaras Polaroid en exhibición.\. Conocés a alguien que adoraría este lugar.
 
 street_digital_headphone:
-    text: An assortment of various MP3s and headphones arranged in chromatic order.
+    text: Una variedad de reproductores MP3 y auriculares, ordenados cromáticamente.
 
 street_digital_employee:
-    text: \n<EMPLOYEE>Welcome to DIGITAL SPOT.\. If you need any help, the staff will be there.
+    text: \n<EMPLOYEE>Bienvenido a  DIGITAL SPOT.\. Si necesitás algo, el personal está para ayudarte.
 
 # ======== MALL ========
 
 street_mall_grananas:
-    text: Grananas.
+    text: Buvanas.
 
 street_mall_bananas:
     text: Bananas.
 
 street_mall_grapes:
-    text: Grapes.
+    text: Uvas.
 
 street_mall_apple:
-    text: Apples.
+    text: Manzanas.
 
 street_mall_grapple:
-    text: Grapples.
+    text: Manzuvas.
 
 street_mall_wet:
-    text: A wet floor sign,\. for safety.
+    text: Un cartel de “piso mojado”,\. por seguridad.
 
 street_mall_meat:
-    text: Woah!\. So much meat!
+    text: ¡Woah!\. ¡Cuanta carne!
 
 street_mall_veggies:
-    text: A wide selection of vegetables.
+    text: Una amplia selección de verduras.
 
 street_mall_drinks:
-    text: Large amounts of energy drinks,\. soda,\. and fruit juice.
+    text: Grandes cantidades de bebidas energéticas,\. gaseosas,\. y jugos de fruta.
 
 street_mall_janitor:
-    text: The janitor is cleaning the floor.\. Best not to disturb him.
+    text: El conserje está limpiando el piso.\. Mejor no molestarlo.
 
 # ======== SUBWAY ========
 
 street_pizza_yum:
-    text: A pizza for one.\. You would eat all of it if it wasn't stealing.
+    text: Una pizza para uno.\. Te la comerías entera si no fuera robar.
 
 street_pizza_drinks:
-    text: The freezer is full to the brim with drinks.
+    text: El congelador está lleno hasta el tope de bebidas.
 
 street_pizza_nyc:
-    text: A poster for a huge,\. New York style pizza.\. You know someone who'd gobble it right up...
+    text: Un póster de una pizza enorme,\. estilo Nueva York.\. Conocés a alguien que se la devoraría sin pensarlo...
 
 street_pizza_pack:
-    text: A giant stack of pizza cartons.
+    text: Una pila gigante de cajas de pizza.
 
 street_pizza_trophy:
-    text: The trophy has "Best pizza of the year" engraved in the front.
+    text: El trofeo tiene grabado en el frente; “Mejor pizza del año”.
 
 # ======== MOVIE STREET ========
 
 street_pizza_poster:
-    text: Posters of pizza.\. It must taste even better than it looks.
+    text: Pósters de pizza.\. Debe saber incluso mejor de lo que se ve.
 
 street_movie_boxes:
-    text: Old boxes.\. They must be filled with movies.
+    text: Cajas viejas.\. Deben estar llenas de películas.
 
 street_movie_poster:
-    text: Posters for movie rentals.\. It'd be nice to sit down with a friend and watch a movie at night.
+    text: Pósters de alquiler de películas.\. Estaría bueno sentarse con un amigo a ver una pelicula de noche.
 
 # ======== GENERAL ========
 
 street_phonebooth:
-    text: A telephone booth.\. If you really need to,\. you can call someone with pocket change. 
+    text: Una cabina telefónica.\. Si realmente lo necesitás,\. podés llamar a alguien con unas monedas. 
 
 # ======== STREET EXTERIORS ========
 street_outofbound:
-    text: You shouldn't go wandering too far.
+    text: No deberías alejarte demasiado.
 
 street_sign_electronic:
     text: Text
@@ -296,325 +296,325 @@ street_trash_1:
     text: Text
 
 street_trashcan_green:
-    text: A green trashcan.\. For organic materials.
+    text: Un tacho verde.\. Para residuos orgánicos.
 
 street_trashcan_blue:
-    text: A blue trashcan.\. For traditional recyclable materials.
+    text: Un tacho azul.\. Para materiales reciclables tradicionales.
 
 street_trashcan_gray:
-    text: A gray trashcan.\. For waste neither organic nor recyclable.
+    text: Un tacho gris.\. Para residuos que no son ni orgánicos ni reciclables.
 
 street_trashcan_green_empty:
-    text: A geen trashcan.\. It's surprisingly empty.
+    text: Un tacho verde.\. Sorprendentemente, está vacío.
 
 street_trashcan_blue_empty:
-    text: A blue trashcan.\. It's surprisingly empty.
+    text: Un tacho azul.\. Sorprendentemente, está vacío.
 
 street_trashcan_gray_empty:
-    text: A gray trashcan.\. It's surprisingly empty.
+    text: Un tacho gris.\. Sorprendentemente, está vacío.
 
 street_trashcan_gray_why:
-    text: A blue trashcan.\. It's trash.\. Life isn't a video game,\. so you won't find anything of value in here.
+    text: Un tacho azul.\. Es basura.\. La vida no es un videojuego,\. Así que no vas a encontrar nada de valor acá.
 
 street_car:
-    text: You haven't ridden in a car for a while.\. If you knew how to drive,\. you could go somewhere special...
+    text: Hace tiempo que no viajás en auto.\. Si supieras manejar,\. podrías ir a algún lugar especial....
 
 street_car_police:
-    text: This may be a cop car,\. but just standing near it makes you feel like you're being judged.
+    text: Puede que sea un auto de policía,\. pero con solo estar cerca sentís que te están juzgando.
 
 street_flowers:
-    text: Flowers lining the street.\. Pretty.
+    text: Flores decorando la vereda.\. Qué lindas.
 
 street_pile_north:
-    text: Piles of garbage,\. rotting in the sun.
+    text: Bolsas de basura,\. pudriendose en el sol.
 
 street_plant_trash:
-    text: Somehow this plant is closer to the garbage bins than the garbage itself.
+    text: De alguna manera, esta planta está más cerca de los tachos de basura que la basura misma.
 
 street_bin_empty:
-    text: A garbage bin.\. It's shockingly empty.
+    text: Un tacho de basura.\. Sorprendentemente, está vacío.
 
 street_alley:
-    text: The darkness of the alleyway is a stark contrast to the bright and sunny day around you.
+    text: La oscuridad del callejón contrasta fuertemente con el día brillante y soleado que te rodea.
 
 street_recycle_empty:
-    text: A recycling bin.\. It's pretty empty.
+    text: Un tacho de reciclaje.\. Está bastante vacío.
 
 street_bin_full:
-    text: A garbage bin.\. It's full.
+    text: Un tacho de basura.\. Esta lleno.
 
 street_mailbox_red:
-    text: A red mailbox.\. You still prefer blue ones.
+    text: Un buzon rojo.\. Todavía preferís los azules.
 
 street_tv_broken:
-    text: An old TV.\. It looks like somebody decided to upgrade.
+    text: Una vieja TV.\. Parece que alguien decidió mejorar.
 
 street_electronics:
-    text: Inside there is both a mini bar and a large selection of electronics.
+    text: Dentro hay un minibar y una gran selección de aparatos electrónicos.
 
 street_clinic:
-    text: You can see inside the clinic.\. It looks very cleaned and organized.
+    text: Podes mirar adentro de la clinica.\.  Se ve muy limpia y ordenada.
 
 street_coffee_table:
-    text: A table.\. It's covered with coffee stains.
+    text: Una mesa.\.Esta cubierta de manchas de café.
 
 street_danger_sign:
-    text: A caution sign for crossing the street.
+    text: Un cartel de precaución para cruzar la calle.
 
 street_bike:
-    text: Somebody parked their bike here.
+    text: Alguien estacionó su bicicleta acá.
 
 street_bakers_before:
-    text: This sign says “BAKER'S”.\. Something about it reminds you of \c[11]FARAWAY TOWN\c[0]...
+    text: Este cartel dice “BAKER'S”.\. Algo en eso te recuerda a \c[11]FARAWAY TOWN\c[0]...
 
 street_bakers_after:
-    text: It's the sign for the twins' new bakery.\. It says "BAKER'S"
+    text: Es el cartel de la nueva panadería de los mellizos.\. Dice "BAKER'S"
 
 street_bus_sign:
-    text: A sign for the bus stop.
+    text: Una señal para la parada del autobus.
 
 street_rental_sign:
-    text: This sign says “For Rent”.\. You wonder what stores might make this place their future home.
+    text: El cartel dice “Alquila”.\. Te preguntás qué tiendas podrían establecerse aquí en el futuro.
 
 street_building:
-    text: The entrance to another apartment building.
+    text: La entrada a otro edificio de departamentos.
 
 street_ugly:
-    text: Someone could trip on this.\. You almost did.\. This pile is so noticeable until it isn't.
+    text: Alguien podría tropezarse con esto.\. Vos casi lo hiciste.\. Esta pila es tan visible hasta que deja de serlo.
 
 street_gate:
-    text: You hear the orchestra of a construction crew behind the door.\. You'd love to take a look behind the scenes,\. but you'd rather not get scolded.
+    text: Escuchás la orquesta de una cuadrilla de construcción detrás de la puerta.\. Te encantaría echar un vistazo detrás de escena,\. pero preferís no recibir un reto.
 
 street_tank:
-    text: A discarded tank top.\. Someone must've gone shirtless on the street...\. How brash.
+    text: Una musculosa tirada.\. Alguien anduvo sin remera por la calle...\. Qué descaro.
 
 street_lazy:
-    text: Some discarded drink cans.\. Someone must have been too lazy to throw them away.
+    text: Unas latas de bebida tiradas.\. Alguien debió haber sido demasiado vago para tirarlas como corresponde.
 
 street_crank:
-    text: You could certainly pilot this mechanical marvel. You could get inside and press all the buttons and pull the levels just fine.
+    text: Sin duda podrías pilotear esta maravilla mecánica. Podrías meterte adentro, apretar todos los botones y tirar de las palancas sin problema.
 
 street_crank2:
-    text: But could you do it well?\. Probably not.
+    text: ¿Pero podrías hacerlo bien? Probablemente no.
 
 street_twins_morning:
-    text: It looks like this lot was just moved into.\!<br>...The door is locked.
+    text: Parece que este terreno acaba de ser ocupado.\!<br>...La puerta esta cerrada.
 
 street_twins_1:
     faceset: RV_Daphne
     faceindex: 17
-    text: \n<DAPHNE>Come back in a few days!\! We are still getting ready-
+    text: \n<DAPHNE>¡Volvé en unos días!\! Todavía nos estamos preparando-
 
 street_twins_2:
     faceset: RV_Daphne
     faceindex: 2
-    text: \n<DAPHNE>Oh!\! It is you, \n[17].
+    text: \n<DAPHNE>Oh!\! Sos vos, \n[17].
 
 street_twins_3:
     faceset: RV_Daphne
     faceindex: 7
-    text: \n<DAPHNE>So you have visited us...\! You are most welcome to our humble bakery.
+    text: \n<DAPHNE>Así que nos has visitado...\! Sos más que bienvenido a nuestra humilde panadería.
 
 street_twins_4:
     faceset: RV_Daphne
     faceindex: 8
-    text: \n<DAPHNE>Unfortunately...\. we are still setting up.\! It does not look...\. proper...\. inside.
+    text: \n<DAPHNE>Desafortunadamente...\. todavía estamos preparando todo.\! El interior no se ve...\. muy presentable.
 
 street_twins_5: #choice here
     faceset: RV_Daphne
     faceindex: 5
-    text: \n<DAPHNE>Even so...\! Would you still like to come inside for a while?
+    text: \n<DAPHNE>Aun así...\! ¿Te gustaría entrar un rato?
 
 street_twins_5-a: #choice here
     faceset: RV_Daphne
     faceindex: 5
-    text: \n<DAPHNE>...Would you like to come inside for a while?
+    text: \n<DAPHNE>...¿Te gustaría entrar un rato?
 
 #no
 
 street_twins_6:
     faceset: RV_Daphne
     faceindex: 0
-    text: \n<DAPHNE>That is fine...\! Come back later when we have our...\. \sinv[1]GRAND OPENING\sinv[0].
+    text: \n<DAPHNE>Está bien...\! Volvé más tarde cuando tengamos nuestra...\. \sinv[1]GRAN APERTURA\sinv[0].
 
 #yes
 
 street_twins_7:
     faceset: RV_Daphne
     faceindex: 5
-    text: \n<DAPHNE>BOWEN,\. \n[17] has come to visit us...
+    text: \n<DAPHNE>BOWEN,\. \n[17] ha venido a visitarnos...
 
 street_twins_8:
     faceset: RV_Bowen
     faceindex: 4
-    text: \n<BOWEN>\n[17]...\! What a surprise.\! Welcome...
+    text: \n<BOWEN>\n[17]...\! Que sorpresa.\! Bienvenido...
 
 street_twins_9:
     faceset: RV_Bowen
     faceindex: 9
-    text: \n<BOWEN>As you can see...\. we are still unpacking.\! <br>But it will not take long for everything to be prepared.
+    text: \n<BOWEN>Como podés ver...\. todavía estamos desempacando.\! <br>Pero no va a tardar mucho en estar todo listo.
 
 street_twins_10:
     faceset: RV_Bowen
     faceindex: 8
-    text: \n<BOWEN>Perhaps we will open...\. yes, \c[11]the day after tomorrow\c[0].
+    text: \n<BOWEN>Quizás abramos...\. si, \c[11]pasado mañana\c[0].
 
 street_twins_11:
     faceset: RV_Daphne
     faceindex: 8
-    text: \n<DAPHNE>Yes...\! That will be our grand opening...
+    text: \n<DAPHNE>Si...\! Esa será nuestra gran apertura...
 
 #music note on both
 
 street_twins_12:
     faceset: RV_Daphne
     faceindex: 2
-    text: \n<DAPHNE>But for now...\! Our bakery is in no state to be perused.
+    text: \n<DAPHNE>Pero por ahora...\! nuestra panadería no está en condiciones de ser visitada.
 
 street_twins_13:
     faceset: RV_Bowen
     faceindex: 6
-    text: \n<BOWEN>But, since you've come all this way...\! Would you like some \sinv[1]fresh bread\sinv[0]?
+    text: \n<BOWEN>Pero, ya que viniste hasta acá...\! ¿Te gustaría un poco de  \sinv[1]pan fresco\sinv[0]?
 
 #receive a bunch of bread items
 
 street_twins_14:
     faceset: RV_Daphne
     faceindex: 4
-    text: \n<DAPHNE>We always keep a supply of \sinv[1]fresh bread\sinv[0] with us, wherever we go.
+    text: \n<DAPHNE>Siempre llevamos una reserva de \sinv[1]pan fresco\sinv[0] con nosotros, a donde sea que vayamos.
 
 street_twins_15:
     faceset: RV_Bowen
     faceindex: 0
-    text: \n<BOWEN>We will get back to work now...\. But feel free to visit us, anytime...
+    text: \n<BOWEN>Vamos a volver al trabajo...\. Pero sentite libre de visitarnos cuando quieras....
 
 #end. fadeout
 
 street_twins_16:
     faceset: RV_Daphne
     faceindex: 0
-    text: \n<DAPHNE>Ah...\. \n[17].\! How are you doing...?
+    text: \n<DAPHNE>Ah...\. \n[17].\! ¿Cómo estás...?
 
 street_twins_17:
     faceset: RV_Bowen
     faceindex: 0
-    text: \n<BOWEN>Ah...\. \n[17].\! How are you doing...?
+    text: \n<BOWEN>Ah...\. \n[17].\! ¿Cómo estás...?
 
 street_twins_evening:
-    text: The door is locked.\! \c[4]DAPHNE\c[0] and \c[4]BOWEN\ c[0] must have gone for the night.
+    text: La puerta cerrada.\! \c[4]DAPHNE\c[0] y \c[4]BOWEN\ c[0] deben haberse ido por la noche.
 
 street_police:
-    text: This may be a police car,\. but just standing near it makes you feel like you're being judged.
+    text: Puede que sea un auto de policía,\. pero con solo estar cerca sentís que te están juzgando.
 
-# ======== SHOPKEEP DIALOGUE ========
+# ======== Vendedor DIALOGUE ========
 
 # --Talk
 
 item_red-1:
-    text: \n<LAZY SHOPKEEP>It isn't like I have much of a choice,\. but if you need anything I'll be up here.
+    text: \n<VENDEDOR PEREZOSO>Aunque no tenga elección,\. si necesitás algo, voy a estar acá arriba.
 
 # --Buy talk
 
 item_red-2:
-    text: \n<LAZY SHOPKEEP>That's a great choice right there,\. total cult classic.\. That will cost you $\v[1794].\! Are you here to cash out the item?
+    text: \n<VENDEDOR PEREZOSO>Esa es una excelente elección,\.sin dudas un clásico de culto..\. Eso te va a costar $\v[1794].\! ¿Querés llevarte esto?
 
 #--Multiple items
 
 item_red-3:
-    text: \n<LAZY SHOPKEEP>Jeez kid,\. you must have a lot of free time.\. That will cost you $\v[1794].\! Is this everything?
+    text: \n<VENDEDOR PEREZOSO>Caramba,chico\. debés tener mucho tiempo libre.\. Eso te va a costar $\v[1794].\! ¿Eso es todo?
 
 #--Not enough money
 
 item_red-4:
-    text: \n<LAZY SHOPKEEP>Sorry, but that's not enough.\. If you want cheap movies,\. then go to \c[11]MOVIE WORLD\c[0].
+    text: \n<VENDEDOR PEREZOSO>Perdón, pero con eso no te alcanza.\. Si querés películas baratas,\. andá a \c[11]MOVIE WORLD\c[0].
 
 item_red-5:
-    text: \n<LAZY SHOPKEEP>It's all yours then.
+    text: \n<VENDEDOR PEREZOSO>Es todo tuyo.
 
 #==TECH STORE
 
 # --talk
 
 item_tech-1:
-    text: \n<CASHIER>Looking to buy anything?\. It's a slow day today,\. so I can show you whatever you need.
+    text: \n<CAJERO>¿Estás buscando comprar algo?\. Hoy está tranquilo,\. así que puedo mostrarte lo que necesites.
 
 # --buy talk
 
 item_tech-2:
-    text: \n<CASHIER>Ah!\. Something caught your eye?\! Then let me ring it up for you.
+    text: \n<CAJERO>Ah!\. ¿Algo te llamó la atención?\! dejame prepararlo para vos.
 
 item_tech-2_2:
-    text: \n<CASHIER>The total's $\v[1794].
+    text: \n<CAJERO>El total es $\v[1794].
 
 #-- buy multiple items
 
 item_tech-3:
-    text: \n<CASHIER>A shopping spree,\. is it?\! You must have quite the allowance.\. Let me ring these up for you.
+    text: \n<CAJERO>Una compra masiva,\. ¿No?\! Debés tener una buena mesada.\. Dejame cobrarte todo esto.
 
 #--not enough money
 
 item_tech-4:
-    text: \n<CASHIER>Sorry,\. but that's not enough money!
+    text: \n<CAJERO>Perdon,\. pero eso no es suficiente dinero!
 
 item_tech-5:
-    text: \n<CASHIER>Thank you for your patronage!
+    text: \n<CAJERO>¡Gracias por tu compra!
 
 #BLUE
 
 item_blue-1:
-    text: \n<SHOPKEEP>Hey there!\. If you're not sure what to rent,\. I can recommend you some stuff!
+    text: \n<Vendedor>¡Hola!\. Si no sabés qué alquilar,\. puedo recomendarte algunas cosas!
 
 item_blue-2:
-    text: \n<SHOPKEEP>All right,\. let's ring you up then!
+    text: \n<Vendedor>Listo,\. vamos a cobrarte entonces!
 
 item_blue-3:
-    text: \n<SHOPKEEP>Sorry pal, but that's not enough money.\! Try and save up!
+    text: \n<Vendedor>Perdon amigo, pero eso no es suficiente dinero.\! ¡Volvé cuando tengas más dinero!
 
 item_blue-4:
-    text: \n<SHOPKEEP>That'll be $\v[1794].
+    text: \n<Vendedor>Eso sera $\v[1794].
 
 item_blue-5:
-    text: \n<SHOPKEEP>Swing by anytime in the future!
+    text: \n<Vendedor>¡Pasate cuando quieras!
     
 # == ITEM/SHOP GENERAL
 
 item_notpaid:
-    text: You can't leave without paying...
+    text: No podés irte sin pagar...
     
 # Trying to give the important item color to the item name escape code (not \itemget) doesn't work atm due to hardcode-
 # will probably fix that in the future, leaving them here for now though
 
 item_putbackshelf:
-    text: Would you like to put \c[4]\ni[\v[1795]]\c[0] back in the<br>shelf?
+    text: ¿Queres poner \c[4]\ni[\v[1795]]\c[0] devuelta en el<br>estante?
     
 item_shelftake:
-    text: You took \c[4]\ni[\v[1795]]\c[0] off the shelf.
+    text: Agarraste \c[4]\ni[\v[1795]]\c[0] del estante.
 
 # ======== ITEMS ========
 
 item_persona:
-    text: There's one video game that's 75% off...\. It seems to be about using different kinds of SPROUT MOLES to fight other moles.\. Your mind is filling with the possibilities.
+    text: Hay un videojuego con un 75% de descuento...\. Parece que trata sobre usar distintos tipos de BROTOPOS para pelear contra otros moles.\. Tu mente se llena de posibilidades.
 
 item_persona1:
-    text: ...Price tag says $8.\! Bring it to the cash register?
+    text: ...La etiqueta dice $8.\! ¿Te lo llevás a la caja?
 
 item_persona_2:
-    text: Price tag says 8$.\. Bring it to the cash register? (DONT USE)
+    text: La etiqueta dice 8$.\. ¿Lo llevás a la caja? (DONT USE)
 
 item_computer_magazine:
-    text: Among the miscellaneous technology,\. you find a magazine.\! Reading it could help you understand computers better.
+    text: Entre la tecnología variada,\. encontrás una revista.\! Leerla podría ayudarte a entender mejor las computadoras.
 
 item_architecture:
-    text: A VHS tape is sticking out from behind a boombox.\! Judging from the cover,\. it seems to be about metro architecture.
+    text: Un videocasete sobresale detrás de un radiocasete.\! Juzgando la caratula,\.parece tratar sobre arquitectura de los metros.
 
 item_fairy:
-    text: Among the cartoon movies,\. one catches your eye about a mystical adventure with a fairy and a vampire.\! Your mind is filling with the possibilities.
+    text: Entre las películas animadas,\.una llama tu atención se trata sobre una aventura mística con un hada y un vampiro..\! Tu mente se llena de posibilidades.
 
 item_horror:
-    text: ...For some reason,\. there's a book placed in the movie section.\! It seems to be about ghostly urban legends.\. Your mind is filling with the possibilities. 
+    text: ...Por alguna razón,\. Hay un libro colocado en la sección de películas.\! Parece tratar sobre leyendas urbanas.\. Tu mente se llena de posibilidades. 
 
 item_sea:
-    text: Among the various movies, there appears to be some kind of documentary.\! It looks like it’s about pollution and the effects it has on marine life.\! Your mind is filling with the possibilities.\. Price tag says $9.\! Bring it to the cash register?
+    text: Entre las distintas películas, parece haber una especie de documental.\! Parece tratar sobre la contaminación y los efectos que tiene en la vida marina.\! Tu mente se llena de posibilidades.\. La etiqueta dice $9.\! ¿Lo llevás a la caja?
 
 item_survival:
     text: 
@@ -626,158 +626,158 @@ item_gambling:
     text: While looking trough the magazine rack,\. a certain pamphlet called \ni[518] catches your eye.\! Take it? (DO NOT USE FOR NOW)
 
 item_gambling_desc:
-    text: A small pamphlet warning people of the risks of gambling and loan sharks.
+    text: Un pequeño folleto que advierte sobre los riesgos del juego y los prestamistas tiburones.
 
 item_pricetag5:
-    text: Price tag says $5.\. Bring it to the cash register?
+    text: La etiqueta dice $5.\. ¿Lo llevás a la caja?
 
 item_pricetag9:
-    text: Price tag says $9.\. Bring it to the cash register?
+    text: La etiqueta dice $9.\. ¿Lo llevás a la caja?
 
 item_pricetag10:
-    text: Price tag says $10.\. Bring it to the cash register?
+    text: La etiqueta dice $10.\. ¿Lo llevás a la caja?
 
 # ======== SHOP DIALOGUE ========
 
 item_toffee-1:
     faceset: RV_TOFFEE
     faceindex: 2
-    text: \n<BARISTA>Hello there!\! Welcome to our cafe.\. Is there anything you would like to order?
+    text: \n<BARISTA>¡Hola!\! Bienvenido a nuestro café.\. ¿Hay algo que te gustaría pedir?
 
 item_toffee-2:
     faceset: RV_TOFFEE
     faceindex: 3
-    text: \n<BARISTA>I'm sorry,\. I'm too busy to talk with you right now!
+    text: \n<BARISTA>Perdon,\. Estoy muy ocupada para hablar ahora.
 
 # ======== CLOSED TEXT ========
 
 mall_closed:
-    text: The \c[11]MALL\c[0] is closed.
+    text: El \c[11]CENTRO COMERCIAL\c[0] esta cerrado.
 
 cafe_closed:
-    text: The \c[11]CAFE\c[0] is closed.
+    text: El \c[11]CAFÉ\c[0] esta cerrado.
 
 elec_closed:
-    text: \c[11]DIGITAL SPOT\c[0]. is closed.
+    text: \c[11]DIGITAL SPOT\c[0]. esta cerrado.
 
 pizza_closed:
-    text: \c[11]SLICE OF HEAVEN\c[0] is closed.
+    text: \c[11]SLICE OF HEAVEN\c[0] esta cerrado.
 
 # ======== PIZZA AND BAKERY ========
 
 pizza_shop_1:
-    text: The snacks smell delicious, but you don't feel like buying anything right now.
+    text: Los bocadillos huelen delicioso, pero no tenés ganas de comprar nada en este momento.
 
 pizza_shop_2:
-    text: \n<CASHIER>You want any of this stuff?\! It tastes good... Probably.
+    text: \n<CAJERO>¿Te interesa algo de esto?\! Tiene buen sabor... probablemente.
 
 # ======== WENDYHEART ========
 
 wendy_1*:
-    text: ...The aura that this cardboard cutout gives off feels like a complete rip-off.
+    text: ...La aura que emana este recorte de cartón se siente como una estafa total
 
 wendy_2*:
-    text: Do you want to engage?
+    text: ¿Querés enfrentarte a esto?
 
 wendy_3*:
-    text: ...And that teaches that copycat a lesson.
+    text: ...Y eso le da una lección a la copiadora
 
 # ======== FREE STEAK ========
 
 steak_1:
-    text: \n<EMPLOYEE>You're wanting steak, huh?\! Sorry champ, you don't have enough money.
+    text: \n<EMPLOYEE>¿Quieres carne, eh?\! Lo siento, campeón, no tienes suficiente dinero.
 
 steak_2:
-    text: \n<EMPLOYEE>...Come on, don't look at me like that.\! Look,\. just...
+    text: \n<EMPLOYEE>...Dale, no me mires así..\! Mirá,\. solo...
 
 steak_3:
-    text: \n<EMPLOYEE>Don't get used to it okay?
+    text: \n<EMPLOYEE>No te mal acostumbres, ¿eh?
 
 # ======== DONUT BOSS ========
 
 donut_1:
-    text: A couple cardboard cutouts of characters from the SWEETHEART show.\! The bakery must be doing a collaboration.
+    text: Un par de recortes de cartón de personajes del show de SWEETHEART.\! Parece que la panadería está haciendo una colaboración.
 
 donut_2:
-    text: ...Seeing these characters again brings back memories of watching the show as a child. 
+    text: ...Ver a estos personajes otra vez trae recuerdos de cuando mirabas el programa de chico.
 
 donut_3:
-    text: Will you reminisce about a scene?
+    text: ¿Querés revivir ese momento?
 
 donut_4:
-    text: ...That's pretty much how you remember the scene going. 
+    text: ...Así es más o menos como recordás que fue la escena.
 
 donut_5:
-    text: ...That's not quite how you remember the scene going, but you're glad \c[4]SWEETHEART\c[0] proved victorious.
+    text: ...Así no es exactamente como recordás que fue la escena, pero te alegra que \c[4]SWEETHEART\c[0] haya salido victoriosa.
 
 # ======== WENDY BOSS ========
 
 wendy_1:
-    text: A cardboard cutout of the fast food store's mascot.
+    text: Un recorte de cartón del personaje mascota de la cadena de comida rápida.
 
 wendy_2:
-    text: ...She looks a little obnoxious.\! And also somewhat familiar.
+    text: ...Se la ve un poco insoportable.\!  Y también algo familiar.
 
 #copy luna 4 and 5 for these
 
 wendy_3:
-    text: Your head hurts...\! You've been thinking too hard about bunnies.
+    text: Te duele la cabeza...\! Estuviste pensando demasiado en conejos.
 
 wendy_4:
-    text: You won, despite her food-related trickery...\! You feel a little hungry now.
+    text: Ganaste, a pesar de sus engaños relacionados con la comida...\! Ahora sentís un poco de hambre.
 
 # ======== LUNA BOSS ========
 
 luna_0:
-    text: A cardboard cutout of \c[4]CAPT. SPACEBOY\c[0].
+    text: Un recorte de cartón de \c[4]CAPT. SPACEBOY\c[0].
 
 luna_1:
-    text: A cardboard cutout of a character you don't recognize.
+    text: Un recorte de cartón de un personaje que no reconocés.
 
 luna_2:
-    text: ...\.On closer inspection, it appears that she's being introduced in the new \c[4]CAPT. SPACEBOY\c[0] movie.
+    text: ...\.Al observar más de cerca, parece que aparece en la nueva película de \c[4]CAPT. SPACEBOY\c[0].
 
 luna_3:
-    text: \c[4]CAPT. LUNA\c[0]...\! She's apparently \c[4]CAPT. SPACEBOY\c[0]'s archnemesis.
+    text: \c[4]CAPT. LUNA\c[0]...\! Aparentemente, ella es la archienemiga de \c[4]CAPT. SPACEBOY\c[0].
 
 luna_4:
     text: '..........'
 
 luna_5:
-    text: You feel a burst of inspiration...\. Will you daydream for a little while?
+    text: Sentís una ráfaga de inspiración...\. ¿Te queres perder en tus pensamientos?
 
 #if lose
 luna_6:
-    text: That was a little one-sided...\! Seems like she fights a little unfairly.
+    text: Eso fue un poco unilateral...\! Parece que ella pelea de forma un poco injusta.
 
 #if win
 luna_7:
-    text: That was an intense battle...\! Seems like she's a worthy rival for \c[4]CAPT. SPACEBOY\c[0].
+    text: Esa fue una batalla intensa...\! Parece que es una rival digna para \c[4]CAPT. SPACEBOY\c[0].
 
 #IMPORTANT / BASKET
 
 basket_rv:
-    text: An empty picnic basket.\! Would you like to save?
+    text: Una canasta de picnic vacía.\! ¿Querés guardar la partida?
     
 #RW GRAFITTY SIDE QUEST
 
 #Before accepting quest
 grafitti_notstarted:
-    text: Street art.
+    text: Arte callejero.
     
 #If completed (cleaned all grafitti)
 grafitti_completed:
-    text: You feel like you've cleaned as much as you could.\!<br>Now would be a good time to report back...
+    text: Sentís que limpiaste todo lo que pudiste.\!<br> Ahora sería un buen momento para informar...
     
 #Lost and Found Item List
 lostnfoundlist_1:
-    text: You look at the missing item list that was given to you...
+    text: Miras la lista de artículos faltantes que te dieron...
 
 lostnfoundlist_2:
-    text: \- ▢\ A set of colored blocks<br>\- ▢\ A "lucky" boot<br>\- ▢\ A rubber swan
+    text: \- ▢\ Un set de bloques de colores<br>\- ▢\ Una bota "suertuda"<br>\- ▢\ Un cisne de goma
     
 lostnfoundlist_3:
-    text: \- ▢\ A green baseball cap
+    text: \- ▢\ Una gorra verde
     
 # ====
 message_1000:

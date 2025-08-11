@@ -14,29 +14,29 @@ PX_Warn_2:
 message_0:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 5
-    text: \n<DOUGHIE>Oho... Where are we?
+    text: \n<DOUGHIE>Oho... ¿Donde estamos?
 
 message_1:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 17
-    text: \n<SWEETHEART>Ugh!\! As if I could ever forget this smelly dump! This must be OTHERWORLD!
+    text: \n<SWEETHEART>Ugh!\! ¡Como si pudiera olvidar este basurero apestoso! Esto tiene que ser OTHERWORLD!
 
 message_2:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 39
-    text: \n<SPACEBOY>OTHERWORLD...?\! But this can't be! We're standing on an island, not a planet!
+    text: \n<SPACEBOY>OTHERWORLD...?\! ¡Pero esto no puede ser! ¡Estamos parados en una isla, no en un planeta!
 
 message_3:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 38
-    text: \n<SPACEBOY>Although...\! Hm, I do seem to recognize the air of this place...
+    text: \n<SPACEBOY>Aunque...\! Hm, si que reconozco el aire de este lugar....
 
 # Cobwebs on SB
 
 message_4:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 38
-    text: \n<SPACEBOY>I wonder... What's happened here?
+    text: \n<SPACEBOY>Me pregunto... ¿Qué habrá pasado acá?
 
 #End Scene.
 
@@ -47,76 +47,76 @@ message_4:
 message_5:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 0
-    text: \n<DOUGHIE>Hark...\. There's somebody there!
+    text: \n<DOUGHIE>Hark...\. ¡Hay alguien ahí!
 
 #Party approaches figure. DG comes up first.
 
 message_6:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 2
-    text: \n<DOUGHIE>My good friend, may I ask whatever could have happened to this place?
+    text: \n<DOUGHIE>Mi buen amigo, ¿puedo preguntar qué ha sucedido en este sitio?
 
 #... on figure. Cobwebs on DG. SWH jumps twice.
 
 message_7:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 24
-    text: \n<SWEETHEART>\{\quake[1]DON'T IGNORE US, PEASANT!\quake[0]\}\! I order you to kneel before me immediately!
+    text: \n<SWEETHEART>\{\quake[1]¡NO NOS IGNORES, PLEBEYO!\quake[0]\}\! ¡Te ordeno que te arrodilles ante mí de inmediato!
 
 #... on figure. Anger on SW. ... On SB
 
 message_8:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 39
-    text: \n<SPACEBOY>SWEETHEART, wait!\! This person seems... familiar?
+    text: \n<SPACEBOY>SWEETHEART, espera!\! Esta persona me resulta... ¿familiar?
 
 #! On SB, then jump
 
 message_9:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 42
-    text: \n<SPACEBOY>By space! Is it you, SPACE PIRATE ACE?\! I nearly didn't recognize you!
+    text: \n<SPACEBOY>¡Por el espacio! ¿Sos vos, PIRATA ESPACIAL ACE?\! ¡Casi no te reconozco!
 
 #? on the figure. 3 seconds later, ! on figure. 
 
 message_10:
-    text: \n<ACE>I- It's the CAPTAIN!\! I thought I'd never see you again! 
+    text: \n<ACE>E-Es el CAPITAN!\! ¡Pensé que nunca volvería a verte!
 
 #ACE stands upright. Cobwebs on SWH as she moves back.
 
 message_11:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 38
-    text: \n<SPACEBOY>You're alive, ACE!\! But... Did you turn on your COMMUNICATOR?\! The signal has been intermittent at best...
+    text: \n<SPACEBOY>¡Estas vivo, ACE!\! ¿Pero... encendiste tu COMUNICADOR?\! La señal ha sido intermitente... en el mejor de los casos.
 
 message_12:
-    text: \n<ACE>I did, CAPTAIN!\! That's the last thing I did before passing out.\! I knew you'd come to my rescue, sir! I just knew it!
+    text: \n<ACE>Lo hice, CAPITAN!\! Eso fue lo último que hice antes de desmayarme.\! ¡Sabía que vendrías a rescatarme, señor! ¡Lo sabía!
 
 message_13:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 38
-    text: \n<SPACEBOY>Rescue...?\. What exactly happened here, ACE?
+    text: \n<SPACEBOY>Rescate...?\. ¿Qué fue exactamente lo que pasó acá, ACE?
 
 message_14:
-    text: \n<ACE>You mean... you don't know?
+    text: \n<ACE>¿Querés decir que... no lo sabés?
 
 message_15:
-    text: \n<ACE>Well sir, everything was stable one moment, and the next we were falling out of orbit!\! We couldn't do anything but fall down.
+    text: \n<ACE>Bueno, señor, todo estaba estable en un momento... ¡y al siguiente estábamos cayendo fuera de órbita!\! No pudimos hacer otra cosa más que caer.
 
 #! on SB
 
 message_16:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 40
-    text: \n<SPACEBOY>So one of our ships crashed?\! I hope everyone's okay.
+    text: \n<SPACEBOY>¿Entonces una de nuestras naves se estrelló?\! Espero que todos estén bien.
 
 message_17:
-    text: \n<ACE>No, CAPTAIN, not just our ship!\! The whole MOON fell along with us!
+    text: \n<ACE>¡No, CAPITÁN, no solo nuestra nave!\! ¡La LUNA entera cayó con nosotros!
 
 #! on everyone
 
 message_18:
-    text: \n<ACE>In other words, CAPTAIN... OTHERWORLD's finished!\! And I have no idea where the rest of the crew are...
+    text: \n<ACE>En otras palabras, CAPITAN... ¡OTHERWORLD esta acabado!\! Y no tengo idea de dónde está el resto de la tripulación...
 
 #... on ace. Cobwebs on SWH 
 
@@ -132,15 +132,15 @@ message_19:
 message_20:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 39
-    text: \n<SPACEBOY>Chin up, ACE!\! You're a SPACE PIRATE, a paragon of courage and hope!
+    text: \n<SPACEBOY>¡Arriba ese ánimo, ACE!\! ¡Sos un PIRATA ESPACIAL, un ejemplo de coraje y esperanza!
 
 message_21:
-    text: \n<ACE>But, CAPTAIN...
+    text: \n<ACE>Pero, CAPITAN...
 
 message_22:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 42
-    text: \n<SPACEBOY>No buts!\! I, CAPT. SPACEBOY, will get us through this situation!\! And ACE, I need you to use your COMMUNICATOR to find the rest of our crew and save the day!
+    text: \n<SPACEBOY>No peros!\! Yo el, CAPT. SPACEBOY, nos sacaré de esta situación\! Y ACE, necesito que uses tu COMUNICADOR para encontrar al resto de la tripulación y salvar el día
 
 #ACE jumps twice
 
@@ -152,58 +152,58 @@ message_23:
 message_24:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 4
-    text: \n<DOUGHIE>Oho...\! what happened?
+    text: \n<DOUGHIE>Oho...\! ¿Que paso?
 
 #Anger on SWH
 
 message_25:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 21
-    text: \n<SWEETHEART>Ugh, stop acting all high and mighty!\! Everyone can tell you're about to cry like a baby.
+    text: \n<SWEETHEART>Ugh,¡Dejá de hacerte el importante!\! Todos pueden ver que estás a punto de llorar como un bebé.
 
 #Cobwebs on SB.
 
 message_26:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 40
-    text: \n<SPACEBOY>...I'm sorry.\! It's just been a long day.
+    text: \n<SPACEBOY>...Perdoná.\! Es que ha sido un día muy largo.
 
 message_27:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 24
-    text: \n<SWEETHEART>If anyone should be complaining, it should be \com[2]ME!\! We're nowhere near my castle!\! How am I supposed to get back now?
+    text: \n<SWEETHEART>Si alguien debería estar quejándose, deberia ser \com[2]¡YO!\! ¡Esto no es ni remotamente cerca de mi castillo!\! ¿Cómo se supone que voy a volver ahora?
 
 message_28:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 39
-    text: \n<SPACEBOY>Well... even if OTHERWORLD's destroyed, our headquarters could still be intact.\! If it is, there still might be a spaceship that can take you home, SWEETHEART.
+    text: \n<SPACEBOY>Bueno... incluso si OTHERWORLD es destruido nuestra base central podría seguir intacta..\! Si es así, todavía podría haber una nave espacial que te lleve de vuelta a casa, SWEETHEART.
     
 message_28-1:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 39
-    text: \n<SPACEBOY>That's probably our best bet.
+    text: \n<SPACEBOY>Probablemente esa sea nuestra mejor opción.
 
 message_29:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 21
-    text: \n<SWEETHEART>\}Ugh...\. I don't even know where I am...\! I don't have a choice, do I?
+    text: \n<SWEETHEART>\}Ugh...\. Ni siquiera sé dónde estoy...\! No tengo elección ¿no?
 
 #Sweat on DG. Jump Once
 
 message_30:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 4
-    text: \n<DOUGHIE>Maybe riding the spaceship will be fun...\! we could see the stars!
+    text: \n<DOUGHIE>Quién sabe capaz viajar en la nave espacial sea divertido...\! ¡Podriamos ver las estrellas!
 
 message_31:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 24
-    text: \n<SWEETHEART>\{\com[2]FINE!\}\! But that spaceship had better take me home immediately!
+    text: \n<SWEETHEART>\{\com[2]¡ESTÁ BIEN!\}\! ¡Pero más vale que esa nave espacial me lleve a casa de inmediato!
 
 message_32:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 37
-    text: \n<SPACEBOY>Very well, let's go forth.\! \}Hopefully headquarters isn't too far away...
+    text: \n<SPACEBOY>Muy bien, sigamos adelante.\! \}Con suerte, la base no está demasiado lejos...
 
 #3-3: Biscuit and tag intro.
 
@@ -212,17 +212,17 @@ message_32:
 message_33:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 8
-    text: \n<DOUGHIE>There you are, brother!\! I was getting worried for a second!
+    text: \n<DOUGHIE>¡Ahí estás, hermano!\! ¡Ya me estaba empezando a preocupar!
 
 message_34:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 8
-    text: \n<DOUGHIE>How are you doing, BISCUIT?
+    text: \n<DOUGHIE>¿Cómo estás, BISCUIT?
 
 message_35:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 1
-    text: \n<DOUGHIE>We've encountered a few roadblocks on our way here, but it's still been a fun adventure!
+    text: \n<DOUGHIE>Nos encontramos con algunos obstáculos en el camino, ¡pero igual ha sido una aventura divertida!
 
 message_36:
     faceset: RV_Biscuit
@@ -234,35 +234,34 @@ message_36:
 message_37:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 24
-    text: \n<SWEETHEART>What is this nonsensical charade?\! I demand that your buffoon of a brother start speaking sense at once!
+    text: \n<SWEETHEART>¿Qué es esta farsa sin sentido?\! ¡Exijo que ese payaso de tu hermano empiece a hablar con coherencia inmediatamente
 
 #Question mark on DG
 
 message_38:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 2
-    text: \n<DOUGHIE>Speaking sense?\! What's wrong with what he said? 
-
+    text: \n<DOUGHIE>¿Hablar con sentido?\! ¿Qué tiene de malo lo que dijo?
 #exclamation mark on SB
 
 message_39:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 39
-    text: \n<SPACEBOY>Oh, I see!\! This must be some sort of twin telepathy!
+    text: \n<SPACEBOY>Oh, ¡Ya veo!\! ¡Esto debe ser algún tipo de telepatía entre gemelos!
 
 #exclamation on DG
 
 message_40:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 4
-    text: \n<DOUGHIE>Huh?\! Oho~\. Can you not understand him? 
+    text: \n<DOUGHIE>Huh?\! Oho~\. ¿No pueden entenderlo? 
 
 #... on DG.
 
 message_41:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 2
-    text: \n<DOUGHIE>Hey \n[17], can you TAG me in?\! I can translate what BISCUIT is trying to tell us.
+    text: \n<DOUGHIE>Oye \n[17], podes dejarme tomar el mando.\! Puedo traducir lo que BISCUIT está tratando de decirnos.
 
 #End scene.
 
@@ -271,7 +270,7 @@ message_41:
 message_42:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 9
-    text: \n<DOUGHIE>Oho... Don't leave BISCUIT hanging!
+    text: \n<DOUGHIE>Oho... ¡No ignores a BISCUIT!
 
 #If Biscuit is interacted with while DG is not tagged in.
 
@@ -285,65 +284,65 @@ message_43:
 message_44:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 2
-    text: \n<DOUGHIE>Hello, BISCUIT!
+    text: \n<DOUGHIE>Hola, BISCUIT!
 
 message_45:
     faceset: RV_Biscuit
     faceindex: 6
-    text: \n<BISCUIT>Hello, dear DOUGHIE.\! Can your companions understand me now?
+    text: \n<BISCUIT>Hola, mi queria DOUGHIE.\! ¿Ya pueden tus compañeros entender lo que intento decir?
 
 #... on SWH and SB.
 
 message_46:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 21
-    text: \n<SWEETHEART>\}...That's how he talks?
+    text: \n<SWEETHEART>\}...Así es como habla?
 
 message_47:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 4
-    text: \n<DOUGHIE>Oho~ I had no idea you guys couldn't comprehend him until now.
+    text: \n<DOUGHIE>Oho~ No tenía idea de que ustedes no podían entenderlo hasta ahora.
 
 #Music note on DG.
 
 message_48:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 1
-    text: \n<DOUGHIE>Anyways... are you sticking around here, brother?\! I'd like to come see how you're doing once in a while.
+    text: \n<DOUGHIE>De todos modos...¿Vas a quedarte por aquí, hermano?\! Me gustaría venir a ver cómo estás de vez en cuando.
 
 message_49:
     faceset: RV_Biscuit
     faceindex: 0
-    text: \n<BISCUIT>I'd like to, sister.\! But in case I run out of ingredients...\. Will you give me a call whenever you encounter picnics like this?
+    text: \n<BISCUIT>Sería un gusto hacerlo, hermana\! Pero por si acaso me quedo sin ingredientes...\. ¿Me avisarias cuando te cruces con picnics como este?
 
 message_50:
     faceset: RV_Biscuit
     faceindex: 6
-    text: \n<BISCUIT>If you do, I'll be happy to bake for you and your friends any time.
+    text: \n<BISCUIT>Si es así, estaré encantado de hornearles algo a vos y a tus amigos cuando quieran.
 
 #music note on DG.
 
 message_51:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 1
-    text: \n<DOUGHIE>You got it, BISCUIT!
+    text: \n<DOUGHIE>¡Claro que sí, BISCUIT!
 
 #Turning to player.
 
 message_52:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 1
-    text: \n<DOUGHIE>You won't regret BISCUIT helping us, \n[17].\! He's a better cook than me sometimes!
+    text: \n<DOUGHIE>No te vas a arrepentir de que BISCUIT nos ayude, \n[17].\! ¡Hay veces que él cocina mejor que yo!
 
 message_53:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 2
-    text: \n<DOUGHIE>Oh, and don't forget to TAG me in if you ever want me translating him for you!
+    text: \n<DOUGHIE>h, ¡y no te olvides de ponerme al frente si alguna vez querés que lo traduzca por vos!
 
 message_53-1:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 2
-    text: \n<DOUGHIE>He also knows quite a bit,\! sometimes asking might give some useful information about the area!
+    text: \n<DOUGHIE>También tiene bastante conocimiento,\! si le preguntás el te puede dar información útil sobre la zona.
 
 #end scene.
 
@@ -356,19 +355,19 @@ message_53-1:
 message_54:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 39
-    text: \n<SPACEBOY>That machine...\! Can you give me a moment, everyone?
+    text: \n<SPACEBOY>Esa máquina...\! ¿Me dan un momento, todos?
 
 #SB approaches the machine and begins inspecting it, …ing. ? on DG. Cobwebs on SWH.
 
 message_55:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 21
-    text: \n<SWEETHEART>Hmph... How long is this going to take?\! My makeup’s wearing off at an alarming rate, you know.
+    text: \n<SWEETHEART>Hmph... ¿Falta mucho para que termine?\! Mi maquillaje se está desvaneciendo a una velocidad alarmante, ¿sabés?
 
 message_56:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 38
-    text: \n<SPACEBOY>Just a second, SWEETHEART...\. Ah!
+    text: \n<SPACEBOY>Solamente un segundo, SWEETHEART...\. Ah!
 
 #Machine whirs. SB turns around and teleports away. !s on all else.
 
@@ -377,26 +376,26 @@ message_56:
 message_57:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 37
-    text: \n<SPACEBOY>So it wasn’t broken after all.\! Ha, SPACE PIRATE technology prevails!
+    text: \n<SPACEBOY>Entonces... no estaba roto, después de todo.\! Ja, ¡La tecnología PIRATA ESPACIAL prevalece!
 
 #SB gets off the machine and looks around. 
 
 message_58:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 36
-    text: \n<SPACEBOY>No sign of anyone in the crew...\. that’s a shame.
+    text: \n<SPACEBOY>Ninguna señal de alguien de la tripulación....\. Qué lástima.
 
 message_59:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 40
-    text: \n<SPACEBOY>\quake[1]Sigh...\quake[0]\! Where is everybody?
+    text: \n<SPACEBOY>\quake[1]Sigh...\quake[0]\! ¿Dónde estaran?
 
 #Player (only SB in party) is free to move around now. After exploring the small island, interacting with the machine yields:
 
 message_60:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 36
-    text: \n<SPACEBOY>I suppose I should get back to the others.\! They must be worried...
+    text: \n<SPACEBOY>Supongo que debería volver con los demás.\! Deben de estar preocupados....
 
 #SB uses the teleporter and warps back to the party, who !s again at his reappearance. DG jumps twice.
 
@@ -410,36 +409,35 @@ message_61:
 message_62:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 24
-    text: \n<SWEETHEART>\com[2]\{YOU- you idiot!\}\! Where have you been?!
+    text: \n<SWEETHEART>\com[2]\{¡I-Idiota!\}\! ¿Dónde te habías metido?
 
 message_63:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 3
-    text: \n<DOUGHIE>We thought you were gone forever! SWEETHEART’S been worried sick!
+    text: \n<DOUGHIE>¡Pensamos que te habíamos perdido para siempre! ¡SWEETHEART estaba preocupadísima!
 
 #Sweat on SWH.
 
 message_64:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 28
-    text: \n<SWEETHEART>I most definitely was not!\! I-\. I was simply furious that my bodyguard would abandon me!
-
+    text: \n<SWEETHEART>¡Definitivamente que no lo estaba!\! Y-\.Yo estaba simplemente furiosa de que mi guardaespaldas me abandonara!
 message_65:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 40
-    text: \n<SPACEBOY>Ah...\. I’m sorry, everyone.\! I didn’t mean to be gone for so long.
+    text: \n<SPACEBOY>Ah...\. Lo siento, todos.\! No era mi intención estar fuera tanto tiempo.
 
 #Sweat on SB, Cobwebs on DG and SWH.
 
 message_66:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 0
-    text: \n<DOUGHIE>Well... you’ve returned to us now, so I guess it’s okay. 
+    text: \n<DOUGHIE>Bueno... ya volviste con nosotros, así que supongo que está bien 
 
 message_67:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 24
-    text: \n<SWEETHEART>\com[2]Hmph!\. The next time you go off on your own, I’m leaving without you!
+    text: \n<SWEETHEART>\com[2]Hmph!\. ¡La próxima vez que te vayas por tu cuenta, me voy sin vos!
 
 #slight pause, ? on DG.
 
@@ -453,19 +451,19 @@ message_68:
 message_69: 
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 36
-    text: \n<SPACEBOY>That’s a TELEPORTER that my crew and I use for quick transportation.\! Thankfully, it doesn’t look like it broke during the crash.
+    text: \n<SPACEBOY>Ese es un TELETRANSPORTADOR que mi tripulación y yo usamos para movernos rápidamente\! Por suerte, no parece haberse roto durante el accidente.
 
 message_70:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 1
-    text: \n<DOUGHIE>Oho, like a portal?\! Can I use it?
+    text: \n<DOUGHIE>Oho, ¿Como un portal?\! ¿Puedo usarlo?
 
 #DG moves forward. ! on SB.
 
 message_71: 
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 39
-    text: \n<SPACEBOY>\com[2]Hang on, DOUGHIE!\! That machine’s got security measures against people that aren’t SPACE PIRATES. 
+    text: \n<SPACEBOY>\com[2]¡Espera, DOUGHIE!\! Esa máquina tiene medidas de seguridad contra cualquiera que no sea un PIRATA ESPACIAL. 
 
 #Cobwebs on DG.
 
@@ -479,14 +477,14 @@ message_72:
 message_73: 
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 36
-    text: \n<SPACEBOY>Anyways...\. we might encounter more TELEPORTERS like this in the future.\! If you want me to use it, just TAG me in! 
+    text: \n<SPACEBOY>De todos modos...\. Podríamos encontrarnos con más TELETRANSPORTADORES como este en el futuro\! Si querés que lo use,no dudes en llamarme.
 
 #Fade out and back into the party.
 
 message_74: 
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 37
-    text: \n<SPACEBOY>Shall we continue?
+    text: \n<SPACEBOY>¿Continuamos?
 
 #end scene.
 
@@ -497,31 +495,31 @@ message_74:
 message_75:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 12
-    text: \n<DOUGHIE>Ohooo...\. Those sprout moles are in the way...\. how can we get past them?
+    text: \n<DOUGHIE>Ohooo...\. Esos toponcho están en el camino...\. ¿Cómo podemos pasar entre ellos?
 
 message_76: 
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 39
-    text: \n<SPACEBOY>Don't fret!\! I'm sure we can ask them politely to let us through!
+    text: \n<SPACEBOY>¡Tranquila!\! Seguro que si les hablamos con cortesía, nos dejan pasar.
 
 #SB steps forward.
 
 message_77: 
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 42
-    text: \n<SPACEBOY>Excuse me, small friends!\! My friends and I would like to ask if you would be kind enough to let us through?
+    text: \n<SPACEBOY>¡Disculpen, pequeños amigos!\! Mis amigos y yo quisiéramos pedirles, si fueran tan amables, que nos dejaran pasar.
 
 message_78:
-    text: \n<SPROUT MOLE 1>Hmph!\! We don't have time to move, blue boy!\! We're having a very important discussion about TOFU right now!
+    text: \n<SPROUT MOLE 1>Hmph!\! ¡No hay tiempo para moverse, azulito!\! ¡Estamos teniendo una conversación muy importante sobre el TOFU ahora mismo!
 
 message_79:
-    text: \n<SPROUT MOLE 2>This idiot thinks that steamed TOFU is better than fried TOFU!
+    text: \n<SPROUT MOLE 2>¡Este idiota cree que el TOFU al vapor es mejor que el TOFU frito!
 
 message_80:
-    text: \n<SPROUT MOLE 1>You idiot!\! Frying the TOFU ruins the delicate texture!
+    text: \n<SPROUT MOLE 1>¡¿Cómo se te ocurre freír el tofu?! \! ¡Destruye toda su suavidad!
 
 message_81:
-    text: \n<SPROUT MOLE 3>Ugh!\! We all know eating it raw is the most superior way to have TOFU!
+    text: \n<SPROUT MOLE 3>Ugh!\! ¡Todos sabemos que comerlo crudo es la forma más superior de disfrutar el TOFU!
 
 message_82: 
     faceset: MainCharacters_ReverieDreamWorld
@@ -531,14 +529,14 @@ message_82:
 message_83:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 25
-    text: \n<SWEETHEART>OHOHO!\! Not as charming as you thought, are you?\! All bark and no bite!
+    text: \n<SWEETHEART>OHOHO!\! ¡No sos tan encantador como pensabas, ¿eh?!\!¡Mucho ruido y poca acción!
 
 #SW chuckles
 
 message_84:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 17
-    text: \n<SWEETHEART>Only someone as glorious as SWEETHEART could convince these simple-minded moles to kneel to their will!
+    text: \n<SWEETHEART>¡Solo alguien tan gloriosa como SWEETHEART podría convencer a estas criaturas tan simples que se inclinen ante ella!
 
 #SB sweat
 
@@ -547,30 +545,30 @@ message_84:
 message_85:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 16
-    text: \n<SWEETHEART>You, TAG me!\! Let me charm these lowly peasants with my \sinv[1]mellifluous\sinv[0] voice and unending charm!
+    text: \n<SWEETHEART>¡Tú, poneme al FRENTE!\! ¡Permitidme fascinar a estos plebeyos con mi voz \sinv[1]meliflua\sinv[0] y mi encanto sin límites!
 
 #player tags SWH
 
 message_86:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 18
-    text: \n<SWEETHEART>OUT OF THE WAY, PEONS!\! THE MAGNIFICENT SWEETHEART AND HER LOYAL BODYGUARDS HAVE A CASTLE TO GET TO!
+    text: \n<SWEETHEART>¡APARTAOS,PLEBEYOS!\! ¡LA MAGNÍFICA SWEETHEART Y SUS LEALES GUARDAESPALDAS TIENEN UN CASTILLO AL QUE LLEGAR!
 
 message_87:
-    text: \n<SPROUT MOLE 2>Oh my, oh my!\! Is that...?
+    text: \n<SPROUT MOLE 2>¡Oh cielos, oh cielos!\! ¿Esa es...?
 
 message_88:
-    text: \n<SPROUT MOLE 1>It is!\! It's SWEETHEART in the dough!
+    text: \n<SPROUT MOLE 1>¡Lo es!\! ¡Es SWEETHEART en la masa!
 
 message_89:
-    text: \n<SPROUT MOLE 3>Of course, lady SWEETHEART!\! We'll move right away! 
+    text: \n<SPROUT MOLE 3>¡A sus órdenes, gloriosa SWEETHEART!\! ¡Nos apartamos enseguida! 
 
 #Sprout Moles scurry off and the pathway is cleared.
 
 message_90:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 25
-    text: \n<SWEETHEART>OHOHOHO!\! Those peons never fail to amuse me!
+    text: \n<SWEETHEART>OHOHOHO!\! ¡Esos plebeyos nunca dejan de entretenerme!
 
 #end scene. player can now tag in SWH whenever they choose to!
 
@@ -581,12 +579,12 @@ message_90:
 message_91:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 44
-    text: \n<SPACEBOY>We should be nearing Headquarters soon.\! Stay on guard everyone, my captain-senses tell me something is amiss!\!
+    text: \n<SPACEBOY>Ya deberíamos estar cerca del cuartel general.\! ¡Manténganse alerta, todos! ¡Mis sentidos de capitán me dicen que algo no está bien!\!
     
 message_92:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 10
-    text: \n<DOUGHIE>Captain-senses???
+    text: \n<DOUGHIE>¿¿¿Sentidos de capitán???
     
 #end scene.
 
@@ -597,52 +595,52 @@ message_92:
 message_93:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 39
-    text: \n<SPACEBOY>What in the-\! what happened to our HEADQUARTERS?
+    text: \n<SPACEBOY>¿Qué demon-\! ¿Qué le pasó a nuestro CUARTEL GENERAL?
     
 #SB runs forward and looks around.
 
 message_94:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 45
-    text: \n<SPACEBOY>I expected some damage...\. but this?\! This is just an empty husk...
+    text: \n<SPACEBOY>Me esperaba algo de daño...\. ¿Pero esto?\! Esto no es más que una cáscaron vacío...
     
 message_95:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 21
-    text: \n<SWEETHEART>Eugh, what a mess...\! where are the spaceships you promised?
+    text: \n<SWEETHEART>Eugh, qué desastre...\! ¿Dónde están las naves espaciales que prometiste?
 
 #SWH jumps twice.
 
 message_95-1:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 24
-    text: \n<SWEETHEART>This whole charade has been a giant, \sinv[1]brobdignagian\sinv[0] waste of time!\! You’ve disappointed me greatly!
+    text: \n<SWEETHEART>Toda esta farsa ridícula fue una pérdida de tiempo \sinv[1]descomunal\sinv[0] !\! ¡Estoy absolutamente indignada!
     
 #Cobwebs on SWH. DG goes forward and examines the ‘property of planet x’ sign.
 
 message_96:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 0
-    text: \n<DOUGHIE>Property of...\! who?
+    text: \n<DOUGHIE>Propiedad de...\! ¿quien?
     
 #SB nears DG and looks at the sign as well.
 
 message_97:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 44
-    text: \n<SPACEBOY>PLANET X...\! So that must be the warrior that was terrorizing the locals.
+    text: \n<SPACEBOY>PLANETA X...\! Entonces ese debe ser el guerrero que estaba aterrorizando a los lugareños.
 
 message_97-1:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 45
-    text: \n<SPACEBOY>And to think, they attacked my crew while they were trying to regroup...
+    text: \n<SPACEBOY>Y pensar que atacaron a mi equipo justo cuando intentaban reagruparse...
     
 #SB shakes and turns back to the party.
 
 message_98:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 46
-    text: \n<SPACEBOY>\{\com[2]NOBODY messes with my crew!\! WHOEVER DID THIS WILL-
+    text: \n<SPACEBOY>\{\com[2]¡NADIE se mete con mi equipo!\! ¡QUIEN HAYA HECHO ESTO VA A-
 
 #Screen begins to vibrate and a rumbling sound can be heard. The party turns towards the sound that comes from within the HQ.
 
@@ -651,12 +649,12 @@ message_98:
 message_99:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 17
-    text: \n<SWEETHEART>Hah!\! Not so high and mighty now, are we?
+    text: \n<SWEETHEART>¡Ja!\! Ya no tan poderosos y glorioso. ¿eh?
 
 message_100: 
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 10
-    text: \n<DOUGHIE>Ohoo, this is serious, SWEETHEART!\! This sounds dangerous....
+    text: \n<DOUGHIE>Ohoo, esto es serio, SWEETHEART!\! Esto podría terminar muy mal...
 
 message_101:
     text: \n<???>\}Heh heh heh...
@@ -664,79 +662,79 @@ message_101:
 #! On everyone. A moment later, a figure crashes into where SB is, but the latter jumps backwards at the last second. Smoke rises, revealing PLANET X.
 
 message_102:
-    text: \n<???>Not bad...\! but you’ll need more than that to beat me.
+    text: \n<???>No esta mal...\! Pero vas a necesitar mucho más que eso para vencerme.
 
 message_103:
-    text: \n<???>Turn back while you still can, \sinv[1]bakas\sinv[0].\! Or prepare...\. to face my deadly GALAXY JUTSU!
+    text: \n<???>Retrocede mientras aún podés, \sinv[1]bakas\sinv[0].\! O preparate...\. para enfrentar a mi letal ¡JUTSU GALÁCTICO!
 
 #SB steps forward.
 
 message_104:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 44
-    text: \n<SPACEBOY>So...\. you must be PLANET X.\! Are you the one that so dishonorably attacked my companions?
+    text: \n<SPACEBOY>Así que...\. vos debés ser PLANETA X.\! ¿Fuiste vos quien atacó tan deshonrosamente a mis compañeros?
 
 message_104-1:
-    text: \n<PLANET X>Heh heh...\. So those \sinv[1]weak\sinv[0] idiots were your friends?\! As soon as they saw me draw my katanas, they ran for their lives.
+    text: \n<PLANET X>Je je je...\. ¿Así que esos idiotas \sinv[1]débiles\sinv[0] eran tus amigos?\! En cuanto me vieron desenvainar mis katanas, salieron corriendo por sus vidas.
 
 #Anger on SB, and he shakes.
 
 message_104-2:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 45
-    text: \n<SPACEBOY>Upon my honor...\. I will have my revenge for what you did to my friends!
+    text: \n<SPACEBOY>Por mi honor...\. ¡Vengare lo que les hiciste a mis amigos!
 
 #Before either of them can make a move, SWH steps forward. 
 
 message_105:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 21
-    text: \n<SWEETHEART>\quake[1]Ahem...\quake[0]\! Are you boys done?
+    text: \n<SWEETHEART>\quake[1]Ahem...\quake[0]\! ¿Ya terminaron, chicos?
 
 #SWH goes further forward and begins appraising PX. Sweat on PX, SB, and DG.
 
 message_106:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 24
-    text: \n<SWEETHEART>First of all, what \sinv[1]RIDICULOUS\sinv[0] attire!\! Just how are you intimidating the peasants around here when you're dressed like a giant mop?!\! I can't believe we're even talking to him.
+    text: \n<SWEETHEART>¡Para empezar, qué atuendo tan \sinv[1]RIDÍCULO\sinv[0]!\! ¿Y cómo se supone que estás intimidando a los plebeyos por acá si estás vestido como una trapo gigante?\! No puedo creer que siquiera estemos hablando con él
 
 message_107:
-    text: \n<PLANET X>Wh-\. What?\! How dare you insult the GREATEST NINJA!
+    text: \n<PLANETA X>¿Qu-\. Que?\! ¡¿Cómo te atrevés a insultar al MEJOR NINJA?!
 
 message_108:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 24
-    text: \n<SWEETHEART>Some ninja you are!\! Your entrance was about as stealthy as an elephant, and your outfit is simply so \sinv[1]tacky\sinv[0]!
+    text: \n<SWEETHEART>¡Menudo ninja estás hecho!\! Tu entrada fue tan sigilosa como un elefante, y tu atuendo es simplemente \sinv[1]espantoso\sinv[0]!
 
 #DG turns to player.
 
 message_109:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 4
-    text: \n<DOUGHIE>\}Hey, what are ninjas?
+    text: \n<DOUGHIE>\}Oye, ¿Que son los ninjas?
 
 message_110:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 44
-    text: \n<SPACEBOY>Enough! You shall pay for the crimes you have committed against FALLEN WORLD and her people!
+    text: \n<SPACEBOY>¡Suficiente! ¡Vas a pagar por los crímenes que cometiste contra FALLEN WORLD y su gente!
 
 message_111:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 45
-    text: \n<SPACEBOY>The things I do to you are going to be far worse than what you've done to my headquarters!
+    text: \n<SPACEBOY>¡Lo que te voy a hacer será mucho peor que lo que hiciste a mi cuartel general!
 
 message_112:
-    text: \n<PLANET X>Your headquarters? I don't see any name on it other than MINE!
+    text: \n<PLANETA X>¿Tu cuartel? ¡No veo ningún nombre en eso que no sea el MÍO!
 
 #SB jumps up and down.
 
 message_113:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 46
-    text: \n<SPACEBOY>IT HAS ALWAYS BELONGED TO THE SPACE PIRATES! STOP THIS NONSENSE!
+    text: \n<SPACEBOY>¡SIEMPRE HA PERTENECIDO A LOS PIRATAS ESPACIALES! ¡BASTA DE ESTA FARSA!
 
 message_114:
-    text: \n<PLANET X>Is that so? Then prove it... IN A GLORIOUS TRIAL BY COMBAT! KYAAAAAAAA!
+    text: \n<PLANETA X>¿Ah sí? ¡Entonces demostralo... EN UN GLORIOSO JUICIO POR COMBATE! KYAAAAAAAA!
 
 #Battle starts. End scene.
 
@@ -745,100 +743,100 @@ message_114:
 #Battle ends. Scene begins with PX standing before the party (possibly kneeling?).
 
 message_115:
-    text: \n<PLANET X>Huff... Huff...
+    text: \n<PLANETA X>Huff... Huff...
 
 message_116:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 25
-    text: \n<SWEETHEART>\com[2]\sinv[1]OHOHO!\sinv[0]\}\. You didn't stand a chance against SWEETHEART!
+    text: \n<SWEETHEART>\com[2]\sinv[1]OHOHO!\sinv[0]\}\. ¡No tenías ni una oportunidad contra SWEETHEART!
 
 message_117:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 5
-    text: \n<DOUGHIE>What about us...
+    text: \n<DOUGHIE>¿Y nosotros qué...?
 
 message_118:
-    text: \n<PLANET X>BAH!\! I demand a rematch!\! You targeted me at a time of weakness, when I...\. hadn't slept enough!\! Yes!\! How devious of you!!\!
+    text: \n<PLANETA X>BAH!\! ¡Exijo una revancha!\! ¡Me atacaste en un momento de debilidad, cuando yo...\. no dormi lo suficiente!\! ¡Si, eso!\! ¡Qué malvado de tu parte!\!
 
 message_119:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 2
-    text: \n<DOUGHIE>You seemed pretty full of energy when you burst into here...
+    text: \n<DOUGHIE>Parecías lleno de energía cuando irrumpiste acá...
 
 message_120:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 44
-    text: \n<SPACEBOY>Enough tomfoolery.\! If you leave this base right now, I might let you go without further punishment.
+    text: \n<SPACEBOY>Basta de payasadas.\! Si te vas de esta base ahora mismo, puede que te deje ir sin más castigo.
 
 message_121:
-    text: \n<PLANET X>It's so unfair...\. this is \com[2]MY ninja hideout!\! I never saw your \sinv[1]dumb\sinv[0] crew anywhere!
+    text: \n<PLANETA X>¡Es tan injusto...\. este es \com[2]MI escondite ninja!\! ¡Nunca vi a tu \sinv[1]estúpido\sinv[0] equipo por acá!
 
 message_122:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 45
-    text: \n<SPACEBOY>Wait...\. what on earth have you done to them?!
+    text: \n<SPACEBOY>Espera...\. ¡¿Pero qué demonios les hiciste?!
 
 message_123:
-    text: \n<PLANET X>What? This place was empty when I found it!\! I thought you were just being dramatic!
+    text: \n<PLANET X>¿Qué? ¡Este lugar estaba vacío cuando lo encontré!\! ¡Pensé que solo estabas siendo dramatico!
 
 message_124:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 39
-    text: \n<SPACEBOY>What?\. it was empty?
+    text: \n<SPACEBOY>¿Qué?\. ¿Estaba vacío?
 
 message_125:
-    text: \n<PLANET X>Yeah!
+    text: \n<PLANET X>¡Si!
 
 #Ellipses above SB and he turns to the side, facing away from the party and PX.
 
 message_126:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 40
-    text: \n<SPACEBOY>We never leave headquarters unattended...\. this is bad, very bad...
+    text: \n<SPACEBOY>Nunca dejamos el cuartel sin vigilancia...\. esto está mal, muy mal...
  
 message_127:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 10    
-    text: \n<DOUGHIE>Ohoo... don't worry SPACEBOY!\! I'm sure your crew is okay...
+    text: \n<DOUGHIE>Ohoo... no te preocupes SPACEBOY!\! Estoy segura de que tu equipo está bien....
 
 message_129:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 37
-    text: \n<SPACEBOY>Yes...\. you're right, DOUGHIE.\! I can't give in to despair now.
+    text: \n<SPACEBOY>Si...\. Tienes razon, DOUGHIE.\! No puedo rendirme ante la desesperación ahora.
 
 #If the player chooses “NO":
 
 message_130:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 36
-    text: \n<SPACEBOY>It's not an easy situation... but I need to have faith in my crew!\! They're always able to overcome small hiccups like this!
+    text: \n<SPACEBOY>No es una situación fácil... pero tengo que confiar en mi equipo!\! Siempre logran superar contratiempos pequeños como este!
 
 #SB turns back to PX
 
 message_131:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 44
-    text: \n<SPACEBOY>And you...\. Even if it was empty, this is SPACE PIRATE property!\! You've trespassed without permission and will be punished!
+    text: \n<SPACEBOY>Y tu...\. ¡Aunque estuviera vacío, esto es propiedad de los PIRATAS ESPACIALES!\! ¡Has invadido sin permiso y vas a ser castigado!
 
 #Sweat bubble above PX.
 
 message_132:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 4  
-    text: \n<DOUGHIE>Uh, SPACEBOY?\! We should just let him go...\. I think he was just being an idiot...
+    text: \n<DOUGHIE>Uh, SPACEBOY?\! Deberíamos dejarlo ir...\. creo que solo estaba siendo un idiota...
 
 message_133:
-    text: \n<PLANET X>Hey!
+    text: \n<PLANETA X>¡Ey!
 
 #SB pauses
 
 message_134:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 36
-    text: \n<SPACEBOY>Hmph...\. fine.\! You may leave.\! But I don't want to see you trying to crawl back here ever again, or I won't go so easy on you next time!
+    text: \n<SPACEBOY>Hmph...\. Está bien.\! Podés irte.\! Pero no quiero verte arrastrándote de vuelta acá nunca más, o la próxima no voy a ser tan indulgente.
 
 message_135:
-    text: \n<PLANET X>Grr...\. I'll just find a bigger and more awesome base than this!\! Just watch!
+    text: \n<PLANETA X>Grr...\. Ya voy a encontrar una base más grande y más increíble que esta!\! ¡Vas a ver!
 
 #PX leaves. A black hole is revealed underneath where PX once stood. Time stops and the player is the only one able to move. Upon entering the hole, the player obtains their first piece of sheet music. Once the sheet music has been interacted with, the player returns to the party and the scene continues as normal.
 
@@ -849,41 +847,41 @@ message_135:
 message_136:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 25
-    text: \n<SWEETHEART>My...\. What a headache!\! All that fighting has made me positively exhausted!
+    text: \n<SWEETHEART>Ay...\.¡Qué dolor de cabeza!\! ¡Toda esa pelea me dejó completamente agotada!
 
 message_137:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 4 
-    text: \n<DOUGHIE>I'm pretty sure we did most of the fighting...
+    text: \n<DOUGHIE>Estoy bastante segura de que nosotros hicimos la mayor parte de la pelea
 
 message_138:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 21
-    text: \n<SWEETHEART>Pah! You would have failed miserably if not for MY help!\! So ungrateful.
+    text: \n<SWEETHEART>Pah! ¡Habrías fracasado miserablemente si no fuera por MI ayuda!\! Que desagradecida.
 
 #Sweat bubble on DG
 
 message_139:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 38
-    text: \n<SPACEBOY>I do have to agree...\. all this running around and fighting is quite tiresome.
+    text: \n<SPACEBOY>Tengo que admitirlo...\. tanto correr y pelear es bastante agotador..
 
 message_140:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 0    
-    text: \n<DOUGHIE>So...\. now what do we do now we've searched your HQ? 
+    text: \n<DOUGHIE>Bueno...\. ¿Y ahora qué hacemos, ya que revisamos tu base? 
 
 message_141:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 42
-    text: \n<SPACEBOY>I believe we deserve a break!\! Before we move on from here though, we still have locals to help and areas to explore...
+    text: \n<SPACEBOY>¡Creo que nos merecemos un descanso!\! Pero antes de seguir adelante, todavía hay gente local a la que ayudar y zonas por explorar...
 
 #SB turns to the player.
 
 message_142:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 39
-    text: \n<SPACEBOY>What do you think, \n[17]? Should we go and investigate the area?\! Or should we ride the train and search elsewhere?\! You lead the way.
+    text: \n<SPACEBOY>¿Qué pensás vos, \n[17]? ¿Deberíamos ir a investigar la zona?\! ¿O tomamos el tren y buscamos en otro lugar?\! Vos decidis por donde.
 
 #Player can explore on their own now. Not a response question
 
@@ -892,54 +890,54 @@ message_142:
 message_143:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 38
-    text: \n<SPACEBOY>It looks like we've made a full circle around this place.\! My compatriots are nowhere to be found, unfortunately...
+    text: \n<SPACEBOY>Parece que hemos dado toda la vuelta por este lugar.\! Mis compañeros, lamentablemente, no aparecen por ningún lado...
 
 message_144:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 37
-    text: \n<SPACEBOY>Ah, I'm sure they'll turn up eventually if I keep searching.\! If our business here is finished, may I suggest moving on?
+    text: \n<SPACEBOY>Ah, seguro que van a aparecer eventualmente si sigo buscando.\! Si ya terminamos lo que vinimos a hacer acá, ¿puedo sugerir que sigamos adelante?
 
 message_145:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 39
-    text: \n<SPACEBOY>We should probably return to the railways underground and get our bearings. Maybe there's a train that will take us somewhere else.
+    text: \n<SPACEBOY>Probablemente deberíamos volver a los túneles del tren subterráneo y orientarnos. Quizás haya un tren que nos lleve a otro destino.
 
 #On Train.
 
 message_146:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 2
-    text: \n<DOUGHIE>Oho...\. Where exactly are we going now?
+    text: \n<DOUGHIE>Oho...\. ¿A dónde vamos exactamente ahora?
 
 message_147:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 24
-    text: \n<SWEETHEART>Ugh, I'm done running around!\! I demand we return to my castle at once!
+    text: \n<SWEETHEART>Ugh, Ya me cansé de andar corriendo por todos lados!\! ¡Exijo que volvamos a mi castillo de inmediato!
 
 message_148:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 36
-    text: \n<SPACEBOY>I'm sorry there wasn't a spaceship back in HEADQUARTERS, SWEETHEART.\! Maybe there will be a train back in the station that could take you home.
+    text: \n<SPACEBOY>Lamento que no hubiera una nave espacial en el CUARTEL GENERAL, SWEETHEART.\! Quizás haya un tren en la estación que pueda llevarte de vuelta a casa.
 
 message_149:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 37
-    text: \n<SPACEBOY>I'll make it up to you by escorting you until you're back safe and sound, okay?
+    text: \n<SPACEBOY>Te lo voy a compensar escoltándote hasta que estés de vuelta sano y salvo, ¿de acuerdo?
 
 message_150:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 21
-    text: \n<SWEETHEART>Hmph...\. As if I can't see right through you.
+    text: \n<SWEETHEART>Hmph...\. ¿De verdad pensás que no me doy cuenta?
 
 message_151:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 24
-    text: \n<SWEETHEART>\com[2]You've fallen yet again for my charms, haven't you?!\! You really are impossible, SPACEBOY.
+    text: \n<SWEETHEART>\com[2]¡Has vuelto a caer en mis encantos, ¿no es cierto?!\! Realmente sos imposible, SPACEBOY.
 
 message_152:
     faceset: MainCharacters_ReverieDreamWorld
     faceindex: 44
-    text: \n<SPACEBOY>What-\. \com[2]No!\. I-\! ... Never mind.
+    text: \n<SPACEBOY>Que-\. \com[2]¡No!\. I-\! ... No importa.
 
 message_153:
     faceset: MainCharacters_ReverieDreamWorld
@@ -952,17 +950,17 @@ message_153:
 message_160:
     faceset: SideCharacters_ReverieFW
     faceindex: 8
-    text: \n<KITE KID>Sometimes, I feel like I'm the only one who notices that this world has changed.
+    text: \n<KITE KID>A veces siento que soy el único que nota que este mundo ha cambiado.
 
 message_161:
     faceset: SideCharacters_ReverieFW
     faceindex: 8
-    text: \n<KITE KID>Not just the overt destruction, but something in the world's core...\! When I fly my kite up high, I see something from below tugging at the ground.
+    text: \n<KITE KID>No solo la destrucción evidente, sino algo en el núcleo del mundo...\! Cuando elevo mi cometa bien alto, veo algo desde abajo que tira del suelo.
 
 message_162:
     faceset: SideCharacters_ReverieFW
     faceindex: 8
-    text: \n<KITE KID>It's strange, isn't it?\! The more I bond with my kite, the more clearly I can see the contrasting world down below.
+    text: \n<KITE KID>Es extraño, ¿no?\!  Cuanto más me conecto con mi cometa, más claramente puedo ver el mundo contrastante allá abajo
 
 message_163:
     faceset: SideCharacters_ReverieFW
@@ -972,59 +970,59 @@ message_163:
 message_164:
     faceset: SideCharacters_ReverieFW
     faceindex: 8
-    text: \n<KITE KID>I suppose...\. you would like a demonstration of that bond.\! <br>Is that correct?
+    text: \n<KITE KID>Supongo...\.que te gustaría una demostración de ese vínculo..\! <br>¿Es correcto?
 
 #yes
 
 message_165:
     faceset: SideCharacters_ReverieFW
     faceindex: 8
-    text: \n<KITE KID>Very well...\. We won't hold back, in that case.\! Here we come!
+    text: \n<KITE KID>Muy bien...\.¡Entonces no nos vamos a contener.\! ¡Allá vamos!
 
 #no
 
 message_166:
     faceset: SideCharacters_ReverieFW
     faceindex: 8
-    text: \n<KITE KID>No?\! I see...
+    text: \n<KITE KID>¿No?\! Ya veo...
 
 #after fight. THESE ARE PLACEHOLDERS! To be changed later.
 
 message_167:
     faceset: SideCharacters_ReverieFW
     faceindex: 8
-    text: \n<KITE KID>Wow...\! and I thought my bond was strong...\! But you are all even stronger together!
+    text: \n<KITE KID>Wow...\!  y yo que pensaba que mi vínculo era fuerte...\! ¡Pero ustedes juntos son aún más fuertes!
 
 message_168:
     faceset: SideCharacters_ReverieFW
     faceindex: 8
-    text: \n<KITE KID>That's good...\! Being close also means helping each other.\!<br>I wish your party well.
+    text: \n<KITE KID>Eso está bien...\! Estar cerca también significa ayudarse mutuamente.\!<br>Les deseo lo mejor a tu grupo.
 
 message_169:
     faceset: SideCharacters_ReverieFW
     faceindex: 8
-    text: \n<KITE KID>Actually...\! Here's something that might be useful for you on your journey...
+    text: \n<KITE KID>En realidad...\! Acá hay algo que podría servirte en tu viaje...
 
 #gain kite and windbreaker
 
 message_170:
     faceset: SideCharacters_ReverieFW
     faceindex: 8
-    text: \n<KITE KID>I hope you'll find some use for these.
+    text: \n<KITE KID>Espero que puedas darle algún uso a esto.
 
 message_171:
     faceset: SideCharacters_ReverieFW
     faceindex: 8
-    text: \n<KITE KID>I'll just stay here to admire the scenery with my kite.
+    text: \n<KITE KID>Me voy a quedar acá, admirando el paisaje con mi cometa.
 
 #reinteract dialogue, mention od destruction and hint at something
 
 message_172:
     faceset: SideCharacters_ReverieFW
     faceindex: 8
-    text: \n<KITE KID>Hmm...\! The weather feels stronger than ever, despite me losing.
+    text: \n<KITE KID>Hmm...\! El clima se siente más intenso que nunca, a pesar de que perdí.
 
 message_173:
     faceset: SideCharacters_ReverieFW
     faceindex: 8
-    text: \n<KITE KID>I suppose going against the wind requires a level of strength that even we haven't truly mastered yet.
+    text: \n<KITE KID>Supongo que ir contra el viento requiere un nivel de fuerza que ni siquiera nosotros hemos logrado dominar del todo.

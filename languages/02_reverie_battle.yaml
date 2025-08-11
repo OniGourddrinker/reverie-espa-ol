@@ -11,43 +11,43 @@ TEMPLATE:
 # Turn 0
 Lucy_T0-1:
    text: >
-    \>LUCY: \<So, \c[10]LIEUTENANT POSITRON\c[0]!\. It's just you and me!
+    \>LUCY: \<Así que, \c[10]TENIENTE POSITRON\c[0]!\. ¡Somos solo vos y yo!
 
 Lucy_T0-2:
    text: >
-    \>LUCY: \<I cannot allow you to go any further with your machinations!
+    \>LUCY: \<¡No puedo permitir que sigas adelante con tus maquinaciones!
 
 Lucy_T0-3:
    text: >
-    \>LUCY: \<Have at you!
+    \>LUCY: \<¡En guardia!
 
 # Turn 2
 Lucy_T2-1:
    text: >
-    \>LUCY: \<I am just warming up!\. I will not let you go any further!
+    \>LUCY: \<¡Apenas estoy entrando en calor!\. ¡No voy a dejar que sigas avanzando!
 
 # Turn 4
 Lucy_T4-1:
    text: >
-    \>LUCY: \<You're still standing?\. Now I will have to bring out the big guns! 
+    \>LUCY: \<¿Todavía estás en pie?\. ¡Entonces tendré que sacar la artillería pesada! 
 
 Lucy_T4-2:
    text: >
-    \>LUCY: \<I'm warning you!\. Prepare for my \c[1]special attack\c[0]! 
+    \>LUCY: \<¡Te lo advierto!\. ¡Prepárate para mi \c[1]ATAQUE ESPECIAL\c[0]! 
 
 # Turn 5
 Lucy_T5-1:
    text: >
-    \>LUCY: \<Huff, you're strong!\. But I'm even stronger!\. I've been saving up my energy for this!
+    \>LUCY: \<Huff, sos fuerte!\. ¡Pero yo soy aún más fuerte!\. ¡Estuve guardando mi energía para esto!
 
 Lucy_T5-2:
    text: >
-    \>LUCY: \<See if you can block this one!
+    \>LUCY: \<¡A ver si podés bloquear esto!
 
 # Note: Skill name is based on SPACE EX-HUSBAND skill, Spinning Kick
 Lucy_T5-3:
    text: >
-    \>LUCY: \<\Com[2]\c[1]ORBITAL SPINNING KICK\c[1]!
+    \>LUCY: \<\Com[2]\c[1]PATADA GIRATORIA ORBITAL\c[1]!
 
 # Do Big Attack
 
@@ -61,19 +61,19 @@ Lucy_T5-4:
 
 Donut_1:
    text: >
-    \>MINT-DONO: \<\c[4]SWEETHEART\c[0]......\! You \quake[1]dare\quake[0] stand in my way?
+    \>MINT-DONO: \<\c[4]SWEETHEART\c[0]......\! ¿Te \quake[1]atrevés\quake[0] a interponerte en mi camino?
 
 Donut_2:
    text: >
-    \>CHOCO-CHAN: \<It's too late, \c[4]SWEETHEART\c[0].\! \c[4]MINT-DONO\c[0]'s plans are nearly complete.
+    \>CHOCO-CHAN: \<Ya es muy tarde, \c[4]SWEETHEART\c[0].\! Los planes de\c[4]MINT-DONO\c[0] ya casi estan completos.
 
 Donut_3:
    text: >
-    \>SWEETHEART: \<\c[4]CHOCO-CHAN\c[0]...\! How could you?!\! You were my friend!
+    \>SWEETHEART: \<\c[4]CHOCO-CHAN\c[0]...\! ¡¿Cómo pudiste?!\! ¡Eras mi amiga!
 
 Donut_4:
    text: >
-    \>MINT-DONO: \<Your efforts are futile, foolish girl.\! Now stand aside...\. and let me pass.
+    \>MINT-DONO: \Tus esfuerzos son inútiles, niña tonta.\! Ahora apártate...\. y déjame pasar.
 
 Donut_5:
    text: >
@@ -81,55 +81,55 @@ Donut_5:
 
 Donut_6:
    text: >
-    \>SWEETHEART: \<\Com[2]\{\quake[1]NEVER!!!\quake[0]\}
+    \>SWEETHEART: \<\Com[2]\{\quake[1]¡¡¡NUNCA!!!\quake[0]\}
 
 Donut_7:
    text: >
-    \>SWEETHEART: \<No matter what happens...\! I have to protect everyone!
+    \>SWEETHEART: \<No importa lo que ocurra...\! ¡Tengo que proteger a todos!
 
 Donut_8:
    text: >
-    \>MINT-DONO: \<...Then we shall settle things the hard way.\! You asked for it.
+    \>MINT-DONO: \<...Entonces resolveremos esto a la manera difícil.\! Vos lo pediste.
 
 Donut_9:
    text: >
-    \>CHOCO-CHAN: \<Sorry, \c[4]SWEETHEART\c[0].\. It's nothing personal.
+    \>CHOCO-CHAN: \<Perdon, \c[4]SWEETHEART\c[0].\. No es nada personal.
 
 Donut_10:
    text: >
-    \>SWEETHEART: \<I don't care about whatever you throw at me...\. I'm going to stop you, \c[4]MINT-DONO\c[0]!!
+    \>SWEETHEART: \<No me importa lo que me lances...\. ¡Voy a detenerte!, \c[4]MINT-DONO\c[0]!!
 
 Donut_11:
    text: >
-    \>MINT-DONO: \<The time for words have passed...\! Have at you!
+    \>MINT-DONO: \<El tiempo de las palabras ha terminado...\! ¡Prepárate para enfrentarte a mí!
 
 #before using ultimate
 
 Donut_12:
    text: >
-    \>MINT-DONO: \<Accept your defeat, naive \c[4]SWEETHEART\c[0]...
+    \>MINT-DONO: \<Aceptá tu derrota, ingenua \c[4]SWEETHEART\c[0]...
 
 Donut_12-1:
    text: >
-    \>MINT-DONO: \Com[2]\{\quake[1]TAKE THIS!\quake[0]
+    \>MINT-DONO: \Com[2]\{\quake[1]¡TOMA ESTO!\quake[0]
 
 #lost
 
 Donut_13:
    text: >
-    \>MINT-DONO: \<...And stay down!
+    \>MINT-DONO: \<...Y quedate en el suelo!
 
 #mint dies
 
 Donut_14:
    text: >
-    \>MINT-DONO: \<N-no!\. Impossible!
+    \>MINT-DONO: \<N-no!\. Imposible!
 
 #choco dies
 
 Donut_15:
    text: >
-    \>CHOCO: \<Waah...\. I wanna go home...
+    \>CHOCO: \<Waah...\. Me quiero ir a casa...
 
 # ================ SPECIAL BOSS: WENDY'S ================
 
@@ -141,67 +141,67 @@ wendy_1:
 
 luna_1:
    text: >
-    \>CAPT. LUNA: \<Ha ha ha...\. You lose, \c[4]CAPT. SPACEBOY\c[0]!\! The \c[3]AMULET OF ORION\c[0] is mine!
+    \>CAPT. LUNA: \<Ja ja ja...\. Vos perdes, \c[4]CAPT. SPACEBOY\c[0]!\! El \c[3]AMULETO DE ORION\c[0] es mío!
 
 luna_2:
    text: >
-    \>CAPT. LUNA: \<With the amulet's power, the \c[9]LEPORINE EMPIRE\c[0]'s victory is all but guaranteed!
+    \>CAPT. LUNA: \<¡Con el poder del amuleto, la victoria del \c[9]IMPERIO LEPORINE\c[0] está prácticamente asegurada!
 
 luna_3:
    text: >
-    \>CAPT. SPACEBOY: \<You don't know what that artifact is capable of, \c[4]LUNA\c[0]!
+    \>CAPT. SPACEBOY: \¡No sabés de lo que es capaz ese artefacto, \c[4]LUNA\c[0]!
 
 luna_3-1:
    text: >
-    \>CAPT. SPACEBOY: \<It has the power to destroy entire galaxies...\. No one deserves that much power!
+    \>CAPT. SPACEBOY: \<Tiene el poder de destruir galaxias enteras...\. ¡Nadie merece tanto poder!
 
 luna_4:
    text: >
-    \>CAPT. LUNA: \<I know exactly what it's capable of!\! And I told you not to call me that!
+    \>CAPT. LUNA: \<¡Sé perfectamente de lo que es capaz!\! ¡Y te dije que no me llames así!
 
 luna_5:
    text: >
-    \>CAPT. SPACEBOY: \<Let's just return the amulet to its home planet, \c[4]LUNA\c[0].\. It's the right thing to do!
+    \>CAPT. SPACEBOY: \<Devolvamos el amuleto a su planeta de origen, \c[4]LUNA\c[0].\. ¡Es lo correcto!
 
 luna_6:
    text: >
-    \>CAPT. LUNA: \<\Com[2]Shut up!!\! I'm sick and tired of your lecturing! 
+    \>CAPT. LUNA: \<\Com[2]¡¡Callate!!\! ¡Ya estoy harta de tus sermones!
 
 luna_6-1:
    text: >
-    \>CAPT. LUNA: \<And \Com[2]STOP CALLING ME \c[4]LUNA\c[0]!
+    \>CAPT. LUNA: \<¡Y \Com[2]DEJÁ DE LLAMARME \c[4]LUNA\c[0]!
 
 luna_7:
    text: >
-    \>CAPT. LUNA: \<I'll tolerate your disrespect no longer...
+    \>CAPT. LUNA: \<No voy a tolerar más tu falta de respeto...
 
 luna_7-1:
    text: >
-    \>CAPT. LUNA: \<\Com[2]\quake[1]\{PREPARE TO BE UTTERLY DEMOLISHED!\quake[0]
+    \>CAPT. LUNA: \<\Com[2]\quake[1]\{¡PREPÁRATE PARA SER TOTALMENTE DESTRUIDO!\quake[0]
 
 luna_8:
    text: >
-    \>CAPT. SPACEBOY: \<\}This is bad!\. With the \c[3]AMULET OF ORION\c[0], her combat ability is enhanced!
+    \>CAPT. SPACEBOY: \<\}¡Esto es malo!\. ¡Con el \c[3]AMULETO DE ORION\c[0], su habilidad de combate está potenciada!
 
 luna_9:
    text: >
-    \>CAPT. SPACEBOY: \<\}My one hope is that she's too \c[4]ANGRY\c[0] right now to act intelligently...
+    \>CAPT. SPACEBOY: \<\}Mi única esperanza es que esté demasiado \c[4]ENOJADA\c[0] como para actuar con inteligencia....
 
 luna_9-1:
    text: >
-    \>CAPT. SPACEBOY: \<\}I'll try to stop her from calming down!
+    \>CAPT. SPACEBOY: \<\}¡Voy a intentar evitar que se calme!
 
 #if emotion changed
 
 luna_10:
    text: >
-    \>CAPT. LUNA: \<Now that I've calmed down a bit...
+    \>CAPT. LUNA: \<Ahora que me calmé un poco...
 
 luna_11:
    text: >
-    \>CAPT. LUNA: \<\Com[2]\{\quake[1]IT'S TIME FOR THIS TO END!\quake[0]
+    \>CAPT. LUNA: \<\Com[2]\{\quake[1]¡ES HORA DE QUE ESTO TERMINE!\quake[0]
 
 #won
 luna_12:
    text: >
-    \>CAPT. LUNA: \<Ack!\. I was too careless...
+    \>CAPT. LUNA: \<Ack!\. Si tan solo hubiera sido más cuidadosa...

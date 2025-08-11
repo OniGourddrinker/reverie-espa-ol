@@ -15,100 +15,100 @@ message_1:
 # Player endure hit - Plot Armor
 message_playerEndure:
   text: |
-    \n[17] endured the hit.
+    \n[17] resistió el golpe.
 
 # EMOTION LOCK ON PARTY
 
 message_SB-LOCK-1:
-    text: SPACEBOY is FURIOUS!
+    text: SPACEBOY esta FURIOSO!
 
 message_SB-LOCK-2:
-    text: SPACEBOY can no longer become HAPPY or SAD!
+    text: SPACEBOY ya no puede volverse FELIZ o TRISTE!
 
 message_SWH-LOCK-1:
-    text: SWEETHEART is MANIC!
+    text: SWEETHEART está MANÍACA!
 
 message_SWH-LOCK-2:
-    text: SWEETHEART can no longer become SAD or ANGRY!
+    text: SWEETHEART ya no puede volverse TRISTE o ENOJADA!
 
 # ======== SPACE FANGIRL ========
 
 message_2:
    text: >
-    \>SPACE FANGIRL: \<I \Com[2]WILL win you over, my beloved SPACEBOY!
+    \>SPACE FANGIRL: \< VOY\Com[2] a conquistarte, mi amado SPACEBOY!
 
 message_3:
    text: >
-    \>SPACE FANGIRL: \<Ugh...\. Just how are you still going?!
+    \>SPACE FANGIRL: \<Ugh...\. ¡¿Cómo es posible que todavía sigas en pie?!
 
 message_4:
    text: >
-    \>SPACE FANGIRL: \<I should have won by now, just let me win!!
+    \>SPACE FANGIRL: \<¡Ya debería haber ganado! ¡Solo dejame ganar!
 
 message_4-1:
    text: >
-    \>SPACE FANGIRL: \<This is unfair!\! How is this possible?
+    \>SPACE FANGIRL: \<¡Esto es injusto!\! ¿Cómo es posible esto?
 
 message_4-2:    
    text: >
-    \>SPACE FANGIRL: \<Y-you're all cheating!
+    \>SPACE FANGIRL: \<¡U-ustedes están haciendo trampa!
 
 message_4-3:
    text: >
-    \>SPACE FANGIRL: \<Ha, I win!\! You're no match for me!
+    \>SPACE FANGIRL: \<¡Ja, Gané!\! ¡No son rival para mí!
 
 message_4-4:
-    text: SPACE FANGIRL feels ANGRY!
+    text: SPACE FANGIRL se siente ENOJADA!
 
 message_4-5:
-    text: SPACE FANGIRL can no longer become HAPPY or SAD!
+    text: SPACE FANGIRL ya no puede volverse FELIZ o TRISTE!
 
 #attempt flirt
 message_4-6:
    text: >
-    \>SPACE FANGIRL: \<Ugh... attempting to flirt on me?
+    \>SPACE FANGIRL: \<Ugh... ¿Intentando coquetear conmigo?
 
 message_4-7:
    text: >
-    \>SPACE FANGIRL: \<My heart is loyal to the one and only CAPTAIN SPACEBOY!\! Take THIS!
+    \>SPACE FANGIRL: \<Mi corazón es leal al único e inigualable CAPTAIN SPACEBOY!\! Tomá ESTO!
 
 message_4-8:
-   text: SPACEBOY is weirded out.
+   text: SPACEBOY se siente incómodo.
 
 # ======== TV GIRL ========
 
 # win battle
 message_TVG-1:
    text: >
-    \>TV GIRL: \<Hey!\. \com[2]HEY!\. Fine, you win!\! You can stop hittin' me now!
+    \>TV GIRL: \<¡Ey!\. \com[2]¡EY!\. Esta bien, Tu ganas!\! ¡Ya pueden dejar de pegarme!
 
 # intro (new)
 message_TVG-2:
    text: >
-    \>TV GIRL: \<GAH!-\.<br>My pure \quake[1]RAGE\quake[0] caused a power surge!\|\^
+    \>TV GIRL: \<GAH!-\.<br>Mi \quake[1]FURIA\quake[0] pura provocó una sobrecarga de energía!\|\^
 
 message_TVG-3:
    text: >
-    \>TV GIRL: \<Huh...\| This lighting is a lot more dramatic, actually!\|\^
+    \>TV GIRL: \<Huh...\| ¡Esta iluminación es mucho más dramática, la verdad!\|\^
 
 message_TVG-4:
    text: >
-    \>TV GIRL: \<Anyway...\. I need some punchin' bags, and all I have in front of me are you four!\|\^
+    \>TV GIRL: \<De todo modos...\. ¡Necesito unos sacos de boxeo, y lo único que tengo son ustedes cuatro!\|\^
 
 message_TVG-5:
    text: >
-    \>TV GIRL: \<Just a little advice:<br>\|\quake[1]DON'T BARGE INTO PEOPLE'S ROOMS WITHOUT ASKIN', MORONS!\|\^
+    \>TV GIRL: \<Solo un pequeño consejo:<br>\|\quake[1]¡NO ENTREN A LAS HABITACIONES DE LA GENTE SIN PREGUNTAR, IDIOTAS!\|\^
 
 message_TVG-6:
    text: >
-    \>TV GIRL: \<\}\sinv[1]Oh, there's the lights...\|\^
+    \>TV GIRL: \<\}\sinv[1]Oh, ahi estan las luces...\|\^
 
 # ======== PLANET X ========
 
 # intro
 message_PX-1:
    text: >
-    \>PLANET X: \<Feel the wrath of the cosmic shinobi!
+    \>PLANET X: \<¡Sentí la ira del shinobi cósmico!
 
 message_PX-2:
    text: >
@@ -117,131 +117,131 @@ message_PX-2:
 #lose wig
 message_PX-3:
    text: >
-    \>PLANET X: \<N-no!\. My wig!!
+    \>PLANET X: \<N-no!\. Mi peluca!
 
 message_PX-4:
    text: >
-    \>PLANET X: \<Look away...\. I'm \Com[2]\quake[1]HIDEOUS!
+    \>PLANET X: \<¡No me mires...\. Soy \Com[2]\quake[1]HORRIBLE!
 
 # no juice
 message_PX-5:
-    text: PLANET X does not have enough JUICE!
+    text: PLANET X no tiene sufiente JUGO!
 
 # Battle win
 message_PX-6:
    text: >
-    \>PLANET X: \<N-no!\. Impossible!\. How could this be?!
+    \>PLANET X: \<N-no!\. Imposible!\. esto no puede estar pasando!
 
 # Battle lose
 message_PX-7:
    text: >
-    \>PLANET X: \<Heh heh... Fools,\. to dare challenge the \sinv[1]greatest ninja\sinv[0] of all time.
+    \>PLANET X: \<Heh heh... Idiotas,\. ¡Solo un insensato se enfrentaría al \sinv[1]más grande ninja\sinv[0] de todos los tiempos!.
 
 message_PX-8:
    text: >
-    \>PLANET X: \<If you wish to defeat me, train for another \sinv[1]100\sinv[0] light-years!
+    \>PLANET X: \<¡Si deseás derrotarme, entrená durante otros \sinv[1]100\sinv[0] años luz!
 
 # Wig prompt
 message_PX-9:
    text: >
-    \>PLANET X: \<Hey!\. Don't touch my wig!
+    \>PLANET X: \<¡Ey!\. ¡No toques mi peluca!
 
 message_PX-10:
    text: >
-    \>PLANET X: \<I mean... hair.\. My handsome hair!
+    \>PLANET X: \<Digo mi... cabello.\. ¡Mi precioso cabello!
 
 # ======== Kite Kid ========
 
 message_KK-1:
    text: >
-    \>KITE KID: \<Don't hold back!
+    \>KITE KID: \<¡No te contengas!
 
 message_KK-2:
    text: >
-    \>KITE KID: \<Impossible!\. Not my kite!
+    \>KITE KID: \<¡Imposible!\. ¡No... mi cometa!!
 
 message_KK-3:
    text: >
-    \>KITE KID: \<But...\. our bond...\! Was it still not strong enough...?
+    \>KITE KID: \<Pero...\.nuestro lazo...\! ¿Todavía no era lo bastante fuerte...?
 
 # ---- Kite Kid Wind ----
 message_wind1:
-   text: The wind is WEAK...
+   text: El viento esta DÉBIL...
 
 message_wind2:
-   text: The wind is STEADY.
+   text: El viento esta QUIETO.
 
 message_wind3:
-   text: The wind is RAGING!!
+   text: El viento esta FURIOSO!!
 
 message_windclean:
-   text: ...Everyone's BUFFS and DEBUFFS are cleared!
+   text: ...Se eliminaron todas las MEJORAS y REDUCCIONES de estado.
 
 # ======== WIDOWBOY ========
 
 widow_1:
    text: >
-    \>WIDOWBOY: \<Oh...\. What am I even doing...
+    \>WIDOWBOY: \<Oh...\. ¿Qué estoy haciendo siquiera?...
 
 widow_2:
    text: >
-    \>WIDOWBOY: \<I shouldn't be lashing out like this...\. What's the point of fighting...?
+    \>WIDOWBOY: \<No debería estar reaccionando así...\. ¿Qué sentido tiene seguir peleando?
 
 widow_3:
    text: >
-    \>WIDOWBOY: \<You deserve better than this...\. Don't let me be a bother...
+    \>WIDOWBOY: \<Te merecés algo mejor que esto...\. No quiero ser un estorbo.....
 
 # Defeat
 widow_4:
    text: >
-    \>WIDOWBOY: \<Ah...\. that's it I guess...
+    \>WIDOWBOY: \<Ah...\. Supongo que eso es todo....
 
 
 # ======== ALICE QUEST BURN ========
 
 alicequest_1:
    text: >
-    \>FIERY: \<Girl,\. are you out of your mind?
+    \>FIERY: \<¿Nena,\. perdiste la cabeza o qué??
     
 alicequest_2:
    text: >
-    \>FIERY: \<You are never convincing me,\. ever,\! you fiend.
+    \>FIERY: \<Jamás vas a convencerme,\. jamás,\! maldito.
     
 alicequest_3:
    text: >
-    \>ALICE: \<Yeah, yeah, let's just get this over with.\! Just remember what I said.
+    \>ALICE: \<Sí, sí, terminemos con esto de una vez.\! Solo recordá lo que te dije.
 
 alicequest_4:
-   text: \c[4]...All BURN skills are disabled in this fight!
+   text: \c[4]...¡Todas las habilidades de QUEMADURA están deshabilitadas en esta pelea!
 
 # ======== ADWARE AMBUSH ========
 
 message_adprep:
-    text: ADWARE is prepared!
+    text: ADWARE esta preparado!
 
 # ======== STAR TUTORIAL ========
 message_burn1:
     text: >
-     \>SPACEBOY: \<Oh!\. That's a SHOOTING STAR!
+     \>SPACEBOY: \<Oh!\. Esa es una ESTRELLA FUGAZ!
 
 message_burn2:
     text: >
-     \>SPACEBOY: \<Its flaming body can inflict \c[4]BURN\c[0] on us when it attacks,\. dealing damage over time.
+     \>SPACEBOY: \<Su cuerpo en llamas puede provocarnos \c[4]QUEMADURA\c[0] al atacar,\. causando daño con el tiempo.
 
 message_burn3:
     text: >
-     \>SPACEBOY: \<It is an EMOTIONAL AILMENT,\. with this one being dependent on ANGRY.
+     \>SPACEBOY: \<Es una estado ALTERADO EMOCIONAL,\. y esta en particular depende del estado ENOJADO.
 
 message_burn4:
     text: >
-     \>SPACEBOY: \<But beware,\. that also means the ailment will \c[4]lock you to that emotion as well.
+     \>SPACEBOY: \<Pero cuidado,\. eso también significa que la alteración te \c[4]bloqueara a esa emoción.
 
 message_burn5:
     text: >
-     \>SPACEBOY: \<To burn with rage...\. I would know that well myself, of course.
+     \>SPACEBOY: \<Arder de furia...\. Lo sé por experiencia propia, claro.
 
 message_burn6:
-    text: \c[11]...You can now hold SHIFT or CTRL key to see more info on enemies.
+    text: \c[11]...Ahora podés mantener presionada la tecla de FLECHA ARRIBA o ABAJO para ver más información sobre los enemigos.
 
 # ======== LIFE JAM GUY BATTLE (OLD) ========
 
@@ -249,21 +249,21 @@ message_burn6:
 
 message_33:
     text: >
-     \>DOUGHIE: \<Is... Is he consuming BISCUIT's energy?!
+     \>DOUGHIE: \<¿Acaso... está absorbiendo la energía de BISCUIT?!
 
 message_34:
     text: >
-     \>DOUGHIE: \<But if he keeps doing that, BISCUIT will...
+     \>DOUGHIE: \<Pero si sigue haciendo eso BISCUIT va a ...
 
 message_35:
     text: >
-     \>DOUGHIE: \<No! We cannot let him finish!
+     \>DOUGHIE: \<No! ¡No podemos dejar que termine!
 
 #death jam
 
 message_36:
     text: >
-     \>LIFE JAM GUY: \<Aha!\. Yes!\! This will do nicely to give LIFE JUICE a test run!
+     \>LIFE JAM GUY: \<¡Aha!\. ¡Si!\! ¡Esto servirá perfectamente para poner a prueba el JUGO VITAL!
 
 #6 consume power usage, game over
 
@@ -279,35 +279,35 @@ message_38:
 
 message_381:
     text: >
-     \>SPACEBOY: \<I-I'm sorry everyone, I disappointed you all...
+     \>SPACEBOY: \<P-perdón... a todos... Los fallé.
 
 message_382:
     text: >
-     \>SWEETHEART: \<T-This can't be where my story ends!
+     \>SWEETHEART: \<¡E-Este no puede ser el final de mi historia!
 
 #Victory
 
 message_383:
     text: >
-     \>LIFE JAM GUY: \<Hm...\! How interesting!
+     \>LIFE JAM GUY: \<Hm...\! ¡Qué interesante!
 
 message_384:
     text: >
-     \>LIFE JAM GUY: \<Well, looks like I'll have to leave for now.
+     \>LIFE JAM GUY: \<Bueno, parece que por ahora voy a tener que irme.
 
 message_385:
     text: >
-     \>LIFE JAM GUY: \<Don't worry, we'll meet again!\! Haha!
+     \>LIFE JAM GUY: \<¡No te preocupes, nos volveremos a ver!\! ¡Jaja!
 
 # ======== Makoto Yuki ========
 
 message_39:
     text: >
-     \>DOUGHIE: \<Huff...\! Puff...\!<br>It's no use...\! It won't even give an inch...
+     \>DOUGHIE: \<Huff...\! Puff...\!<br>Es inútil...\! No se mueve ni un poco......
 
 message_391:
     text: >
-     \>DOUGHIE: \<Darn this GREAT GATE!\! We might need another strategy...
+     \>DOUGHIE: \<¡Maldita sea esta PUERTA GRANDE!\! Puede que necesitemos otra estrategia...
 
 # ====================================================================
 #                       CHAPTER 4
@@ -316,89 +316,89 @@ message_391:
 # ================ Castle Troop Roll ================
 enc_castle_prompt:
    text: >
-    \v[1003]'s party rolls initiative...
+    El grupo de \v[1003] tira iniciativa...
 
 enc_castle_upper:
    text: >
-    It's a natural 20! \v[1003]'s party has the upper hand!
+    ¡Es un 20 natural! El grupo de \v[1003] tiene la ventaja!
 
 enc_castle_lower:
    text: >
-    It's a natural 1! \n[17]'s party has the upper hand!
+    ¡Es un 1 natural! El grupo de SUNNY tiene la ventaja!
 
 enc_castle_same:
    text: >
-    It's a \v[1002]! It's anybody's game!
+    Es un \v[1002]! ¡Cualquiera puede ganar!
 
 enc_dungeon_prompt:
    text: >
-    \v[1003] cannot see and tries to light up...
+    \v[1003] no puede ver y procede a intentar iluminar el entorno....
 
 # ================ PAINTING ================
 painting_ambush:
-    text: ...It's an ambush!\. THE LADY IN PINK came prepared!
+    text: ...Es una emboscada!\. ¡LA DAMA EN ROSA vino preparada!
 
 # ================ Casstle Mini Bosses ================
 enc_virtuoso_1:
    text: >
-    VIRTUOSO MOLE is very strict...
+    VIRTUOSO MOLE es muy estricto...
 
 enc_virtuoso_2:
    text: >
-    \c[4]FIRST HIT of each TURN deals increased damage for both sides!
+    \c[4]¡El PRIMER GOLPE de cada TURNO inflige daño aumentado para ambos bandos!
 
 enc_chef_1:
    text: >
-    The heat from the fire is scorching...
+    El calor del fuego es abrasador...
 
 enc_chef_2:
    text: >
-    \c[4]Chance to inflict BURN increased greatly for everyone!
+    \c[4]¡La probabilidad de causar QUEMADURA ha aumentado considerablemente para todos!
 
 enc_maximus_1:
    text: >
-    The room is filled with tension...
+    La sala está cargada de tensión...
 
 enc_maximus_2:
    text: >
-    \c[4]SKILL COSTS are halved for everyone!
+    \c[4]¡LOS COSTES DE HABILIDAD están reducidos a la mitad para todos!
 
 # ================ HALTERGEIST ================
 halt_absorb_1:
     text: >
-     \>SPACEBOY: \<Hm.\. They seem to \c[4]ABSORB all incoming ANGRY attacks\c[0]...
+     \>SPACEBOY: \<Hm.\. Parece que \c[4]ABSORBEN todos los ataques ENFADADOS que reciben\c[0]...
 
 halt_absorb_2:
     text: >
-     \>SPACEBOY: \<Might want to try to avoid being ANGRY here...
+     \>SPACEBOY: \<Tal vez convenga evitar estar ENFADADO en este lugar...
 
 halt_special:
-    text: HALTIA is preparing something...
+    text: HALTIA esta preparando algo...
 
 halt_cannot:
-    text: HALTIA was unable to cast their special skill...
+    text: HALTIA no pudo lanzar su habilidad especial...
 
 halt_defeat:
     text: >
-     \>HALTIA: \<Ah,\. it seems you know what you are doing...\. I'll let you go now.
+     \>HALTIA: \<Ah,\. Parece que sabés lo que estás haciendo...\. Te dejaré ir ahora.
 
 # ================ ALICE ================
 alice_start:
     text: >
-     \>ALICE: \<Lighten up a bit, will you?\. Come out and play with your \sinv[1]friends\sinv[0].
+     \>ALICE: \<Relajate un poco, ¿Quierés?\. Salí a jugar con tus \sinv[1]amigos\sinv[0].
 
 alice_special:
-    text: ALICE gives a conspiratorial look...
+    text: ALICE lanza una mirada cómplice....
 
 alice_fail:
-    text: ALICE cannot find any \c[4]WEEPING\c[0] members to take advantage of.
+    text: ALICE no puede encontrar a ningún miembro \c[4]LLORÓN\c[0] del que aprovecharse.
 
 alice_fail_bear:
-    text: ALICE cannot was unable to call for more bears.
+    text: ALICE fue incapaz de llamar a más osos.
 
 alice_defeat:
     text: >
-     \>ALICE: \<Augh, you're strong...\. Let's end our playtime here.
+     \>ALICE: \<Augh, sos fuerte...\. Dejemos nuestro jueguito hasta acá.
     
 # ==== MAXIMUS IV - Closely mimic base game one ====
 
@@ -406,16 +406,16 @@ alice_defeat:
 
 maximus_ult_1:
    text: >
-    \>SIR MAXIMUS IV: \<Behold the power of my ancestors!
+    \>SIR MAXIMUS IV: \<¡Contemplá el poder de mis ancestros!
 
 # Had to split text because 3 fathers are too long :skull:
 maximus_ult_2:
    text: >
-    \>SIR MAXIMUS IV: \<My father and his father and his father's father stand beside me!
+    \>SIR MAXIMUS IV: \<¡Mi padre, su padre y el padre de su padre están a mi lado!
 
 maximus_ult_3:
    text: >
-    \>SIR MAXIMUS IV: \<This is our ultimate attack!
+    \>SIR MAXIMUS IV: \<¡Este es nuestro ataque definitivo
 
 maximus_ult_4:
    text: >
@@ -425,164 +425,163 @@ maximus_ult_4:
 
 maximus_weak_1:
    text: >
-    \>SIR MAXIMUS IV: \<No... I cannot let my father's and his father's...
+    \>SIR MAXIMUS IV: \<No... no puedo permitir que la muerte de mi padre y la de su padre...
 
 maximus_weak_2:
    text: >
-    \>SIR MAXIMUS IV: \<...and his father's father's deaths be in vain!
+    \>SIR MAXIMUS IV: \<...y la del padre de su padre hayan sido en vano!
 
 # After Defeat
 
 maximus_defeat_1:
    text: >
-    \>SIR MAXIMUS IV: \<Father... Grandfather... Great-grandfather...
+    \>SIR MAXIMUS IV: \<Padre... Abuelo... Bisabuelo...
 
 maximus_defeat_2:
    text: >
-    \>SIR MAXIMUS IV: \<I'm sorry...\!<br>I have failed you.
+    \>SIR MAXIMUS IV: \<Perdóneme...\!<br>Les he fallado.
 
 # After Victory
 
 maximus_victory_1:
    text: >
-    \>SIR MAXIMUS IV: \<Alas, my family has been avenged!
+    \>SIR MAXIMUS IV: \<¡Por fin... la venganza de mi familia se ha cumplido!
 
 maximus_victory_2:
    text: >
-    \>SIR MAXIMUS IV: \<This is a glorious day for my people!
+    \>SIR MAXIMUS IV: \<¡Mi linaje descansa en paz... su honor ha sido restaurado!
 
 # ================ ROCOCO ================
 rococo_1_1:
    text: >
-    \>ROCOCO: \<Hah!\. Such a trifle of effort,\. to try and fight against my art like this!
+    \>ROCOCO: \<Hah!\. Qué esfuerzo tan insignificante,\. intentar oponerse a mi arte de esta manera!
 
 rococo_2_1:
    text: >
-    \>ROCOCO: \<Your lack of taste is greatly showing!\. Soon, you shall fall to my masterpieces!
+    \>ROCOCO: \<¡Tu falta de gusto es más que evidente!\. ¡Pronto caerás ante mis obras maestras!
 
 rococo_3_1:
    text: >
-    \>ROCOCO: \<Gah!\. Very well, then....
+    \>ROCOCO: \<Gah!\. Muy bien, entonces...
 
 rococo_3_2:
    text: >
-    \>ROCOCO: \<If that did not work,\. then how about this?!
+    \>ROCOCO: \<Si eso no funcionó.,\. entonces, ¿¡Qué te parece esto?!
 
 rococo_defeat_1:
    text: >
-    \>ROCOCO: \<No...\. my art...\. my soul...\. drifting away from me...
+    \>ROCOCO: \<No...\. mi arte...\. mi alma...\. alejándose lentamente de mí...
 
 rococo_fire:
    text: ROCOCO fires the existing moles...\.
-
+#necesito saber si es disparar o despedir a los topos ???
 # AILMENT INTROS - Appear in battle first inflicted on the party side. Global Troop
 # ======== CHARM INTRO - This is added retroactively, can encounter in CH2 ========
 # Also remember check SWH as CH4 she disappear for a moment, though it should never happen anyways
 intro_charm_1:
     text: >
-     \>SWEETHEART: \<\sinv[1]Ohoho!\sinv[0] These enemies seem rather CHARMing!
+     \>SWEETHEART: \<\sinv[1]Ohoho!\sinv[0] Estos enemigos parecen bastante FASCINANTES!
 
 intro_charm_2:
     text: >
-     \>SWEETHEART: \<When under the influence of their CHARM, you will find yourself doing their bidding!
+     \>SWEETHEART: \<Cuando estés bajo la influencia de su FASCINACIÓN ya no actuarás por voluntad propia.
 
 intro_charm_3:
     text: >
-     \>SPACEBOY: \<That is, allies will attack enemies and vice versa when under CHARM.
+     \>SPACEBOY: \<Es decir, los aliados atacarán a los enemigos y viceversa cuando estén bajo el efecto de FASCINAR
 
 intro_charm_4:
     text: >
-     \>SWEETHEART: \<You know that feeling all too well, don't you? Ohohohoho!
+     \>SWEETHEART: \Esa sensación la conocés demasiado bien, ¿no es cierto? Ohohohoho!
 
 # ======== SICK INTRO ========
 intro_sick_1:
     text: >
-     \>DOUGHIE: \<Oho... someone is feeling rather SICK...
+     \>DOUGHIE: \<Oho... Alguien se está sintiendo bastante ENFERMO...
 
 intro_sick_2:
     text: >
-     \>DOUGHIE: \<When you're SICK, all of your stats are vastly decreased.
+     \>DOUGHIE: \<Cuando estás ENFERMO, todas tus estadísticas se reducen drásticamente.
 
 intro_sick_3:
     text: >
-     \>DOUGHIE: \<It also causes both HEART and JUICE loss, even stronger than BURN or WEEP.
+     \>DOUGHIE: \<También causa pérdida de CORAZÓN y JUGO, incluso más fuerte que QUEMADURA o LLANTO.
 
 intro_sick_4:
     text: >
-     \>DOUGHIE: \<It can happen at any time, too. Be careful what you eat... Oho..
+     \>DOUGHIE: \<También puede pasar en cualquier momento. Tené cuidado con lo que comés... Oho..
 
 # ======== FROZEN INTRO ========
 intro_frozen_1:
     text: >
-     \>SPACEBOY: \<Brrr... FROZEN... An ailment you can only get when NEUTRAL.
+     \>SPACEBOY: \<Brrr... CONGELADO... es un estado alterado que solo podés sufrir estando en estado NEUTRAL.
 
 intro_frozen_2:
     text: >
-     \>SPACEBOY: \<It causes the affected to be unable to move and cannot be buffed or healed.
+     \>SPACEBOY: \<Causa que el afectado no pueda moverse y no pueda recibir mejoras ni ser curado.
 
 intro_frozen_3:
     text: >
-     \>SPACEBOY: \<This cold... it's a feeling that's familiar to me.
+     \>SPACEBOY: \<Este frío... es una sensación que me resulta familiar.
     
 # ======== GLOW INTRO ========
 intro_glow_1:
     text: >
-     \>SPACEBOY: \<That's some bright GLOW there! It's an emotional ailment for HAPPY.
-
+     \>SPACEBOY: \<¡Ese BRILLO es bastante intenso! Es un estado emocional alterado para FELIZ
 intro_glow_2:
     text: >
-     \>SPACEBOY: \<The affected have their HIT RATE, EVASION and LUCK reduced heavily.
+     \>SPACEBOY: \<Este estado disminuye considerablemente la PRECISIÓN, la EVASIÓN y la SUERTE
 
 intro_glow_3:
     text: >
-     \>SPACEBOY: \<In other words, they're almost guaranteed to be hit, a critical one at that.
+     \>SPACEBOY: \<En otras palabras, es casi seguro que recibirán un golpe... y uno crítico, además.
 
 intro_glow_4:
     text: >
-     \>SPACEBOY: \<Low LUCK also means higher chance to be hit with other ailments, such as CHARM or SICK.
+     \>SPACEBOY: \<Baja SUERTE también significa una mayor probabilidad de ser afectado por otros estados alterados, como FASCINAR o ENFERMO.
 
 intro_glow_5:
     text: >
-     \>SPACEBOY: \<It may not seem impressive at first, but it can snowball fast if you ignore it.
+     \>SPACEBOY: \<Puede que al principio no parezca gran cosa, pero si lo ignorás, puede crecer rápidamente como una bola de nieve.
 
 # ======== WEEP INTRO (Possible in CH4 with Alice) ========
 intro_weep_1:
     text: >
-     \>DOUGHIE: \<\sinv[1]Ohoooo...\sinv[0] WEEPING... The emotional ailment for SAD...
+     \>DOUGHIE: \<\sinv[1]Ohoooo...\sinv[0] LLANTO.... El estado alterado de TRISTE...
 
 intro_weep_2:
     text: >
-     \>DOUGHIE: \<WEEP causes the affected to lose JUICE over time, and make skills cost more JUICE.
+     \>DOUGHIE: \<LLANTO provoca que el afectado pierda JUGO con el tiempo y que sus habilidades cuesten más JUGO.
 
 intro_weep_3:
     text: >
-     \>DOUGHIE: \<They also can't see well enough to use anything other than basic attacks.
+     \>DOUGHIE: \<También tienen la vista tan afectada que no pueden usar nada más que ataques básicos.
 
 intro_weep_4:
     text: >
-     \>DOUGHIE: \<Their DEFENSE is reduced greatly as well, so they can't defend themselves either...
+     \>DOUGHIE: \<También se reduce drásticamente su DEFENSA, así que tampoco pueden defenderse....
 
 intro_weep_5:
     text: >
-     \>DOUGHIE: \<It's a terrible time for everyone involved... especially the one WEEPing... oho...
+     \>DOUGHIE: \<Es un momento terrible para todos los involucrados... especialmente para el que LLORA.... oho...
 
 # ======== SLEEP INTRO (Later than CH4) ========
 intro_sleep_1:
     text: >
-     \>SPACEBOY: \<Ah, someone's feeling SLEEPY.
+     \>SPACEBOY: \<Ah, alguien esta con SUEÑO.
 
 intro_sleep_2:
     text: >
-     \>SPACEBOY: \<SLEEPING battlers cannot act and always takes critical hit as well.
+     \>SPACEBOY: \Los combatientes DORMIDOS no pueden actuar y, además, siempre reciben golpes críticos.
 
 intro_sleep_3:
     text: >
-     \>SPACEBOY: \<Though, a small upside from SLEEPING is the slight heal that comes from resting.
+     \>SPACEBOY: \<El estado de SUEÑO también regenera una pequeña cantidad de CORAZÓN mientras descansan
 
 intro_sleep_4:
     text: >
-     \>SPACEBOY: \<The SLEEP tends to last for a while, though they wake up when they take a hit.
+     \>SPACEBOY: \<El SUEÑO suele durar un buen rato, aunque se despiertan si reciben un golpe.
      
 intro_sleep_5:
     text: >
-     \>SPACEBOY: \<Unlike FROZEN though, the battler can still have emotions while SLEEPING.
+     \>SPACEBOY: \<A diferencia de CONGELADO, el combatiente aún puede tener emociones mientras está DORMIDO.

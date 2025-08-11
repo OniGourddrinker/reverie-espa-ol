@@ -8,7 +8,7 @@
 intro:
     faceset: RV_ROCOCO
     faceindex: 10
-    text: \n<ROCOCO>Ah, did that happen to catch your eye?
+    text: \n<ROCOCO>Ah, ¿eso llamó tu atención?
 
 # >>> ITEM DESCRIPTIONS HERE
 
@@ -16,17 +16,17 @@ intro:
 confirm:
     faceset: RV_ROCOCO
     faceindex: 0
-    text: \n<ROCOCO>Is this the object you wish?
+    text: \n<ROCOCO>¿Es este el objeto que deseas?
       
 price:
     faceset: RV_ROCOCO
     faceindex: 4
-    text: \n<ROCOCO>That'll be \v[1002] CLAMS!
+    text: \n<ROCOCO>Eso sera \v[1002] CLAMS!
 
 # >>> Already have
 
 alreadyhave:
-    text: ...You already have something related to that.
+    text: ...Ya tienes algo relacionado con eso.
 
 # >>> Yes/No
 
@@ -35,21 +35,21 @@ alreadyhave:
 yes_1:
     faceset: RV_ROCOCO
     faceindex: 10
-    text: \n<ROCOCO>Ooooh, I feel myself getting inspired! 
+    text: \n<ROCOCO>Ooooh, ¡Siento que me estoy inspirando!
 
 yes_2:
     faceset: RV_ROCOCO
     faceindex: 5
-    text: \n<ROCOCO>Now!\. Time to create!
+    text: \n<ROCOCO>¡Ahora!\. ¡Es hora de crear!
 
 # Painting animation/fade to black
 yes_3:
     faceset: RV_ROCOCO
     faceindex: 2
-    text: \n<ROCOCO>Hah!\. Here it is!\. Such art... surely it is so beautiful and powerful it must inspire you in turn, no?
+    text: \n<ROCOCO>¡Ja!\. ¡Aquí está!\. Tal arte... eguramente es tan hermoso y poderoso que debe inspirarte a ti también, ¿no?
 
 yes_4:
-    text: You got \c[4]\itemget\c[0]!
+    text: obtuviste \c[4]\itemget\c[0]!
 
 # > No
 no_1:
@@ -60,54 +60,54 @@ no_1:
 no_2:
     faceset: RV_ROCOCO
     faceindex: 8
-    text: \n<ROCOCO>Very well...
+    text: \n<ROCOCO>Muy bien...
       
 # > No money
 
 nomoney:
     faceset: RV_ROCOCO
     faceindex: 11
-    text: \n<ROCOCO>Hmm... you don't seem to have enough CLAMS for this...
+    text: \n<ROCOCO>Hmm... No pareces tener suficientes CLAMS para esto...
 
 # ======== ITEM DESCRIPTIONS ======== 
 # Metro B2 Extra
 metro_1:
     faceset: RV_ROCOCO
     faceindex: 12
-    text: \n<ROCOCO>Yes, that item... it reminds me of a deep, dark chasm... wait, no, not a chasm, more of... a stone prison...
+    text: \n<ROCOCO>Sí, ese objeto... me recuerda a un abismo profundo y oscuro... espera, no, no un abismo, más bien... una prisión de piedra...
 metro_2:
     faceset: RV_ROCOCO
     faceindex: 8
-    text: \n<ROCOCO>Yes! A place of transport, and commerce!\. Far below, where darkness is their only friend!
+    text: \n<ROCOCO>¡Sí! ¡Un lugar de transporte y comercio! \. ¡Muy abajo, donde la oscuridad es su única amiga!
 
 # Alice
 alice_1:
     faceset: RV_ROCOCO
     faceindex: 7
-    text: \n<ROCOCO>Yes, that item... it reminds me of... bears... lots and lots of bears... deep in a castle...
+    text: \n<ROCOCO>Sí, ese objeto... me recuerda... osos... muchos, muchos osos... en lo profundo de un castillo...
 
 alice_2:
     faceset: RV_ROCOCO
     faceindex: 10
-    text: \n<ROCOCO>Ah, and a commander!\. Or, perhaps, simply a friend?\. A lovely young girl, who loves her bears...
+    text: \n<ROCOCO>¡Ah, y un comandante!\. O, quizás, ¿simplemente una amiga?\. Una encantadora chica joven, que ama a sus osos...
 
 alice_3:
     faceset: RV_ROCOCO
     faceindex: 10
-    text: \n<ROCOCO>What a ferocious, or perhaps kind creature she must be herself!
+    text: \n<ROCOCO>¡Qué criatura tan feroz, o quizás amable, debe ser ella misma!
 
 # Pyrefly
 pyrefly_1:
     faceset: RV_ROCOCO
     faceindex: 10
-    text: \n<ROCOCO>Yes, that item... it reminds me of a forest...
+    text: \n<ROCOCO>Sí, ese objeto... me recuerda un bosque...
 
 pyrefly_2:
     faceset: RV_ROCOCO
     faceindex: 10
-    text: \n<ROCOCO>A place of deep darkness, the thrummings of civilization revealing new, never before seen creatures!
+    text: \n<ROCOCO>Un lugar de profunda oscuridad, donde los estruendos de la civilización revelan criaturas nuevas, nunca antes vistas.
 
 pyrefly_3:
     faceset: RV_ROCOCO
     faceindex: 5
-    text: \n<ROCOCO>Ah, such exotic sights!\. Are they wishing to defend the forest? Or have they come to simply greet the new intruders into their abode?
+    text: \n<ROCOCO>¡Ah, qué vistas tan exóticas!\.¿Estan deseando defender el bosque?  ¿O han venido simplemente a saludar a los nuevos intrusos en su morada?

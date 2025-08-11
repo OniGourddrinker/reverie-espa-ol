@@ -1,125 +1,125 @@
 # =========================================================================================
-# ** Cutscenes for ch3. 
+# ** CORTEscenes for ch3. 
 # =========================================================================================
 
 other-1:
-    text: The \c[11]MALL\c[0]...\! You recall it being in the lower right block.
+    text: El \c[11]CENTRO COMERCIAL\c[0]...\! Recordás que estaba en el bloque inferior derecho.
 
 other-2:
-    text: You should probably go buy \c[4]STEAK\c[0] at the \c[11]GROCERY STORE\c[0] first before lunch...
+    text: Probablemente deberías ir a comprar \c[4]BIFE\c[0] al \c[11]SUPERMERCADO\c[0] antes del almuerzo...
 
 #1. Twins introduction
 #As player approaches the mall from the left, a sudden stop.
 3_S1_1:
-    text: \n<???>\Com[2]\{HEY!\! \}Wait one moment, will you?
+    text: \n<???>\Com[2]\{¡EY!\! \}Esperá un MAMÁento, por favor
 
 #Player turns around and !s as DP runs up towards him from the left, BW slowly trailing behind her.
 
 3_S1_2:
-    text: \n<DAPHNE?>\quake[1]Pant...\quake[0]\. you're...\! \quake[1]Pant...\quake[0]\. \n[17]...\. right?
+    text: \n<DAPHNE?>\quake[1]Pant...\quake[0]\. Vos sos...\! \quake[1]Pant...\quake[0]\. \n[17]...\. ¿Verdad?
 
 3_S1_3:
-    text: \n<BOWEN?>It appears it is, dear sister.
+    text: \n<BOWEN?>Parece que sí, querida hermana.
 
 #DP sweats
 
 3_S1_4:
-    text: \n<DAPHNE?>Do you...\. remember us?\! <br>\c[4]DAPHNE\c[0] and \c[4]BOWEN\c[0], from \c[11]FARAWAY TOWN\c[0].?
+    text: \n<DAPHNE?>¿Te...\. acuerdas de nosotros?\! <br>\c[4]DAPHNE\c[0] y \c[4]BOWEN\c[0], de \c[11]FARAWAY TOWN\c[0].?
 
 3_S1_5:
     faceset: RV_Daphne
     faceindex: 14
-    text: \n<DAPHNE>It appears...\. Our friendship has been allowed to continue!
+    text: \n<DAPHNE>Parece que...\. ¡Se nos ha permitido continuar con nuestra amistad!
 
 #Twins look at each other, then player.
 
 3_S1_6:
     faceset: RV_Daphne
     faceindex: 5
-    text: \n<DAPHNE>Truly...\. We thought we would only meet strangers at this place...
+    text: \n<DAPHNE>Realmente...\. Pensábamos que solo encontraríamos desconocidos en este lugar...
 
 #DP jumps twice
 
 3_S1_7:
     faceset: RV_Daphne
     faceindex: 0
-    text: \n<DAPHNE>But here you are... 
+    text: \n<DAPHNE>Pero acá estás... 
 
 3_S1_8:
     faceset: RV_Daphne
     faceindex: 0
-    text: \n<DAPHNE>It is good to see you...\. Friend.
+    text: \n<DAPHNE>Es bueno verte...\. Amigo.
 
 3_S1_9:
     faceset: RV_Daphne
     faceindex: 5
-    text: \n<DAPHNE>To meet an old friend like this...\. I have many questions.
+    text: \n<DAPHNE>Encontrarme con un viejo amigo así...\. tengo muchas preguntas.
 
 3_S1_10:
     faceset: RV_Daphne
     faceindex: 0
-    text: \n<DAPHNE>But as much as we would enjoy catching up...\. We are busy...
+    text: \n<DAPHNE>Pero por más que nos gustaría ponernos al día...\. Estamos ocupados...
 
 3_S1_11:
     faceset: RV_Bowen
     faceindex: 0
-    text: \n<BOWEN>Very busy...
+    text: \n<BOWEN>Muy ocupados...
 
 3_S1_12:
     faceset: RV_Daphne
     faceindex: 5
-    text: \n<DAPHNE>We have a number of tasks to work on, you see.\! Concerning this mall.
+    text: \n<DAPHNE>Tenemos varias tareas que atender,sabes.\! Todas relacionadas con este centro comercial.
 
 3_S1_13:
     faceset: RV_Daphne
     faceindex: 13
-    text: \n<DAPHNE>We saw you were approaching it...\! <br>Do you have business here, too?
+    text: \n<DAPHNE>Vimos que te estabas acercando...\! <br>¿También tenés algo que hacer en el centro comercial?
 
 3_S1_14:
     faceset: RV_Daphne
     faceindex: 8
-    text: \n<DAPHNE>In any case...\! We have much to do.
+    text: \n<DAPHNE>En cualquier caso...\! tenemos mucho por hacer.
 
 #BW turns towards DP
 
 3_S1_15:
     faceset: RV_Bowen
     faceindex: 0
-    text: \n<BOWEN>What about...\. lunch afterwards?
+    text: \n<BOWEN>¿Qué te parece...\. almorzar después?
 
 #DP !s.
 
 3_S1_16:
     faceset: RV_Daphne
     faceindex: 5
-    text: \n<DAPHNE>Oh!\! Good idea, brother!
+    text: \n<DAPHNE>Oh!\! ¡Buena idea, hermano!
 
 3_S1_17:
     faceset: RV_Daphne
     faceindex: 0
-    text: \n<DAPHNE>We are planning to have lunch here, after our business here is finished.
+    text: \n<DAPHNE>Tenemos pensado almorzar acá, una vez que terminemos con nuestros asuntos.
 
 3_S1_18:
     faceset: RV_Daphne
     faceindex: 8
-    text: \n<DAPHNE>You could join us...\. If you wish...
+    text: \n<DAPHNE>Podrías acompañarnos...\. si querés...
 
 3_S1_19:
     faceset: RV_Bowen
     faceindex: 11
-    text: \n<BOWEN>We would be delighted...\. to have your company.
+    text: \n<BOWEN>Estaríamos encantados...\. de contar con tu compañía.
 
 #The twins begin moving towards the mall entrance, then turn back towards the player.
 
 3_S1_20:
     faceset: RV_Daphne
     faceindex: 14
-    text: \n<DAPHNE>We will be waiting in the \c[11]FOOD COURT\c[0] later...\. We hope to see you there.
+    text: \n<DAPHNE>Te estaremos esperando en el \c[11]PATIO DE COMIDAS\c[0] más tarde...\. Nos complacería mucho verte.
 
 3_S1_21:
     faceset: RV_Daphne
     faceindex: 8
-    text: \n<DAPHNE>Let us be on our way...\. brother.
+    text: \n<DAPHNE>Es hora de partir...\. hermano.
 
 #end scene.
 
@@ -133,88 +133,88 @@ other-2:
 3_S2_1:
     faceset: RV_Daphne
     faceindex: 5
-    text: \n<DAPHNE>Hmm...\! What a crowded little place this is.
+    text: \n<DAPHNE>Hmm...\! Este sitio está bastante concurrido para lo chico que es.
 
 3_S2_2:
     faceset: RV_Bowen
     faceindex: 8
-    text: \n<BOWEN>It is very...\. different...\. from \c[11]FARAWAY TOWN\c[0].
+    text: \n<BOWEN>Es muy ...\. diferente..\. de \c[11]FARAWAY TOWN\c[0].
 
 3_S2_3:
     faceset: RV_Daphne
     faceindex: 11
-    text: \n<DAPHNE>We only arrived here a week ago...\. We are still adjusting.
+    text: \n<DAPHNE>Llegamos acá hace apenas una semana...\. todavía nos estamos tratando de acomodarnos.
 
 #... on DP.
 
 3_S2_4:
     faceset: RV_Daphne
     faceindex: 13
-    text: \n<DAPHNE>Speaking of...\! <br>Are you wondering what we are doing in the city?
+    text: \n<DAPHNE>Hablando de eso...\! <br>¿Te preguntás qué estamos haciendo en la ciudad?
 
 3_S2_5:
     faceset: RV_Bowen
     faceindex: 11
-    text: \n<BOWEN>I am sure you were surprised to see us...
+    text: \n<BOWEN>Estoy seguro de que te sorprendió vernos...
 
 3_S2_6:
     faceset: RV_Daphne
     faceindex: 7
-    text: \n<DAPHNE>The truth is...\! We are on a \sinv[1]mission\sinv[0].
+    text: \n<DAPHNE>La verda es...\! Estamos en una \sinv[1]misión\sinv[0].
 
 3_S2_7:
     faceset: RV_Daphne
     faceindex: 4
-    text: \n<DAPHNE>Our parents have decided to open a new bakery here...
+    text: \n<DAPHNE>Nuestros padres han decidido abrir una nueva panadería acá...
 
 3_S2_8:
     faceset: RV_Daphne
     faceindex: 3
-    text: \n<DAPHNE>And we...\. are the ones running it!
+    text: \n<DAPHNE>Y nosotros...\. somos quienes la manejamos!
 
 #Player !s.
 
 3_S2_9:
     faceset: RV_Daphne
     faceindex: 8
-    text: \n<DAPHNE>Yes, it is all...\. Very exciting.
+    text: \n<DAPHNE>Sí, todo esto es...\. Muy emocionante.
 
 3_S2_10:
     faceset: RV_Daphne
     faceindex: 11
-    text: \n<DAPHNE>We have free reign over our own stocks...\. and our own recipes.
+    text: \n<DAPHNE>Tenemos total libertad sobre nuestros productos...\. y nuestras recetas.
 
 3_S2_11:
     faceset: RV_Daphne
     faceindex: 2
-    text: \n<DAPHNE>\}...Not to mention our own hours.
+    text: \n<DAPHNE>\}...Sin mencionar que manejamos nuestros propios horarios.
 
 3_S2_12:
     faceset: RV_Daphne
     faceindex: 0
-    text: \n<DAPHNE>We have also been enjoying city life...\. somewhat.
+    text: \n<DAPHNE>También hemos estado disfrutando de la vida en la ciudad...\. en cierta medida.
 
 3_S2_13:
     faceset: RV_Bowen
     faceindex: 11
-    text: \n<BOWEN>It was truly a surprise that MOM and DAD let us go on our own...
+    text: \n<BOWEN>Nos tomó por sorpresa que MAMÁ y PAPÁ nos confiaran esta responsabilidad....
 
 3_S2_14:
     faceset: RV_Daphne
     faceindex: 5
-    text: \n<DAPHNE>Indeed, brother...\! It was unexpected.
+    text: \n<DAPHNE>En efecto, hermano...\! nos tomó por sorpresa..
 
 #pause. Fade out & back in with food served?
 
 3_S2_15:
     faceset: RV_Daphne
     faceindex: 5
-    text: \n<DAPHNE>Things are the same as usual, back in \c[11]FARAWAY TOWN\c[0].
+    text: \n<DAPHNE>Todo continúa como de costumbre, en \c[11]FARAWAY TOWN\c[0].
 
 3_S2_16:
     faceset: RV_Daphne
     faceindex: 14
-    text: \n<DAPHNE>The bakery is doing well.\! <br>And our dear little brother...\. is still as rebellious as ever.
+    text: \n<DAPHNE>La panadería está yendo muy bien.\! <br>Y nuestro querido hermanito...\. sigue siendo tan rebelde como siempre.
 
 #17 is not used
 3_S2_17:
@@ -225,12 +225,12 @@ other-2:
 3_S2_18:
     faceset: RV_Daphne
     faceindex: 8
-    text: \n<DAPHNE>He's gotten it in his head that he can outdo our bakery.
+    text: \n<DAPHNE>Está convencido de que puede superar nuestra panadería.
 
 3_S2_19:
     faceset: RV_Bowen
     faceindex: 10
-    text: \n<BOWEN>He wishes to be a chef, however... <br>He says...\! \"the ladies love a man who can cook.\"
+    text: \n<BOWEN>Él desea convertirse en chef, sin embargo... <br>el dice...\! \"A las damas les encanta un hombre que sabe cocinar.\"
 
 #20 is not used
 3_S2_20:
@@ -246,19 +246,19 @@ other-2:
 3_S2_22:
     faceset: RV_Daphne
     faceindex: 10
-    text: \n<DAPHNE>Heheh.
+    text: \n<DAPHNE>Jejej.
 
-#slight pause. 23~26 may be omitted if the cutscene gets too long!
+#slight pause. 23~26 may be omitted if the CORTEscene gets too long!
 
 3_S2_23:
     faceset: RV_Daphne
     faceindex: 5
-    text: \n<DAPHNE>He keeps bringing up his rival as well.
+    text: \n<DAPHNE>También sigue mencionando a su rival.
 
 3_S2_24:
     faceset: RV_Daphne
     faceindex: 13
-    text: \n<DAPHNE>He says...\. that this is his best chance at defeating him.\! <br>I wonder who he is talking about...
+    text: \n<DAPHNE>Según él...\. sta es su mejor oportunidad para derrotarlo.\! <br>Me pregunto de quién estará hablando....
 
 #25 is not used
 3_S2_25:
@@ -276,12 +276,12 @@ other-2:
 3_S2_27:
     faceset: RV_Bowen
     faceindex: 10
-    text: \n<BOWEN>But enough about us...\! How have you been?
+    text: \n<BOWEN>Pero basta de hablar de nosotros...\! ¿Cómo has estado?
 
 3_S2_28:
     faceset: RV_Daphne
     faceindex: 7
-    text: \n<DAPHNE>Ah, yes...\! Have you been enjoying life here?
+    text: \n<DAPHNE>Ah, si...\! ¿Has encontrado grata la vida en esta ciudad?
 #change this line maybe. Just keep the meaning.
 
 #choice btwn yes/no.
@@ -289,7 +289,7 @@ other-2:
 3_S2_29y:
     faceset: RV_Daphne
     faceindex: 0
-    text: \n<DAPHNE>Ah...\. So you have adapted to the ways of the city...\! <br>For us, everything is still unfamiliar.
+    text: \n<DAPHNE>Ah...\. Así que te has adaptado a las costumbres de la ciudad...\! <br>Para nosotros, todo sigue siendo desconocido.
 
 #30y is not used
 3_S2_30y:
@@ -301,29 +301,29 @@ other-2:
 3_S2_29n:
     faceset: RV_Daphne
     faceindex: 11
-    text: \n<DAPHNE>Hmm...\. Hmm...\. To be honest, it has been the same for us.
+    text: \n<DAPHNE>Hmm...\. Hmm...\. Para ser sinceros, ha sido igual para nosotros.
 
 3_S2_30n:
     faceset: RV_Daphne
     faceindex: 8
-    text: \n<DAPHNE>The city is...\. difficult...\. to adapt to.
+    text: \n<DAPHNE>La ciudad es...\. difícil...\. de asimilar.
 
 # continue
 
 3_S2_31:
     faceset: RV_Bowen
     faceindex: 11
-    text: \n<BOWEN>This place is so big...
+    text: \n<BOWEN>Este lugar es tan grande...
 
 3_S2_32:
     faceset: RV_Bowen
     faceindex: 4
-    text: \n<BOWEN>We tried exploring all of it once.
+    text: \n<BOWEN>intentamos explorarlo todo una vez.
 
 3_S2_33:
     faceset: RV_Daphne
     faceindex: 0
-    text: \n<DAPHNE>Once.
+    text: \n<DAPHNE>Una vez.
 
 3_S2_34:
     faceset: RV_Bowen
@@ -341,56 +341,56 @@ other-2:
 3_S2_36:
     faceset: RV_Daphne
     faceindex: 5
-    text: \n<DAPHNE>Hello?
+    text: \n<DAPHNE>¿Hola?
 
 #pause.
 
 3_S2_37:
     faceset: RV_Daphne
     faceindex: 0
-    text: \n<DAPHNE>Already?\! \.... \.... \.... \! Very well.
+    text: \n<DAPHNE>¿Ya?\! \.... \.... \.... \! Muy bien.
 
 #beep.
 
 3_S2_38:
     faceset: RV_Daphne
     faceindex: 8
-    text: \n<DAPHNE>BOWEN...\. it seems that the yeast has been delivered early.
+    text: \n<DAPHNE>BOWEN...\. al parecer, la entrega de levadura se ha adelantado.
 
 3_S2_39:
     faceset: RV_Bowen
     faceindex: 10
-    text: \n<BOWEN>Then...\. we must hurry along...
+    text: \n<BOWEN>Entonces...\. debemos apresurarnos...
 
 3_S2_40:
     faceset: RV_Daphne
     faceindex: 2
-    text: \n<DAPHNE>This lunch was enjoyable...\! But now we should be on our way.
+    text: \n<DAPHNE>Este almuerzo fue agradable...\! pero ahora debemos ponernos en marcha.
 
 3_S2_41:
     faceset: RV_Daphne
     faceindex: 0
-    text: \n<DAPHNE>Ah.\! If you want to come see us later...\! <br>Our bakery isn't that far away.
+    text: \n<DAPHNE>Ah.\! Si querés venir a vernos más tarde...\! <br>Nuestra panadería no está muy lejos.
 
 3_S2_42:
     faceset: RV_Daphne
     faceindex: 5
-    text: \n<DAPHNE>It is only a bit northwest of here.\! Please, pay us a visit.
+    text: \n<DAPHNE>Está apenas un poco al noroeste de aquí.\! Por favor, hacénos una visita.
 
 3_S2_43:
     faceset: RV_Bowen
     faceindex: 0
-    text: \n<BOWEN>\sinv[1]Fresh bread...\sinv[0]\. awaits you...
+    text: \n<BOWEN>\sinv[1]Pan fresco...\sinv[0]\. te espera...
 
 3_S2_44:
     faceset: RV_Daphne
     faceindex: 7
-    text: \n<DAPHNE>It was good to see you, \n[17]...\! Come, brother.
+    text: \n<DAPHNE>Fue un gusto verte, \n[17]...\! Vamos, hermano.
 
 3_S2_45:
     faceset: RV_Bowen
     faceindex: 6
-    text: \n<BOWEN>We hope to see you later...
+    text: \n<BOWEN>Esperamos verte más tarde....
 
 # ---- ---- ---- ---- ---- ---- ---- ----
 #3. Film club introduction
@@ -401,497 +401,497 @@ other-2:
 #as they talk, the player slowly goes to the bench and sits, watching the scene unfold.
 
 3_S3_A:
-    text: You suddenly feel really tired...\! You need to sit down for a while.
+    text: De repente te sentís muy cansado...\! Necesitás sentarte un rato..
 
 3_S3_1:
     faceset: RV_Lucy
     faceindex: 4
-    text: \n<FAMILIAR-LOOKING GIRL>Hee hee!\! What a haul!
+    text: \n<CHICA DE ASPECTO FAMILIAR>¡Je je!\! ¡Qué botín!
 
 3_S3_2:
     faceset: RV_Lucy
     faceindex: 8
-    text: \n<FAMILIAR-LOOKING GIRL>I've been looking for a good toy blaster \sinv[1]forever\sinv[0]...\! <br>I can't believe the costume shop had it!
+    text: \n<CHICA DE ASPECTO FAMILIAR>¡He estado buscando un buena pistola de juguete hace \sinv[1]siglos\sinv[0]...\! <br>¡No puedo creer que la tienda de disfraces lo tuviera!
 
 #music note on LC.
 
 3_S3_3:
     faceset: RV_Howard
     faceindex: 6
-    text: \n<BROWN-HAIRED BOY>See, LUCY?\! We managed to have fun today after all.
+    text: \n<CHICO DE PELO CASTAÑO>Ves, LUCY?\! Al final, logramos divertirnos hoy
 
 #cobweb on MX.
 
 3_S3_4:
     faceset: RV_Max
     faceindex: 0
-    text: \n<BLOND-HAIRED BOY>Yeah, LUCY.\! It all turned out fine.
+    text: \n<CHICO DE PELO RUBIO>Si, LUCY.\! Todo salió bien al final.
 
 #anger on LC. Turn to Max. 
 
 3_S3_5:
     faceset: RV_Lucy
     faceindex: 13
-    text: \n<FAMILIAR-LOOKING GIRL>\Com[2]You be quiet, MAX!\! You still wasted my whole morning!
+    text: \n<CHICA DE ASPECTO FAMILIAR>\Com[2]¡Vos callate, MAX!\! ¡Me hiciste perder toda la mañana!
 
 3_S3_6:
     faceset: RV_Lucy
     faceindex: 10
-    text: \n<FAMILIAR-LOOKING GIRL>You're lucky I managed to find this \sinv[1]sweet\sinv[0] blaster!\! <br>Just barely made today worth it.
+    text: \n<CHICA DE ASPECTO FAMILIAR>Tuviste suerte de que logré encontrar esta pistola \sinv[1]genial\sinv[0]!\! <br>Apenas logró que el día valiera la pena.
 
 3_S3_7:
     faceset: RV_Max
     faceindex: 2
-    text: \n<BLOND-HAIRED BOY>Hey, it's not my fault they delayed the event out of the blue!
+    text: \n<CHICO DE PELO RUBIO>¡Ey, no es mi culpa que hayan retrasado el evento de la nada!
 
 3_S3_8:
     faceset: RV_Lucy
     faceindex: 10
-    text: \n<FAMILIAR-LOOKING GIRL>Whatever.\. You still insisted on dragging me and HOWARD along.
+    text: \n<CHICA DE ASPECTO FAMILIAR>Como sea.\. igual nos obligaste a ir a mí y a HOWARD.
 
 #cobweb on LC & MX.
 
 3_S3_9:
     faceset: RV_Lucy
     faceindex: 5
-    text: \n<FAMILIAR-LOOKING GIRL>I knew I should have skipped out the moment you said '\c[4]SWEETHEART collaboration\c[0]'.\! Nobody but you watches that stupid show.
+    text: \n<CHICA DE ASPECTO FAMILIAR>Sabía que tendría que haberme ido en cuanto dijiste '\c[4]colaboración SWEETHEART \c[0]'.\! ¡Nadie más que vos mira ese programa absurdo!
 
 3_S3_10:
     faceset: RV_Max
     faceindex: 13
-    text: \n<BLOND-HAIRED BOY>Seriously?\! You know 'that stupid show' has a bigger fanbase than \c[4]THE ADVENTURES OF CAP'T. SPACEBOY\c[0], right?
+    text: \n<CHICO DE PELO RUBIO>¿En serio?\! Sabés que 'ese programa estúpido' tiene más fanáticos que \c[4]LAS AVENTURAS DEL CAP'T. SPACEBOY\c[0]. ¿No?
 
 3_S3_11:
     faceset: RV_Lucy
     faceindex: 1
-    text: \n<FAMILIAR-LOOKING GIRL>That's just because nobody knows how to appreciate actually \Com[2]GOOD television!
+    text: \n<CHICA DE ASPECTO FAMILIAR>¡Eso es solo porque nadie sabe apreciar \Com[2]BUENA televisión!
 
 #... on HW.
 
 3_S3_12:
     faceset: RV_Howard
     faceindex: 19
-    text: \n<BROWN-HAIRED BOY>Guys...\. Let's not do this again.\! Remember last time?\. <br>We barely got to film anything.
+    text: \n<CHICO DE PELO CASTAÑO>Chicos...\. No repitamos esto otra vez..\! ¿Se acuerdan de la última vez?\. <br>Apenas pudimos filmar algo.
 
 #LC jumps once
 
 3_S3_13:
     faceset: RV_Lucy
     faceindex: 5
-    text: \n<FAMILIAR-LOOKING GIRL>Only because MAX refused to follow my directions!
+    text: \n<CHICA DE ASPECTO FAMILIAR>¡Solo porque MAX se negó a seguir mis instrucciones!
 
 3_S3_14:
     faceset: RV_Max
     faceindex: 13
-    text: \n<BLOND-HAIRED BOY>You were trying to make me get into that alien costume again!\! I told you I'm not wearing it, it's all... sticky and gross inside!
+    text: \n<CHICO DE PELO RUBIO>¡Querías que me pusiera ese disfraz de alien otra vez!\¡Te dije que no lo voy a usar, está todo... pegajoso y asqueroso por dentro!
     
 3_S3_15:
     faceset: RV_Lucy
     faceindex: 10
-    text: \n<FAMILIAR-LOOKING GIRL>Oh yeah?\! Well, it's better than that stupid princess costume you always make me wear!\! It's so embarrassing!
+    text: \n<CHICA DE ASPECTO FAMILIAR>¿Ah, sí?\! ¡Pues es mejor que ese estúpido disfraz de princesa que siempre me hacés poner!\! ¡Es muy vergonzoso!
 
 #cobweb on MX.
 
 3_S3_16:
     faceset: RV_Max
     faceindex: 13
-    text: \n<BLOND-HAIRED BOY>I'd take princesses over tacky space monsters any day.\! <br>At least they aren't cheap and boring!
+    text: \n<CHICO DE PELO RUBIO>Yo prefiero a las princesas antes que a esos monstruos espaciales de mal gusto cualquier día.\! <br>¡Por lo menos no son CORTEres y aburridas!
 
 #anger on LC.
 
 3_S3_17:
     faceset: RV_Lucy
     faceindex: 10
-    text: \n<FAMILIAR-LOOKING GIRL>You should know cheap and boring, with your fake knockoff SWEETHEART costumes!
+    text: \n<CHICA DE ASPECTO FAMILIAR>Si alguien entiende de cosas CORTEres y sin gracia sos vos, con esos disfraces de imitación de SWEETHEART.
 
 #MX jumps twice
 
 3_S3_18:
     faceset: RV_Max
     faceindex: 13
-    text: \n<BLOND-HAIRED BOY>It's called a homage!\. And it's \Com[2]super original!
+    text: \n<CHICO DE PELO RUBIO>¡Se llama homenaje!\. ¡Y es \Com[2]súper original!
 
 #LC and MX go face to face
 
 3_S3_19:
     faceset: RV_Lucy
     faceindex: 1
-    text: \n<FAMILIAR-LOOKING GIRL>\Com[2]It is so not!
+    text: \n<CHICA DE ASPECTO FAMILIAR>\Com[2]¡Para nada lo es!
 
 3_S3_20:
     faceset: RV_Max
     faceindex: 13
-    text: \n<BLOND-HAIRED BOY>Is too!
+    text: \n<CHICO DE PELO RUBIO>Si lo es!
 
 3_S3_21:
     faceset: RV_Lucy
     faceindex: 15
-    text: \n<FAMILIAR-LOOKING GIRL>\{\Com[2]IS NOT!
+    text: \n<CHICA DE ASPECTO FAMILIAR>\{\Com[2]No lo es!
 
 3_S3_22:
     faceset: RV_Max
     faceindex: 11
-    text: \n<BLOND-HAIRED BOY>\{IS-
+    text: \n<CHICO DE PELO RUBIO>\{Si es-
 
 #HW jumps once
 
 3_S3_23:
     faceset: RV_Howard
     faceindex: 8
-    text: \n<BROWN-HAIRED BOY>\{\Com[2]GUYS!
+    text: \n<CHICO DE PELO CASTAÑO>\{\Com[2]¡CHICOS!
 
 #LC and HW face HW. Both sweat
 
 3_S3_24:
     faceset: RV_Max
     faceindex: 2
-    text: \n<BLOND-HAIRED BOY>...\! Sorry...\. HOWARD.
+    text: \n<CHICO DE PELO RUBIO>...\! ó...\. HOWARD.
 
 #LC cobwebs
 
 3_S3_25:
     faceset: RV_Lucy
     faceindex: 5
-    text: \n<FAMILIAR-LOOKING GIRL>\}Fine...\. I'm sorry too.
+    text: \n<CHICA DE ASPECTO FAMILIAR>\Está bien...\. yo también lo siento.
 
 #... on HW
 
 3_S3_26:
     faceset: RV_Howard
     faceindex: 11
-    text: \n<BROWN-HAIRED BOY>You guys do want to film something today, right?\! Why don't we get started now?      
+    text: \n<CHICO DE PELO CASTAÑO>Vamos, chicos, ¿no querían filmar hoy?\! Entonces ¿Por qué no empezamos ya?      
 
 3_S3_27:
     faceset: RV_Howard
     faceindex: 0
-    text: \n<BROWN-HAIRED BOY>Whose turn was it to direct again?
+    text: \n<CHICO DE PELO CASTAÑO>¿A quién le tocaba dirigir esta vez?
 
 #LC jumps twice
 
 3_S3_28:
     faceset: RV_Lucy
     faceindex: 18
-    text: \n<FAMILIAR-LOOKING GIRL>\Com[2]Ooh!\. Me! Me!
+    text: \n<CHICA DE ASPECTO FAMILIAR>\Com[2]Ooh!\. ¡Yo! ¡Yo!
 
 #! on MX
 
 3_S3_29:
     faceset: RV_Max
     faceindex: 13
-    text: \n<BLOND-HAIRED BOY>Wait a sec, no fair!\! You directed last time, it's my turn today!
+    text: \n<CHICO DE PELO RUBIO>¡Un MAMÁento! ¡No es justo!\! La vez pasada dirigiste vos, ahora me toca a mí.
 
 3_S3_30:
     faceset: RV_Lucy
     faceindex: 8
-    text: \n<FAMILIAR-LOOKING GIRL>No way!\! You said I could direct today for wasting our time, remember?
+    text: \n<CHICA DE ASPECTO FAMILIAR>¡No vale!\! Vos dijiste que hoy me tocaba dirigir por hacernos perder el tiempo, ¿Te acordás?
 
 3_S3_31:
     faceset: RV_Max
     faceindex: 16
-    text: \n<BLOND-HAIRED BOY>Wha-\. \}dangit, I did say that...\. \frBut-
+    text: \n<CHICO DE PELO RUBIO>¿Qu-\. \}maldición, si dije eso...\. \frPero-
 
 3_S3_32:
     faceset: RV_Lucy
     faceindex: 4
-    text: \n<FAMILIAR-LOOKING GIRL>No buts!\. I'm taking the camera today!
+    text: \n<CHICA DE ASPECTO FAMILIAR>¡No peros!\. ¡Hoy me toca a mí agarrar la cámara!
 
 #music note on LC, cobweb on MX
 
 3_S3_33:
     faceset: RV_Max
     faceindex: 4
-    text: \n<BLOND-HAIRED BOY>Fine...\. But I'm directing next time!
+    text: \n<CHICO DE PELO RUBIO>Esta bien...\. ¡Pero la próxima vez dirijo yo!
 
 3_S3_34:
     faceset: RV_Lucy
     faceindex: 0
-    text: \n<FAMILIAR-LOOKING GIRL>Yeah, yeah.
+    text: \n<CHICA DE ASPECTO FAMILIAR>Si, si.
 
 #pause for a little, then LC jumps twice
 
 3_S3_35:
     faceset: RV_Lucy
     faceindex: 16
-    text: \n<FAMILIAR-LOOKING GIRL>\{\Com[2]Alright, listen up!
+    text: \n<CHICA DE ASPECTO FAMILIAR>\{\Com[2]¡Muy bien, escuchen todos!
 
 3_S3_36:
     faceset: RV_Lucy
     faceindex: 0
-    text: \n<FAMILIAR-LOOKING GIRL>We're filming a \sinv[1]really\sinv[0] important scene in my movie today!
+    text: \n<CHICA DE ASPECTO FAMILIAR>¡Hoy vamos a filmar una escena \sinv[1]muy\sinv[0] importante de mi película!
 
 3_S3_37:
     faceset: RV_Max
     faceindex: 2
-    text: \n<BLOND-HAIRED BOY>\}You say that every time we film...
+    text: \n<CHICO DE PELO RUBIO>\}Siempre decís lo mismo cada vez que filmamos...
 
 3_S3_38:
     faceset: RV_Lucy
     faceindex: 12
-    text: \n<FAMILIAR-LOOKING GIRL>The final showdown between CAP'T. SPACEBOY and the evil DR. BUNNYTRON!
+    text: \n<CHICA DE ASPECTO FAMILIAR>¡El enfrentamiento final entre el CAP'T. SPACEBOY y el malvado DR. BUNNYTRON!
 
 3_S3_39:
     faceset: RV_Lucy
     faceindex: 7
-    text: \n<FAMILIAR-LOOKING GIRL>Everything is perfect!\! The fight choreography, the script!
+    text: \n<CHICA DE ASPECTO FAMILIAR>¡Todo está perfecto!\! ¡La coreografía de la pelea, el guion!
 
 #Sweat on MX and HW
 
 3_S3_40:
     faceset: RV_Lucy
     faceindex: 19
-    text: \n<FAMILIAR-LOOKING GIRL>And the costumes, too...\! I spent \sinv[1]forever\sinv[0] getting them just perfect!
+    text: \n<CHICA DE ASPECTO FAMILIAR>¡Y los disfraces también...\! me pasé una \sinv[1]eternidad\sinv[0] dejándolos perfectos!
 
 #LC music notes
 
 3_S3_41:
     faceset: RV_Lucy
     faceindex: 18
-    text: \n<FAMILIAR-LOOKING GIRL>Especially my CAP'T. SPACEBOY cosplay...\! <br>This blaster's just the cherry on top.
+    text: \n<CHICA DE ASPECTO FAMILIAR>Especialmente mi cosplay de CAP'T. SPACEBOY ...\! <br>Esta pistola es el toque final perfecto.
 
 #LC rummages in her bag
 
 3_S3_42:
     faceset: RV_Lucy
     faceindex: 18
-    text: \n<FAMILIAR-LOOKING GIRL>Hee hee, check it out!\! Green cape...\. SPACEBOY headband...\. <br>This sweet new blaster...\. And...
+    text: \n<CHICA DE ASPECTO FAMILIAR>Je je, ¡Mirá esto!\! Capa verde...\. vincha de SPACEBOY...\. <br>esta pistola nueva que está buenísima...\. Y...
 
 #? on LC, speed up rummaging animation. After a few seconds ! on LC.
 
 3_S3_43:
     faceset: RV_Lucy
     faceindex: 11
-    text: \n<FAMILIAR-LOOKING GIRL>\Com[2]\{HEY!\! MY EYEPATCH IS MISSING!
+    text: \n<CHICA DE ASPECTO FAMILIAR>\Com[2]\{¡EY!\! ¡MI PARCHE DE OJO DESAPARECIÓ!
 
 #! on MX and HW
 
 3_S3_44:
     faceset: RV_Max
     faceindex: 17
-    text: \n<BLOND-HAIRED BOY>Your eyepatch?\! Can't you just film without it today?
+    text: \n<CHICO DE PELO RUBIO>¿Tu parche?\! ¿No podés simplemente filmar sin eso hoy?
 
 3_S3_45:
     faceset: RV_Lucy
     faceindex: 1
-    text: \n<FAMILIAR-LOOKING GIRL>No way!\! CAP'T. SPACEBOY never takes off his eyepatch! \quake[1]NEVER!
+    text: \n<CHICA DE ASPECTO FAMILIAR>¡Ni loca!\! EL CAP'T. SPACEBOY jamás se quita el parche del ojo! \quake[1]¡JAMÁS!
 
 3_S3_46:
     faceset: RV_Howard
     faceindex: 9
-    text: \n<BROWN-HAIRED BOY>Did you leave it somewhere?
+    text: \n<CHICO DE PELO CASTAÑO>¿Lo dejaste en algún lado?
 
 3_S3_47:
     faceset: RV_Lucy
     faceindex: 6
-    text: \n<FAMILIAR-LOOKING GIRL>I don't know...\. Maybe...
+    text: \n<CHICA DE ASPECTO FAMILIAR>No lo se...\. Tal vez...
 
 #LC cobwebs
 
 3_S3_48:
     faceset: RV_Lucy
     faceindex: 9
-    text: \n<FAMILIAR-LOOKING GIRL>\Com[2]This sucks!\! First this morning and now this!\! <br>I was so looking forward to this too...
+    text: \n<CHICA DE ASPECTO FAMILIAR>\Com[2]¡Esto apesta!\! ¡Primero lo de esta mañana y ahora esto!\! <br>Y yo que estaba tan ilusionada con esto...
 
 #HW and MX look at each other, then back at LC. As they take step forwards, LC looks around.
 
 3_S3_49:
     faceset: RV_Max
     faceindex: 16
-    text: \n<BLOND-HAIRED BOY>Hey, we can help look for it if-
+    text: \n<CHICO DE PELO RUBIO>Ey, podemos ayudarte a buscarlo si-
 
-#Looking at the player, LC !s and cuts the previous lines off while saying:
+#Looking at the player, LC !s and CORTEs the previous lines off while saying:
 
 3_S3_50:
     faceset: RV_Lucy
     faceindex: 18
-    text: \n<FAMILIAR-LOOKING GIRL>Ooh!
+    text: \n<CHICA DE ASPECTO FAMILIAR>Ooh!
 
 #Camera pan player, then back to LC.
 
 3_S3_51:
     faceset: RV_Lucy
     faceindex: 16
-    text: \n<FAMILIAR-LOOKING GIRL>That's perfect!
+    text: \n<CHICA DE ASPECTO FAMILIAR>Eso es perfecto!
 
 #LC approaches player
 
 3_S3_52:
     faceset: RV_Lucy
     faceindex: 18
-    text: \n<FAMILIAR-LOOKING GIRL>Hey eyepatch guy, can I borrow that for a second?
+    text: \n<CHICA DE ASPECTO FAMILIAR>¡Ey, chico del parche! ¿Me lo prestás un segundo?
 
 #! on HW and MX. MX jumps once
 
 3_S3_53:
     faceset: RV_Max
     faceindex: 11
-    text: \n<BLOND-HAIRED BOY>\{\Com[2]LUCY!!
+    text: \n<CHICO DE PELO RUBIO>\{\Com[2]LUCY!!
 
 #MX runs up to LC and turns to her. HW walks up while the dialogue plays as well.
 
 3_S3_54:
     faceset: RV_Max
     faceindex: 13
-    text: \n<BLOND-HAIRED BOY>Oh my god LUCY, you can't just walk up and say that!
+    text: \n<CHICO DE PELO RUBIO>Dios mío LUCY, no podés simplemente acercarte y decir eso!
 
 #MX turns to player, sweating.
 
 3_S3_55:
     faceset: RV_Max
     faceindex: 9
-    text: \n<BLOND-HAIRED BOY>I'm so sorry!\! My friend's so stupid...
+    text: \n<CHICO DE PELO RUBIO>¡Lo siento mucho!\!  Mi amiga a veces no piensa lo que dice...
 
 #anger on LC
 
 3_S3_56:
     faceset: RV_Lucy
     faceindex: 1
-    text: \n<FAMILIAR-LOOKING GIRL>Excuse you!\! I was just gonna borrow it for a second!
+    text: \n<CHICA DE ASPECTO FAMILIAR>¡No exageres!\! ¡Solo iba a pedirlo prestado un segundo!
 
 #MX turns back to LC
 
 3_S3_57:
     faceset: RV_Max
     faceindex: 13
-    text: \n<BLOND-HAIRED BOY>LUCY, people wear eyepatches for a reason!\! They're hurt, they need that!
+    text: \n<CHICO DE PELO RUBIO>LUCY, la gente usa parches en el ojo por una razón!\! ¡Están lastimados, lo necesitan!
 
 3_S3_58:
     faceset: RV_Lucy
     faceindex: 9
-    text: \n<FAMILIAR-LOOKING GIRL>But I-
+    text: \n<CHICA DE ASPECTO FAMILIAR>Pero Yo-
 
 3_S3_59:
     faceset: RV_Howard
     faceindex: 19
-    text: \n<BROWN-HAIRED BOY>LUCY...
+    text: \n<CHICO DE PELO CASTAÑO>LUCY...
 
 #Cobweb on LC.
 
 3_S3_60:
     faceset: RV_Lucy
     faceindex: 3
-    text: \n<FAMILIAR-LOOKING GIRL>Alright, alright...\! Sorry, um, eyepatch guy.
+    text: \n<CHICA DE ASPECTO FAMILIAR>Está bien, está bien...\! Perdón, eh... chico del parche.
 
 #pause here. ? on LC.
 
 3_S3_61:
     faceset: RV_Lucy
     faceindex: 5
-    text: \n<FAMILIAR-LOOKING GIRL>Hang on...\! Don't I know you?
+    text: \n<CHICA DE ASPECTO FAMILIAR>¿Pará un segundo...\! no te conozco de algún lado?
 
 #..., then ! on LC
 
 3_S3_62:
     faceset: RV_Lucy
     faceindex: 8
-    text: \n<FAMILIAR-LOOKING GIRL>I do know you!\. <br>You were at school that one time.\! \n[17], right!
+    text: \n<CHICA DE ASPECTO FAMILIAR>¡Sí que te conozco!\. <br>¡Estuviste en la escuela aquella vez.\! \n[17], ¿No?
 
 3_S3_63:
     faceset: RV_Lucy
     faceindex: 8
-    text: \n<FAMILIAR-LOOKING GIRL>I gave you the tour and all, nice to see you again!
+    text: \n<CHICA DE ASPECTO FAMILIAR>¡Fui yo quien te mostró todo! Qué alegría verte otra vez.
 
 3_S3_64:
     faceset: RV_Max
     faceindex: 19
-    text: \n<BLOND-HAIRED BOY>\n[17]...?\! I haven't seen him around.
+    text: \n<CHICO DE PELO RUBIO>\n[17]...?\! No lo he visto por acá.
 
 3_S3_65:
     faceset: RV_Lucy
     faceindex: 16
-    text: \n<FAMILIAR-LOOKING GIRL>He's from out of town, <br>I think he's starting school after break.\! Right?
+    text: \n<CHICA DE ASPECTO FAMILIAR>Es de fuera de la ciudad, <br>creo que empieza la escuela después de las vacaciones.\! ¿Verdad?
 
 #LC jumps once
 
 3_S3_66:
     faceset: RV_Lucy
     faceindex: 0
-    text: \n<FAMILIAR-LOOKING GIRL>Wow, you're still wearing that eyepatch?\! It's been \sinv[1]weeks\sinv[0] since I saw you.
+    text: \n<CHICA DE ASPECTO FAMILIAR>Guau, ¿todavía estás usando ese parche en el ojo?\! ¡Han pasado \sinv[1]semanas\sinv[0] desde que te vi.
 
 3_S3_67:
     faceset: RV_Lucy
     faceindex: 4
-    text: \n<FAMILIAR-LOOKING GIRL>Did you get stabbed in the eye or something?
+    text: \n<CHICA DE ASPECTO FAMILIAR>¿Te clavaron algo en el ojo o algo así?
 
 #MX sweats. HW ...s.
 
 3_S3_68:
     faceset: RV_Lucy
     faceindex: 8
-    text: \n<FAMILIAR-LOOKING GIRL>Anyway...\. Remember me?\. I'm \c[4]LUCY\c[0]!\! It's nice to see you again.
+    text: \n<CHICA DE ASPECTO FAMILIAR>De todo modos...\. ¿Te acuerdas de mi?\. Soy \c[4]LUCY\c[0]!\! Es bueno volver a verte.
 
 #LC turns to MX, then back again
 
 3_S3_69:
     faceset: RV_Lucy
     faceindex: 7
-    text: \n<LUCY>This is my friend \c[4]MAX\c[0]!\! He's kind of a weird nerd, but besides that he's okay!
+    text: \n<LUCY>¡Este es mi amigo \c[4]MAX\c[0]!\! Es un nerd medio raro pero fuera de eso, está bien.
 
 #MX turns to LC.
 
 3_S3_70:
     faceset: RV_Max
     faceindex: 13
-    text: \n<MAX>Hey!\. Rude!
+    text: \n<MAX>¡Ey!
 
 #LC turns to HW and MX turns to the player
 
 3_S3_71:
     faceset: RV_Lucy
     faceindex: 0
-    text: \n<LUCY>And this is HOWARD!
+    text: \n<LUCY>Y este es HOWARD!
 
 3_S3_72:
     faceset: RV_Howard
     faceindex: 6
-    text: \n<HOWARD>Nice to meet you, \n[17].
+    text: \n<HOWARD>Un gusto conocerte. \n[17].
 
 #LC face player again
 
 3_S3_73:
     faceset: RV_Lucy
     faceindex: 0
-    text: \n<LUCY>He's the president of the school film club.\! We're all members!
+    text: \n<LUCY>Él es el presidente del club de cine de la escuela.\! ¡Todos nosotros somos miembros!
 
 3_S3_74:
     faceset: RV_Max
     faceindex: 18
-    text: \n<MAX>Yeah.\. \}Though we're kind of... the only members...
+    text: \n<MAX>Si.\. \}Aunque básicamente... somos los únicos miembros...
 
 #! on LC, then jump twice
 
 3_S3_75:
     faceset: RV_Lucy
     faceindex: 0
-    text: \n<LUCY>Say...\. Are you busy today?\! Wanna hang out with us for a while?
+    text: \n<LUCY>¿Decime...\. estás ocupado hoy?\! ¿Querés pasar un rato con nosotros?
 
 3_S3_76:
     faceset: RV_Lucy
     faceindex: 0
-    text: \n<LUCY>We're filming something really important today...\. <br>And we could really use your help!
+    text: \n<LUCY>Hoy estamos filmando algo realmente importante...\. <br>¡Y nos vendría muy bien tu ayuda!
 
 #LC looks around at HW and MX
 
 3_S3_77:
     faceset: RV_Lucy
     faceindex: 0
-    text: \n<LUCY>You guys don't mind, right?\! <br>The more crew we have the better!
+    text: \n<LUCY>Chicos ¿No les molesta, no?\! <br> ¡Cuantos más seamos en el equipo, mejor!
 
 3_S3_78:
     faceset: RV_Max
     faceindex: 0
-    text: \n<MAX>I guess, as long as \n[17] wants to...
+    text: \n<MAX>Supongo, mientras \n[17] quiera...
 
 3_S3_79:
     faceset: RV_Howard
     faceindex: 6
-    text: \n<HOWARD>I wouldn't mind.
+    text: \n<HOWARD>A mi no me molestaría.
 
 #LC turns to player
 
 3_S3_80:
     faceset: RV_Lucy
     faceindex: 0
-    text: \n<LUCY>Well?\. Wanna come with us?
+    text: \n<LUCY>¿Y bien?\. ¿Querés venir con nosotros?
 
 #yes/no choice here
 #if yes: LC jumps once
@@ -899,12 +899,12 @@ other-2:
 3_S3_81:
     faceset: RV_Lucy
     faceindex: 4
-    text: \n<LUCY>Awesome!\! Hee hee, thanks \n[17]!
+    text: \n<LUCY>¡Genial!\! Je je, ¡gracias \n[17]!
 
 3_S3_82:
     faceset: RV_Lucy
     faceindex: 8
-    text: \n<LUCY>Now, lead the way!\! <br>We're filming the scene at the \c[11]CENTRAL PARK\c[0]!
+    text: \n<LUCY>¡Bueno, guiá el camino!\! <br>Estamos filmando la escena en el \c[11]PARQUE CENTRAL\c[0]!
 
 #end scene. LC MX and HW join the party.
 
@@ -913,49 +913,49 @@ other-2:
 3_S3_83:
     faceset: RV_Lucy
     faceindex: 3
-    text: \n<LUCY>Oh,\. uh,\. really?\! I was kinda counting on you to say yes...
+    text: \n<LUCY>Oh,\. eh,\. ¿en serio?\! La verdad contaba con que dijeras que sí...
 
 3_S3_84:
     faceset: RV_Lucy
     faceindex: 8
-    text: \n<LUCY>Well, that's fine!\! If you change your mind, we'll be filming in \c[11]CENTRAL PARK\c[0], though.
+    text: \n<LUCY>No pasa nada\! Pero si cambiás de idea, vamos a estar filmando en el \c[11]PARQUE CENTRAL\c[0].
 
 3_S3_85:
     faceset: RV_Lucy
     faceindex: 4
-    text: \n<LUCY>We gotta go now, but see you when I see you, \n[17]!
+    text: \n<LUCY>Tenemos que irnos ya, pero nos vemos cuando nos veamos \n[17]!
 
 3_S3_86:
     faceset: RV_Max
     faceindex: 8
-    text: \n<MAX>Nice meeting you, \n[17]!
+    text: \n<MAX>Encantado de haberte conocido, \n[17]!
 
 3_S3_87:
     faceset: RV_Howard
     faceindex: 10
-    text: \n<HOWARD>Have a nice day, \n[17].
+    text: \n<HOWARD>Que tengas un buen dia, \n[17].
 
 #when gotten close to film club in the park
 
 3_S3_88:
     faceset: RV_Lucy
     faceindex: 18
-    text: \n<LUCY>Oh!\. \n[17]!\. There you are!
+    text: \n<LUCY>Oh!\. \n[17]!\. ¡Ahí estás!
 
 3_S3_89:
     faceset: RV_Lucy
     faceindex: 7
-    text: \n<LUCY>See, guys?\! I told you he'd show up sooner or later!
+    text: \n<LUCY>¿Ven, Chicos?\! Les dije que iba a aparecer tarde o temprano!
 
 3_S3_90:
     faceset: RV_Lucy
     faceindex: 8
-    text: \n<LUCY>So \n[17], wanna hang out with us for a bit?
+    text: \n<LUCY>Así que \n[17], quieres pasar el rato con nosotros?
     
 3_S3_91:
     faceset: RV_Lucy
     faceindex: 16
-    text: \n<LUCY>Oh...\. That's fine!\! We'll be filming here for a while, so come by if you wanna do some scenes with us!
+    text: \n<LUCY>Oh...\. No pasa nada\! Vamos a estar filmando acá por un rato, así que pasate si querés hacer algunas escenas con nosotros.
 
 # ---- ---- ---- ---- ---- ---- ---- ----
 #4. Film Club Film
@@ -966,46 +966,46 @@ other-2:
 3_S4_1:
     faceset: RV_Lucy
     faceindex: 0
-    text: \n<LUCY>\sinv[1]Aaaaaaand\sinv[0]\. we've arrived!\. This is the spot!
+    text: \n<LUCY>\sinv[1]Yyyyy\sinv[0]\. Llegamos!\. ¡Este es el lugar!
 
 3_S4_2:
     faceset: RV_Lucy
     faceindex: 16
-    text: \n<LUCY>Now then...\! I was gonna shoot that scene with \c[10]DR. BUNNYTRON\c[0] today...
+    text: \n<LUCY>Bueno, entonces...\! hoy iba a filmar esa escena con \c[10]DR. BUNNYTRON\c[0]...
 
 3_S4_3:
     faceset: RV_Lucy
     faceindex: 3
-    text: \n<LUCY>But since my eyepatch's gone...\. I guess that's a bust.
+    text: \n<LUCY>Pero como ya no tengo el parche...\. supongo que se arruinó la idea.
 
 #Cobweb on LC, then jump twice after a slight pause.
 
 3_S4_4:
     faceset: RV_Lucy
     faceindex: 7
-    text: \n<LUCY>\Com[2]\{That's fine!\}\! We can just film a scene without SPACEBOY today.
+    text: \n<LUCY>\Com[2]\{¡Esta bien!\}\! Podemos simplemente filmar una escena sin SPACEBOY hoy.
 
 3_S4_5:
     faceset: RV_Howard
     faceindex: 13
-    text: \n<HOWARD>That's the spirit, LUCY.
+    text: \n<HOWARD>Ese es el espiritu, LUCY.
 
 3_S4_6:
     faceset: RV_Max
     faceindex: 4
-    text: \n<MAX>Wow, that's a first...\. So what's the plan then?
+    text: \n<MAX>Guau, eso no había pasado antes...\.  Entonces, ¿cuál es el plan?
 
 3_S4_7:
     faceset: RV_Lucy
     faceindex: 10
-    text: \n<LUCY>Hmm...\. Let me think...
+    text: \n<LUCY>Hmm...\. Dejame pensar...
 
 #! on LC.
 
 3_S4_8:
     faceset: RV_Lucy
     faceindex: 8
-    text: \n<LUCY>\Com[2]I got it!\. I have just the scene.\! It'll really let you show off your acting chops too, \n[17].
+    text: \n<LUCY>\Com[2]¡Lo tengo!\. Tengo justo la escena perfecta.\!  Además, te va a permitir lucirte con tus dotes actorales \n[17].
 
 #LC repositions, facing the other three so that they're all in her field of vision (however that's accomplished)
 
@@ -1017,38 +1017,38 @@ other-2:
 3_S4_10:
     faceset: RV_Lucy
     faceindex: 12
-    text: \n<LUCY>\n[17], you'll be the evil \c[10]\quake[1]COMMANDER POSITRON\c[0]\quake[0],\. and MAX will be the \sinv[1]scaredy-cat\sinv[0] scientist he's \quake[1]torturing\quake[0] for information!
+    text: \n<LUCY>\n[17], vos seras el malvado \c[10]\quake[1]COMANDANTE POSITRON\c[0]\quake[0],\. y MAX sera el científico \sinv[1]miendoso\sinv[0]  al que estan \quake[1]torturando\quake[0] para sacarle información!
 
 #MX jumps once
 
 3_S4_11:
     faceset: RV_Max
     faceindex: 16
-    text: \n<MAX>Huh?\. I'm the one getting tortured?\. You always make me play the bad guy!
+    text: \n<MAX>Huh?\. ¿Soy yo al que torturan?\. ¡Siempre me hacés interpretar al villano!
 
 3_S4_12:
     faceset: RV_Lucy
     faceindex: 7
-    text: \n<LUCY>That's because \c[10]\quake[1]COMMANDER POSITRON\c[0]\quake[0] is one of those \sinv[1]menacing, super smart\sinv[0] villains!\! That doesn't fit you at all, MAX. 
+    text: \n<LUCY>¡Eso es porque el \c[10]\quake[1]COMANDANTE POSITRON\c[0]\quake[0] es uno de esos villanos \sinv[1] intimidantes y súper inteligentes\sinv[0]!\! Eso no va con vos, MAX. 
 
 #MX cobwebs
 
 3_S4_13:
     faceset: RV_Lucy
     faceindex: 18
-    text: \n<LUCY>\n[17], though...\. He's \Com[2]perfect!
+    text: \n<LUCY>Aunque, \n[17]...\. ¡Él es \Com[2]perfecto!
 
 #LC music notes, then jumps twice
 
 3_S4_14:
     faceset: RV_Lucy
     faceindex: 4
-    text: \n<LUCY>\Com[2]Alright, let's get right to it!\. Howard, is the camera ready?
+    text: \n<LUCY>\Com[2]¡Bueno, vamos directo al grano!\. Howard, ¿tenés la cámara lista?
 
 3_S4_15:
     faceset: RV_Howard
     faceindex: 13
-    text: \n<HOWARD>Ready when you are,\. director.
+    text: \n<HOWARD>Listo cuando vos digas,\. director.
 
 3_S4_16:
     faceset: RV_Lucy
@@ -1058,53 +1058,53 @@ other-2:
 3_S4_17:
     faceset: RV_Lucy
     faceindex: 8
-    text: \n<LUCY>Remember to play up your helplessness,\. MAX!\.\! You gotta look like a real coward!
+    text: \n<LUCY>¡Acordate de exagerar tu fragilidad,\. MAX!\.\! ¡Tenés que parecer un verdadero cobarde!
 
 3_S4_18:
     faceset: RV_Lucy
     faceindex: 19
-    text: \n<LUCY>Although I guess that won't really be hard for you...
+    text: \n<LUCY>Aunque supongo que eso no va a ser muy difícil para vos....
 
 3_S4_19:
     faceset: RV_Max
     faceindex: 13
-    text: \n<MAX>Hey!
+    text: \n<MAX>¡Ey!
 
 3_S4_20:
     faceset: RV_Lucy
     faceindex: 4
-    text: \n<LUCY>Sorry, sorry.\! Hee hee...
+    text: \n<LUCY>Perdón, perdón.\! Je je...
 
 3_S4_21:
     faceset: RV_Lucy
     faceindex: 10
-    text: \n<LUCY>And \n[17]!\. \c[10]COMMANDER POSITRON\c[0] is a real \quake[1]sicko\quake[0], okay?\. You gotta be really intimidating!
+    text: \n<LUCY>Y \n[17]!\. \c[10]COMANDANTE POSITRON\c[0] es un verdadero \quake[1]desquiciado\quake[0], okay?\. ¡Tenés que ser realmente intimidante!
 
 #LC jumps twice 
 
 3_S4_22:
     faceset: RV_Lucy
     faceindex: 16
-    text: \n<LUCY>Alright!\. Ready\., set...
+    text: \n<LUCY>¡Muy bien!\. Listos\., Camara...
 
 3_S4_23:
     faceset: RV_Lucy
     faceindex: 12
-    text: \n<LUCY>\{\Com[2]\quake[1]ACTION!
+    text: \n<LUCY>\{\Com[2]\quake[1]ACCIÓN!
 
 #dramatic music?
 
 3_S4_24:
     faceset: RV_Max
     faceindex: 13
-    text: \n<MAX>Uhhh...\. Don't come any closer,\. COMMANDER POSITRON!\. You and your... evil ways!
+    text: \n<MAX>Uhhh...\. ¡No te acerques,\. ]COMANDANTE POSITRON!\. Vos y tus... malvadas mañas!
 
 #player ...s
 
 3_S4_25:
     faceset: RV_Max
     faceindex: 16
-    text: \n<MAX>W-What are you gonna do to me?
+    text: \n<MAX>¿Q-Qué me vas a hacer?
 
 #player ...s.
 
@@ -1116,43 +1116,43 @@ other-2:
 3_S4_27:
     faceset: RV_Max
     faceindex: 9
-    text: \n<MAX>You're such a, a scary person!\. I'm so terrified,\. It's practically torture!
+    text: \n<MAX>¡Sos tan... tan aterrador!\. Estoy tan asustado,\. que esto es prácticamente una tortura.
 
 3_S4_28:
     faceset: RV_Max
     faceindex: 9
-    text: \n<MAX>Please,\. I'll do anything!\. Just spare my life!
+    text: \n<MAX>¡Por favor,\. haré lo que sea!\. ¡Solo perdoname la vida!
 
 #player …s. LC cobwebs, and jumps once.
 
 3_S4_29:
     faceset: RV_Lucy
     faceindex: 15
-    text: \n<LUCY>\Com[2]\{CUT!\. CUT!\. CUT!\.
+    text: \n<LUCY>\Com[2]\{CORTE!\. CORTE!\. CORTE!\.
 
 3_S4_30:
     faceset: RV_Lucy
     faceindex: 0
-    text: \n<LUCY>\Com[2]\{CUT!\. CUT!\. CUT!\.
+    text: \n<LUCY>\Com[2]\{CORTE!\. CORTE!\. CORTE!\.
 
 #LC walks up to player.
 
 3_S4_31:
     faceset: RV_Lucy
     faceindex: 10
-    text: \n<LUCY>What the heck, \n[17]! You're supposed to be saying scary stuff!
+    text: \n<LUCY>¡¿Qué rayos, \n[17]?! ¡Se supone que tenías que decir cosas aterradoras!!
 
 3_S4_32:
     faceset: RV_Lucy
     faceindex: 5
-    text: \n<LUCY>\c[10]COMMANDER POSITRON\c[0] is a big monologuing villain!\. He's always saying something scary!
+    text: \n<LUCY>\c[10]COMANDANTE POSITRON\c[0] es un gran villano parlanchín!\. ¡Siempre está diciendo algo aterrador!
 
 #player …s. LC cobwebs, then turns away from player.
 
 3_S4_33:
     faceset: RV_Lucy
     faceindex: 10
-    text: \n<LUCY>Alright, alright...\! Fine, I can work with this.
+    text: \n<LUCY>Está bien, está bien...\! Puedo trabajar con esto.
 
 #LC turns back towards player, and …s. Jump once.
 
@@ -1164,34 +1164,34 @@ other-2:
 3_S4_35:
     faceset: RV_Lucy
     faceindex: 16
-    text: \n<LUCY>Let's just do a fight scene!\! \c[5]CAPT. PINKBEARD\c[0] has a lot of them,\. and his costume is basically the same as SPACEBOY's, anyways.
+    text: \n<LUCY>¡Hagamos una escena de pelea!\! El \c[5]CAPT. PINKBEARD\c[0] tiene un monton,\. Y su disfraz básicamente es igual al de SPACEBOY de todos modos.
 
 3_S4_36:
     faceset: RV_Lucy
     faceindex: 0
-    text: \n<LUCY>MAX!\. I'll take this one.\! Can you help HOWARD with the camera?
+    text: \n<LUCY>MAX!\. Yo me encargo de esto.\! ¿Podés ayudar a HOWARD con la cámara?
 
 3_S4_37:
     faceset: RV_Max
     faceindex: 18
-    text: \n<MAX>Sweet,\. being a helpless victim is boring anyways.
+    text: \n<MAX>Menos mal,\. ser una víctima indefensa es aburrido.
 
 #MX and LC swap places
 
 3_S4_38:
     faceset: RV_Lucy
     faceindex: 8
-    text: \n<LUCY>Okay,\. you don't gotta talk much for this!
+    text: \n<LUCY>No te preocupes\. ¡No tenés que hablar mucho para esto!
 
 3_S4_39:
     faceset: RV_Lucy
     faceindex: 8
-    text: \n<LUCY>It's just a fight between me,\. the great \c[5]CAPT. PINKBEARD\c[0],\. and you,\. \c[10]LIEUTENANT POSITRON\c[0]!
+    text: \n<LUCY>Es solo una pelea entre yo,\. el gran \c[5]CAPT. PINKBEARD\c[0],\. y vos,\. \c[10]TENIENTE POSITRON\c[0]!
 
 3_S4_40:
     faceset: RV_Lucy
     faceindex: 16
-    text: \n<LUCY>So... do some cool action moves!\. You can do some, right?
+    text: \n<LUCY>Asi que... ¡Hacé unos movimientos de acción estupendos!\. Puedes hacer algunos, ¿no?
 
 #Yes/no option
 #Yes
@@ -1199,28 +1199,28 @@ other-2:
 3_S4_41:
     faceset: RV_Lucy
     faceindex: 18
-    text: \n<LUCY>Great!\. Let's get started then!
+    text: \n<LUCY>¡Genial!\. ¡Entonces, empecemos!
 
 #no
 
 3_S4_42:
     faceset: RV_Lucy
     faceindex: 4
-    text: \n<LUCY>...That's fine!\. I can do even flashier moves to make up for it.
+    text: \n<LUCY>...Relajate\. Puedo hacer movimientos aún más llamativos para compensarlo.
 
 #End of choice divergence
 
 3_S4_43:
     faceset: RV_Lucy
     faceindex: 16
-    text: \n<LUCY>Okay, ready?
+    text: \n<LUCY>Okay, ¿listo?
 
 #She steps away from sunny, then faces towards him.
 
 3_S4_44:
     faceset: RV_Lucy
     faceindex: 12
-    text: \n<LUCY>3..\. 2...\. 1...\! \{\Com[2]ACTION!
+    text: \n<LUCY>3..\. 2...\. 1...\! \{\Com[2]ACCIÓN!
 
 #Battle transition.
 
@@ -1229,38 +1229,39 @@ other-2:
 3_S4_45:
     faceset: RV_Howard
     faceindex: 7
-    text: \n<HOWARD>\Com[2]Hey!\. \n[17], are you alright?
+    text: \n<HOWARD>\Com[2]¡Ey!\. \n[17], ¿Estás bien?
 
 #player opens eyes
 
 3_S4_46:
     faceset: RV_Max
     faceindex: 11
-    text: \n<MAX>\{\Com[2]LUCY!\. What the heck!
+    text: \n<MAX>\{\Com[2]LUCY!\. ¡Que demonios!
 
 #LC sweats.
 
 3_S4_47:
     faceset: RV_Lucy
     faceindex: 11
-    text: \n<LUCY>\quake[1]I- I didn't mean to!\quake[0]\. I thought he would dodge out of the way!
+    text: \n<LUCY>\quake[¡N-no fue mi intención!\quake[0]\. ¡Pensé que lo iba a esquivar!
 
 3_S4_48:
     faceset: RV_Lucy
     faceindex: 14
-    text: \n<LUCY>\quake[1]Oh gosh oh gosh oh gosh...\quake[0]
+    text: \n<LUCY>\quake[1]¡Ay no, ay no, ay no!...\quake[0]
 
 3_S4_49:
     faceset: RV_Max
     faceindex: 16
-    text: \n<MAX>Maybe he has a concussion!?\. How many fingers am I holding up, \n[17]?
+    text: \n<MAX>¡¿Capaz que tiene una concusión!?\.\n[17] ¿Cuántos dedos estoy levantando?
+# no se como funciona nombrar al jugador
 
 #HW jumps once
 
 3_S4_50:
     faceset: RV_Howard
     faceindex: 17
-    text: \n<HOWARD>Guys, we don't have time for this!\. Come on, let's take him to MIYA!
+    text: \n<HOWARD>¡Chicos, no tenemos tiempo para esto!\. ¡Vamos, llevémoslo con MIYA!
 
 #end scene, fade to black.
 
@@ -1271,102 +1272,102 @@ other-2:
 3_S5_1:
     faceset: RV_Lucy
     faceindex: 17
-    text: \n<LUCY>\quake[1]Eughh...\quake[0]\. It's not bad, is it?\! He's not dying,\. is he?
+    text: \n<LUCY>\quake[1]Eughh...\quake[0]\. ¿No es grave, no?\! No se está muriendo,\. ¿Verdad?
 
 #LC runs up to player, sweats, steps back, cobwebs. Just generally move around like she can’t stay still
 
 3_S5_2:
     faceset: RV_Lucy
     faceindex: 14
-    text: \n<LUCY>\Com[2]I- I really didn't mean to hit him!\! I'm sorry!
+    text: \n<LUCY>\Com[2]¡N-no quise pegarle!\! ¡Lo siento!
 
 #MY …s. MX jumps twice
 
 3_S5_3:
     faceset: RV_Max
     faceindex: 19
-    text: \n<MAX>What if there's,\. like,\. internal bleeding?\. I saw it on TV once,\. It's supposed to be super bad!
+    text: \n<MAX>¿Qué pasa si tiene,\. tipo,\. una hemorragia interna?\. Lo vi en la TV una vez,\. ¡Se supone que tiene que ser súper grave!
 
 #! On LC.
 
 3_S5_4:
     faceset: RV_Max
     faceindex: 19
-    text: \n<MAX>And you can't tell from the outside because all the bleeding happens inside,\. and you only know when you get really really sick, and-
+    text: \n<MAX> Y no se nota desde afuera porque todo el sangrado ocurre por dentro,\. y solo te das cuenta cuando te empezás a sentir muy, muy mal, y—
 
 #LC jumps once
 
 3_S5_5:
     faceset: RV_Lucy
     faceindex: 15
-    text: \n<LUCY>\{\Com[2]SHUT UP!\. You're not helping!
+    text: \n<LUCY>\{\Com[2]¡Cállate!\. ¡No estás ayudando!
 
 3_S5_6:
     faceset: RV_Max
     faceindex: 9
-    text: \n<MAX>\{I- I'm sorry!\.\} I'm just trying not to freak out!
+    text: \n<MAX>\{¡L-lo siento!!\.\} ¡Solo estoy tratando de no entrar en pánico!
 
 #Cobweb on LC and MX. … on HW and MY.
 
 3_S5_7:
     faceset: RV_MIYA
     faceindex: 6
-    text: \n<MIYA>Kids...\! I need you to calm down right now.
+    text: \n<MIYA>Chicos...\! Necesito que se calmen ahora mismo.
 
 3_S5_8:
     faceset: RV_Howard
     faceindex: 0
-    text: \n<HOWARD>Sorry, MIYA.
+    text: \n<HOWARD>Perdon, MIYA.
 
 #MY stands up (however that’s accomplished) and approaches LC
 
 3_S5_9:
    faceset: RV_MIYA
    faceindex: 0
-   text: \n<MIYA>You just gave him a couple bruises, LUCY.\! He'll be fine in a few days.
+   text: \n<MIYA>Solo le diste un par de moretones, LUCY.\! Va a estar bien en unos días.
 
 3_S5_10:
     faceset: RV_Lucy
     faceindex: 18
-    text: \n<LUCY>Really?!\. Are you sure??
+    text: \n<LUCY>¿¡De verdad?!\. ¿¿Estás segura??
 
 3_S5_11:
     faceset: RV_Max
     faceindex: 17
-    text: \n<MAX>No internal bleeding,\. right MIYA?
+    text: \n<MAX>No hemorragia interna,\. ¿Verdad MIYA?
 
 3_S5_12:
    faceset: RV_MIYA
    faceindex: 2
-   text: \n<MIYA>It takes more than a slight push for that to happen.\! <br>He'll be fine, don't worry.
+   text: \n<MIYA>Se necesita más que un pequeño empujón para que pase algo así.\! <br>Va a estar bien, no te preocupes.
 
 #MX cobwebs. Not if it’s too overt
 
 3_S5_13:
     faceset: RV_Lucy
     faceindex: 13
-    text: \n<LUCY>It wasn't just a slight push,\. it was \c[5]CAPT. PINKBEARD\c[0]'s ultimate move...
+    text: \n<LUCY>No fue un simple empujon,\. ¡Fue el movimiento definitivo del \c[5]CAPT. PINKBEARD\c[0]...
 
 #LC jumps twice
 
 3_S5_14:
     faceset: RV_Lucy
     faceindex: 8
-    text: \n<LUCY>\SINV[1]Whew...\SINV[0]\. What a relief, though!
+    text: \n<LUCY>\SINV[1]Whew...\SINV[0]\. Menos mal, qué alivio.
 
 #MY turns to the player.
 
 3_S5_15:
    faceset: RV_MIYA
    faceindex: 9
-   text: \n<MIYA>\n[17], right?\! This'll heal on its own, but try not to touch it or hit it again.\. Okay?
+   text: \n<MIYA>\n[17], ¿verdad?\! Esto se va a curar solo, pero tratá de no tocarlo ni golpearlo otra vez.\. Okay?
 
 3_S5_16:
    faceset: RV_MIYA
    faceindex: 5
-   text: \n<MIYA>Now wait just a second,\. I'll go get you a few bandages.
+   text: \n<MIYA>Esperá un segundo,\. ya te traigo unas vendas.
 
-#MY leaves through a door to another room. PL turns to face the other kids. Moment of awkward silence with everyone …ing. After a second the other two turn to look at LC. She looks side to side, flustered.
+#MY leaves through a door to another room. PL turns to face the other kids. MAMÁent of awkward silence with everyone …ing. After a second the other two turn to look at LC. She looks side to side, flustered.
 
 3_S5_17:
     faceset: RV_Lucy
@@ -1376,33 +1377,33 @@ other-2:
 3_S5_18:
     faceset: RV_Lucy
     faceindex: 6
-    text: \n<LUCY>Sorry...\. \n[17]...
+    text: \n<LUCY>Perdon...\. \n[17]...
 
 3_S5_19:
     faceset: RV_Lucy
     faceindex: 17
-    text: \n<LUCY>I really didn't mean to hit you.\! I just got a bit excited, and...
+    text: \n<LUCY>De verdad no quise pegarte.\! Es que me emocioné un poco, y...
 
 #... on everyone. Sweat on LC
 
 3_S5_20:
     faceset: RV_Lucy
     faceindex: 3
-    text: \n<LUCY>Eheh, geez... is it getting hot in here, or what?
+    text: \n<LUCY>Ejej, ufff... ¿se está poniendo caliente acá, o qué?
 
 #LC jump once
 
 3_S5_21:
     faceset: RV_Lucy
     faceindex: 16
-    text: \n<LUCY>Hey!\. I just remembered I have to do something really important to do back home!\! I need to,\. uh...
+    text: \n<LUCY>¡Ey!\. ¡Acabo de recordar que tengo que hacer algo muy importante en casa!\! Necesito,\. eh...
 
 #LC sweats
 
 3_S5_22:
     faceset: RV_Lucy
     faceindex: 3
-    text: \n<LUCY>Anyway,\. see you around!
+    text: \n<LUCY>De todos modos,\. ¡Nos estamos viendo!
 
 #LC runs out the door
 
@@ -1411,136 +1412,136 @@ other-2:
 3_S5_23:
     faceset: RV_Max
     faceindex: 12
-    text: \n<MAX>Hey!\. Wait up!
+    text: \n<MAX>¡Ey!\. ¡Espera!
 
 #MX leaves the same way. HW cobwebs, but stays put. Turn to player
   
 3_S5_24:
     faceset: RV_Howard
     faceindex: 5
-    text: \n<HOWARD>Sorry about them.\! They're both a little excitable, you know?
+    text: \n<HOWARD>Perdonalos.\! Ambos son un poco impulsivos, ¿sabes?
 
 3_S5_25:
     faceset: RV_Howard
     faceindex: 2
-    text: \n<HOWARD>I'll make them properly apologize later,\. I promise.
+    text: \n<HOWARD>Te prometo que más tarde van a pedir perdón como se debe.
 
 #... on HW. Slight pause
 
 3_S5_26:
     faceset: RV_Howard
     faceindex: 0
-    text: \n<HOWARD>You know...\. if you ever feel like hanging out sometime,\. LUCY, MAX and I could always use a new friend. 
+    text: \n<HOWARD>Sabes...\.si alguna vez tenés ganas de pasar el rato,\. LUCY, MAX y yo siempre estamos abiertos a hacer un nuevo amigo. 
 
 3_S5_27:
     faceset: RV_Howard
     faceindex: 15
-    text: \n<HOWARD>We usually hang out around \c[11]CENTRAL PARK\c[0] these days.
+    text: \n<HOWARD>Últimamente andamos mucho por\c[11]PARQUE CENTRAL\c[0] por si nos buscas.
 
 3_S5_28:
     faceset: RV_Howard
     faceindex: 12
-    text: \n<HOWARD>If you're a little turned off by us because of today,\. I get it.
+    text: \n<HOWARD>Si hoy te hicimos sentir un poco incómodo con nosotros,\. lo entiendo.
 
 3_S5_29:
     faceset: RV_Howard
     faceindex: 9
-    text: \n<HOWARD>I just figured you'd be interested in meeting new folks.\! Maybe feel less lonely?
+    text: \n<HOWARD>IPensé que te podría interesar conocer gente nueva.\! Capaz así te sentís menos solo.
 
 #Pause 
 
 3_S5_30:
     faceset: RV_Howard
     faceindex: 0
-    text: \n<HOWARD>Sorry if I'm overreaching a bit here, but...\. you look like you could use a fresh start.
+    text: \n<HOWARD>Disculpá si me estoy metiendo de más, pero...\. parecés alguien que necesita un nuevo comienzo.
 
 3_S5_31:
     faceset: RV_Howard
     faceindex: 6
-    text: \n<HOWARD>So if you want,\. come pay us a visit.
+    text: \n<HOWARD>Así que si querés,\. podés venir a vernos.
 
 3_S5_32:
     faceset: RV_Howard
     faceindex: 10
-    text: \n<HOWARD>See you around,\. \n[17].
+    text: \n<HOWARD>Nos vemos,\. \n[17].
 
 #HW walks out the door. MY comes through the back door. She looks at the door
 
 3_S5_33:
    faceset: RV_MIYA
    faceindex: 0
-   text: \n<MIYA>Oh, they're all gone.
+   text: \n<MIYA>Oh, ya se fueron.
 
 3_S5_34:
    faceset: RV_MIYA
    faceindex: 6
-   text: \n<MIYA>Geez,\. those kids.\! This isn't the first time they came in here like that,\. you know.
+   text: \n<MIYA>Cielos,\. esos chicos.\! No es la primera vez que entran así,,\. ¿sabes?
 
 3_S5_35:
    faceset: RV_MIYA
    faceindex: 19
-   text: \n<MIYA>All that screaming and shouting...\. I couldn't even tell who was hurt!
+   text: \n<MIYA>Con tanto grito y alboroto...\. ¡ni siquiera podía distinguir quién estaba herido!
 
 3_S5_36:
    faceset: RV_MIYA
    faceindex: 10
-   text: \n<MIYA>They're just so energetic.
+   text: \n<MIYA>Son tan energéticos.
 
 3_S5_37:
    faceset: RV_MIYA
    faceindex: 2
-   text: \n<MIYA>Although,\. I wish I had some of that energy sometimes...
+   text: \n<MIYA>La verdad, a veces me vendría bien un poco de esa energía....
 
 #? On MY. Turn to player.
 
 3_S5_38:
    faceset: RV_MIYA
    faceindex: 9
-   text: \n<MIYA>Hey, you seem like the quiet type.\! How'd you get mixed up with them?
+   text: \n<MIYA>Ey, parecés del tipo tranquilo.\! ¿Cómo terminaste metido con ellos?
 
 3_S5_39:
    faceset: RV_MIYA
    faceindex: 0
-   text: \n<MIYA>Though...\. I guess I could say the same about HOWARD,\. too.
+   text: \n<MIYA>Aunque...\. supongo que podría preguntar lo mismo de HOWARD,\. también.
 
 #slight pause
 
 3_S5_40:
    faceset: RV_MIYA
    faceindex: 5
-   text: \n<MIYA>Anyway,\. here's some bandages.\. Make sure to switch them out once a day, okay?
+   text: \n<MIYA>Tomá,\. te dejo estas vendas.\. Acordate de cambiarlas una vez por día, ¿sí?
 
 3_S5_41:
    faceset: RV_MIYA
    faceindex: 5
-   text: \n<MIYA>I'll put these in that \c[4]GROCERY BAG\c[0] you got there.
+   text: \n<MIYA>Voy a poner esto en esa \c[4]BOLSA DE COMPRAS\c[0] que tenés ahí.
 
 #! On MY.
 
 3_S5_42:
    faceset: RV_MIYA
    faceindex: 9
-   text: \n<MIYA>Is that...\. \c[4]STEAK\c[0] in your plastic bag?
+   text: \n<MIYA>Eso es...\. \c[4]CARNE\c[0] en tu bolsa?
 
 3_S5_43:
    faceset: RV_MIYA
    faceindex: 3
-   text: \n<MIYA>You should probably refrigerate that as soon as possible.\! <br>It's pretty warm.
+   text: \n<MIYA>Probablemente deberías refrigerar eso lo antes posible.\! <br>I Está bastante tibio.
 
 3_S5_44:
    faceset: RV_MIYA
    faceindex: 19
-   text: \n<MIYA>Don't come back here in a few days with food poisoning, got that?
+   text: \n<MIYA>No vuelvas acá en unos días con dolor de panza, ¿entendido?
 
 3_S5_45:
    faceset: RV_MIYA
    faceindex: 9
-   text: \n<MIYA>Anyway,\. you should get going.\! it's getting pretty late.
+   text: \n<MIYA>En fin,\. sería mejor que te vayas.\! Se está haciendo bastante tarde.
 
 3_S5_46:
    faceset: RV_MIYA
    faceindex: 4
-   text: \n<MIYA>Stop by anytime if you're not feeling well.
+   text: \n<MIYA>Pasate cuando quieras si no te sentís bien.
 
 # ---- ---- ---- ---- ---- ---- ---- ----
 #6. Phone call hallucination
@@ -1561,66 +1562,67 @@ other-2:
     text: \n<\}☐☐☐☐☐☐\{>......\n[17]?
 
 3_S6_5:
-    text: \n<\}☐☐☐☐☐☐\{>Wow, you picked up.
+    text: \n<\}☐☐☐☐☐☐\{>Guau, atendiste.
 
 3_S6_6:
-    text: \n<\}☐☐☐☐☐☐\{>Heh...\. I didn't think you would.
+    text: \n<\}☐☐☐☐☐☐\{>Je...\. no creí que fueras a hacerlo
 
 #repeat message 2
 
 3_S6_7:
-    text: \n<\}☐☐☐☐☐☐\{>So, how've you been?
+    text: \n<\}☐☐☐☐☐☐\{>¿Cómo venís llevando todo?
 
 3_S6_8:
-    text: \n<\}☐☐☐☐☐☐\{>Is the city treating you well?
+    text: \n<\}☐☐☐☐☐☐\{>¿La ciudad te está tratando bien?
 
 3_S6_9:
-    text: \n<\}☐☐☐☐☐☐\{>...\|Have you made any new friends?
+    text: \n<\}☐☐☐☐☐☐\{>...\|¿Has hecho nuevos amigos?
 
 #pause for 3 secs, then repeat message 2
 
 3_S6_10:
-    text: \n<\}☐☐☐☐☐☐\{>It wouldn't kill you to say something.
+    text: \n<\}☐☐☐☐☐☐\{>No estaría mal que dijeras algo.
 
 #message 2
 
 3_S6_11:
-    text: \n<\}☐☐☐☐☐☐\{>\quake[1]Sigh\quake[0].\! Alright, fine.
+    text: \n<\}☐☐☐☐☐☐\{>\quake[1]Sigh\quake[0].\! Está bien
 
 3_S6_12:
-    text: \n<\}☐☐☐☐☐☐\{>As for us...
+    text: \n<\}☐☐☐☐☐☐\{>Si querés saber de nosotros...
 
 3_S6_13:
-    text: \n<\}☐☐☐☐☐☐\{>☐☐☐☐☐'s been doing fine without you.
+    text: \n<\}☐☐☐☐☐☐\{>☐☐☐☐☐ ha estado bien sin vos.
 
 3_S6_14:
-    text: \n<\}☐☐☐☐☐☐\{>Well...\. He is now, at least.
+    text: \n<\}☐☐☐☐☐☐\{>Bueno...\. ahora sí, por lo menos.
 
 3_S6_15:
-    text: \n<\}☐☐☐☐☐☐\{>☐☐☐☐ and ☐☐☐ are fine too.
+    text: \n<\}☐☐☐☐☐☐\{>☐☐☐☐ y ☐☐☐ tambien estan bien.
 
 3_S6_16:
-    text: \n<\}☐☐☐☐☐☐\{>...I guess we didn't need you to stay after all, huh \n[17]?
+    text: \n<\}☐☐☐☐☐☐\{>...Supongo que al final no necesitábamos que te quedaras, huh \n[17]?
 
 #pause for 3 secs, message 2
 
 3_S6_17:
-    text: \n<\}☐☐☐☐☐☐\{>...You really don't have anything to say, huh?
+    text: \n<\}☐☐☐☐☐☐\{>...¿De verdad no tenés nada que decir, eh?
 
 3_S6_18:
-    text: \n<\}☐☐☐☐☐☐\{>You sure could talk back at the hospital.
+    text: \n<\}☐☐☐☐☐☐\{>En el hospital no te costaba hablar
 
 3_S6_19:
-    text: \n<\}☐☐☐☐☐☐\{>Just telling us all that...\. and then leaving.
+    text: \n<\}☐☐☐☐☐☐\{>Nos contaste todo eso...\. y te fuiste como si nada.
 
 3_S6_20:
-    text: \n<\}☐☐☐☐☐☐\{>Sure, maybe it wasn't your choice...
+    text: \n<\}☐☐☐☐☐☐\{>Seguro, quizás no fue tu decisión.
+...
 
 3_S6_21:
-    text: \n<\}☐☐☐☐☐☐\{>But still.
+    text: \n<\}☐☐☐☐☐☐\{>Pero aun así.
 
 3_S6_22:
-    text: \n<\}☐☐☐☐☐☐\{>You could've tried more.
+    text: \n<\}☐☐☐☐☐☐\{>Podrías haber intentado más.
 
 #pause. As the next message plays player !s.
 
@@ -1628,77 +1630,77 @@ other-2:
     text: \n<\}☐☐☐\{>\n[17]...
 
 3_S6_24:
-    text: \n<\}☐☐☐\{>I know you were going through some things...
+    text: \n<\}☐☐☐\{>Sé que estabas pasando por algunas cosas....
 
 3_S6_25:
-    text: \n<\}☐☐☐\{>But...
+    text: \n<\}☐☐☐\{>Pero...
 
 3_S6_26:
-    text: \n<\}☐☐☐\{>It would've been nice to see my best friend more.
+    text: \n<\}☐☐☐\{>Me hubiera gustado pasar más tiempo con mi mejor amigo.
 
 3_S6_27:
-    text: \n<\}☐☐☐\{>Only three days...\! It just wasn't enough.
+    text: \n<\}☐☐☐\{>Apenas tres días...\! simplemente no fueron suficientes.
 
 3_S6_28:
-    text: \n<\}☐☐☐\{>Not for anything.
+    text: \n<\}☐☐☐\{>Para nada.
 
 3_S6_29:
-    text: \n<\}☐☐☐\{>But I mean...\. it's okay, right?
+    text: \n<\}☐☐☐\{>Bueno o sea...\. Está bien, ¿no?
 
 3_S6_30:
-    text: \n<\}☐☐☐\{>You don't have to think about us anymore!
+    text: \n<\}☐☐☐\{>¡Ya no tenés que pensar en nosotros!
 
 3_S6_31:
-    text: \n<\}☐☐☐\{>Go and be with your new friends.
+    text: \n<\}☐☐☐\{>Andá y quedate con tus nuevos amigos.
 
 3_S6_32:
-    text: \n<\}☐☐☐\{>You won't think of us.
+    text: \n<\}☐☐☐\{>Ya no vas a pensar en nosotros
 
 3_S6_33:
-    text: \n<\}☐☐☐\{>And we won't think of you.
+    text: \n<\}☐☐☐\{Y nosotros no pensaremon en vos.
 
 #pause
 
 3_S6_34:
-    text: \n<\}☐☐☐☐\{>We all made a promise to be together...
+    text: \n<\}☐☐☐☐\{>Prometimos que íbamos a estar siempre juntos...
 
 3_S6_35:
-    text: \n<\}☐☐☐☐\{>But you can't really do that.\! Can you, \n[17]?
+    text: \n<\}☐☐☐☐\{>Pero no podés hacer eso realmente.\! ¿O sí, \n[17]?
 
 3_S6_36:
-    text: \n<\}☐☐☐☐\{>Even if you really wanted to.
+    text: \n<\}☐☐☐☐\{>Aunque realmente lo quisieras.
 
 3_S6_37:
-    text: \n<\}☐☐☐☐\{>You just have to leave us behind.\! I know you do.
+    text: \n<\}☐☐☐☐\{>Solo tenés que dejarnos atrás.\! Sé que lo vas a hacer.
 
 3_S6_38:
-    text: \n<\}☐☐☐☐\{>I just...\. \quake[1]can't understand\quake[0].
+    text: \n<\}☐☐☐☐\{>Simplemente...\. \quake[1]no puedo entenderlo\quake[0].
 
 3_S6_39:
-    text: \n<\}☐☐☐☐\{>Why would you tell us right before you left?
+    text: \n<\}☐☐☐☐\{>¿Por qué esperar hasta el último MAMÁento para decirnos eso?
 
 3_S6_40:
-    text: \n<\}☐☐☐☐\{>You had...\. \quake[1]so much time\quake[0].
+    text: \n<\}☐☐☐☐\{>Tuviste...\. \quake[1]tanto tiempo\quake[0].
 
 3_S6_41:
-    text: \n<\}☐☐☐☐\{>And now...\. We have to pick up the pieces you left behind.
+    text: \n<\}☐☐☐☐\{>Y ahora...\. tenemos que recoger los pedazos que dejaste atrás..
 
 #pause
 
 3_S6_42:
-    text: \n<\}☐☐☐☐☐\{>Again...
+    text: \n<\}☐☐☐☐☐\{>Devuelta...
 
 3_S6_43:
-    text: \n<\}☐☐☐☐☐\{>You're leaving me behind again...
+    text: \n<\}☐☐☐☐☐\{>Me estás dejando atrás otra vez...
 
 3_S6_44:
-    text: \n<\}☐☐☐☐☐\{>Just like you did four years ago.
+    text: \n<\}☐☐☐☐☐\{>Como hiciste hace cuatro años.
 
 3_S6_45:
-    text: \n<\}☐☐☐☐☐\{>You haven't changed, \n[17].
+    text: \n<\}☐☐☐☐☐\{>No cambiaste, \n[17].
 
 3_S6_46:
-    text: \n<\}☐☐☐☐☐\{>\fn<OMORI_GAME>And maybe...\. You never will.
+    text: \n<\}☐☐☐☐☐\{>\fn<OMORI_GAME>Y tal vez..\. Nunca lo hagas.
 
 #pause
 
@@ -1714,31 +1716,31 @@ other-2:
 3_S6_50:
     text: \n<\}☐☐☐☐☐\{>\fn<OMORI_GAME>\n[17].....
 
-#A brief screen goes to black, and back on in a moment. The lights are brightly on. Pause for a little.
+#A brief screen goes to black, and back on in a MAMÁent. The lights are brightly on. Pause for a little.
 
 3_S6_51:
-    text: \n<MOM>\n[17]?\. \n[17]!
+    text: \n<MAMÁ>\n[17]?\. \n[17]!
 
 3_S6_52:
-    text: \n<MOM>You're breathing a bit weird.\. Are you okay,\. honey?
+    text: \n<MAMÁ>Estás respirando medio raro.\. ¿Estás bien,\. cariño?
 
 3_S6_53:
-    text: \n<MOM>...\. Okay...\. well, how was your day,\. sweetie?\! Did you meet any new friends while you were out?
+    text: \n<MAMÁ>...\. Bueno...\. ¿Como estuvo tu dia,\. amor?\! ¿Hiciste nuevos amigos mientras estabas afuera?
 
 3_S6_54:
-    text: \n<MOM>The city is so large,\. I'm sure there's lots of people you can get along with.
+    text: \n<MAMÁ>La ciudad es tan grande,\. Estoy segura de que hay mucha gente con la que podrías llevarte bien.
 
 3_S6_55:
-    text: \n<MOM>It's okay if you still don't want to talk to anyone, though...\. I understand.
+    text: \n<MAMÁ>Está bien si todavía no querés hablar con nadie...\. Te entiendo.
 
 3_S6_56:
-    text: \n<MOM>The city can be a bit overwhelming,\. so just take things at your own pace!
+    text: \n<MAMÁ>La ciudad puede ser un poco abrumadora,\. así que tomalo a tu propio ritmo.
 
 3_S6_57:
-    text: \n<MOM>Sorry for working so late all the time,\. but I definitely won't be tomorrow!\. We're gonna have that steak dinner together just like I promised! 
+    text: \n<MAMÁ>Perdón por trabajar hasta tan tarde todo el tiempo,\. ¡Pero mañana es distinto!\. ¡Vamos a tener esa cena con bife juntos, tal como te prometí! 
 
 3_S6_58:
-    text: \n<MOM>I'm really looking forward to it!
+    text: \n<MAMÁ>¡Estoy ansiosa por mañana!
 
 3_S6_59:
-    text: \n<MOM>I have to go.\! I'll be home soon!\. Mommy loves you!\! Bye honey!
+    text: \n<MAMÁ>Tengo que irme.\! Pronto voy a estar en casa.\. ¡MAMI te ama!\! ¡Adiós cariño!

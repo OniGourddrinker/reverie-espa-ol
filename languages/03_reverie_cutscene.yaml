@@ -10,134 +10,135 @@
 4_S1_2:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 2
-    text: \n<DOUGHIE>\n[17], you're awake!
+    text: \n<DOUGHIE>\n[17], estas despierto!
 
 4_S1_3:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 24
-    text: \n<SWEETHEART>Ugh, finally!\! Don't you know how \sinv[1]rude\sinv[0] it is to make me wait?
+    text: \n<SWEETHEART>Ugh, ¡por fin!\! ¿No sabes lo \sinv[1]grosero\sinv[0] que es hacerme esperar?
 
 4_S1_4:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>You passed out on the train.\. We got a little worried, so we picked you up to let you rest here.
+    text: \n<SPACEBOY>Te desmayaste en el tren.\. Nos preocupamos un poco, así que te recogimos para dejarte descansar aquí.
 
 4_S1_5:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 21
-    text: \n<SWEETHEART>Hmph, \sinv[1]'worried'\sinv[0]...\! I'll have you know that I preferred to leave this peon behind!
+    text: \n<SWEETHEART>Hmph, \sinv[1]'preocupada'\sinv[0]...\! ¡Quiero que sepas que preferí dejar a este peón atrás!
 
 4_S1_6:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 37
-    text: \n<SPACEBOY>Well...\. I'm glad you're alright, \n[17].
+    text: \n<SPACEBOY>Bueno...\. me alegra que estés bien, \n[17].
 
 4_S1_7:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 8
-    text: \n<DOUGHIE>Me too!
+    text: \n<DOUGHIE>¡Yo tambien!
 
 4_S1_8:
-    text: \c[13]DOUGHIE\c[0], \c[13]SWEETHEART\c[0], and \c[13]SPACEBOY\c[0] joined your party!
+    text: \c[13]DOUGHIE\c[0], \c[13]SWEETHEART\c[0], and \c[13]SPACEBOY\c[0] se unieron a tu grupo!
 
 #scene proper.
 
 4_S1_9:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 2
-    text: \n<DOUGHIE>\Com[2]HURRAY!\! We are reunited!
+    text: \n<DOUGHIE>\Com[2]HURRA!\! ¡Estamos reunidos!
 
 #DG music notes
 
 4_S1_10:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 1
-    text: \n<DOUGHIE>Well...\. What should we do now?
+    text: \n<DOUGHIE>Bueno...\. ¿Qué deberíamos hacer ahora?
 
 4_S1_11:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 24
-    text: \n<SWEETHEART>\Com[2]\{Hmph!\}\. You dare ask that question?\. You'll be taking me to my castle now,\. \Com[2]\sinv[1]posthaste\sinv[0]!
+    text: \n<SWEETHEART>\Com[2]\{Hmph!\}\. ¿Te atreves a hacer esa pregunta?\. Me llevarás a mi castillo ahora mismo,\. \Com[2]\sinv[1] sin demora\sinv[0]!
 
 #SWH cobwebs
 
 4_S1_12:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 5
-    text: \n<DOUGHIE>Oho...\. We want to take you home, too...\! But we have no idea where it is...
+    text: \n<DOUGHIE>Oho...\. Nosotros también queremos llevarte a casa...\! ¡Pero no tenemos ni idea de dónde está...
 
 4_S1_13:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 39
-    text: \n<SPACEBOY>I think all we can do right now is to keep on exploring, SWEETHEART.
+    text: \n<SPACEBOY>Creo que todo lo que podemos hacer ahora es seguir explorando, SWEETHEART.
 
 4_S1_14:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>We managed to find my crew...\! I'm sure we'll find your castle eventually.
+    text: \n<SPACEBOY>Logramos encontrar a mi tripulación...\! Estoy convencido de eventualmente encontraremos tu castillo.
+
 
 4_S1_15:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 24
-    text: \n<SWEETHEART>\{EVENTUALLY?\}\! I want to be back \Com[2]NOW!
+    text: \n<SWEETHEART>\{¿EVENTUALMENTE?\}\! Quiero volver \Com[2]AHORA!
 
 4_S1_16:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>Just stick with us for a little while longer,\. please.\. I promise we'll find your castle.
+    text: \n<SPACEBOY>Quédate con nosotros un poco más,\.  por favor.\. Te prometo que encontraremos tu castillo.
 
 4_S1_17:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 37
-    text: \n<SPACEBOY>Plus,\. haven't we done a good job escorting you so far?
+    text: \n<SPACEBOY>Además,\. ¿no hemos hecho un buen trabajo escoltándote hasta ahora?
 
 4_S1_18:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 21
-    text: \n<SWEETHEART>\Com[2]As if!\. You people keep getting into fights!\! It's no wonder my skirt is in \sinv[1]tatters\sinv[0] at this point.
+    text: \n<SWEETHEART>\Com[2]¡Por supuesto que no!\ Ustedes se la pasan metiéndose en peleas.\! No me extraña que mi falda ya esté hecha \sinv[1]harapos\sinv[0] a estas alturas.
 
 #SWH cobwebs, and pause.
 
 4_S1_19:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 21
-    text: \n<SWEETHEART>Hmph... Fine!\. I'm giving you one last chance.\! But if you fail me again,\. \Com[1066]I'm leaving you all useless peons behind!
+    text: \n<SWEETHEART>Hmph... ¡Está bien!\. Les doy una última oportunidad.\! Pero si me fallan de nuevo,\. \Com[1066]¡los dejaré atrás a todos, peones inútiles!
 
 4_S1_20:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>There must be a way to the castle from here...\. \n[17], we should keep an eye out for anything that might have changed since last time.
+    text: \n<SPACEBOY>Tiene que haber un camino al castillo desde aquí....\. \n[17], deberíamos estar atentos a cualquier cosa que haya podido cambiar desde la última vez.
 
 #DG jumps twice
 
 4_S1_21:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 8
-    text: \n<DOUGHIE>Time to get moving!
+    text: \n<DOUGHIE>¡Hora de ponerse en marcha!
 
 # After entering B2 Hub
 
 4_S1_22:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 27
-    text: \n<SWEETHEART>Disgusting.\. Could this wretched place get any worse!?
+    text: \n<SWEETHEART>¡Qué asco!\. ¿Podría este lugar tan miserable ser aún peor?
 
 #DG sweat
 
 4_S1_23:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 10
-    text: \n<DOUGHIE>Oho...\. Is it just me, or does it feel different in here?
+    text: \n<DOUGHIE>Oho...\. ¿Soy yo, o se siente diferente aquí dentro?
 
 4_S1_24:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>Yes, the air seems off.\. I don't like it.
+    text: \n<SPACEBOY>Sí, el aire se siente raro.\. No me gusta.
 
 4_S1_25: #needed?
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 0
-    text: \n<DOUGHIE>I don't, either.\. Everyone, let's stay on our guard.
+    text: \n<DOUGHIE>Yo tampoco\. Mantengámonos en guardia.
 #=====================================================================
 #CUTSCENE 4-2
 #=====================================================================
@@ -147,7 +148,7 @@
 4_S2_1:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 17
-    text: \n<SWEETHEART>HALT!!
+    text: \n<SWEETHEART>¡ALTO!
 
 4_S2_2:
     faceset: MainCharacters_ReverieDreamworld
@@ -157,48 +158,48 @@
 4_S2_3:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 39
-    text: \n<SPACEBOY>SWEETHEART...?\. What's the matter?!
+    text: \n<SPACEBOY>SWEETHEART...?\. ¿Qué sucede?
 
 4_S2_4:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 18
-    text: \n<SWEETHEART>What's the matter?\. What's the MATTER?!\! Oho...\. Ohohohohoho!!
+    text: \n<SWEETHEART>¿Qué sucede?\. ¿¡QUÉ SUCEDE?!\! Oho...\. Ohohohohoho!!
 
 4_S2_5:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 17
-    text: \n<SWEETHEART>I could recognize this \sinv[1]smelly dump\sinv[0] anywhere!\. This is the SPROUT MOLE COLONY!
+    text: \n<SWEETHEART>¡Podría reconocer este \sinv[1]asqueroso basurero\sinv[0] en cualquier lugar!\. ¡Esta es la COLONIA DE LOS BROTOPOS!
 
 #Sweat DG
 
 4_S2_6:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 2
-    text: \n<DOUGHIE>Oho,\. a colony?\. We could ask the people there for help...
+    text: \n<DOUGHIE>Oho,\. ¿Una colonia?\. Podríamos pedirle ayuda a la gente de ahí....
 
 4_S2_7:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 21
-    text: \n<SWEETHEART>Oh, pish-posh!\. Who cares about those stupid SPROUT MOLES?\. This place is right next to my \sinv[1]beautiful\sinv[0] castle!
+    text: \n<SWEETHEART>¡Ay, qué tonterías! \. ¿A quién le importan esos estúpidos BROTOPOS?\. Este lugar está justo al lado de mi \sinv[1]hermoso\sinv[0] castillo!
 
-#SWH jumps twice
+#SWH jumps twice; como se traduciria pish posh nunca lo vi o escuche
 
 4_S2_8:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 18
-    text: \n<SWEETHEART>\Com[2]FINALLY!! After all that \quake[1]abuse\quake[0] I've been through!\! My return will be \{\sinv[1]GLORIOUS\sinv[0]!!!
+    text: \n<SWEETHEART>\Com[2]¡¡POR FIN!! ¡Después de todo el \quake[1]abuso\quake[0] que he sufrido!\! ¡¡Mi regreso será \{\sinv[1]GLORIOSO\sinv[0]!!
 
 #SWH looks around at SB and DG (as best as possible considering the camera angle)
 
 4_S2_9:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 25
-    text: \n<SWEETHEART>You all better be on your best behavior,\. \Com[2]GOT IT?\. I can't have my stupid,\. adoring fans seeing me with \quake[1]uncultured peons\quake[0]!
+    text: \n<SWEETHEART>Más les vale comportarse lo mejor posible,\. \Com[2]¿ENTENDIDO?\. No puedo dejar que mis estúpidos,\. y adoradores fans me vean con \quake[1]peones sin cultura\quake[0]!
 
 4_S2_10:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 4
-    text: \n<DOUGHIE>I'll try my best...\. Oho...
+    text: \n<DOUGHIE>Haré mi mejor esfuerzo....\. Oho...
 
 #=====================================================================
 #CUTSCENE 4-3
@@ -212,69 +213,69 @@
 4_S3_2:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>What...\. What happened here?
+    text: \n<SPACEBOY>¿Qué...\. Que paso aquí?
 
 #SB sweats and turns to SWH followed by a pause
 
 4_S3_3:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 20
-    text: \n<SWEETHEART>I...\! I...
+    text: \n<SWEETHEART>Yo...\! Yo...
 
 4_S3_4:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 26
-    text: \n<SWEETHEART>I...\. I cannot \{\quake[1]BELIEVE\quake[0] THIS!
+    text: \n<SWEETHEART>Yo...\. Yo no puedo \{\quake[1]CREER\quake[0] ESTO!
 
 4_S3_5:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 27
-    text: \n<SWEETHEART>\{\{\quake[1]WHO DID THIS TO MY CASTLE!?\quake[0]
+    text: \n<SWEETHEART>\{\{\quake[1]¿QUIÉN LE HIZO ESTO A MI CASTILLO?\quake[0]
 
 #DG sweat, turn to SWH
 
 4_S3_6:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 5
-    text: \n<DOUGHIE>SWEETHEART,\. we can-\^
+    text: \n<DOUGHIE>SWEETHEART,\. podemos-\^
 
 4_S3_7:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 27
-    text: \n<SWEETHEART>\{\Com[2]SHUT UP! \}\.I- I don't need your pity!
+    text: \n<SWEETHEART>\{\Com[2]¡CIERRA EL PICO! \}\.¡Yo- Yo no necesito tu lástima!
 
 #SWH anger
 
 4_S3_8:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 37
-    text: \n<SPACEBOY>SWEETHEART,\. I know this looks bad...
+    text: \n<SPACEBOY>SWEETHEART,\. Sé que esto se ve mal...
 
 4_S3_9:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 37
-    text: \n<SPACEBOY>But please,\. calm down for a second!\. I'm sure your castle can be rebuilt.\! We just-
+    text: \n<SPACEBOY>Pero por favor\. ¡cálmate un segundo!\.  Estoy seguro de que tu castillo puede ser reconstruido.\! Nosotros solo-
 
 #SWH angers
 
 4_S3_10:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 23
-    text: \n<SWEETHEART>\{\Com[2]HA! \}\!\.You don't know \quake[1]anything\quake[0]!\. Nobody could fix this castle except-
+    text: \n<SWEETHEART>\{\Com[2]¡JA! \}\!\.No sabes \quake[1]nada\quake[0]!\. Nadie podría arreglar este castillo excepto-
 
 #SWH !s
 
 4_S3_11:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 26
-    text: \n<SWEETHEART>\}Hm...\. The \c[13]WISHMASTER\c[0].
+    text: \n<SWEETHEART>\}Hm...\. el \c[13]WISHMASTER\c[0].
 
-#SWH ...s, while SB and DG ?s. Pause, then SWH jumps twice.
+#SWH ...s, while SB and DG ?s. Pause, then SWH jumps twice. dejo el wishmaster en dudar en español seria genio/masestro de los deseos o el deseador pero no tiene ese gran impacto como el nombre original
 
 4_S3_12:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 25
-    text: \n<SWEETHEART>\{\{\quake[1]MOVE, FOOLS!\! \quake[0] I MUST FIX THIS!
+    text: \n<SWEETHEART>\{\{\quake[1]¡MUÉVANSE, TONTOS!\! \quake[0] ¡DEBO ARREGLAR ESTO!
 
 #SWH runs offscreen, pushing PLAYER out of the way.
 
@@ -283,51 +284,51 @@
 4_S3_13:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 10
-    text: \n<DOUGHIE>Oho...\. She's run off on her own.\. What do we do now?
+    text: \n<DOUGHIE>Oho...\. Se ha ido sola.\. ¿Qué hacemos ahora?
 
 #SB pause
 
 4_S3_14:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>I don't know.
+    text: \n<SPACEBOY>No lo sé
 
 4_S3_15:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>She said something about a 'wishmaster'.\. I think it's safe to assume that she's gone looking for them.
+    text: \n<SPACEBOY>Ella dijo algo sobre un 'wishmaster'.\. Creo que es seguro asumir que se ha ido a buscarlos.
 
 4_S3_16:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 5
-    text: \n<DOUGHIE>Should we follow her?
+    text: \n<DOUGHIE>¿Deberíamos seguirla?
 
 4_S3_17:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 42
-    text: \n<SPACEBOY>Hm...\. Probably.\! We shouldn't be separated for long in such a dangerous place.
+    text: \n<SPACEBOY>Hm...\. Probablemente.\! No deberíamos separarnos por mucho tiempo en un lugar tan peligroso.
 
 4_S3_18:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 10
-    text: \n<DOUGHIE>I hope she's alright...\. Oho...\! Let's go find her.
+    text: \n<DOUGHIE>Espero que esté bien...\. Oho...\! Vamos a buscarla.
 
 #AFTER ENTERING CASTLE
 
 4_S3_19:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>It's even worse inside...
+    text: \n<SPACEBOY>Es aún peor adentro....
 
 4_S3_20:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 5
-    text: \n<DOUGHIE>This place is huge...\. How will we ever find SWEETHEART?
+    text: \n<DOUGHIE>Este lugar es enorme...\. ¿Cómo encontraremos a SWEETHEART?
 
 4_S3_21:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>We need to find a way through all this rubble.
+    text: \n<SPACEBOY>Necesitamos encontrar un camino a través de todos estos escombros.
 
 4_S3_22:
     faceset: MainCharacters_ReverieDreamworld
@@ -337,12 +338,12 @@
 4_S3_23:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 39
-    text: \n<SPACEBOY>I think the easiest course of action would be to search for open pathways.
+    text: \n<SPACEBOY>Creo que la forma más fácil de actuar sería buscar caminos abiertos.
 
 4_S3_24:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>...Especially any SWEETHEART-shaped ones.
+    text: \n<SPACEBOY>...Especialmente cualquiera con forma de SWEETHEART
 
 #=====================================================================
 #CUTSCENE 4-4
@@ -353,167 +354,167 @@
 4_S4_1:
     faceset: RV_ROCOCO
     faceindex: 5
-    text: \n<???>Yes...\. There we go.\. Another stroke of paint there...\. Another one here...
+    text: \n<???>Yes...\. Así está bien.\. Otra pincelada por aquí...\. Otra por allá...
    
 4_S4_2:
     faceset: RV_ROCOCO
     faceindex: 6
-    text: \n<???>Hyohehyohehyohehyo...\. Soon, I will have le perfect picture, and then...\! Then once more, my love, we can be-\^
+    text: \n<???>Hyohehyohehyohehyo...\. Pronto, tendré el cuadro perfecto, y luego...\! Luego, una vez más, mi amor, podremos ser-\^
     
 4_S4_3:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>Hello?
+    text: \n<SPACEBOY>¿Hola?
     
 #Rococo has an exclamation point bubble, as he turns around towards the group
 
 4_S4_4:
     faceset: RV_ROCOCO
     faceindex: 3
-    text: \n<???>Wh- who are you?!\. A-are you...\. Visitors, perhaps?
+    text: \n<???>¿Qui- quiénes son ustedes?\. ¿S-son...\. visitantes, tal vez?
     
 4_S4_5:
     faceset: RV_ROCOCO
     faceindex: 7
-    text: \n<???>Oh, it's been so long since I've seen anyone that wasn't a SPROUT MOLE!\. Much less one that didn't want to hurt me!
-    
+    text: \n<???>¡Oh, ha pasado tanto tiempo desde que vi a alguien que no fuera un BROTOPO!\. ¡Y mucho menos a alguien que no quisiera hacerme daño!
+
 4_S4_6:
     faceset: RV_ROCOCO
     faceindex: 11
-    text: \n<???>Oh, but...\. My manners, right?\. What do I do for those again...?
+    text: \n<???>Oh, pero...\. Mis modales, ¿verdad?\. ¿Qué hago con ellos de nuevo...?
     
 #Rococo turns away from the party
 
 4_S4_7:
     faceset: RV_ROCOCO
     faceindex: 14
-    text: \n<???>Hmm...\. Was it le business card first, or...\. Wait, no, I don't even have one of those...
+    text: \n<???>Hmm...\. ¿Era le tarjeta de presentación primero, o...?\. Espera, no, ni siquiera tengo una de esas...
     
 #He turns back towards the group
 
 4_S4_8:
     faceset: RV_ROCOCO
     faceindex: 2
-    text: \n<ROCOCO>I am ROCOCO!\! Grand artist extraordinaire!
+    text: \n<ROCOCO>¡Soy ROCOCO!\! ¡Gran artista extraordinario!
 
 4_S4_9:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 37
-    text: \n<SPACEBOY>It's nice to meet you, ROCOCO.\! I'm CAPTAIN SPACEBOY, and this is DOUGHIE and \n[17].
+    text: \n<SPACEBOY>Es un placer conocerte, ROCOCO.\! Soy el CAPTAIN SPACEBOY, Y ella es DOUGHIE y \n[17].
     
 4_S4_10:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 2
-    text: \n<DOUGHIE>We were pretty surprised to find someone down here.\. We thought everyone who could had evacuated.
+    text: \n<DOUGHIE>Nos sorprendió mucho encontrar a alguien aquí abajo.\. Pensamos que todos los que podían se habían ido.
 
 4_S4_11:
     faceset: RV_ROCOCO
     faceindex: 10
-    text: \n<ROCOCO>Ah, yes!\. Well, you see, I have been trapped within these walls for...\. How long ago was it now?
+    text: \n<ROCOCO>¡Ah, sí! \.  Bueno, verán, he estado atrapado dentro de estos muros por...\. ¿Cuánto tiempo ha pasado ya?
     
 #He turns away from the group, talking to himself once more
 
 4_S4_12:
     faceset: RV_ROCOCO
     faceindex: 7
-    text: \n<ROCOCO>Was it decades?\. No, perhaps centuries...\. Millennia?\. No, that doesn't sound right...
+    text: \n<ROCOCO>¿Fueron décadas?\. No, quizás siglos...\. ¿Milenios?\. No, eso no suena bien...
 
 4_S4_13:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>It sounds like it was for a long time.
+    text: \n<SPACEBOY>Suena como si hubiera sido por mucho tiempo.
     
 #He turns back towards the group quickly
 
 4_S4_14:
     faceset: RV_ROCOCO
     faceindex: 5
-    text: \n<ROCOCO>Very true!\. Too true, in fact! But it's all right!\. For I have taken the time, in this solitude, to perfect my craft!
+    text: \n<ROCOCO>¡Muy cierto!\. Demasiado cierto, de hecho. ¡Pero no pasa nada!\. Porque he aprovechado el tiempo, en esta soledad, para perfeccionar mi arte.
 
 4_S4_15:
     faceset: RV_ROCOCO
     faceindex: 6
-    text: \n<ROCOCO>You see, in my life, there was one person that floated out of my reach...\. My one true beloved...
+    text: \n<ROCOCO>Verás, en mi vida, hubo una persona que flotaba fuera de mi alcance...\. Mi único y verdadero amor...
 
 4_S4_16:
     faceset: RV_ROCOCO
     faceindex: 7
-    text: \n<ROCOCO>A woman with a fiery and passionate personality, and beauty to match!
+    text: \n<ROCOCO>Una mujer con una personalidad ardiente y apasionada, ¡y una belleza a la altura!
 
 4_S4_17:
     faceset: RV_ROCOCO
     faceindex: 6
-    text: \n<ROCOCO>She also had a temper, but I never minded that.\. For we swept each other off our feet, and were deeply in love!
+    text: \n<ROCOCO>También tenía un temperamento fuerte, pero a mí nunca me importó.\. Fue un flechazo mutuo y estábamos perdidamente enamorados.
 
 4_S4_18:
     faceset: RV_ROCOCO
     faceindex: 8
-    text: \n<ROCOCO>Until, well...\! We weren't.
+    text: \n<ROCOCO>Hasta que, bueno...\! No fuimos.
 
 4_S4_19:
     faceset: RV_ROCOCO
     faceindex: 8
-    text: \n<ROCOCO>Then she had cast me aside, and left me here...\. Deep in the walls of this castle...
+    text: \n<ROCOCO>Luego ella me dejó de lado, y me abandonó aquí...\. En lo profundo de los muros de este castillo...
 
 4_S4_20:
     faceset: RV_ROCOCO
     faceindex: 9
-    text: \n<ROCOCO>Oh,\. my\SINV[2] SWEETHEART!\.\SINV[0] How cruel you were, how callous!
+    text: \n<ROCOCO>Oh,\. mi\SINV[2] SWEETHEART!\.\SINV[0] ¡Qué cruel fuiste, qué insensible!
 
 4_S4_21:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>...\|I know what that's like.\. It always hurts so deeply.
+    text: \n<SPACEBOY>...\Sé lo que se siente.\.  Siempre duele tan profundamente.
 
 4_S4_22:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 40
-    text: \n<SPACEBOY>Heck, I used to date someone like that too.\. I once had my own...\. SWEETHEART...
+    text: \n<SPACEBOY>¡Caray, yo también salía con alguien así!\. Una vez tuve mi propia...\. SWEETHEART...
 
 4_S4_23:
     faceset: RV_ROCOCO
     faceindex: 15
-    text: \n<ROCOCO>Oh... A fellow of similar heartbreak!\. But fret not!\. For I have dedicated myself to my craft, using my emotional pain to make le art better! 
+    text: \n<ROCOCO>Oh... ¡Un compañero con un desamor similar! \. ¡Pero no te preocupes!\. Porque me he dedicado a mi arte, ¡usando mi dolor emocional para hacerlo mejor!
 
 4_S4_24:
     faceset: RV_ROCOCO
     faceindex: 14
-    text: \n<ROCOCO>And so I have been working on my masterpiece!\. A painting of my former lover, as a tribute to my lost time, and a promise to what the future holds!
+    text: \n<ROCOCO>Y así he estado trabajando en mi obra maestra.\. ¡Un cuadro de mi antigua amante, como un tributo a mi tiempo perdido y una promesa de lo que depara el futuro!
 
 4_S4_25:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 4
-    text: \n<DOUGHIE>That sounds... Like a bit of an odd way to move on...\! Art is rather mysterious like that I suppose... Oho...
+    text: \n<DOUGHIE>Eso suena... Como una forma un poco extraña de seguir adelante...\! Supongo que el arte es bastante misterioso de esa forma... Oho...
 
 4_S4_26:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 9
-    text: \n<DOUGHIE>Well, it was nice to meet you, but we must be on our way soon.
+    text: \n<DOUGHIE>Bueno, fue un placer conocerte, pero tenemos que irnos pronto.
 
 4_S4_27:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>Yeah, we have to find our lost friend who's exploring this castle.
+    text: \n<SPACEBOY>Sí, tenemos que encontrar a nuestra amiga perdida que está explorando este castillo.
 
 4_S4_28:
     faceset: RV_ROCOCO
     faceindex: 11
-    text: \n<ROCOCO>Oh?\. A lost friend, you say?\. Traveling the depths of this castle?
+    text: \n<ROCOCO>¿Oh?\. ¿Una amiga perdida, dices?\. ¿Viajando por las profundidades de este castillo?
 
 4_S4_29:
     faceset: RV_ROCOCO
     faceindex: 12
-    text: \n<ROCOCO>That sounds unlikely to me, truthfully.\! Especially with the falling rubble, collapsed ceilings, and le vicious SPROUT MOLES everywhere!
+    text: \n<ROCOCO>A mí me suena improbable, sinceramente.\! Especialmente con los escombros que caen, los techos derrumbados y los BROTOPOS viciosos por todas partes!
 
 4_S4_30:
     faceset: RV_ROCOCO
     faceindex: 11
-    text: \n<ROCOCO>The only reason someone would be traveling these depths is the rumors of the wishmaster!  
+    text: \n<ROCOCO>La única razón por la que alguien estaría viajando por estas profundidades es por los rumores del wishmaster!  
 
 4_S4_31:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 2
-    text: \n<DOUGHIE>Oho?\! The wishmaster?   
+    text: \n<DOUGHIE>Oho?\! El wishmaster?   
 
 4_S4_32:
     faceset: RV_ROCOCO
@@ -525,101 +526,101 @@
 4_S4_33:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 2
-    text: \n<DOUGHIE>\}She mentioned something like that before she ran off, did she not? 
+    text: \n<DOUGHIE>\}Mencionó algo así antes de que se fuera corriendo, ¿no?
 
 4_S4_34:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>\}I think so.\. So we really are on the right track then...
+    text: \n<SPACEBOY>\}Creo que sí.\. Entonces, realmente estamos en el camino correcto...
 
 4_S4_35:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>\}I think finding this wishmaster might be a good way to find her as well.
+    text: \n<SPACEBOY>\}Creo que encontrar a este wishmaster podría ser una buena manera de encontrarla a ella también.
     
 #Spaceboy turns towards Rococo, as Rococo has an exclamation bubble above his head.
 
 4_S4_36:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>Thank you for all your help, ROCOCO.\. We'll be on our way now. 
+    text: \n<SPACEBOY>Gracias por toda tu ayuda, ROCOCO.\.Nos vamos ahora.
     
 #The party turns to go and starts walking, then Rococo jumps multiple times as he speaks.
 
 4_S4_37:
     faceset: RV_ROCOCO
     faceindex: 9
-    text: \n<ROCOCO>\Com[2]WAIT!\.\{\Com[2] ONE MOMENT!\.\{\Com[2]\QUAKE[1] HOLD ON!
+    text: \n<ROCOCO>\Com[2]¡ESPEREN!\.\{\Com[2] ¡UN MOMENTO!\.\{\Com[2]\QUAKE[1] ¡NO SE VAYAN!
 
 4_S4_38:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 10
-    text: \n<DOUGHIE>\QUAKE[1]Wah!\.\QUAKE[0] Wh-what is it?!
+    text: \n<DOUGHIE>\QUAKE[1]¡Ke!\.\QUAKE[0] ¿Qu-qué pasa?
 
 4_S4_39:
     faceset: RV_ROCOCO
     faceindex: 9
-    text: \n<ROCOCO>If you are looking for the wishmaster, then please!\!\QUAKE[2] PLEASE LET ME KNOW WHERE HE IS!
+    text: \n<ROCOCO>Si están buscando al wishmaster ¡entonces por favor!\!\QUAKE[2] ¡POR FAVOR, HÁGANME SABER DÓNDE ESTÁ!
 
 4_S4_40:
     faceset: RV_ROCOCO
     faceindex: 7
-    text: \n<ROCOCO>For, like many people, I have a secret desire I have been preparing for longer than I can remember... 
+    text: \n<ROCOCO>Porque, como a mucha gente, me he estado preparando para un deseo secreto desde hace más tiempo del que puedo recordar...
 
 4_S4_41:
     faceset: RV_ROCOCO
     faceindex: 9
-    text: \n<ROCOCO>\{So\Com[2]\QUAKE[2]\{ PLEASE!
+    text: \n<ROCOCO>\{ASÍ QUE\Com[2]\QUAKE[2]\{ SE LOS RUEGO!
 
 4_S4_42:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>Uh, well...\. I mean, if we find it, I... Guess?\! Just, please stop yelling.  
+    text: \n<SPACEBOY>Uh, bueno...\. quiero decir, si lo encontramos, supongo que... sí\! Solo, por favor, deja de gritar.  
 
 4_S4_43:
     faceset: RV_ROCOCO
     faceindex: 2
-    text: \n<ROCOCO>Oh, thank you new friends!\. I am forever in your debt!  
+    text: \n<ROCOCO>¡Oh, gracias, nuevos amigos!\. ¡Les estaré eternamente agradecido!
 
 4_S4_44:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 4
-    text: \n<DOUGHIE>R-right.\. So...
+    text: \n<DOUGHIE>D-de acuerdo.\. Entonces...
 
 4_S4_45:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 4
-    text: \n<DOUGHIE>You seem to know a lot.\! Do you have any idea where the wishmaster is? 
+    text: \n<DOUGHIE>Parece que sabes mucho.\!  ¿Tienes alguna idea de dónde está el wishmaster? 
 
 4_S4_46:
     faceset: RV_ROCOCO
     faceindex: 10
-    text: \n<ROCOCO>Hmm.\. Well, I have heard le wishmaster is deep in the \c[11]bottom of this castle\c[0], in the very depths in fact.\! So finding a quick way to the bottom floor would be best!
+    text: \n<ROCOCO>Hmm.\. Bueno, he oído que le wishmaster está en lo más \c[11]profundo de este castillo\c[0], de hecho, en las mismísimas profundidades.\! Así que encontrar una forma rápida de llegar a la planta baja sería lo mejor.
 
 4_S4_47:
     faceset: RV_ROCOCO
     faceindex: 10
-    text: \n<ROCOCO>Actually,\. Isn't there a \c[11]giant hole in the STAGE FLOOR\c[0] that was blown up?\! Surely you could jump down there and get to the deepest part of the castle easily!  
+    text: \n<ROCOCO>En realidad,\. ¿no hay un \c[11]agujero gigante en el PISO DEL ESCENARIO\c[0] que explotó?\! ¡Seguramente podrían saltar por ahí y llegar a la parte más profunda del castillo fácilmente!  
 
 4_S4_48:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>Well...\. It's certainly an option.
+    text: \n<SPACEBOY>Bueno...\. Sin duda es una opción.
 
 4_S4_49:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 2
-    text: \n<DOUGHIE>Yeah...
+    text: \n<DOUGHIE>Si...
 
 4_S4_50:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 39
-    text: \n<SPACEBOY>Well, if that's all, then goodbye ROCOCO!
+    text: \n<SPACEBOY>Bueno, si eso es todo, ¡entonces nos vemos ROCOCO!
 
 4_S4_51:
     faceset: RV_ROCOCO
     faceindex: 4
-    text: \n<ROCOCO>Goodbye new friends!\! I eagerly await your return, hopefully with good news!      
+    text: \n<ROCOCO>¡Adiós, nuevos amigos!\! Espero ansiosamente su regreso, ¡con suerte con buenas noticias!   
 
 #=====================================================================
 #CUTSCENE 4-5
@@ -630,101 +631,101 @@
 # ================ SUB-CUTSCENE 1 ================
 # MARI turns around to the right with an exclamation mark.
 4_S5_1:
-    text: \n<MARI>\n[17]...\! You found me again..
+    text: \n<MARI>\n[17]...\! Me has encontrado de nuevo...
 # MARI stares at the player for a moment, then slowly turns back to what she was doing
 4_S5_2:
-    text: \n<MARI>I thought you might.
+    text: \n<MARI>Pensé que vendrías.
 # Wait few seconds; MARI turns towards the player
 4_S5_3:
-    text: \n<MARI>Are you wondering what I'm doing?
+    text: \n<MARI>¿Te preguntas qué estoy haciendo?
 4_S5_4:
-    text: \n<MARI>These books are full of all sorts of stories, but...\! The names seem to be missing from them. 
+    text: \n<MARI>Estos libros están llenos de todo tipo de historias, pero...\! Al parecer, los nombres no están en ellos. 
 # Wait few seconds
 4_S5_5:
-    text: \n<MARI>Isn't that kind of sad?\! I thought it was.
+    text: \n<MARI>¿No es un poco triste?\! Yo pensé que sí.
 # Wait few seconds
 4_S5_6:
-    text: \n<MARI>I decided to add them back in.
+    text: \n<MARI>Decidí añadírselos de nuevo.
 # MARI turns back towards the bookshelf; Page turn SFX
 # This references "The Ride Home",  Layer 1
 4_S5_7:
-    text: \n<MARI>Look at this story...\! Where a girl is laying her head on a boy's shoulder.
+    text: \n<MARI>Mira esta historia...\! Donde una chica apoya la cabeza en el hombro de un chico.
 4_S5_8:
-    text: \n<MARI>It's a very sweet story.\. Very cute,\. hehe.
+    text: \n<MARI>Es una historia muy dulce.\. Muy tierna,\. jeje.
 # MARI then closes the book and walks down the stairs, past the player's sight, and goes to the next one on the left.
 # Interacting with the book she looked at shows the story flavor text but with the names written into them
 # ================ SUB-CUTSCENE 2 ================
 # This references "Tracks",  Layer 2
 4_S5_9:
-    text: \n<MARI>Oh,\. this one.
+    text: \n<MARI>Oh,\. este.
 4_S5_10:
-    text: \n<MARI>This one is a story about a silly kid who spilled some juice on the carpet.\! He then ran out the door before anyone could get him to clean it up.
+    text: \n<MARI>Esta es una historia sobre un niño depistado que derramó un poco de jugo en la alfombra.\! Luego salió corriendo por la puerta antes de que alguien pudiera hacer que lo limpiara.
 4_S5_11:
-    text: \n<MARI>He was a pretty mischievous child, wasn't he?\. Heheh.
+    text: \n<MARI>Era un niño bastante travieso, ¿verdad?\. Jeje.
 4_S5_12:
-    text: \n<MARI>I wonder how much he's changed since then...
+    text: \n<MARI>Me pregunto cuánto habrá cambiado desde entonces...
 # MARI moves down the stairs -  go to the left bookshelf
 # ================ SUB-CUTSCENE 3 ================
 # This references "Statue at the Lake", Layer 3 -  "Hottest Day of Summer" and "School Day" are skipped
 4_S5_13:
-    text: \n<MARI>This story here...\. It's about two brothers and their friend.\! Their friend got scared by a spider while high up, and...\. Nearly drowned.
+    text: \n<MARI>Esta historia de aquí...\. Es sobre dos hermanos y su amigo.\!  El amigo se asustó por una araña mientras estaba en lo alto y...\. casi se ahoga.
 4_S5_14:
-    text: \n<MARI>The ending is rather abrupt here...\. But that's okay.\! We both know what happened after that...
+    text: \n<MARI>El final es un tanto abrupto aquí...\. Pero está bien.\! Ambos sabemos lo que pasó después de eso...
 # MARI move down stairs ahead, Player can walk
 # ================ SUB-CUTSCENE 4 ================
 4_S5_15:
-    text: \n<MARI>And this one is...
+    text: \n<MARI>Y esta es...
 # Wait few seconds
 # This references "Saturday Morning Cartoons", Layer 4
 4_S5_16:
     text: >
-        \n<MARI>This one is about a kid,\. who wanted to try something new:\. playing the violin.\! He thought it would be a nice hobby.
+        \n<MARI>Esta es sobre un chico,\. que quería probar algo nuevo:\. tocar el violín.\! Pensó que sería un pasatiempo agradable.
 4_S5_17:
-    text: \n<MARI>But...\. It didn't end up working out for him.\! He got tired and frustrated.
+    text: \n<MARI>Pero...\. No terminó funcionando para él.\!  Se cansó y se frustró.
 4_S5_18:
-    text: \n<MARI>He missed his time.\! He missed his friends.\! He missed his sister.
+    text: \n<MARI>Extrañaba su tiempo.\! Extrañaba a sus amigos.\! Extrañaba a su hermana.
 4_S5_19:
-    text: \n<MARI>And then...
+    text: \n<MARI>Y despues...
 4_S5_20:
     text: \n<MARI>.....
 # Book closing SFX
 4_S5_21:
-    text: \n<MARI>Well...\. There's been plenty of apologies already.
+    text: \n<MARI>Bueno...\. Ya ha habido un montón de disculpas.
 # Wait few seconds
 4_S5_22:
-    text: \n<MARI>Little brother...\. My job here is done. 
+    text: \n<MARI>Pequeño hermano ...\. Mi trabajo aquí ha terminado. 
 4_S5_23:
-    text: \n<MARI>You have something to do,\. right?\! So, I shouldn't keep you here any longer.
+    text: \n<MARI>Tienes algo que hacer,\. ¿verdad?\! Así que no debería retenerte aquí más tiempo.
 # Move to Piano room in Bottom Left; showing the exit tunnel to the player
 4_S5_24:
-    text: \n<MARI>Here...\. this should take you back.
+    text: \n<MARI>Toma...\. esto debería llevarte de vuelta.
 # Camera pan to player, Player can move
 # ================ SUB-CUTSCENE 5 ================
 # Trigger as Sunny about to exit Door
 4_S5_25:
-    text: \n<MARI>...\. You know, \n[17], all memories can fade away.\! Both the good and the bad.
+    text: \n<MARI>...\. Sabes, \n[17],todos los recuerdos pueden desvanecerse.\! Tanto los buenos como los malos.
 4_S5_26:
-    text: \n<MARI>Trying your best to keep them is really important.\! Especially the names.
+    text: \n<MARI>Es muy importante esforzarse por mantenerlos.\! Especialmente los nombres.
 4_S5_27:
-    text: \n<MARI>After all,\. those memories...\. They're proof of your bond.\! Right, little brother?
+    text: \n<MARI>Después de todo,\. esos recuerdos...\. son la prueba de tus vínculos.\! ¿Verdad, hermano pequeño?
 4_S5_28:
-    text: \n<MARI>And besides, you've got a pretty good memory.\! You just need to take the time to use it.
+    text: \n<MARI>Y además, tienes muy buena memoria.\! Solo necesitas tomarte el tiempo para usarla.
 4_S5_29:
-    text: \n<MARI>Block out the little things...\. And figure out what's important!
+    text: \n<MARI>Bloquea las cosas pequeñas...\. ¡Y concéntrate en lo que es importante!
 # Prompt skill FOCUS
 4_S5_30:
     text: >
         .\..\..
 4_S5_31:
-    text: The sight of stories deep within made you remember something familiar,\. like a nostalgic pastime.
+    text: La visión de las historias en lo más profundo te hizo recordar algo familiar,\. como un pasatiempo nostálgico.
 4_S5_32:
-    text: \n[17] remembered how to \c[1]FOCUS\c[0].
+    text: \n[17] recordo como \c[1]CONCENTRARSE\c[0].
 # This is for when player missed calm down skill.
 4_S5_32_both:
-    text: \n[17] remembered how to \c[1]CALM DOWN\c[0] and \c[1]FOCUS\c[0].
+    text: \n[17] remembered how to \c[1]CALMARSE\c[0] y \c[1]CONCENTRARSE\c[0].
 # Mari looks in a different direction for a bit before turning back to the player
 4_S5_33:
-    text: \n<MARI>Well,\. goodbye,\. \n[17]...\! Maybe we'll see each other again...
+    text: \n<MARI>Bueno,\. adiós,\. \n[17]...\! Quizás nos volvamos a ver...
 # Post-cutscene - MARI remains standing in position, you can talk to her for a short flavor text. On re-entering the room she will disappear.
 
 #=====================================================================
@@ -738,87 +739,87 @@
 4_R5A_1:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 10
-    text: \n<DOUGHIE>Ohooo...\. Do you see him anywhere?
+    text: \n<DOUGHIE>Ohooo...\. ¿Lo ves en alguna parte? 
 
 4_R5A_2:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 39
-    text: \n<SPACEBOY>No, I don't...\! But don't worry!\. He'll show up at some point. 
+    text: \n<SPACEBOY>No, no lo veo...\! ¡Pero no te preocupes!\. Ya aparecerá en algún momento.
     
 4_R5A_3:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>I doubt he went too far ahead on his own...     
+    text: \n<SPACEBOY>Dudo que se haya ido muy lejos por su cuenta....     
         
 # The player approaches the two of them from behind
 
 4_R5A_4:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 4
-    text: \n<DOUGHIE>Should we not go back and see if we missed a spot?\! It was quite a fall,\. he may have gotten hurt.
+    text: \n<DOUGHIE>¿No deberíamos regresar a ver si nos perdimos algún lugar?\!Fue una caída bastante fuerte,\. puede que se haya lastimado.
     
 # The player approaches once again, as Spaceboy and Doughie first use the exclamation pop-up, then turn around
 
 4_R5A_5:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 41
-    text: \n<SPACEBOY>\n[17]!\! Oh,\. there you are!
+    text: \n<SPACEBOY>\n[17]!\! ¡Oh,\. ahí estás!
     
 4_R5A_6:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 42
-    text: \n<SPACEBOY>I knew a member of my crew would turn out all right, even from such a fall!
+    text: \n<SPACEBOY>Sabía que un miembro de mi tripulación saldría bien, ¡Incluso de una caída así!
     
 4_R5A_7:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 1
-    text: \n<DOUGHIE>It is good to see you are okay.
+    text: \n<DOUGHIE>Me alegra verte ileso.
     
 4_R5A_8:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 2
-    text: \n<DOUGHIE>Well, since we are reunited,\. let's now move on to finding SWEETHEART.
+    text: \n<DOUGHIE>Bueno, ya que estamos reunidos,\.  pasemos ahora a encontrar a SWEETHEART.
     
 4_R5A_9:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>Yes.\. She should be down here somewhere,\. if she's anywhere...
+    text: \n<SPACEBOY>Sí.\. Debería estar por aquí abajo,\. si está en algún lugar...
 
 # ================ 4-R5B - Sweetheart Reunion ================
 
 4_R5B_1:
-    text: \n<???>\Com[2]\QUAKE[2]COME!!!\Com[2]\{ ON!!!
+    text: \n<???>\Com[2]\QUAKE[2]¡Venga!!!\Com[2]\{ ¡Vamos!!!
     
 # There is the sound of thudding, as well as the screen shaking
 
 4_R5B_2:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 44
-    text: \n<SPACEBOY>That voice...\. Come on!
+    text: \n<SPACEBOY>Esa voz...\. ¡Apurense!
     
 # They run towards where the sound came from. Sweetheart is seen, ramming herself against a gate repeatedly, also with screen shake and thud noises   
 
 4_R5B_3:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 24
-    text: \n<SWEETHEART>\QUAKE[2]STUPID!!!\. LOCKED GATE!!!\. GETTING IN MY WAY!!!  
+    text: \n<SWEETHEART>\QUAKE[2]¡¡¡ESTÚPIDA!!!\. ¡PUERTA CERRADA CON LLAVE!\. ¡ESTORBÁNDOME!  
 
 4_R5B_4:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 26
-    text: \n<SWEETHEART>\QUAKE[2]DON'T YOU KNOW!!!\. I AM ROYALTY?!!
+    text: \n<SWEETHEART>\QUAKE[2]¡¿NO LO SABES?!\. ¡¿SOY DE LA REALEZA?!
 
 4_R5B_5:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 26
-    text: \n<SWEETHEART>\QUAKE[2]THIS IS MY!!!\. CASTLE!!!\.\{ SO LET ME IN!!!
+    text: \n<SWEETHEART>\QUAKE[2]¡¡¡ESTE ES MI!!! \.¡¡¡CASTILLO!!!\.\{ ¡¡¡ASÍ QUE DÉJAME ENTRAR!!!
     
 # Sweetheart stops ramming against the gate
 
 4_R5B_6:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 27
-    text: \n<SWEETHEART>\QUAKE[2]Pant...\| Pant...
+    text: \n<SWEETHEART>\QUAKE[2]Jadeo...\| Jadeo...
     
 4_R5B_7:
     faceset: MainCharacters_ReverieDreamworld
@@ -830,29 +831,29 @@
 4_R5B_8:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 26
-    text: \n<SWEETHEART>You?!\. What are all of you doing here?!
+    text: \n<SWEETHEART>¡¿Ustedes?!\. ¡¿Qué hacen todos aquí?!
     
 4_R5B_9:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 24
-    text: \n<SWEETHEART>This is my castle!\. It's private property!\!\QUAKE[2] Get out!
+    text: \n<SWEETHEART>¡Este es mi castillo!\.¡Es propiedad privada!\!\QUAKE[2] ¡Fuera!
     
 4_R5B_10:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 2
-    text: \n<DOUGHIE>One moment, SWEETHEART. 
+    text: \n<DOUGHIE>Un momento, SWEETHEART. 
     
 4_R5B_11:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 2
-    text: \n<DOUGHIE>It seems to me that you need help getting through here, right?
+    text: \n<DOUGHIE>Me parece que necesitas ayuda para pasar por aquí, ¿verdad?
     
 # Sweetheart turns away from the group
 
 4_R5B_12:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 24
-    text: \n<SWEETHEART>Of course I don't!\! And you insinuating otherwise is an immense insult to me!
+    text: \n<SWEETHEART>¡Claro que no!\!  ¡Y que insinúes lo contrario es un inmenso insulto para mí!
     
 4_R5B_13:
     faceset: MainCharacters_ReverieDreamworld
@@ -862,84 +863,84 @@
 4_R5B_14:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>SWEETHEART, please.\! You know this castle better than anyone.
+    text: \n<SPACEBOY>SWEETHEART, por favor.\! Tú conoces este castillo mejor que nadie.
     
 4_R5B_15:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 39
-    text: \n<SPACEBOY>So we need your help to get through it.\! Especially since we can't exactly go back the way we came...
+    text: \n<SPACEBOY>Así que necesitamos tu ayuda para cruzarlo\! Especialmente porque no podemos volver por donde vinimos...
     
 # Sweetheart ellipses bubble
 
 4_R5B_16:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 21
-    text: \n<SWEETHEART>Hmph.\. I see.\. So you need my help, then.
+    text: \n<SWEETHEART>Hmph.\. Ya veo.\. Así que necesitan mi ayuda, entonces.
     
 # Sweetheart turns back towards the group, and does her laugh
 
 4_R5B_17:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 17
-    text: \n<SWEETHEART>\SINV[2]Onwards,\. peons!\!\SINV[0] Once I find what I need, then I will \SINV[1]graciously\SINV[0] lead you out!
+    text: \n<SWEETHEART>\SINV[2]¡Adelante,\. peones!\!\SINV[0] Una vez que encuentre lo que necesito, ¡entonces los guiaré \SINV[1]amablemente\SINV[0] para salir!
 
 #=====================================================================
 #CUTSCENES 4-5A - Mini Boss Moles
 #=====================================================================
 
-# ================ 4-S5A - VIRTUOSO MOLE ================
+# ================ 4-S5A - TOPO VIRTUOSO ================
 # This takes place in the Choir room, the party basically trespassing and the Virtuoso is annoyed and also a bit aggressive like the rest of the castle "lost" moles.
 
 # Virtuoso turns towards the party
 
 4_S5A_1:
-    text: \n<VIRTUOSO MOLE>\Com[2]\{Hey!\.\} What are you doing here?!
+    text: \n<TOPO VIRTUOSO>\Com[2]\{¡Oye!\.\} ¡¿Qué haces aquí?!
     
 4_S5A_2:
-    text: \n<VIRTUOSO MOLE>Can't you see I'm trying to create a perfect harmony?
+    text: \n<TOPO VIRTUOSO>¿No ves que estoy intentando crear una armonía perfecta?
 
 4_S5A_3:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 4
-    text: \n<DOUGHIE>With...\| Who?\! There is nobody else here, ohoo...
+    text: \n<DOUGHIE>¿Con...\| Quién?\! No hay nadie más aquí, ohoo...
     
 4_S5A_4:
-    text: \n<VIRTUOSO MOLE>\Com[2]\QUAKE[1]Gah!\.\QUAKE[0] Another person who does not understand the musical arts!\. The importance of preparation!
+    text: \n<TOPO VIRTUOSO>\Com[2]\QUAKE[1]Gah!\.\QUAKE[0] ¡Otra persona que no entiende las artes musicales!\. ¡No entienden lo importante que es prepararse!
     
 4_S5A_5:
-    text: \n<VIRTUOSO MOLE>You need to leave,\. posthaste!\. Or...
+    text: \n<TOPO VIRTUOSO>¡Tienes que irte,\. inmediatamente!\. O...
     
 4_S5A_6:
-    text: \n<VIRTUOSO MOLE>\QUAKE[2]Or else I'll make you leave!
+    text: \n<TOPO VIRTUOSO>\QUAKE[2]¡O si no te haré marchar!
     
-# ================ 4-S5B - HEAD CHEF MOLE ================
+# ================ 4-S5B - JEFE DE COCINA TOPO ================
 # This takes place in the Kitchen room, the party is trying to get food to get Big Molio out of the dungeon.
 # The chef is also conflictory like the rest of the moles.
 
 4_S5B_1:
-    text: \n<HEAD CHEF MOLE>\Com[2]Get out of here!\! This is \Com[2]MY kitchen, no one else's!
+    text: \n<JEFE DE COCINA TOPO>\Com[2]¡Fuera de aquí! \! ¡Esta es \Com[2]MI cocina, de nadie más!
     
 4_S5B_2:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 39
-    text: \n<SPACEBOY>H-hang on, we're just needing to get some food for-\^
+    text: \n<SPACEBOY>E-espera, solo necesitamos algo de comida para-\^
     
 4_S5B_3:
-    text: \n<HEAD CHEF MOLE>\{\Com[2]\QUAKE[1]FOOD?!\! From out of \Com[2]MY kitchen?!\} You've lost your marbles!
+    text: \n<JEFE DE COCINA TOPO>\{\Com[2]\QUAKE[1]¿¡Comida?!\! ¿¡De \Com[2]MI cocina?!\} ¡Has perdido la cabeza!
     
 4_S5B_4:
-    text: \n<HEAD CHEF MOLE>\QUAKE[2]Get out!\. Or... get ready to \sinv[1]eat\sinv[0] my knives!
+    text: \n<JEFE DE COCINA TOPO>\QUAKE[2]¡Fuera!\. O... ¡Prepárate para \sinv[1]comerte\sinv[0] mis cuchillos!
     
 4_S5B_5:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 3
-    text: \n<DOUGHIE>I'm sorry, but we really need that food.
+    text: \n<DOUGHIE>Lo siento, pero de verdad necesitamos esa comida.
     
 4_S5B_6:
-    text: \n<HEAD CHEF MOLE>In that case...
+    text: \n<JEFE DE COCINA TOPO>En ese caso...
     
 4_S5B_7:
-    text: \n<HEAD CHEF MOLE>\Com[2]\QUAKE[1]You thieves are gonna get what you deserve!
+    text: \n<JEFE DE COCINA TOPO>\Com[2]\QUAKE[1]¡Ladrones, van a tener lo que se merecen!
     
 # ================ 4-S5C - SIR MAXIMUS IV ================
 # This takes place in the Library room, the party is just trying to get past here. Sir Maximus IV is on the vengeance training arc or something.
@@ -948,30 +949,30 @@
 # Possibly have him enshrouded for dramatic effect, even if his silhouette is incredibly distinct
 
 4_S5C_1:
-    text: \n<???>So...\! Even now,\. there are intruders in this castle...
+    text: \n<???>Así que...\! incluso ahora,\. hay intrusos en este castillo...
     
 # Revealing him at this point
     
 4_S5C_2:
-    text: \n<???>Finally... Someone I can test my might against.
+    text: \n<???>Finalmente... Alguien con quien puedo probar mi fuerza.
     
 4_S5C_3:
-    text: \n<???>Hear me intruders.\! My family line... Is gone...
+    text: \n<???>Escúchenme intrusos..\! Mi linaje... ya no existe....
     
 4_S5C_4:
-    text: \n<???>And I am the only one who can bear the mantle anymore.
+    text: \n<???> Y yo soy el único que puede asumir el manto.
     
 4_S5C_5:
-    text: \n<SIR MAXIMUS IV>I am SIR MAXIMUS IV.\. The only holder of my family's secret techniques.
+    text: \n<SIR MAXIMUS IV>Yo soy SIR MAXIMUS IV.\. El único portador de las técnicas secretas de mi familia.
     
 4_S5C_6:
-    text: \n<SIR MAXIMUS IV>Long have they lived here, protecting this castle.\! And so,\. too,\. shall I...
+    text: \n<SIR MAXIMUS IV>Hace mucho que vivieron aquí, protegiendo este castillo.\! Y así,\. yo también,\. lo haré...
     
 4_S5C_7:
-    text: \n<SIR MAXIMUS IV>So for the sake of them, even if there is no master in this castle...
+    text: \n<SIR MAXIMUS IV>Así que por el bien de ellos, incluso si no hay ningún maestro en este castillo...
     
 4_S5C_8:
-    text: \n<SIR MAXIMUS IV>Even if I do not wish to...\! I will fight.
+    text: \n<SIR MAXIMUS IV>Incluso si no lo deseo...\! Lucharé.
     
 #=====================================================================
 #CUTSCENE 4-6
@@ -984,26 +985,26 @@
 4_S6_1:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 20
-    text: \n<SWEETHEART>Th-There!\. \QUAKE[2]There it is!
+    text: \n<SWEETHEART>¡A-ahí!\. \QUAKE[2]¡Ahí está!
     
 4_S6_2:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 18
-    text: \n<SWEETHEART>\Com[2]\QUAKE[1]\{OUT OF MY WAY, PEONS!!!
+    text: \n<SWEETHEART>\Com[2]\QUAKE[1]\{¡¡QUÍTENSE DE MI CAMINO, PEONES!!
     
 # (Sweetheart seperates from the party and runs into the room ahead
 
 4_S6_3:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 39
-    text: \n<SPACEBOY>\Com[2]SWEETHEART!\. Wait!\. Don't just-!
+    text: \n<SPACEBOY>\Com[2]SWEETHEART!\. ¡Espera!\. ¡No vayas-!
 
 # (Brief pause)
 
 4_S6_4:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 44
-    text: \n<SPACEBOY>Come on, let's follow her!
+    text: \n<SPACEBOY>Vamos, ¡sigámosla!
 
 # MAIN SCENE #
 #*group shows up at cutscene, KoC and Sweetheart are just off screen*
@@ -1011,50 +1012,50 @@
 4_S6_5:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 26
-    text: \n<SWEETHEART>Can't be undone?!\! What do you mean,\. it \Com[2]\QUAKE[2]CAN'T BE UNDONE?!
+    text: \n<SWEETHEART>¡¿No se puede deshacer?!\! ¡¿Qué quieres decir,\. con que \Com[2]\QUAKE[2]NO SE PUEDE DESHACER?!
 
 4_S6_6:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>There she is...
+    text: \n<SPACEBOY>Ahí está ella...
 
 #*the party walks closer to find the two mid-argument*
 
 4_S6_7:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 26
-    text: \n<SWEETHEART>This is \Com[2]MY CASTLE!\. It always has been!\. So turn my home back into what it's supposed to be!
+    text: \n<SWEETHEART>¡Este es \Com[2]MI CASTILLO!\. ¡Siempre lo ha sido!\. ¡Así que devuelve mi hogar a lo que se supone que debe ser!
     
 4_S6_8:
-    text: \n<KEEPER OF THE CASTLE>...Your wish.\. It cannot be granted.\! Granting Wishes.\. Such power is beyond my control.
+    text: \n<VIGILANTE DEL CASTILLO>...Tu deseo.\. No puede ser concedido.\! Conceder deseos.\. Tal poder está fuera de mi control.
     
 4_S6_9:
-    text: \n<KEEPER OF THE CASTLE>An outside force.\. An unknown actor.\. This presence inhibits the power I once held.
+    text: \n<VIGILANTE DEL CASTILLO>Una fuerza externa.\. Un actor desconocido.\. Esta presencia inhibe el poder que una vez tuve.
     
 4_S6_10:
-    text: \n<KEEPER OF THE CASTLE>It is so.\. Your castle,\. your servants,\. your stage...\! They are all lost to time.
+    text: \n<VIGILANTE DEL CASTILLO>Es así.\. Tu castillo,\. tus sirvientes,\. tu escenario...\! Todos se han perdido en el tiempo.
     
-#*elipses (...) over Sweetheart's head*
+#*elipses (...) over Sweetheart's head* no se cual es el genero del guardiana
 
 4_S6_11:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 5
-    text: \n<DOUGHIE>Ohooo...\. but they're all still here.\! Can't they just conduct renovations?
+    text: \n<DOUGHIE>Ohooo...\. Pero siguen todos aquí.\! ¿No pueden simplemente hacer renovaciones?
 
 4_S6_12:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 21
-    text: \n<SWEETHEART>This SAP-\.ahem,\. KEEPER...\. is supposed to have all the answers, but now it's just speaking in riddles!
+    text: \n<SWEETHEART>Este es SAP-\.ahem,\. VIGILANTE...\. se supone que debe tener todas las respuestas, ¡pero ahora solo habla con acertijos!
     
 4_S6_13:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 24
-    text: \n<SWEETHEART>This castle has been mine,\. ever since I'd trudged all the way through those dunes of black sugar, and through this horrid wood...
+    text: \n<SWEETHEART>Este castillo ha sido mío,\. desde que caminé penosamente por esas dunas de azúcar negra, y a través de este horrible bosque...
     
 4_S6_14:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 26
-    text: \n<SWEETHEART>It is \Com[2]\QUAKE[2]SWEETHEART'S CASTLE! \Com[2]MY CASTLE!\! \QUAKE[0]Not a dingy,\. derelict slum,\. so \QUAKE[2]return it to whence it was!
+    text: \n<SWEETHEART>Es el \Com[2]\QUAKE[2]¡CASTILLO DE SWEETHEART! \Com[2]¡MI CASTILLO!\! \QUAKE[0]¡No una pocilga lúgubre,\. y en ruinas,\. así que \QUAKE[2]devuélvelo a lo que era!
     
 4_S6_15:
     faceset: MainCharacters_ReverieDreamworld
@@ -1066,59 +1067,59 @@
 4_S6_16:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 9
-    text: \n<DOUGHIE>Long ago,\. me and my dear brother BISCUIT left the only home we'd ever known to travel the world.
+    text: \n<DOUGHIE>Hace mucho tiempo,\. mi querido hermano BISCUIT y yo dejamos el único hogar que habíamos conocido para viajar por el mundo.
     
 4_S6_17:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 5
-    text: \n<DOUGHIE>It was difficult to leave it all behind, but both of us are happy now that we've expanded our horizon.\. We would not have it any other way.
+    text: \n<DOUGHIE>Fue difícil dejarlo todo atrás, pero ambos estamos felices ahora que hemos expandido nuestros horizontes.\. No lo cambiaríamos por nada.
     
 4_S6_18:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 27
-    text: \n<SWEETHEART>You left of your own volition!\! Nothing has the right to take my castle away from me! 
+    text: \n<SWEETHEART>¡Te fuiste por tu propia voluntad!\! ¡Nada tiene derecho a quitarme mi castillo!
     
 4_S6_19:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 24
-    text: \n<SWEETHEART>It's called SWEETHEART'S CASTLE...\. because I am SWEETHEART!\. None exists without the other!
+    text: \n<SWEETHEART>Se llama el CASTILLO DE SWEETHEART...\. ¡Por que soy SWEETHEART!\. ¡Ninguno existe sin el otro!
     
 #*Spaceboy joins Doughie's side*
 
 4_S6_20:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>We mustn't fight, SWEETHEART...\! If that's how you feel, then you've claimed this castle before,\. correct?
+    text: \n<SPACEBOY>No debemos pelear, SWEETHEART...\!  Si así te sientes, entonces has reclamado este castillo antes,\. ¿cierto?
     
 4_S6_21:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>Why not claim it again?\! Let's take a second to form a plan of action.
+    text: \n<SPACEBOY>¿Por qué no reclamarlo de nuevo? \! Tomémonos un segundo para formar un plan de acción.
     
 4_S6_22:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 21
-    text: \n<SWEETHEART>Be my guest.\. You won't fare any better if the keeper of my own castle won't obey me.\! It won't budge because...\. “someone” got to him while I was away.
+    text: \n<SWEETHEART>Pruébalo.\. No te irá mejor si el guardián de mi propio castillo no me obedece.\! No cederá porque...\.  "alguien" lo convenció mientras yo no estaba.
     
 4_S6_23:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 27
-    text: \n<SWEETHEART>And who is that "someone", anyway?!\! I've taken notes of every SPROUT MOLE languishing here, who could I have missed?
+    text: \n<SWEETHEART>¿¡Y quién es ese "alguien", de todos modos?! \! He tomado nota de cada BROTOPO languideciendo aquí. ¿A quién podría haberme saltado?
     
 4_S6_24:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 24
-    text: \n<SWEETHEART>My castle's disrepair is all their fault!\. I want them and the deed to the KEEPER's power back!
+    text: \n<SWEETHEART>¡El mal estado de mi castillo es todo culpa suya!\. ¡Los quiero a ellos y la escritura del poder del VIGILANTE de vuelta!
     
 4_S6_25:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 21
-    text: \n<SWEETHEART>If you want to make yourselves useful as much as you want me to feel better,\. you'll help me track them down right now!
+    text: \n<SWEETHEART>Si quieren ser tan útiles como quieren que me sienta mejor,\.¡Me ayudarán a rastrearlos ahora mismo!
     
 4_S6_26:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 4
-    text: \n<DOUGHIE>Yes...\. why don't we check around the castle for clues first?\! Maybe we can find something special in this wreck.
+    text: \n<DOUGHIE>Si...\. ¿Por qué no revisamos primero el castillo en busca de pistas?\! Tal vez podamos encontrar algo especial en esta ruina.
     
 #=====================================================================
 #CUTSCENE 4-7
@@ -1134,83 +1135,83 @@
 4_S7_2:
     faceset: RV_ROCOCO
     faceindex: 2
-    text: \n<ROCOCO>Oh!\. My friends, it's good to-\^
+    text: \n<ROCOCO>Oh!\. Mis amigos, es bueno-\^
 
 #(Sweetheart jumps in rage and surprise) 
 
 4_S7_3:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 27
-    text: \n<SWEETHEART>\Com[2]WHAT?!
+    text: \n<SWEETHEART>\Com[2]¡¿QUÉ?!
     
 4_S7_4:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 27
-    text: \n<SWEETHEART>What are you doing here!?\.\Com[2]\QUAKE[2] What is your business?!
+    text: \n<SWEETHEART>¡¿Qué estás haciendo aquí?!\.\Com[2]\QUAKE[2] ¡¿Qué se te perdió?!
 
 #(Sweetheart turns to the group)
 
 4_S7_5:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 26
-    text: \n<SWEETHEART>Why are we talking to this peasant!?
+    text: \n<SWEETHEART>¿Por qué estamos hablando con este plebeyo!?
     
 4_S7_6:
     faceset: RV_ROCOCO
     faceindex: 3
-    text: \n<ROCOCO>SWEETHEART?!\. My former love!\. You have returned at last to me!\! Oh, and yet... such sorrow fills my heart...
+    text: \n<ROCOCO>SWEETHEART?!\. ¡Mi viejo amor!\.  ¡Por fin has vuelto a mí!\! Oh, y sin embargo... mi corazón se llena de tristeza...
     
 4_S7_7:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 39
-    text: \n<SPACEBOY>Former love?\. W-wait.\. You two know each other?
+    text: \n<SPACEBOY>¿Viejo amor?\. Es-espera.\. ¿Ustedes dos se conocen?
     
 4_S7_8:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 29
-    text: \n<SWEETHEART>Truly, I wish I didn't.\! This is one of my failures of a suitor.\. He lasted quite a long while... 
+    text: \n<SWEETHEART>Sinceramente, desearía no haberlo conocido\! Este es uno de mis pretendientes fallidos.\. Duró bastante tiempo.... 
     
 4_S7_9:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 29
-    text: \n<SWEETHEART>Even then,\. he could not stop from failing me!
+    text: \n<SWEETHEART>¡Aun así,\. no pudo evitar fallarme!
     
 4_S7_10:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 24
-    text: \n<SWEETHEART>So...\. clingy!\. And whiny, and needy!
+    text: \n<SWEETHEART>¡Tan...\. pegajoso!\. ¡Y llorón, y necesitado!
     
 4_S7_11:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 21
-    text: \n<SWEETHEART>Saying such things as \"We are engaged, you should not be flaunting yourself like that!\" 
+    text: \n<SWEETHEART>Diciendo cosas como \"Estamos comprometidos, ¡no deberías exhibirte así!\" 
     
 4_S7_12:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 21
-    text: \n<SWEETHEART>At least SPACEBOY wasn't such a jealous lover. 
+    text: \n<SWEETHEART>Al menos SPACEBOY no era un amante tan celoso.
     
 4_S7_13:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 24
-    text: \n<SWEETHEART>Of course he should have eyes for me only, but he should not be disrupting my royal activities! 
+    text: \n<SWEETHEART>Claro que debería tenerme ojos solo a mí, pero ¡no debería interrumpir mis actividades reales!
     
 4_S7_14:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 4
-    text: \n<DOUGHIE>Ohooo...\. oh dear... 
+    text: \n<DOUGHIE>Ohooo...\. Oh vaya... 
 
 #(Doughie turns to Spaceboy, and Spaceboy to Doughie) 
 
 4_S7_15:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 4
-    text: \n<DOUGHIE>It seems that we may have stumbled into something... intense.\! I feel very out of my depth.
+    text: \n<DOUGHIE>Parece que nos hemos metido en algo... intenso.\! Me siento muy fuera de lugar.
     
 4_S7_16:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>No kidding... 
+    text: \n<SPACEBOY>Ni que lo digas... 
     
 4_S7_17:
     faceset: RV_ROCOCO
@@ -1222,34 +1223,34 @@
 4_S7_18:
     faceset: RV_ROCOCO
     faceindex: 5
-    text: \n<ROCOCO>It matters not!\. You may share yourself all you like!\. For you see...\. I do not need you anymore, SWEETHEART! 
+    text: \n<ROCOCO>¡No importa!\. ¡Puedes compartirte todo lo que quieras!\. Porque verás...\. ya no te necesito., SWEETHEART! 
     
 4_S7_19:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 26
-    text: \n<SWEETHEART>\Com[2]What did you say?! 
+    text: \n<SWEETHEART>\Com[2]¡¿Qué dijiste?!
 
 #(Rococo faces the party once more) 
 
 4_S7_20:
     faceset: RV_ROCOCO
     faceindex: 18
-    text: \n<ROCOCO>You see... Once I have my hands on that power, I could make anything come true...\. yes...\. the power of the wishmaster... 
+    text: \n<ROCOCO>Verás... Una vez que tenga en mis manos ese poder, podría hacer realidad cualquier cosa...\. sí...\. el poder del wishmaster... 
     
 4_S7_21:
     faceset: RV_ROCOCO
     faceindex: 19
-    text: \n<ROCOCO>Through this power, I shall bring one of my paintings to \Com[2]life!\! A true life, \SINV[2]outside of the frame! 
+    text: \n<ROCOCO>A través de este poder, le daré vida a una de mis \Com[2]pinturas!\! ¡Una vida de verdad, \SINV[2]fuera del marco!
     
 4_S7_22:
     faceset: RV_ROCOCO
     faceindex: 19
-    text: \n<ROCOCO>Immaculate in visage!\. Loyal to a fault!\. And yet far kinder than you ever were! 
+    text: \n<ROCOCO>¡Con un rostro impecable!\. ¡Con una lealtad a toda prueba!\. ¡Y, sin embargo, mucho más amable de lo que tú jamás fuiste!
     
 4_S7_23:
     faceset: RV_ROCOCO
     faceindex: 5
-    text: \n<ROCOCO>Truly, I shall bring forth the perfect wife for me! 
+    text: \n<ROCOCO>De verdad, haré que la esposa perfecta para mí cobre vida! 
     
 4_S7_24:
     faceset: MainCharacters_ReverieDreamworld
@@ -1289,27 +1290,27 @@
 4_S7_31:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 18
-    text: \n<SWEETHEART>You... you truly believe that SWEETHEART's beauty can be replicated?! 
+    text: \n<SWEETHEART>¿¡De verdad... de verdad crees que la belleza de SWEETHEART puede ser replicada?!
     
 4_S7_32:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 18
-    text: \n<SWEETHEART>There is no one and no thing in the world more perfect than I! 
+    text: \n<SWEETHEART>¡No hay nadie ni nada en el mundo más perfecta que yo!
     
 4_S7_33:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 4
-    text: \n<DOUGHIE>S-SWEETHEART!\! wait a-\^ 
+    text: \n<DOUGHIE>S-SWEETHEART!\! Espera u-\^ 
     
 4_S7_34:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 19
-    text: \n<SWEETHEART>The fact you believe that your trite, low class paintings can even \SINV[1]HOPE\SINV[0] to capture my beauty is an insult!
+    text: \n<SWEETHEART>¡El hecho de que creas que tus cuadros trillados y de baja clase siquiera \SINV[1]PUEDAN\SINV[0]aspirar a capturar mi belleza es un insulto!
     
 4_S7_35:
     faceset: RV_ROCOCO
     faceindex: 13
-    text: \n<ROCOCO>...\.Trite?\. Low class? 
+    text: \n<ROCOCO>...\.¿Trillados?\. ¿De baja clase? 
     
 4_S7_36:
     faceset: MainCharacters_ReverieDreamworld
@@ -1319,32 +1320,32 @@
 4_S7_37:
     faceset: RV_ROCOCO
     faceindex: 17
-    text: \n<ROCOCO>That is it!\! I have had enough!
+    text: \n<ROCOCO>¡Eso es todo!\! ¡He tenido suficiente!
     
 4_S7_38:
     faceset: RV_ROCOCO
     faceindex: 17
-    text: \n<ROCOCO>You may insult me,\. attack me,\. call me stupid,\.\QUAKE[2] and seal me in the walls of the castle! 
+    text: \n<ROCOCO>Puedes insultarme,\. atacarme,\. llamarme estúpido,\.\QUAKE[2] y sellarme en las paredes del castillo!
     
 4_S7_39:
     faceset: RV_ROCOCO
     faceindex: 16
-    text: \n<ROCOCO>But my art is precious to me!\Com[2]\QUAKE[2] You may NOT insult it!
+    text: \n<ROCOCO>¡Pero mi arte es precioso para mí!\Com[2]\QUAKE[2] ¡NO puedes insultarlo!
     
 4_S7_40:
     faceset: RV_ROCOCO
     faceindex: 16
-    text: \n<ROCOCO>Prepare yourselves, you artistically illiterate fools! 
+    text: \n<ROCOCO>¡Prepárense, ineptos sin ningún gusto artístico!
     
 4_S7_41:
     faceset: RV_ROCOCO
     faceindex: 16
-    text: \n<ROCOCO>For ROCOCO, the last of his kind... no...
+    text: \n<ROCOCO>Por ROCOCO, el último de su especie... no...
     
 4_S7_42:
     faceset: RV_ROCOCO
     faceindex: 15
-    text: \n<ROCOCO>\SINV[1]I,\. ROCOCO the artist,\. will strike you down! 
+    text: \n<ROCOCO>\SINV[1]Yo,\. ROCOCO el artista,\. los abatiré!
     
 4_S7_43:
     faceset: RV_ROCOCO
@@ -1360,12 +1361,12 @@
 4_S7_44:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 20
-    text: \n<SWEETHEART>Listen here, ROCOCO.
+    text: \n<SWEETHEART>Escucha, ROCOCO.
     
 4_S7_45:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 20
-    text: \n<SWEETHEART>There is something that I never got to tell you,\. in all the years of us being apart.
+    text: \n<SWEETHEART>Hay algo que nunca llegué a decirte,\. en todos los años que estuvimos separados.
     
 4_S7_46:
     faceset: RV_ROCOCO
@@ -1375,14 +1376,14 @@
 4_S7_47:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 22
-    text: \n<SWEETHEART>I am officially breaking up with you. 
+    text: \n<SWEETHEART>Oficialmente estoy rompiendo contigo.
 
 #(She turns away from Rococo) 
 
 4_S7_48:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 17
-    text: \n<SWEETHEART>You are no longer my suitor,\Com[2]\SINV[1] forevermore!
+    text: \n<SWEETHEART>Ya no eres mi pretendiente,\Com[2]\SINV[1] para siempre jamás!
     
 4_S7_49:
     faceset: RV_ROCOCO
@@ -1399,39 +1400,39 @@
 4_S7_51:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 10
-    text: \n<DOUGHIE>Is... it over now?
+    text: \n<DOUGHIE>¿Ya... terminó?
     
 4_S7_52:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 25
-    text: \n<SWEETHEART>Ohohoho!\. Indeed it is!\. Now that distraction is out of our way...
+    text: \n<SWEETHEART>Ohohoho!\. ¡Claro que sí! \. Ahora que esa distracción ya no nos estorba...
     
 4_S7_53:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 17
-    text: \n<SWEETHEART>Come!\! Let us find that which is disrupting the wishmaster's power!
+    text: \n<SWEETHEART>¡Vamos!\! ¡Encontremos lo que está interrumpiendo el poder del wishmaster!
     
 4_S7_54:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 2
-    text: \n<DOUGHIE>I must admit, I find myself interested in what this could entail.
+    text: \n<DOUGHIE>Debo admitir que me encuentro interesada en lo que esto podría implicar.
     
 4_S7_55:
     faceset: RV_ROCOCO
     faceindex: 6
-    text: \n<ROCOCO>Wait.
+    text: \n<ROCOCO>Esperen.
     
 4_S7_56:
     faceset: RV_ROCOCO
     faceindex: 7
-    text: \n<ROCOCO>The wishmaster's... power.\. Is disrupted?
+    text: \n<ROCOCO>El poder... del wishmaster.\. ¿Esta interrumpido?
 
 #(The group turns towards Rococo)
 
 4_S7_57:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>Um... yes.\! Sorry, but...\. it looks like your wish isn't gonna come true after all.
+    text: \n<SPACEBOY>Eh... sí.\! Lo siento, pero...\. parece que tu deseo no se va a hacer realidad después de todo.
     
 4_S7_58:
     faceset: RV_ROCOCO
@@ -1441,56 +1442,56 @@
 4_S7_59:
     faceset: RV_ROCOCO
     faceindex: 8
-    text: \n<ROCOCO>What...\. will I do with myself now?\. My dream, it is out of reach once again.
+    text: \n<ROCOCO>¿Qué...\. qué haré conmigo ahora?\.Mi sueño, está fuera de mi alcance una vez más.
     
 4_S7_60:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>Well...\. you could still practice your art while you figure that out.
+    text: \n<SPACEBOY>Bueno...\. podrías seguir practicando tu arte mientras lo averiguas.
     
 4_S7_61:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 9
-    text: \n<DOUGHIE>True.\. You said your art was precious, did you not?
+    text: \n<DOUGHIE>Es cierto.\. Dijiste que tu arte era lo más importante, ¿cierto?
     
 4_S7_62:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 9
-    text: \n<DOUGHIE>So you should keep on cultivating it.
+    text: \n<DOUGHIE>Así que deberías seguir cultivándolo.
     
 4_S7_63:
     faceset: RV_ROCOCO
     faceindex: 7
-    text: \n<ROCOCO>...Yes.\. Yes,\. I suppose you're right. 
+    text: \n<ROCOCO>...Si.\. Si,\. supongo que tienes razón.
 
 #(Rococo does a hop)
 
 4_S7_64:
     faceset: RV_ROCOCO
     faceindex: 2
-    text: \n<ROCOCO>Tell you what!\. As an apology, I will allow you to commission me!
+    text: \n<ROCOCO>Escucha\. Como disculpa ¡Te permitiré que me encargues una obra! 
 
 #The camera pans over towards the nearby table
 
 4_S7_65:
     faceset: RV_ROCOCO
     faceindex: 2
-    text: \n<ROCOCO>Simply choose the \c[11]inspiration\c[0] piece as you wish,\! and I will paint it for you!
+    text: \n<ROCOCO>Simplemente elige la pieza de \c[11]inspiración\c[0] que desees.\! ¡Y yo la pintaré para ti!
     
 4_S7_66:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 39
-    text: \n<SPACEBOY>That's... great.
+    text: \n<SPACEBOY>Eso es... genial.
     
 4_S7_67:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>All right.\. Let's go, everyone.
+    text: \n<SPACEBOY>Muy bien.\. En marcha.
 
 4_S7_a1:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>Well... It seems we have looped all the way back to the \c[11]GALLERY\c[0].\. Let's get back to the \c[11]GARDEN\c[0] to see the outside again at the very least.
+    text: \n<SPACEBOY>Vaya... parece que dimos toda la vuelta y regresamos a la \c[11]GALERÍA\c[0].\. Por lo menos, volvamos al \c[11]JARDÍN\c[0]  para poder ver el exterior otra vez.
 
 #=====================================================================
 #CUTSCENE 4-8
@@ -1501,32 +1502,32 @@
 4_S8_1:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 20
-    text: \n<SWEETHEART>\Com[2]\{ATTENTION PEONS!!!
+    text: \n<SWEETHEART>\Com[2]\{¡¡ATENCIÓN PEONES!!
 
 4_S8_2:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 4
-    text: \n<DOUGHIE>Oho? Is something on your mind, SWEETHEART?
+    text: \n<DOUGHIE>Oho? ¿Hay algo en tu mente, SWEETHEART?
 
 4_S8_3:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 21
-    text: \n<SWEETHEART>Indeed there is!
+    text: \n<SWEETHEART>¡Sí, de hecho!
 
 4_S8_4:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 31
-    text: \n<SWEETHEART>For you see, I was thinking while we were...\. dealing with that mess.
+    text: \n<SWEETHEART>Verás, estaba pensando mientras...\. lidiábamos con ese desastre.
 
 4_S8_5:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 30
-    text: \n<SWEETHEART>In order to cause the wishmaster's magic to fail, whomever must be doing it must be magical themselves!
+    text: \n<SWEETHEART>Para que la magia del wishmaster fallara, quienquiera que lo estuviera haciendo debe ser mágico por sí mismo.
 
 4_S8_6:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>That makes sense...\. do you know of something like that, SWEETHEART?
+    text: \n<SPACEBOY>Eso tiene sentido...\. ¿Sabes de alguien así, SWEETHEART?
 
 4_S8_7:
     faceset: MainCharacters_ReverieDreamworld
@@ -1536,97 +1537,97 @@
 4_S8_8:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 22
-    text: \n<SWEETHEART>You naive fools...\. of course I do! Royal people like me know of many things you plebians would not!
+    text: \n<SWEETHEART>¡Ingenuos tontos!...\. ¡Claro que sí! La gente de la realeza como yo conoce muchas cosas que los plebeyos como ustedes no.
 
 4_S8_9:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 31
-    text: \n<SWEETHEART>For instance...\. deep in the watery abyss...
+    text: \n<SWEETHEART>Por ejemplo...\. en lo profundo del abismo acuoso...
 
 4_S8_10:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 30
-    text: \n<SWEETHEART>There exists a trio of witches, with powerful magic the likes of which no one has seen!
+    text: \n<SWEETHEART>Existe un trío de brujas, ¡con una magia poderosa que nadie ha visto!
 
 4_S8_11:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 30
-    text: \n<SWEETHEART>Clearly, these witches must be the ones who have disrupted the wishmaster's power!
+    text: \n<SWEETHEART>Claramente, ¡estas brujas deben ser las que han interrumpido el poder del wishmaster!
 
 #SWEETHEART looks up and down
 
 4_S8_12:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 2
-    text: \n<DOUGHIE>I suppose we do not have any other leads at the moment...
+    text: \n<DOUGHIE>Supongo que no tenemos otras pistas en este momento....
 
 4_S8_13:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 9
-    text: \n<DOUGHIE>A watery abyss...\. oho!
+    text: \n<DOUGHIE>Un abismo acuoso...\. oho!
 
 4_S8_14:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 2
-    text: \n<DOUGHIE>Do you all suppose they could be found somewhere around the \c[11]UNDERWATER HIGHWAY\c[0]?
+    text: \n<DOUGHIE>¿Creen que podríamos encontrarlas en algún lugar cerca de la \c[11]CARRETERA SUBMARINA\c[0]?
 
 4_S8_15:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>It sounds like as good a place as any to stop by.
+    text: \n<SPACEBOY>Suena como un buen lugar para pasar, como cualquier otro.
 
 4_S8_16:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>Good thinking SWEETHEART.\. Now we have a lead!
+    text: \n<SPACEBOY>Bien pensado SWEETHEART.\. ¡Ahora tenemos una pista!
 
 4_S8_17:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>Good thinking SWEETHEART.\. Now we have a lead!
+    text: \n<SPACEBOY>Bien pensado SWEETHEART.\. ¡Ahora tenemos una pista!
 
 4_S8_18:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 16
-    text: \n<SWEETHEART>Hmph!\. But of course!
+    text: \n<SWEETHEART>¡Hmph!\. ¡Pero por supuesto!
 
 4_S8_19:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 17
-    text: \n<SWEETHEART>And once we find these witches...
+    text: \n<SWEETHEART>Y una vez que encontremos a estas brujas...
 
-#Large shaky text, with SWEETHEART hopping
+#Large shaky text, with SWEETHEART hopping 16 y 17 se repite ???
 
 4_S8_20:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 19
-    text: \n<SWEETHEART>\{\Com[2]\quake[1]WE'LL END THOSE FOOLS FOR<br>INTERFERING WITH MY CASTLE!!!
+    text: \n<SWEETHEART>\{\Com[2]\quake[1]¡¡ACABAREMOS CON ESAS TONTAS POR<br>INTERFERIR CON MI CASTILLO!!!
 
 4_S8_21:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 38
-    text: \n<SPACEBOY>R-right.
+    text: \n<SPACEBOY>C-correcto.
 
 4_S8_22:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>Well, let's get back to the \c[11]METRO\c[0] for now.\. We can figure out things from there.
+    text: \n<SPACEBOY>Bueno, por ahora regresemos al \c[11]METRO\c[0].\. A partir de ahí podremos resolver esto.
 
 4_S8_23:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 2
-    text: \n<DOUGHIE>There's also the \c[11]PYREFLY\c[0] at the south of the garden as well,\. maybe we can convince the SPROUT MOLE to cut the vines now.
+    text: \n<DOUGHIE>También está lo \c[11]PYREFLY\c[0] al sur del jardín,\.  tal vez podamos convencer al BROTOPO para que corte las lianas ahora.
 
 4_S8_24:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>...or that.\. Getting resources to prepare ourselves is still important.
+    text: \n<SPACEBOY>...o eso.\. Obtener recursos para prepararnos sigue siendo importante.
 
 # ======== When enter metro prompt to go back to hub
 4_S8A_1:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>Alright... let's take the train back to the \c[11]METRO HUB\c[0].\. New stations could have opened there.
+    text: \n<SPACEBOY>Bien... tomemos el tren de vuelta al \c[11]CENTRO DEL METRO\c[0].\. Puede que se hayan abierto nuevas estaciones allí.
 
 # ======== When entering hub
 4_S8B_1:
@@ -1639,24 +1640,24 @@
 4_S8B_2:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 0
-    text: \n<DOUGHIE>This is certainly new.\! What could have prompted this?
+    text: \n<DOUGHIE>Esto es ciertamente nuevo.\! ¿Qué podría haber provocado esto?
 
 4_S8B_3:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 36
-    text: \n<SPACEBOY>It looks like something opened up again while we were away.\! I think it's worth looking around.
+    text: \n<SPACEBOY>Parece que algo se abrió de nuevo mientras no estábamos.\!Creo que vale la pena echar un vistazo.
 
 # Laugh anim
 
 4_S8B_4:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 25
-    text: \n<SWEETHEART>This is it!\! Our destination has appeared before us!
+    text: \n<SWEETHEART>¡Aquí está!\! ¡Nuestro destino ha aparecido ante nosotros!
 
 4_S8B_5:
     faceset: MainCharacters_ReverieDreamworld
     faceindex: 18
-    text: \n<SWEETHEART>Enough lollygagging around!\! Onwards, my peons!\! Let us embark on the \quake[1]quest for vengeance\quake[0]!
+    text: \n<SWEETHEART>¡Se acabó el perder el tiempo!\! ¡Adelante, peones míos!\! ¡Embarquémonos en la \quake[1]búsqueda de la venganza\quake[0]!
 
 4_S8B_6:
     faceset: MainCharacters_ReverieDreamworld
@@ -1665,4 +1666,4 @@
 
 # Board train end. This is specific to CH4 ending
 4_END_1:
-    text: Board the train?\. <br>\c[4](Doing so will end CHAPTER 4. Remember to save!)\c[0]
+    text: ¿Abordar el tren?\. <br>\c[4](Hacer esto finalizará el CAPÍTULO 4. ¡Recuerda guardar!)\c[0]
